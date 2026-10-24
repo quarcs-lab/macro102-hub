@@ -1,0 +1,122 @@
+{
+  "ch01": {
+    "question": "What can we learn by looking at the whole economy?",
+    "introduction": "Start with income, jobs, and prices. Discover how economists move from facts to models, then use those models to ask new questions."
+  },
+  "ch02": {
+    "question": "How do we measure an entire economy?",
+    "introduction": "Follow production, spending, and income through the national accounts. Learn what GDP measures, how prices change, and what the headline numbers leave out."
+  },
+  "ch03": {
+    "question": "How did the world become so much richer?",
+    "introduction": "Trace living standards across countries and centuries. Explore the power of compounding and the striking differences in when sustained growth began."
+  },
+  "ch04": {
+    "question": "Why do some economies produce so much more?",
+    "introduction": "Build a production model from capital, labor, and productivity. Compare its predictions with the data to see how much of the income gap it can explain."
+  },
+  "ch05": {
+    "question": "Can saving more make a country richer?",
+    "introduction": "Operate the Solow model and watch capital accumulate. Explore steady states, transition dynamics, and the limits of growth driven by investment alone."
+  },
+  "ch06": {
+    "question": "What keeps economic growth going?",
+    "introduction": "Ideas can be used by many people at once. Explore how this changes the economics of production and why research can sustain rising living standards."
+  },
+  "ch07": {
+    "question": "Why are some people unemployed even when jobs exist?",
+    "introduction": "Connect wages and employment to labor supply and demand. Then follow workers into and out of jobs to understand persistent unemployment."
+  },
+  "ch08": {
+    "question": "Why does money lose its purchasing power?",
+    "introduction": "Measure inflation in the data and connect prices to money and output. Explore the quantity theory, real interest rates, and the costs of inflation."
+  },
+  "ch09": {
+    "question": "Why does the economy move in ups and downs?",
+    "introduction": "Separate the long-run path of output from short-run fluctuations. Use data on output, jobs, and inflation to describe what happens in a recession."
+  },
+  "ch10": {
+    "question": "What made the financial crisis and pandemic so disruptive?",
+    "introduction": "Compare two very different downturns. Trace housing, financial markets, output, and employment to see how each shock spread through the economy."
+  },
+  "ch11": {
+    "question": "How do interest rates change spending and output?",
+    "introduction": "Build the IS curve from the national income identity. Change demand and borrowing costs to see why short-run output moves."
+  },
+  "ch12": {
+    "question": "How can a central bank bring inflation down?",
+    "introduction": "Connect monetary policy to the IS and Phillips curves. Follow the path of output and inflation when the central bank changes the interest rate."
+  },
+  "ch13": {
+    "question": "Can policy cushion an economic shock?",
+    "introduction": "Bring the short-run model together in the AS/AD diagram. Explore how policy rules, expectations, and different shocks shape the adjustment."
+  },
+  "ch14": {
+    "question": "What happens when the financial system stops working?",
+    "introduction": "Add risk premiums and financial frictions to the short-run model. Examine how a credit crisis, deflation, and policy constraints can deepen a recession."
+  },
+  "ch15": {
+    "question": "How do modern models explain business cycles?",
+    "introduction": "Meet the agents, shocks, and frictions inside DSGE models. Explore how productivity, labor markets, and sticky prices shape the economy’s response."
+  },
+  "ch16": {
+    "question": "How do households decide what to spend today?",
+    "introduction": "Spread income and wealth across a lifetime. Use a two-period model to explore consumption smoothing, patience, and the role of interest rates."
+  },
+  "ch17": {
+    "question": "What makes a new investment worthwhile?",
+    "introduction": "Compare the return on capital with its cost. Connect firms’ investment choices to interest rates, taxes, stock prices, and housing."
+  },
+  "ch18": {
+    "question": "How do today’s deficits shape tomorrow’s choices?",
+    "introduction": "Follow government spending, taxes, and borrowing through the budget constraint. Explore debt dynamics and the choices involved in financing public spending."
+  },
+  "ch19": {
+    "question": "Why do countries trade—and who gains?",
+    "introduction": "Work through comparative advantage and the gains from exchange. Connect trade balances to saving, investment, and borrowing from the rest of the world."
+  },
+  "ch20": {
+    "question": "What moves a currency’s value?",
+    "introduction": "Compare purchasing power across countries and returns across currencies. Explore exchange rates, international finance, and policy in an open economy."
+  },
+  "ch21": {
+    "question": "What have we learned—and what remains unresolved?",
+    "introduction": "Bring the book’s main lessons together. Revisit living standards, growth, inflation, and stabilization, then consider the questions macroeconomics still needs to answer."
+  },
+  "appA": {
+    "question": "How can you run economics with Python and AI?",
+    "introduction": "Open a notebook in Google Colab, run its code, and make it your own. Learn how to ask an AI assistant for help and check the answers it gives."
+  },
+  "appB": {
+    "question": "Where can you find the data behind the questions?",
+    "introduction": "Download macroeconomic series directly with Python. Learn how to choose sources, compare definitions, and prepare data for analysis."
+  },
+  "appC": {
+    "question": "Which mathematical tools make the models clearer?",
+    "introduction": "Review percentages, logarithms, growth rates, and the algebra behind the book. Connect each tool to the economic questions it helps answer."
+  },
+  "appD": {
+    "question": "How much growth comes from inputs—and how much from productivity?",
+    "introduction": "Use growth and development accounting to separate capital, labor, and productivity. Compare changes over time and differences in living standards across countries."
+  },
+  "appE": {
+    "question": "Are poorer countries catching up?",
+    "introduction": "Derive convergence from the Solow model, then test it across countries. Compare growth regressions with changes in the dispersion of incomes."
+  },
+  "appF": {
+    "question": "Does human capital explain the income gap?",
+    "introduction": "Add schooling to the Solow model. Rebuild the Mankiw–Romer–Weil analysis and compare its findings with more recent international data."
+  },
+  "appG": {
+    "question": "Do better institutions cause greater prosperity?",
+    "introduction": "Revisit the Acemoglu–Johnson–Robinson study. Explore why correlation is not enough and how historical instruments are used to study institutions and income."
+  },
+  "appH": {
+    "question": "How can you build and estimate a DSGE model?",
+    "introduction": "Use Python and Snowdrop to write, solve, simulate, and estimate dynamic models. Let the data help determine parameters and inspect the response to shocks."
+  },
+  "appI": {
+    "question": "How does an estimated economy respond to shocks?",
+    "introduction": "Work with the Smets–Wouters model in Python. Recompute impulse responses and explore the roles of sticky wages, sticky prices, and monetary policy."
+  }
+}

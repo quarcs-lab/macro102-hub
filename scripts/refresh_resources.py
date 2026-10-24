@@ -34,10 +34,13 @@ for f in sorted((book/'src').glob('*.qmd')):
    heads=[h for h in heads if h and not h.lower().startswith(('table of','on this','navigation'))]
    apps[kind]={'url':BASE+path,'topics':heads[:5]}
  resources.append({'id':ident,'slug':slug,'title':title,'label':f'Chapter {n:02}' if chapter else f'Appendix {ident[-1]}','group':group(n) if chapter else 'Appendices','book':BASE+f'notebooks/{slug}.html','colab':f'https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/{slug}.ipynb','preview':preview,'apps':apps})
+ resources[-1]['mindmap']=image.group(1)
+ slide=re.search(r'\]\((https://quarcs-lab.github.io/macro102-site/slides/[^)]+)\)',text)
+ if slide: resources[-1]['slides']=slide[1]
  if slug in podcasts:
   m=podcasts[slug]; eid='podcast-'+slug
   src=book/f'podcasts/player/transcripts/{eid}.json'; dst=ROOT/f'transcript-inputs/{eid}.json';shutil.copy2(src,dst)
-  episodes.append({'id':eid,'title':f'Chapter {n} · {m["title"]}','audio_sources':[{'src':BASE+m['src'],'type':'audio/mpeg'}],'transcript':str(dst.relative_to(ROOT)),'spotify_url':m['spotify_url'],'return_url':f'podcasts.html#{eid}','image':{'src':BASE+image.group(1).split('/main/')[-1],'alt':f'Chapter {n} mind map'},'note':'AI-generated narration. Transcript timing is approximate.'})
+  episodes.append({'id':eid,'title':f'Chapter {n} · {m["title"]}','audio_sources':[{'src':BASE+m['src'],'type':'audio/mpeg'}],'transcript':str(dst.relative_to(ROOT)),'spotify_url':m['spotify_url'],'return_url':f'podcasts.html#{eid}','image':{'src':image.group(1),'alt':f'Chapter {n} mind map'},'note':'AI-generated narration. Transcript timing is approximate.'})
   resources[-1]['podcast']={'id':eid,'duration':m['duration'],'spotify':m['spotify_url']}
 resources.sort(key=lambda r:(r['id'].startswith('app'),r['id']))
 (ROOT/'data/resources.json').write_text(json.dumps(resources,indent=2)+'\n')

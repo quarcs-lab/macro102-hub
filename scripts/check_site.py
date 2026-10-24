@@ -31,13 +31,26 @@ for f,doc in pages.items():
 resources=json.loads((R/'data/resources.json').read_text());config=json.loads((R/'player-config.json').read_text())
 assert len(resources)==30 and len(config['episodes'])==21
 assert pages[(R/'podcasts.html').resolve()].audios==21
+assert pages[(R/'index.html').resolve()].audios==21
+home=(R/'index.html').read_text()
+assert home.count('class="chapter-card resource"')==30
+assert home.count('data-map-title=')==30
+assert home.count('class="question-selector"')==6
+assert 'class="hero-art"' not in home
+editorial=json.loads((R/'data/curriculum.json').read_text())
+for resource in resources:
+ assert resource['id'] in editorial
+ assert resource.get('mindmap') and resource.get('slides') and resource.get('preview'),resource['id']
+ assert resource['slides'] in home and resource['mindmap'] in home,resource['id']
+ assert editorial[resource['id']]['question'] and editorial[resource['id']]['introduction']
+
 for episode in config['episodes']:
  src=json.loads((R/episode['transcript']).read_text());out=json.loads((R/'audio-player/transcripts'/f'{episode["id"]}.json').read_text())
  assert src==out,episode['id']
  assert re.match(r'https://open.spotify.com/episode/[A-Za-z0-9]{22}$',episode['spotify_url'])
 assert len(list((R/'assets/charts').glob('*.svg')))==6
 if a.remote:
- urls={r['book'] for r in resources}|{app['url'] for r in resources for app in r['apps'].values()}|{ep['audio_sources'][0]['src'] for ep in config['episodes']}
+ urls={r[key] for r in resources for key in ('book','slides','mindmap')}|{app['url'] for r in resources for app in r['apps'].values()}|{ep['audio_sources'][0]['src'] for ep in config['episodes']}
  def check(url):
   try:
    req=urllib.request.Request(url,method='HEAD',headers={'User-Agent':'macro102-hub-link-check/1.0'})

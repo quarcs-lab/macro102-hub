@@ -17,7 +17,7 @@
       "spotify_url": "https://open.spotify.com/episode/3mZFGwvB3a4UArov0IKkeV",
       "return_url": "podcasts.html#podcast-ch01-introduction-to-macroeconomics",
       "image": {
-        "src": "https://quarcs-lab.github.io/macro102-site/images/mindmaps/ch01-introduction-to-macroeconomics-v2.webp",
+        "src": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch01-introduction-to-macroeconomics-v2.webp",
         "alt": "Chapter 1 mind map"
       },
       "note": "AI-generated narration. Transcript timing is approximate."
@@ -35,7 +35,7 @@
       "spotify_url": "https://open.spotify.com/episode/0z5MV4pT4yLhsIUU5SBb4D",
       "return_url": "podcasts.html#podcast-ch02-measuring-the-macroeconomy",
       "image": {
-        "src": "https://quarcs-lab.github.io/macro102-site/images/mindmaps/ch02-measuring-the-macroeconomy-v1.webp",
+        "src": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch02-measuring-the-macroeconomy-v1.webp",
         "alt": "Chapter 2 mind map"
       },
       "note": "AI-generated narration. Transcript timing is approximate."
@@ -53,7 +53,7 @@
       "spotify_url": "https://open.spotify.com/episode/7iNJdwFNx0dTFfQAfsbRB5",
       "return_url": "podcasts.html#podcast-ch03-an-overview-of-long-run-economic-growth",
       "image": {
-        "src": "https://quarcs-lab.github.io/macro102-site/images/mindmaps/ch03-an-overview-of-long-run-economic-growth-v1.webp",
+        "src": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch03-an-overview-of-long-run-economic-growth-v1.webp",
         "alt": "Chapter 3 mind map"
       },
       "note": "AI-generated narration. Transcript timing is approximate."
@@ -71,7 +71,7 @@
       "spotify_url": "https://open.spotify.com/episode/4KmkTjKeBfPpnBR3h7wGpU",
       "return_url": "podcasts.html#podcast-ch04-a-model-of-production",
       "image": {
-        "src": "https://quarcs-lab.github.io/macro102-site/images/mindmaps/ch04-a-model-of-production-v1.webp",
+        "src": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch04-a-model-of-production-v1.webp",
         "alt": "Chapter 4 mind map"
       },
       "note": "AI-generated narration. Transcript timing is approximate."
@@ -89,7 +89,7 @@
       "spotify_url": "https://open.spotify.com/episode/3ee0OK7sqWkZRyJdukltCa",
       "return_url": "podcasts.html#podcast-ch05-the-solow-growth-model",
       "image": {
-        "src": "https://quarcs-lab.github.io/macro102-site/images/mindmaps/ch05-the-solow-growth-model-v2.webp",
+        "src": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch05-the-solow-growth-model-v2.webp",
         "alt": "Chapter 5 mind map"
       },
       "note": "AI-generated narration. Transcript timing is approximate."
@@ -107,7 +107,7 @@
       "spotify_url": "https://open.spotify.com/episode/3Dy0XaFu7Mh4P5GDTCma8a",
       "return_url": "podcasts.html#podcast-ch06-growth-and-ideas",
       "image": {
-        "src": "https://quarcs-lab.github.io/macro102-site/images/mindmaps/ch06-growth-and-ideas-v1.webp",
+        "src": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch06-growth-and-ideas-v1.webp",
         "alt": "Chapter 6 mind map"
       },
       "note": "AI-generated narration. Transcript timing is approximate."
@@ -125,7 +125,7 @@
       "spotify_url": "https://open.spotify.com/episode/5KUkRfg8FF3gTy2lQufPE3",
       "return_url": "podcasts.html#podcast-ch07-the-labor-market-wages-and-unemployment",
       "image": {
-        "src": "https://quarcs-lab.github.io/macro102-site/images/mindmaps/ch07-the-labor-market-wages-and-unemployment-v1.webp",
+        "src": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch07-the-labor-market-wages-and-unemployment-v1.webp",
         "alt": "Chapter 7 mind map"
       },
       "note": "AI-generated narration. Transcript timing is approximate."
@@ -143,7 +143,7 @@
       "spotify_url": "https://open.spotify.com/episode/1qeIGwdqMw698TP5w7c0D1",
       "return_url": "podcasts.html#podcast-ch08-inflation",
       "image": {
-        "src": "https://quarcs-lab.github.io/macro102-site/images/mindmaps/ch08-inflation-v1.webp",
+        "src": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch08-inflation-v1.webp",
         "alt": "Chapter 8 mind map"
       },
       "note": "AI-generated narration. Transcript timing is approximate."
@@ -161,7 +161,7 @@
       "spotify_url": "https://open.spotify.com/episode/3CH6V85YCseKELYz1PN47P",
       "return_url": "podcasts.html#podcast-ch09-an-introduction-to-the-short-run",
       "image": {
-        "src": "https://quarcs-lab.github.io/macro102-site/images/mindmaps/ch09-an-introduction-to-the-short-run-v1.webp",
+        "src": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch09-an-introduction-to-the-short-run-v1.webp",
         "alt": "Chapter 9 mind map"
       },
       "note": "AI-generated narration. Transcript timing is approximate."
@@ -179,7 +179,7 @@
       "spotify_url": "https://open.spotify.com/episode/1F802NxQDGkRuFv1KwEex2",
       "return_url": "podcasts.html#podcast-ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look",
       "image": {
-        "src": "https://quarcs-lab.github.io/macro102-site/images/mindmaps/ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look-v1.webp",
+        "src": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look-v1.webp",
         "alt": "Chapter 10 mind map"
       },
       "note": "AI-generated narration. Transcript timing is approximate."
@@ -197,7 +197,7 @@
       "spotify_url": "https://open.spotify.com/episode/46lEpf302TUp2OjREkZ9Jj",
       "return_url": "podcasts.html#podcast-ch11-the-is-curve",
       "image": {
-        "src": "https://quarcs-lab.github.io/macro102-site/images/mindmaps/ch11-the-is-curve-v1.webp",
+        "src": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch11-the-is-curve-v1.webp",
         "alt": "Chapter 11 mind map"
       },
       "note": "AI-generated narration. Transcript timing is approximate."
@@ -215,7 +215,7 @@
       "spotify_url": "https://open.spotify.com/episode/6zWAnewiQys7399VJn1Zf9",
       "return_url": "podcasts.html#podcast-ch12-monetary-policy-and-the-phillips-curve",
       "image": {
-        "src": "https://quarcs-lab.github.io/macro102-site/images/mindmaps/ch12-monetary-policy-and-the-phillips-curve-v1.webp",
+        "src": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch12-monetary-policy-and-the-phillips-curve-v1.webp",
         "alt": "Chapter 12 mind map"
       },
       "note": "AI-generated narration. Transcript timing is approximate."
@@ -233,7 +233,7 @@
       "spotify_url": "https://open.spotify.com/episode/4oFm8jLcarr3uBJrdMcYeE",
       "return_url": "podcasts.html#podcast-ch13-stabilization-policy-and-the-as-ad-framework",
       "image": {
-        "src": "https://quarcs-lab.github.io/macro102-site/images/mindmaps/ch13-stabilization-policy-and-the-as-ad-framework-v2.webp",
+        "src": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch13-stabilization-policy-and-the-as-ad-framework-v2.webp",
         "alt": "Chapter 13 mind map"
       },
       "note": "AI-generated narration. Transcript timing is approximate."
@@ -251,7 +251,7 @@
       "spotify_url": "https://open.spotify.com/episode/5D7A8ekmTgCYf1Q6L4dy5F",
       "return_url": "podcasts.html#podcast-ch14-financial-crises-and-the-short-run-model",
       "image": {
-        "src": "https://quarcs-lab.github.io/macro102-site/images/mindmaps/ch14-financial-crises-and-the-short-run-model-v1.webp",
+        "src": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch14-financial-crises-and-the-short-run-model-v1.webp",
         "alt": "Chapter 14 mind map"
       },
       "note": "AI-generated narration. Transcript timing is approximate."
@@ -269,7 +269,7 @@
       "spotify_url": "https://open.spotify.com/episode/6dcH4qbzY44RzLyFafQB7a",
       "return_url": "podcasts.html#podcast-ch15-dsge-models-the-frontier-of-business-cycle-research",
       "image": {
-        "src": "https://quarcs-lab.github.io/macro102-site/images/mindmaps/ch15-dsge-models-the-frontier-of-business-cycle-research-v1.webp",
+        "src": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch15-dsge-models-the-frontier-of-business-cycle-research-v1.webp",
         "alt": "Chapter 15 mind map"
       },
       "note": "AI-generated narration. Transcript timing is approximate."
@@ -287,7 +287,7 @@
       "spotify_url": "https://open.spotify.com/episode/53n2URSzjogJECN8kvcbT3",
       "return_url": "podcasts.html#podcast-ch16-consumption",
       "image": {
-        "src": "https://quarcs-lab.github.io/macro102-site/images/mindmaps/ch16-consumption-v1.webp",
+        "src": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch16-consumption-v1.webp",
         "alt": "Chapter 16 mind map"
       },
       "note": "AI-generated narration. Transcript timing is approximate."
@@ -305,7 +305,7 @@
       "spotify_url": "https://open.spotify.com/episode/3x2IrynNjap9QnXzMZx14W",
       "return_url": "podcasts.html#podcast-ch17-investment",
       "image": {
-        "src": "https://quarcs-lab.github.io/macro102-site/images/mindmaps/ch17-investment-v1.webp",
+        "src": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch17-investment-v1.webp",
         "alt": "Chapter 17 mind map"
       },
       "note": "AI-generated narration. Transcript timing is approximate."
@@ -323,7 +323,7 @@
       "spotify_url": "https://open.spotify.com/episode/6dIV2e0BKZCMXyizLEK58B",
       "return_url": "podcasts.html#podcast-ch18-the-government-and-the-macroeconomy",
       "image": {
-        "src": "https://quarcs-lab.github.io/macro102-site/images/mindmaps/ch18-the-government-and-the-macroeconomy-v1.webp",
+        "src": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch18-the-government-and-the-macroeconomy-v1.webp",
         "alt": "Chapter 18 mind map"
       },
       "note": "AI-generated narration. Transcript timing is approximate."
@@ -341,7 +341,7 @@
       "spotify_url": "https://open.spotify.com/episode/0kLOKNtaTL6IK2VKkTVUCg",
       "return_url": "podcasts.html#podcast-ch19-international-trade",
       "image": {
-        "src": "https://quarcs-lab.github.io/macro102-site/images/mindmaps/ch19-international-trade-v1.webp",
+        "src": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch19-international-trade-v1.webp",
         "alt": "Chapter 19 mind map"
       },
       "note": "AI-generated narration. Transcript timing is approximate."
@@ -359,7 +359,7 @@
       "spotify_url": "https://open.spotify.com/episode/2klpjOKO9PiHzN7g1ZZaAc",
       "return_url": "podcasts.html#podcast-ch20-exchange-rates-and-international-finance",
       "image": {
-        "src": "https://quarcs-lab.github.io/macro102-site/images/mindmaps/ch20-exchange-rates-and-international-finance-v1.webp",
+        "src": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch20-exchange-rates-and-international-finance-v1.webp",
         "alt": "Chapter 20 mind map"
       },
       "note": "AI-generated narration. Transcript timing is approximate."
@@ -377,7 +377,7 @@
       "spotify_url": "https://open.spotify.com/episode/0EFUcqcEWiHqrYhLKhovuX",
       "return_url": "podcasts.html#podcast-ch21-parting-thoughts",
       "image": {
-        "src": "https://quarcs-lab.github.io/macro102-site/images/mindmaps/ch21-parting-thoughts-v1.webp",
+        "src": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch21-parting-thoughts-v1.webp",
         "alt": "Chapter 21 mind map"
       },
       "note": "AI-generated narration. Transcript timing is approximate."

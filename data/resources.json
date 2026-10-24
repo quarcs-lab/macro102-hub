@@ -33,7 +33,9 @@
       "id": "podcast-ch01-introduction-to-macroeconomics",
       "duration": 1321.5,
       "spotify": "https://open.spotify.com/episode/3mZFGwvB3a4UArov0IKkeV"
-    }
+    },
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch01-introduction-to-macroeconomics-v2.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/ch01/"
   },
   {
     "id": "ch02",
@@ -60,7 +62,9 @@
       "id": "podcast-ch02-measuring-the-macroeconomy",
       "duration": 1348.0,
       "spotify": "https://open.spotify.com/episode/0z5MV4pT4yLhsIUU5SBb4D"
-    }
+    },
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch02-measuring-the-macroeconomy-v1.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/ch02/"
   },
   {
     "id": "ch03",
@@ -96,7 +100,9 @@
       "id": "podcast-ch03-an-overview-of-long-run-economic-growth",
       "duration": 1322.2,
       "spotify": "https://open.spotify.com/episode/7iNJdwFNx0dTFfQAfsbRB5"
-    }
+    },
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch03-an-overview-of-long-run-economic-growth-v1.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/ch03/"
   },
   {
     "id": "ch04",
@@ -133,7 +139,9 @@
       "id": "podcast-ch04-a-model-of-production",
       "duration": 1350.0,
       "spotify": "https://open.spotify.com/episode/4KmkTjKeBfPpnBR3h7wGpU"
-    }
+    },
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch04-a-model-of-production-v1.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/ch04/"
   },
   {
     "id": "ch05",
@@ -170,7 +178,9 @@
       "id": "podcast-ch05-the-solow-growth-model",
       "duration": 1329.2,
       "spotify": "https://open.spotify.com/episode/3ee0OK7sqWkZRyJdukltCa"
-    }
+    },
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch05-the-solow-growth-model-v2.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/ch05/"
   },
   {
     "id": "ch06",
@@ -207,7 +217,9 @@
       "id": "podcast-ch06-growth-and-ideas",
       "duration": 1375.0,
       "spotify": "https://open.spotify.com/episode/3Dy0XaFu7Mh4P5GDTCma8a"
-    }
+    },
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch06-growth-and-ideas-v1.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/ch06/"
   },
   {
     "id": "ch07",
@@ -244,7 +256,9 @@
       "id": "podcast-ch07-the-labor-market-wages-and-unemployment",
       "duration": 1327.2,
       "spotify": "https://open.spotify.com/episode/5KUkRfg8FF3gTy2lQufPE3"
-    }
+    },
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch07-the-labor-market-wages-and-unemployment-v1.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/ch07/"
   },
   {
     "id": "ch08",
@@ -278,7 +292,9 @@
       "id": "podcast-ch08-inflation",
       "duration": 1365.3,
       "spotify": "https://open.spotify.com/episode/1qeIGwdqMw698TP5w7c0D1"
-    }
+    },
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch08-inflation-v1.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/ch08/"
   },
   {
     "id": "ch09",
@@ -315,7 +331,9 @@
       "id": "podcast-ch09-an-introduction-to-the-short-run",
       "duration": 1358.0,
       "spotify": "https://open.spotify.com/episode/3CH6V85YCseKELYz1PN47P"
-    }
+    },
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch09-an-introduction-to-the-short-run-v1.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/ch09/"
   },
   {
     "id": "ch10",
@@ -342,7 +360,9 @@
       "id": "podcast-ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look",
       "duration": 1297.2,
       "spotify": "https://open.spotify.com/episode/1F802NxQDGkRuFv1KwEex2"
-    }
+    },
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look-v1.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/ch10/"
   },
   {
     "id": "ch11",
@@ -376,7 +396,9 @@
       "id": "podcast-ch11-the-is-curve",
       "duration": 1317.6,
       "spotify": "https://open.spotify.com/episode/46lEpf302TUp2OjREkZ9Jj"
-    }
+    },
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch11-the-is-curve-v1.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/ch11/"
   },
   {
     "id": "ch12",
@@ -413,7 +435,9 @@
       "id": "podcast-ch12-monetary-policy-and-the-phillips-curve",
       "duration": 1309.4,
       "spotify": "https://open.spotify.com/episode/6zWAnewiQys7399VJn1Zf9"
-    }
+    },
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch12-monetary-policy-and-the-phillips-curve-v1.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/ch12/"
   },
   {
     "id": "ch13",
@@ -450,7 +474,9 @@
       "id": "podcast-ch13-stabilization-policy-and-the-as-ad-framework",
       "duration": 1314.3,
       "spotify": "https://open.spotify.com/episode/4oFm8jLcarr3uBJrdMcYeE"
-    }
+    },
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch13-stabilization-policy-and-the-as-ad-framework-v2.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/ch13/"
   },
   {
     "id": "ch14",
@@ -487,7 +513,9 @@
       "id": "podcast-ch14-financial-crises-and-the-short-run-model",
       "duration": 1300.6,
       "spotify": "https://open.spotify.com/episode/5D7A8ekmTgCYf1Q6L4dy5F"
-    }
+    },
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch14-financial-crises-and-the-short-run-model-v1.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/ch14/"
   },
   {
     "id": "ch15",
@@ -523,7 +551,9 @@
       "id": "podcast-ch15-dsge-models-the-frontier-of-business-cycle-research",
       "duration": 1376.2,
       "spotify": "https://open.spotify.com/episode/6dcH4qbzY44RzLyFafQB7a"
-    }
+    },
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch15-dsge-models-the-frontier-of-business-cycle-research-v1.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/ch15/"
   },
   {
     "id": "ch16",
@@ -558,7 +588,9 @@
       "id": "podcast-ch16-consumption",
       "duration": 1320.6,
       "spotify": "https://open.spotify.com/episode/53n2URSzjogJECN8kvcbT3"
-    }
+    },
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch16-consumption-v1.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/ch16/"
   },
   {
     "id": "ch17",
@@ -595,7 +627,9 @@
       "id": "podcast-ch17-investment",
       "duration": 1291.5,
       "spotify": "https://open.spotify.com/episode/3x2IrynNjap9QnXzMZx14W"
-    }
+    },
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch17-investment-v1.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/ch17/"
   },
   {
     "id": "ch18",
@@ -629,7 +663,9 @@
       "id": "podcast-ch18-the-government-and-the-macroeconomy",
       "duration": 1334.5,
       "spotify": "https://open.spotify.com/episode/6dIV2e0BKZCMXyizLEK58B"
-    }
+    },
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch18-the-government-and-the-macroeconomy-v1.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/ch18/"
   },
   {
     "id": "ch19",
@@ -656,7 +692,9 @@
       "id": "podcast-ch19-international-trade",
       "duration": 1343.7,
       "spotify": "https://open.spotify.com/episode/0kLOKNtaTL6IK2VKkTVUCg"
-    }
+    },
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch19-international-trade-v1.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/ch19/"
   },
   {
     "id": "ch20",
@@ -693,7 +731,9 @@
       "id": "podcast-ch20-exchange-rates-and-international-finance",
       "duration": 1352.1,
       "spotify": "https://open.spotify.com/episode/2klpjOKO9PiHzN7g1ZZaAc"
-    }
+    },
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch20-exchange-rates-and-international-finance-v1.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/ch20/"
   },
   {
     "id": "ch21",
@@ -719,7 +759,9 @@
       "id": "podcast-ch21-parting-thoughts",
       "duration": 1341.3,
       "spotify": "https://open.spotify.com/episode/0EFUcqcEWiHqrYhLKhovuX"
-    }
+    },
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch21-parting-thoughts-v1.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/ch21/"
   },
   {
     "id": "appA",
@@ -730,7 +772,9 @@
     "book": "https://quarcs-lab.github.io/macro102-site/notebooks/appA-google-colab-and-ai-powered-python.html",
     "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appA-google-colab-and-ai-powered-python.ipynb",
     "preview": "assets/previews/appA.jpg",
-    "apps": {}
+    "apps": {},
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/appA-google-colab-and-ai-powered-python-v1.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/appA/"
   },
   {
     "id": "appB",
@@ -741,7 +785,9 @@
     "book": "https://quarcs-lab.github.io/macro102-site/notebooks/appB-accessing-macroeconomic-data-with-python.html",
     "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appB-accessing-macroeconomic-data-with-python.ipynb",
     "preview": "assets/previews/appB.jpg",
-    "apps": {}
+    "apps": {},
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/appB-accessing-macroeconomic-data-with-python-v1.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/appB/"
   },
   {
     "id": "appC",
@@ -752,7 +798,9 @@
     "book": "https://quarcs-lab.github.io/macro102-site/notebooks/appC-math-review-for-macroeconomics.html",
     "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appC-math-review-for-macroeconomics.ipynb",
     "preview": "assets/previews/appC.jpg",
-    "apps": {}
+    "apps": {},
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/appC-math-review-for-macroeconomics-v1.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/appC/"
   },
   {
     "id": "appD",
@@ -763,7 +811,9 @@
     "book": "https://quarcs-lab.github.io/macro102-site/notebooks/appD-growth-and-development-accounting.html",
     "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appD-growth-and-development-accounting.ipynb",
     "preview": "assets/previews/appD.jpg",
-    "apps": {}
+    "apps": {},
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/appD-growth-and-development-accounting-v2.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/appD/"
   },
   {
     "id": "appE",
@@ -774,7 +824,9 @@
     "book": "https://quarcs-lab.github.io/macro102-site/notebooks/appE-growth-and-convergence-across-countries.html",
     "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appE-growth-and-convergence-across-countries.ipynb",
     "preview": "assets/previews/appE.jpg",
-    "apps": {}
+    "apps": {},
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/appE-growth-and-convergence-across-countries-v2.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/appE/"
   },
   {
     "id": "appF",
@@ -785,7 +837,9 @@
     "book": "https://quarcs-lab.github.io/macro102-site/notebooks/appF-augmented-solow-growth-model.html",
     "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appF-augmented-solow-growth-model.ipynb",
     "preview": "assets/previews/appF.jpg",
-    "apps": {}
+    "apps": {},
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/appF-augmented-solow-growth-model-v2.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/appF/"
   },
   {
     "id": "appG",
@@ -796,7 +850,9 @@
     "book": "https://quarcs-lab.github.io/macro102-site/notebooks/appG-growth-and-institutions.html",
     "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appG-growth-and-institutions.ipynb",
     "preview": "assets/previews/appG.jpg",
-    "apps": {}
+    "apps": {},
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/appG-growth-and-institutions-v2.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/appG/"
   },
   {
     "id": "appH",
@@ -807,7 +863,9 @@
     "book": "https://quarcs-lab.github.io/macro102-site/notebooks/appH-dsge-modeling-with-python.html",
     "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appH-dsge-modeling-with-python.ipynb",
     "preview": "assets/previews/appH.jpg",
-    "apps": {}
+    "apps": {},
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/appH-dsge-modeling-with-python-v2.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/appH/"
   },
   {
     "id": "appI",
@@ -818,6 +876,8 @@
     "book": "https://quarcs-lab.github.io/macro102-site/notebooks/appI-the-dsge-model-of-smets-and-wouters.html",
     "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appI-the-dsge-model-of-smets-and-wouters.ipynb",
     "preview": "assets/previews/appI.jpg",
-    "apps": {}
+    "apps": {},
+    "mindmap": "https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/appI-the-dsge-model-of-smets-and-wouters-v2.webp",
+    "slides": "https://quarcs-lab.github.io/macro102-site/slides/appI/"
   }
 ]
