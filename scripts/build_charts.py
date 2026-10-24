@@ -14,7 +14,7 @@ def setup(ylabel):
  return fig,ax
 def save(fig,name):
  fig.tight_layout(pad=1.5);fig.savefig(ROOT/f'assets/charts/{name}.svg',facecolor=navy);plt.close(fig)
- path=ROOT/f'assets/charts/{name}.svg';path.write_text(path.read_text().replace("font-family: 'DejaVu Sans'","font-family: Arial, sans-serif"))
+ path=ROOT/f'assets/charts/{name}.svg';path.write_text("\n".join(line.rstrip() for line in path.read_text().replace("font-family: 'DejaVu Sans'","font-family: Arial, sans-serif").splitlines())+"\n")
 def rows(path):
  dst=ROOT/'data'/Path(path).name;shutil.copy2(a.book/'data'/path,dst)
  return list(csv.DictReader(dst.open()))
