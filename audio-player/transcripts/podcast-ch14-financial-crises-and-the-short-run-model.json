@@ -1,0 +1,783 @@
+{
+  "title": "Financial Crises and the Short-Run Model",
+  "duration": 1300.6,
+  "sections": [
+    {
+      "title": "Opening",
+      "start": 0.0,
+      "segment": 0
+    },
+    {
+      "title": "The crisis in the data",
+      "start": 104.2,
+      "segment": 8
+    },
+    {
+      "title": "Friction, deflation and the zero lower bound",
+      "start": 310.8,
+      "segment": 30
+    },
+    {
+      "title": "Policy and the aftermath",
+      "start": 806.1,
+      "segment": 76
+    },
+    {
+      "title": "Wrap-up",
+      "start": 1147.4,
+      "segment": 110
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 12.0,
+      "speaker": "HOST",
+      "text": "Welcome back. Today we are on financial crises and the short-run model: what happens to output and inflation when banks panic. Let's start with a weekend in late September 2008."
+    },
+    {
+      "start": 12.0,
+      "end": 26.8,
+      "speaker": "ECONOMIST",
+      "text": "Ben Bernanke, head of the Fed, the central bank of the United States, met the leaders of Congress. He asked them to approve a huge rescue of the banks. Without it, he warned, there might be no economy by Monday."
+    },
+    {
+      "start": 26.8,
+      "end": 29.4,
+      "speaker": "HOST",
+      "text": "And the Fed cut interest rates, I suppose."
+    },
+    {
+      "start": 29.4,
+      "end": 38.6,
+      "speaker": "ECONOMIST",
+      "text": "It did. By the end of 2008, its rate was almost zero. Yet the slump was the worst since the Great Depression of the 1930s."
+    },
+    {
+      "start": 38.6,
+      "end": 46.6,
+      "speaker": "HOST",
+      "text": "So here is today's question. Why did the 2008 crisis cause such a deep slump, even though the Fed cut its rate to zero?"
+    },
+    {
+      "start": 46.6,
+      "end": 82.8,
+      "speaker": "ECONOMIST",
+      "text": "A slump, or recession, is a time when output and jobs fall. By the end of this episode, you'll be able to do three things. First, explain why extra interest for risk can hit spending like a fall in demand, and why a zero rate could not undo it. Second, explain how falling prices, with the interest rate stuck at zero, can turn a recession into a spiral. Third, describe the other tools the Fed and the government used, and what the data show about the slow recovery."
+    },
+    {
+      "start": 82.8,
+      "end": 86.6,
+      "speaker": "HOST",
+      "text": "And we'll follow the chapter's mind map part by part?"
+    },
+    {
+      "start": 86.6,
+      "end": 104.2,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Part one is the crisis in the data. Part two builds the model: friction, deflation and the zero lower bound. Part three is policy and the aftermath. Each part has three to five leaves, small topics we take in order."
+    },
+    {
+      "start": 104.2,
+      "end": 111.7,
+      "speaker": "HOST",
+      "text": "Part one of the map: The crisis in the data. The first leaf is the BAA spread. What's that?"
+    },
+    {
+      "start": 111.7,
+      "end": 128.6,
+      "speaker": "ECONOMIST",
+      "text": "It's a credit rating, a grade for how safe a borrower is. BAA bonds are loans to solid companies that are not completely safe. The safe loan we compare them with is the U.S. government's 10-year bond, called a Treasury. The spread is the gap between their interest rates."
+    },
+    {
+      "start": 128.6,
+      "end": 134.3,
+      "speaker": "HOST",
+      "text": "So the spread is the extra interest a solid company pays, in case it doesn't repay."
+    },
+    {
+      "start": 134.3,
+      "end": 148.2,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. Economists call that extra interest a risk premium. From 1996 to 2007, the spread averaged 2.16 percentage points. A percentage point is the plain difference between two rates."
+    },
+    {
+      "start": 148.2,
+      "end": 149.8,
+      "speaker": "HOST",
+      "text": "And in the crisis?"
+    },
+    {
+      "start": 149.8,
+      "end": 157.5,
+      "speaker": "ECONOMIST",
+      "text": "In December 2008, the spread reached 6.01 points, almost three times its usual size."
+    },
+    {
+      "start": 157.5,
+      "end": 164.3,
+      "speaker": "HOST",
+      "text": "But the Fed was cutting its rate in 2008. So I'd guess companies paid less to borrow, too."
+    },
+    {
+      "start": 164.3,
+      "end": 182.4,
+      "speaker": "ECONOMIST",
+      "text": "That's the natural guess, but it's wrong. From 2006 to 2008, the government's 10-year rate fell by more than a point, while the rate on BAA bonds went up by about a point. So the Fed's cuts reached the government, not the companies that build factories."
+    },
+    {
+      "start": 182.4,
+      "end": 187.3,
+      "speaker": "HOST",
+      "text": "Next leaf: the Fed rate. Remind me, which rate does the Fed set?"
+    },
+    {
+      "start": 187.3,
+      "end": 203.4,
+      "speaker": "ECONOMIST",
+      "text": "The Fed is the Federal Reserve. It sets the fed funds rate, the rate banks charge one another for overnight loans. On Islandia, the imaginary island country of our examples, that's the policy rate of the Bank of Islandia, the island's central bank."
+    },
+    {
+      "start": 203.4,
+      "end": 205.1,
+      "speaker": "HOST",
+      "text": "And after the crash?"
+    },
+    {
+      "start": 205.1,
+      "end": 215.7,
+      "speaker": "ECONOMIST",
+      "text": "The fed funds rate was almost zero by the end of 2008, and it stayed there. From 2009 to 2015, it was never higher than 0.19 percent."
+    },
+    {
+      "start": 215.7,
+      "end": 219.3,
+      "speaker": "HOST",
+      "text": "So in the panic, money was very cheap for everyone."
+    },
+    {
+      "start": 219.3,
+      "end": 232.9,
+      "speaker": "ECONOMIST",
+      "text": "A lot of people think that, but not for firms. Firms pay the Fed's rate plus the risk premium. In late 2008, the premium had about tripled, so the rate on company bonds went up, not down."
+    },
+    {
+      "start": 232.9,
+      "end": 236.6,
+      "speaker": "HOST",
+      "text": "Next leaf: the price-earnings ratio. What does it measure?"
+    },
+    {
+      "start": 236.6,
+      "end": 252.9,
+      "speaker": "ECONOMIST",
+      "text": "A share is a small piece of ownership in a company. Take an index of share prices, one number that follows many shares. Divide it by the average company profits of the past ten years, after inflation. Over the long run, that ratio has averaged about 18."
+    },
+    {
+      "start": 252.9,
+      "end": 254.4,
+      "speaker": "HOST",
+      "text": "And before the great crashes?"
+    },
+    {
+      "start": 254.4,
+      "end": 273.4,
+      "speaker": "ECONOMIST",
+      "text": "In September 1929, just before the crash, the ratio reached 32.6, almost twice its long-run average. In December 1999, at the peak of the boom in internet shares, it reached 44.2, even higher. Both times, prices then fell a long way."
+    },
+    {
+      "start": 273.4,
+      "end": 276.2,
+      "speaker": "HOST",
+      "text": "So those were bubbles?"
+    },
+    {
+      "start": 276.2,
+      "end": 292.1,
+      "speaker": "ECONOMIST",
+      "text": "Many economists call them that: prices far above what profits can justify. Home prices seem to have done the same in the 2000s, and their fall is where the 2008 crisis began. When those prices crash, people feel poorer and spend less."
+    },
+    {
+      "start": 292.1,
+      "end": 305.5,
+      "speaker": "HOST",
+      "text": "So in part one we saw three facts. Lenders asked much more for risk, the Fed's rate was stuck at zero for years, and share prices climbed far above profits before both great crashes."
+    },
+    {
+      "start": 305.5,
+      "end": 310.8,
+      "speaker": "ECONOMIST",
+      "text": "Right. Next branch: a model that puts these facts together."
+    },
+    {
+      "start": 310.8,
+      "end": 327.2,
+      "speaker": "HOST",
+      "text": "Part two of the map: Friction, deflation and the zero lower bound. The first leaf is an equation: the rate firms pay is the Fed's rate plus a risk premium. A jump in that premium works like a fall in demand."
+    },
+    {
+      "start": 327.2,
+      "end": 340.7,
+      "speaker": "ECONOMIST",
+      "text": "A financial friction makes borrowing more expensive. Here it's the risk premium. In calm times it is small and steady, so in practice the Fed sets the rate firms pay. In a panic, it jumps."
+    },
+    {
+      "start": 340.7,
+      "end": 343.3,
+      "speaker": "HOST",
+      "text": "And why is that like a fall in demand?"
+    },
+    {
+      "start": 343.3,
+      "end": 373.7,
+      "speaker": "ECONOMIST",
+      "text": "Remember the IS curve. Firms compare the rate on a loan with the return on new capital, what a new machine or shed earns each year as a share of its cost. Take Harbor Boatworks, the island's boatyard. When the premium makes its loans cost more, it builds fewer boats, even if the central bank's rate hasn't changed. So spending and output fall, as if islanders had decided to spend less. To keep the rate firms pay the same, the central bank must cut one extra point for each point of premium."
+    },
+    {
+      "start": 373.7,
+      "end": 383.8,
+      "speaker": "HOST",
+      "text": "Next leaf: 2008. The Fed cuts to zero, but the premium jumps to 4 points, and output ends at minus 4 percent. How do we get there?"
+    },
+    {
+      "start": 383.8,
+      "end": 409.1,
+      "speaker": "ECONOMIST",
+      "text": "Let's build that number step by step, on Islandia. Here every rate is a real rate, after taking out inflation. We measure output as a percent gap from potential output, its normal level. It starts at zero. The return on new capital is 2 percent, and so is the Bank of Islandia's real rate. The premium is zero. Each point that firms pay above that return costs 1 percent of output."
+    },
+    {
+      "start": 409.1,
+      "end": 411.8,
+      "speaker": "HOST",
+      "text": "Then the housing bubble bursts."
+    },
+    {
+      "start": 411.8,
+      "end": 421.6,
+      "speaker": "ECONOMIST",
+      "text": "Islanders feel poorer and spend less, so demand falls by 2 percent of potential output. With no response, output would be minus 2 percent."
+    },
+    {
+      "start": 421.6,
+      "end": 432.6,
+      "speaker": "HOST",
+      "text": "But the Bank cuts its real rate from 2 percent to zero, 2 points below the return on capital. That adds back 2 points, and output is back at potential."
+    },
+    {
+      "start": 432.6,
+      "end": 441.7,
+      "speaker": "ECONOMIST",
+      "text": "Right, the cut cancels the housing crash. Now the panic adds a premium of 4 points, about the jump we saw in the data."
+    },
+    {
+      "start": 441.7,
+      "end": 446.2,
+      "speaker": "HOST",
+      "text": "The Bank has already cut to zero, so I'd guess output stays at potential."
+    },
+    {
+      "start": 446.2,
+      "end": 451.2,
+      "speaker": "ECONOMIST",
+      "text": "That's the tempting answer, but let's check. What do firms pay now?"
+    },
+    {
+      "start": 451.2,
+      "end": 453.1,
+      "speaker": "HOST",
+      "text": "Zero plus 4, so 4 percent."
+    },
+    {
+      "start": 453.1,
+      "end": 471.8,
+      "speaker": "ECONOMIST",
+      "text": "That's 2 points above the return on capital. It costs 2 points of output, on top of the crash's 2. So output is minus 4 percent, twice as deep as the crash alone. Why doesn't the Bank cut further? Two leaves on, we meet the floor."
+    },
+    {
+      "start": 471.8,
+      "end": 479.2,
+      "speaker": "HOST",
+      "text": "Next leaf: the new AD curve, where inflation drifts to minus 4 percent. What's an AD curve again?"
+    },
+    {
+      "start": 479.2,
+      "end": 508.2,
+      "speaker": "ECONOMIST",
+      "text": "AD means aggregate demand, total spending. The AD curve links inflation to output through the rule of Chapter 13. When inflation falls below the 2 percent target, the central bank cuts its real rate, one point for each point. This time the Bank follows that rule instead of cutting at once. So the 2-point crash and the 4-point premium make one sudden hit to demand, a shock, of 6 points."
+    },
+    {
+      "start": 508.2,
+      "end": 511.8,
+      "speaker": "HOST",
+      "text": "Then output falls by 6 percent?"
+    },
+    {
+      "start": 511.8,
+      "end": 529.2,
+      "speaker": "ECONOMIST",
+      "text": "Only by 4 percent in the first year. As output falls, the Phillips curve pulls inflation down, half a point for each point of the gap, and the rule cuts the rate. Things settle where both agree: output minus 4, inflation zero."
+    },
+    {
+      "start": 529.2,
+      "end": 536.7,
+      "speaker": "HOST",
+      "text": "So inflation is 2 points below target, and the rule cuts the real rate by 2 points, to zero."
+    },
+    {
+      "start": 536.7,
+      "end": 549.7,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. That takes back 2 of the 6 points, so the rule softens the hit. After that, inflation keeps falling and the rule keeps cutting, and each year about one third of the remaining gap closes."
+    },
+    {
+      "start": 549.7,
+      "end": 551.2,
+      "speaker": "HOST",
+      "text": "Where does it end?"
+    },
+    {
+      "start": 551.2,
+      "end": 567.7,
+      "speaker": "ECONOMIST",
+      "text": "Output is back at potential only when the rule has cut the rate by the full 6 points. By the rule, inflation is then 6 points below the 2 percent target: minus 4 percent. Prices falling year after year is called deflation."
+    },
+    {
+      "start": 567.7,
+      "end": 570.8,
+      "speaker": "HOST",
+      "text": "Is that what happened after 2008?"
+    },
+    {
+      "start": 570.8,
+      "end": 585.7,
+      "speaker": "ECONOMIST",
+      "text": "Not quite. U.S. inflation stayed low but stopped falling, perhaps because people trusted the 2 percent target. And the model needs cuts below zero in money terms, which the next leaf shows is impossible."
+    },
+    {
+      "start": 585.7,
+      "end": 598.7,
+      "speaker": "HOST",
+      "text": "Next leaf: the zero lower bound. The real rate is the nominal rate minus inflation, and the nominal rate can't go below zero. What's a nominal rate?"
+    },
+    {
+      "start": 598.7,
+      "end": 617.1,
+      "speaker": "ECONOMIST",
+      "text": "It's the rate in the news, in money terms, like the 0.19 percent of part one. It has a floor, a lowest level, near zero, because islanders can always hold cash, which earns zero. So at a zero nominal rate, the real rate is minus inflation."
+    },
+    {
+      "start": 617.1,
+      "end": 622.5,
+      "speaker": "HOST",
+      "text": "So in the 2008 leaf, did the floor stop our Bank at a real rate of zero?"
+    },
+    {
+      "start": 622.5,
+      "end": 637.2,
+      "speaker": "ECONOMIST",
+      "text": "It depends on inflation. With inflation at zero, as in a deep slump, a zero nominal rate is a zero real rate. Then the Bank was already at the floor, and minus 4 was the best it could do."
+    },
+    {
+      "start": 637.2,
+      "end": 640.6,
+      "speaker": "HOST",
+      "text": "And if inflation were still at its 2 percent target?"
+    },
+    {
+      "start": 640.6,
+      "end": 655.6,
+      "speaker": "ECONOMIST",
+      "text": "Then a zero nominal rate is a real rate of minus 2. Firms pay that plus the premium of 4, so 2 percent, just the return on capital. The rate does no harm, and only the crash's minus 2 is left."
+    },
+    {
+      "start": 655.6,
+      "end": 661.1,
+      "speaker": "HOST",
+      "text": "But to close the gap, firms must pay zero, so the Bank needed a real rate of minus 4."
+    },
+    {
+      "start": 661.1,
+      "end": 672.3,
+      "speaker": "ECONOMIST",
+      "text": "Yes, so a nominal rate of minus 2, below the floor. That's the answer to today's question in one line: the premium called for a cut below zero."
+    },
+    {
+      "start": 672.3,
+      "end": 674.3,
+      "speaker": "HOST",
+      "text": "And if prices start to fall?"
+    },
+    {
+      "start": 674.3,
+      "end": 684.1,
+      "speaker": "ECONOMIST",
+      "text": "Then it gets worse. With prices falling 2 percent a year, a zero nominal rate is a real rate of plus 2, so firms pay 6 percent."
+    },
+    {
+      "start": 684.1,
+      "end": 688.2,
+      "speaker": "HOST",
+      "text": "That's 4 points above the return on capital."
+    },
+    {
+      "start": 688.2,
+      "end": 694.6,
+      "speaker": "ECONOMIST",
+      "text": "So it costs 4 points, on top of the crash's 2: output is minus 6."
+    },
+    {
+      "start": 694.6,
+      "end": 705.4,
+      "speaker": "HOST",
+      "text": "Last leaf of this part: the deflationary spiral of the Great Depression. Minus 3, minus 6, minus 9 percent. What are those numbers?"
+    },
+    {
+      "start": 705.4,
+      "end": 721.8,
+      "speaker": "ECONOMIST",
+      "text": "Output in three steps of our model. Before the crash, output is at potential and inflation is about zero. Step one: worried about a bubble in shares, the Fed raises its rate by 3 points. Output falls to minus 3 percent."
+    },
+    {
+      "start": 721.8,
+      "end": 725.6,
+      "speaker": "HOST",
+      "text": "And step two is the crash of October 1929."
+    },
+    {
+      "start": 725.6,
+      "end": 739.6,
+      "speaker": "ECONOMIST",
+      "text": "Yes. The crash cuts spending by another 3 points, so output is minus 6 percent. Step three is the dangerous one. The slump pulls inflation down by 3 points, from about zero to minus 3."
+    },
+    {
+      "start": 739.6,
+      "end": 744.9,
+      "speaker": "HOST",
+      "text": "So prices are falling, and the Fed keeps its nominal rate where it was."
+    },
+    {
+      "start": 744.9,
+      "end": 751.6,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. So the real rate rises by 3 points, and output falls to minus 9 percent."
+    },
+    {
+      "start": 751.6,
+      "end": 756.2,
+      "speaker": "HOST",
+      "text": "And then? I'd guess output recovers, as it did under the rule."
+    },
+    {
+      "start": 756.2,
+      "end": 789.0,
+      "speaker": "ECONOMIST",
+      "text": "Here's the surprise: it's the opposite. Under the rule, falling inflation brought rate cuts. Now the nominal rate is frozen, so falling inflation raises the real rate. From there, inflation falls even faster, the real rate rises again, and output falls again. Each year's gap is one and a half times the last: minus 6 became minus 9, and next year is worse. That's the spiral. In the real Depression, prices fell by about a quarter from 1929 to 1933."
+    },
+    {
+      "start": 789.0,
+      "end": 800.6,
+      "speaker": "HOST",
+      "text": "So in part two we saw that the premium acts like a fall in demand. The zero floor blocks the cuts that would offset it, and falling prices can make the slump deeper and deeper."
+    },
+    {
+      "start": 800.6,
+      "end": 806.1,
+      "speaker": "ECONOMIST",
+      "text": "Next branch: what policy did when its usual tool was stuck."
+    },
+    {
+      "start": 806.1,
+      "end": 818.6,
+      "speaker": "HOST",
+      "text": "Part three of the map: Policy and the aftermath. The first leaf: money kept growing, as M1 growth went from 7 to 17 percent in late 2008. Why does that matter?"
+    },
+    {
+      "start": 818.6,
+      "end": 835.1,
+      "speaker": "ECONOMIST",
+      "text": "Because of the 1930s. M1 is cash, meaning notes and coins, plus the bank accounts people pay from. The economists Milton Friedman and Anna Schwartz blamed the Great Depression on a Fed that let the money supply fall from 1929 to 1933."
+    },
+    {
+      "start": 835.1,
+      "end": 839.5,
+      "speaker": "HOST",
+      "text": "I'd guess money shrank again. Banks were scared and stopped lending."
+    },
+    {
+      "start": 839.5,
+      "end": 855.3,
+      "speaker": "ECONOMIST",
+      "text": "Look at the data first: not this time. Between October and December 2008, the growth of M1 over the past year jumped from about 7 to about 17 percent. Growing money helps keep prices from falling, and part two showed why that matters."
+    },
+    {
+      "start": 855.3,
+      "end": 865.3,
+      "speaker": "HOST",
+      "text": "Next leaf: quantitative easing. By 2015, the Fed's assets, everything it owned, were worth five times as much as before. What did it buy?"
+    },
+    {
+      "start": 865.3,
+      "end": 881.8,
+      "speaker": "ECONOMIST",
+      "text": "Quantitative easing, or QE, means buying assets other than short-term government bonds, on a huge scale. The Fed bought long-term government bonds and bundles of home loans, to push down the long-term rates that firms and families pay."
+    },
+    {
+      "start": 881.8,
+      "end": 887.3,
+      "speaker": "HOST",
+      "text": "So the Fed printed trillions of dollars. High inflation must have followed."
+    },
+    {
+      "start": 887.3,
+      "end": 909.8,
+      "speaker": "ECONOMIST",
+      "text": "That's a common belief, but it isn't what happened. The Fed paid mostly by adding to the deposits that banks keep at the Fed, called reserves. New cash paid for only about 15 percent. Cash gets spent in shops, but the Fed pays interest on reserves, so banks mostly held on to them. Inflation stayed low for more than a decade after QE began."
+    },
+    {
+      "start": 909.8,
+      "end": 918.1,
+      "speaker": "HOST",
+      "text": "Next leaf: forward guidance. The expected rate was cut to 0.57 percent in June 2012. Expected by whom?"
+    },
+    {
+      "start": 918.1,
+      "end": 934.3,
+      "speaker": "ECONOMIST",
+      "text": "By financial markets. Forward guidance means telling markets how long the rate will stay low. A long-term rate is roughly the average of the short-term rates expected over the life of the loan. So a promise of low rates for longer lowers long-term rates today."
+    },
+    {
+      "start": 934.3,
+      "end": 936.2,
+      "speaker": "HOST",
+      "text": "Can we put numbers on it?"
+    },
+    {
+      "start": 936.2,
+      "end": 946.9,
+      "speaker": "ECONOMIST",
+      "text": "Take a four-year loan. If markets expect short rates of zero, 1, 2 and 3 percent, the four-year rate is about their average, 1.5 percent."
+    },
+    {
+      "start": 946.9,
+      "end": 950.6,
+      "speaker": "HOST",
+      "text": "And if the Fed promises zero for three years?"
+    },
+    {
+      "start": 950.6,
+      "end": 958.8,
+      "speaker": "ECONOMIST",
+      "text": "Then markets expect zero for three years, and 2 percent in the fourth. The average falls to one half of a percent."
+    },
+    {
+      "start": 958.8,
+      "end": 960.7,
+      "speaker": "HOST",
+      "text": "And in 2012?"
+    },
+    {
+      "start": 960.7,
+      "end": 974.0,
+      "speaker": "ECONOMIST",
+      "text": "In January 2012, the Fed said its rate would likely stay very low until at least late 2014. Markets believed it: by June, they expected only 0.57 percent for the end of 2014."
+    },
+    {
+      "start": 974.0,
+      "end": 987.3,
+      "speaker": "HOST",
+      "text": "Next leaf: potential GDP revised down 10 percent, and productivity growing 0.72 percent a year since 2004. Let's start with potential GDP."
+    },
+    {
+      "start": 987.3,
+      "end": 998.2,
+      "speaker": "ECONOMIST",
+      "text": "Potential GDP is the total output the economy would produce with its workers and machines in normal use. The Congressional Budget Office, or CBO, estimates it."
+    },
+    {
+      "start": 998.2,
+      "end": 1005.5,
+      "speaker": "HOST",
+      "text": "About ten years after the crisis, GDP was back at potential. So I'd guess the economy recovered everything it had lost."
+    },
+    {
+      "start": 1005.5,
+      "end": 1015.6,
+      "speaker": "ECONOMIST",
+      "text": "That's what the gap says, but look at how it closed. In 2017, GDP was less than 1 percent below the CBO's latest estimate of potential."
+    },
+    {
+      "start": 1015.6,
+      "end": 1017.5,
+      "speaker": "HOST",
+      "text": "And against the old estimate?"
+    },
+    {
+      "start": 1017.5,
+      "end": 1029.7,
+      "speaker": "ECONOMIST",
+      "text": "Almost 11 percent below the potential the CBO expected back in 2007. So the estimate itself came down by about 10 percent. The economy never got back to the output expected before the crisis."
+    },
+    {
+      "start": 1029.7,
+      "end": 1031.2,
+      "speaker": "HOST",
+      "text": "Why was it lowered?"
+    },
+    {
+      "start": 1031.2,
+      "end": 1049.5,
+      "speaker": "ECONOMIST",
+      "text": "Low investment after the crisis, and slower productivity. Total factor productivity, or TFP, measures how well an economy uses its machines and workers. In private business, it grew more than 1.5 percent a year from 1995 to 2004."
+    },
+    {
+      "start": 1049.5,
+      "end": 1051.2,
+      "speaker": "HOST",
+      "text": "And since 2004?"
+    },
+    {
+      "start": 1051.2,
+      "end": 1061.1,
+      "speaker": "ECONOMIST",
+      "text": "Only 0.72 percent a year, less than half as fast. But the slowdown began before the crisis, so the crisis can't be its only cause."
+    },
+    {
+      "start": 1061.1,
+      "end": 1069.1,
+      "speaker": "HOST",
+      "text": "Last leaf: policy, three topics: QE, fiscal stimulus and bubbles. What about fiscal stimulus?"
+    },
+    {
+      "start": 1069.1,
+      "end": 1088.9,
+      "speaker": "ECONOMIST",
+      "text": "Fiscal stimulus means the government buys more or cuts taxes. Normally, the central bank raises its rate when demand rises, which takes back part of the boost. At the floor, the rate stays at zero, so in our model each extra dollar of purchases adds a dollar of output. How much it adds in real life is still debated."
+    },
+    {
+      "start": 1088.9,
+      "end": 1093.5,
+      "speaker": "HOST",
+      "text": "And bubbles. Should the central bank raise its rate to pop them?"
+    },
+    {
+      "start": 1093.5,
+      "end": 1119.5,
+      "speaker": "ECONOMIST",
+      "text": "That's debated too. On one side, low Fed rates from 2002 to 2006 may have helped the housing boom grow. On the other, bubbles are hard to spot at the time, and a rate rise hits the whole economy. Many economists prefer a capital requirement instead. Capital here means the owners' own money in a bank, a cushion against losses. Islandia's banks keep a thin cushion, and the requirement makes it thicker."
+    },
+    {
+      "start": 1119.5,
+      "end": 1121.7,
+      "speaker": "HOST",
+      "text": "How does that help with bubbles?"
+    },
+    {
+      "start": 1121.7,
+      "end": 1130.3,
+      "speaker": "ECONOMIST",
+      "text": "When a bubble bursts, the losses hit the owners' cushion first. So lenders worry less, and the premium jumps less."
+    },
+    {
+      "start": 1130.3,
+      "end": 1144.1,
+      "speaker": "HOST",
+      "text": "So in part three we saw the Fed avoid the mistake of the 1930s and try new tools, while governments added spending. But output stayed below the old expectations, and productivity had already slowed."
+    },
+    {
+      "start": 1144.1,
+      "end": 1147.4,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. Let's sum up."
+    },
+    {
+      "start": 1147.4,
+      "end": 1155.7,
+      "speaker": "HOST",
+      "text": "Let's go back to our three goals. First: why the premium hits like a fall in demand, and why a zero rate couldn't undo it."
+    },
+    {
+      "start": 1155.7,
+      "end": 1172.0,
+      "speaker": "ECONOMIST",
+      "text": "Firms pay the central bank's rate plus the premium, so a higher premium cuts investment like a drop in demand. Offsetting it needed a nominal rate below zero. That's impossible, because people can always hold cash, which earns zero."
+    },
+    {
+      "start": 1172.0,
+      "end": 1174.3,
+      "speaker": "HOST",
+      "text": "Second, the spiral."
+    },
+    {
+      "start": 1174.3,
+      "end": 1183.9,
+      "speaker": "ECONOMIST",
+      "text": "With the nominal rate stuck, falling prices raise the real rate. That deepens the slump, which makes prices fall faster, again and again."
+    },
+    {
+      "start": 1183.9,
+      "end": 1187.6,
+      "speaker": "HOST",
+      "text": "And third, the other tools, and what came after."
+    },
+    {
+      "start": 1187.6,
+      "end": 1222.1,
+      "speaker": "ECONOMIST",
+      "text": "Money kept growing, the Fed bought long-term assets and promised low rates, and the government added spending. Still, output stayed below what was expected before the crisis. So here is the big message. A jump in the risk premium works like a collapse in demand, and the zero floor stops the central bank from offsetting it. Falling prices can then turn a recession into a spiral. So central banks and governments need tools beyond the interest rate."
+    },
+    {
+      "start": 1222.1,
+      "end": 1234.3,
+      "speaker": "HOST",
+      "text": "Here's a question to think about. Suppose Islandia's central bank aimed for zero inflation instead of 2 percent. In the next crisis, how far below zero could it push the real rate, and why does that matter?"
+    },
+    {
+      "start": 1234.3,
+      "end": 1242.0,
+      "speaker": "ECONOMIST",
+      "text": "Pause the episode and think about it for a moment."
+    },
+    {
+      "start": 1242.0,
+      "end": 1244.3,
+      "speaker": "HOST",
+      "text": "Okay, we're back. What's the answer?"
+    },
+    {
+      "start": 1244.3,
+      "end": 1267.8,
+      "speaker": "ECONOMIST",
+      "text": "It couldn't push the real rate below zero at all. At a zero nominal rate, the real rate is minus inflation: minus 2 with 2 percent inflation, but only zero with zero inflation. On Islandia, the best output at the floor falls from minus 2 to minus 4 percent. That's one reason central banks aim for a little inflation, not zero."
+    },
+    {
+      "start": 1267.8,
+      "end": 1269.9,
+      "speaker": "HOST",
+      "text": "Where can students try all this themselves?"
+    },
+    {
+      "start": 1269.9,
+      "end": 1279.0,
+      "speaker": "ECONOMIST",
+      "text": "Open the chapter's Colab notebook to run every example yourself. The Model Apps let you move the premium without code, and the Data Apps show the charts."
+    },
+    {
+      "start": 1279.0,
+      "end": 1280.2,
+      "speaker": "HOST",
+      "text": "And next time?"
+    },
+    {
+      "start": 1280.2,
+      "end": 1297.2,
+      "speaker": "ECONOMIST",
+      "text": "In Chapter 15, we meet DSGE models, the modern models of business cycles, the ups and downs of the economy. We ask: do productivity shocks cause recessions, and how do sticky wages and prices change the answer? Sticky means slow to change."
+    },
+    {
+      "start": 1297.2,
+      "end": 1300.6,
+      "speaker": "HOST",
+      "text": "That's it for today. Thanks for listening, and see you next time."
+    }
+  ]
+}

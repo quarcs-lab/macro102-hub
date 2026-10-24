@@ -1,0 +1,603 @@
+{
+  "title": "Exchange Rates and International Finance",
+  "duration": 1352.1,
+  "sections": [
+    {
+      "title": "Opening",
+      "start": 0.0,
+      "segment": 0
+    },
+    {
+      "title": "The long run: prices set the rate",
+      "start": 81.2,
+      "segment": 6
+    },
+    {
+      "title": "The short run: interest rates move the rate",
+      "start": 467.3,
+      "segment": 34
+    },
+    {
+      "title": "Regimes, crises and the euro",
+      "start": 826.1,
+      "segment": 56
+    },
+    {
+      "title": "Wrap-up",
+      "start": 1208.1,
+      "segment": 82
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 9.9,
+      "speaker": "HOST",
+      "text": "Welcome back. Today we are on exchange rates, the price of one country's money in another country's money. How big is the market where currencies are traded?"
+    },
+    {
+      "start": 9.9,
+      "end": 18.3,
+      "speaker": "ECONOMIST",
+      "text": "On a typical day, people trade currencies worth about 73 times the daily output of the United States economy."
+    },
+    {
+      "start": 18.3,
+      "end": 29.3,
+      "speaker": "HOST",
+      "text": "And some governments try to fix the price in that market. So here is today's question. What sets the price of a currency, and what does a country give up when it fixes it?"
+    },
+    {
+      "start": 29.3,
+      "end": 61.7,
+      "speaker": "ECONOMIST",
+      "text": "By the end of this episode, you'll be able to do three things. First, explain why, over decades, a country with higher inflation sees its currency lose value, and why prices still differ across countries. Second, explain why a higher interest rate makes a currency jump, and what that does to monetary policy. Third, use the policy trilemma to explain what a country gives up when it fixes its exchange rate, and why some fixed rates ended in crises. A trilemma means you can have only two of three good things."
+    },
+    {
+      "start": 61.7,
+      "end": 65.7,
+      "speaker": "HOST",
+      "text": "And we'll follow the chapter's mind map part by part?"
+    },
+    {
+      "start": 65.7,
+      "end": 81.2,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Part one is the long run, where prices set the rate. Part two is the short run, where interest rates move it. Part three covers regimes, crises and the euro."
+    },
+    {
+      "start": 81.2,
+      "end": 91.3,
+      "speaker": "HOST",
+      "text": "Part one of the map: The long run: prices set the rate. The first leaf is the dollar since 1971. Why start in that year?"
+    },
+    {
+      "start": 91.3,
+      "end": 113.1,
+      "speaker": "ECONOMIST",
+      "text": "Because the old system of fixed exchange rates ended in 1971. Since then, the dollar has floated, meaning the market sets its price every day, and no central bank fixes it. In January 1971, one dollar bought 358 Japanese yen. By April 1995, it bought only 84 yen."
+    },
+    {
+      "start": 113.1,
+      "end": 117.5,
+      "speaker": "HOST",
+      "text": "So the dollar lost about three quarters of its value against the yen."
+    },
+    {
+      "start": 117.5,
+      "end": 130.2,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. A fall in the price of a currency is called a depreciation, and a rise is an appreciation. In July 2026, a dollar bought 162 yen, the most since 1986."
+    },
+    {
+      "start": 130.2,
+      "end": 134.6,
+      "speaker": "HOST",
+      "text": "Next leaf: the law of one price. What does it say?"
+    },
+    {
+      "start": 134.6,
+      "end": 158.3,
+      "speaker": "ECONOMIST",
+      "text": "Let's visit Islandia, the small island country of our book. Islanders pay with the Islandia dollar. Across the water, Mainland pays in euros. Suppose a fishing net costs 100 Islandia dollars, and one Islandia dollar buys 0.92 euros. Then the law says the net should cost 92 euros in Mainland."
+    },
+    {
+      "start": 158.3,
+      "end": 160.2,
+      "speaker": "HOST",
+      "text": "And if it cost more in Mainland?"
+    },
+    {
+      "start": 160.2,
+      "end": 174.6,
+      "speaker": "ECONOMIST",
+      "text": "Then traders would buy nets on the island and sell them in Mainland, until the two prices met. So in one money, the same good costs the same everywhere, apart from shipping costs and taxes."
+    },
+    {
+      "start": 174.6,
+      "end": 177.3,
+      "speaker": "HOST",
+      "text": "But how does that set the exchange rate?"
+    },
+    {
+      "start": 177.3,
+      "end": 201.9,
+      "speaker": "ECONOMIST",
+      "text": "Apply the law to a whole basket of goods. The price of that basket is a country's price level. Then the exchange rate equals Mainland's price level divided by Islandia's. And in the long run, each price level is set mostly by the country's supply of money. If Islandia doubled its money, its prices would double, and each dollar would buy half as many euros."
+    },
+    {
+      "start": 201.9,
+      "end": 208.5,
+      "speaker": "HOST",
+      "text": "Next leaf: more inflation, weaker currency. Where does inflation come in?"
+    },
+    {
+      "start": 208.5,
+      "end": 226.2,
+      "speaker": "ECONOMIST",
+      "text": "Inflation is the growth rate of the price level. The exchange rate is one price level divided by another. So each year, the currency with more inflation loses value by about the gap between the two inflation rates."
+    },
+    {
+      "start": 226.2,
+      "end": 228.5,
+      "speaker": "HOST",
+      "text": "Can we try that on Islandia?"
+    },
+    {
+      "start": 228.5,
+      "end": 263.7,
+      "speaker": "ECONOMIST",
+      "text": "Let's build it step by step. Say Islandia's prices rise 4 percent a year, so each year they are multiplied by 1.04. Mainland's rise 2 percent, so they are multiplied by 1.02. The exchange rate is Mainland's prices divided by Islandia's. So each year it is multiplied by 1.02 divided by 1.04, which is about 0.98. That's our yearly factor: the Islandia dollar keeps about 98 percent of its value."
+    },
+    {
+      "start": 263.7,
+      "end": 270.1,
+      "speaker": "HOST",
+      "text": "Then after 25 years, it buys 50 percent fewer euros. 25 years times 2 percent."
+    },
+    {
+      "start": 270.1,
+      "end": 295.4,
+      "speaker": "ECONOMIST",
+      "text": "That's the natural guess, but it's too much. Each year's loss applies to a smaller amount, so we multiply, we don't add. Multiply the exact yearly factor by itself 25 times, and you get about 0.62. So the Islandia dollar then buys about 0.62 times as many euros. That's about 38 percent fewer, not 50."
+    },
+    {
+      "start": 295.4,
+      "end": 302.8,
+      "speaker": "HOST",
+      "text": "Good. So the inflation gap explains the fall from 358 to 84 yen."
+    },
+    {
+      "start": 302.8,
+      "end": 314.7,
+      "speaker": "ECONOMIST",
+      "text": "Only a small part of it. U.S. inflation was higher than Japan's in most years, so the direction is right. But until 1995, the gap was only about 1 percentage point a year."
+    },
+    {
+      "start": 314.7,
+      "end": 319.2,
+      "speaker": "HOST",
+      "text": "A percentage point meaning, say, the gap between 4 percent and 3 percent?"
+    },
+    {
+      "start": 319.2,
+      "end": 340.6,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. We'll just call it a point. Now start from the average for 1971, a little lower, about 348 yen. That gap predicts about 269 yen per dollar in 1995. The actual average for 1995 was about 94. So something else moved the yen."
+    },
+    {
+      "start": 340.6,
+      "end": 347.3,
+      "speaker": "HOST",
+      "text": "That brings us to the last leaf of this part: real exchange rates drift. What's a real exchange rate?"
+    },
+    {
+      "start": 347.3,
+      "end": 377.4,
+      "speaker": "ECONOMIST",
+      "text": "So far we priced one money in another. That's the nominal exchange rate. The real exchange rate prices goods: how many Mainland goods you get for one Islandia good. If the law of one price held for everything, it would always be one. But Japan's real exchange rate grew about 2.5 times from 1971 to 1995. Japanese goods became much more expensive than American goods."
+    },
+    {
+      "start": 377.4,
+      "end": 382.2,
+      "speaker": "HOST",
+      "text": "Why would goods stay more expensive in one country? Couldn't traders ship them?"
+    },
+    {
+      "start": 382.2,
+      "end": 426.6,
+      "speaker": "ECONOMIST",
+      "text": "Not every good can be shipped. Harbor Boatworks sells boats in Mainland too, so boats are traded goods. But haircuts and café meals are nontraded goods: only islanders buy them. Now say the boatworks becomes much more productive, so its wages go up. Barbers and cooks must then be paid more too, or they would leave to build boats. Boats can't get more expensive, because they compete with Mainland's boats. But haircuts and meals do. So Islandia's price level, and its real exchange rate, go up. This is the Balassa-Samuelson effect. Japan's real exchange rate went up in this way while Japan was growing rapidly, until 1995."
+    },
+    {
+      "start": 426.6,
+      "end": 428.7,
+      "speaker": "HOST",
+      "text": "And the Big Mac is the famous test?"
+    },
+    {
+      "start": 428.7,
+      "end": 445.7,
+      "speaker": "ECONOMIST",
+      "text": "Yes. The same burger is sold almost everywhere, but it also contains the cook's wage and the restaurant's rent. Across countries, Big Macs cost more where income per person is higher, as the theory predicts."
+    },
+    {
+      "start": 445.7,
+      "end": 460.5,
+      "speaker": "HOST",
+      "text": "So in part one we saw that, over decades, a currency follows its prices: more inflation, weaker currency. But real exchange rates drift, because services are expensive where wages are high."
+    },
+    {
+      "start": 460.5,
+      "end": 467.3,
+      "speaker": "ECONOMIST",
+      "text": "Right. Next branch: what moves the rate from one week to the next."
+    },
+    {
+      "start": 467.3,
+      "end": 476.3,
+      "speaker": "HOST",
+      "text": "Part two of the map: The short run: interest rates move the rate. Prices change slowly. So what moves the exchange rate this week?"
+    },
+    {
+      "start": 476.3,
+      "end": 503.4,
+      "speaker": "ECONOMIST",
+      "text": "Interest rates. The first leaf is uncovered interest parity. Parity means equality. An investor can put an Islandia dollar in an Islandia bond. Or she can change it into euros, buy a Mainland bond, and change the money back next year. If one way paid more, money would move into it until the expected returns were equal. Uncovered means she doesn't insure against exchange-rate changes."
+    },
+    {
+      "start": 503.4,
+      "end": 507.3,
+      "speaker": "HOST",
+      "text": "So what happens when the Bank of Islandia raises its rate?"
+    },
+    {
+      "start": 507.3,
+      "end": 542.5,
+      "speaker": "ECONOMIST",
+      "text": "Islandia bonds now pay more, so investors buy Islandia dollars and push up their price today. Investors expect the dollar to end up, in the long run, at the level that prices set. Say both interest rates start at 5 percent, and the Bank of Islandia raises its rate to 6 percent, a gap of 1 point. The dollar jumps about 1 percent above that level for each year the gap is expected to last. A one-year gap gives a jump of about 1 percent. A five-year gap gives about 4.8 percent, a bit under 5, because each yearly step is a bit under 1 percent."
+    },
+    {
+      "start": 542.5,
+      "end": 549.6,
+      "speaker": "HOST",
+      "text": "Got it. And after the jump, investors keep buying, so the dollar keeps rising from there."
+    },
+    {
+      "start": 549.6,
+      "end": 574.1,
+      "speaker": "ECONOMIST",
+      "text": "That's a common mistake. It's the other way around. Islandia bonds pay 1 point more each year. For the two investments to pay the same, the dollar must be expected to lose about 1 percent a year against the euro. That's why it starts above its long-run level, and then slides back to it. And since prices barely move in a few weeks, the real exchange rate jumps too."
+    },
+    {
+      "start": 574.1,
+      "end": 579.8,
+      "speaker": "HOST",
+      "text": "Next leaf: a flatter IS curve. Remind me what the IS curve is."
+    },
+    {
+      "start": 579.8,
+      "end": 601.8,
+      "speaker": "ECONOMIST",
+      "text": "It links the real interest rate, meaning the rate after inflation, to output in the short run. A higher real rate makes borrowing more expensive, so firms invest less, and output falls below its normal level, called potential output. Without trade, a rise of 1 point in the real rate lowers output by 1 percent."
+    },
+    {
+      "start": 601.8,
+      "end": 611.0,
+      "speaker": "HOST",
+      "text": "Now we add trade. My guess is that nothing changes. The interest rate is about borrowing, so output still falls by 1 percent."
+    },
+    {
+      "start": 611.0,
+      "end": 642.2,
+      "speaker": "ECONOMIST",
+      "text": "That's the tempting answer, but output now falls by 2 percent. The higher rate still cuts investment, by 1 point. But it also makes the Islandia dollar jump, so Harbor Boatworks' boats become more expensive abroad. So net exports, meaning exports minus imports, fall by another point. That's what \"flatter\" means: the same rate change moves output by more. It's also why central banks of small open economies watch the exchange rate closely."
+    },
+    {
+      "start": 642.2,
+      "end": 648.7,
+      "speaker": "HOST",
+      "text": "Next leaf: foreign rates as a demand shock. What if the rate rises in Mainland instead?"
+    },
+    {
+      "start": 648.7,
+      "end": 667.2,
+      "speaker": "ECONOMIST",
+      "text": "Then the chain runs backwards. Investors move toward euros, the Islandia dollar falls, and Islandia's boats become cheap abroad. So net exports go up. For Islandia, that's a demand shock: a change in spending that starts outside its economy."
+    },
+    {
+      "start": 667.2,
+      "end": 675.8,
+      "speaker": "HOST",
+      "text": "Wait. Mainland tightens its money, and Islandia gets a boom? I'd expect tighter money anywhere to slow everyone down."
+    },
+    {
+      "start": 675.8,
+      "end": 703.3,
+      "speaker": "ECONOMIST",
+      "text": "That's a reasonable guess, but in the model Islandia booms first. The Bank of Islandia has an inflation target of 2 percent. Now say Mainland's real rate goes up, to 2 points above normal, for a while. At first, output rises 1 percent above potential, and inflation rises to 3 percent. Then the Bank of Islandia raises its own rate to fight inflation, and the boom fades."
+    },
+    {
+      "start": 703.3,
+      "end": 706.6,
+      "speaker": "HOST",
+      "text": "And when Mainland's rate comes back down?"
+    },
+    {
+      "start": 706.6,
+      "end": 735.7,
+      "speaker": "ECONOMIST",
+      "text": "Then the shock ends, the dollar recovers, and net exports fall. But while output was above potential, inflation kept climbing, to nearly 4 percent, and it must be brought down. So Islandia falls into a recession, with output about 1 percent below potential. But be careful: tight money may also slow Mainland, which then buys fewer boats. So the total effect can go either way."
+    },
+    {
+      "start": 735.7,
+      "end": 741.0,
+      "speaker": "HOST",
+      "text": "Last leaf of this part: the policy trilemma. Now the three good things."
+    },
+    {
+      "start": 741.0,
+      "end": 769.6,
+      "speaker": "ECONOMIST",
+      "text": "A stable exchange rate, your own monetary policy, and free capital flows, meaning money can move freely across borders. You can pick two, never all three. Suppose Islandia fixes, or pegs, its exchange rate, and investors trust it, so nobody expects the rate to move. With free flows, Islandia bonds must then pay exactly Mainland's rate. If they paid less, nobody would hold Islandia dollars."
+    },
+    {
+      "start": 769.6,
+      "end": 775.6,
+      "speaker": "HOST",
+      "text": "So with a fixed rate, Mainland's central bank in effect sets Islandia's interest rate."
+    },
+    {
+      "start": 775.6,
+      "end": 803.3,
+      "speaker": "ECONOMIST",
+      "text": "Yes. The United States keeps its own policy and free flows, so its exchange rate floats. For ten years, Argentina ran a currency board, a strict peg of one peso per dollar. It kept a stable rate and free flows, and gave up its own policy. For some years, China limited who could trade its currency, so money could not rush in or out. So it kept a stable rate and its own policy, and gave up free flows."
+    },
+    {
+      "start": 803.3,
+      "end": 817.7,
+      "speaker": "HOST",
+      "text": "So in part two, interest rates did the moving. A higher rate makes a currency jump, which gives policy a second channel, through trade. A rate rise abroad is a boom, then a bust, meaning a recession, at home."
+    },
+    {
+      "start": 817.7,
+      "end": 826.1,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Next branch: the three good things of the trilemma in history, and what happens when a choice breaks."
+    },
+    {
+      "start": 826.1,
+      "end": 840.8,
+      "speaker": "HOST",
+      "text": "Part three of the map: Regimes, crises and the euro. The first leaf is gold, Bretton Woods, floating. Are these three regimes, meaning three ways of running exchange rates?"
+    },
+    {
+      "start": 840.8,
+      "end": 861.2,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. Under the gold standard, each country fixed the price of an ounce of gold in its own money, and that fixed the exchange rates. After World War Two came the Bretton Woods system. Other currencies were tied to the dollar, and the dollar to gold, at 35 dollars an ounce. It broke down in the early 1970s, and the big currencies have floated since."
+    },
+    {
+      "start": 861.2,
+      "end": 864.3,
+      "speaker": "HOST",
+      "text": "How different are they in practice?"
+    },
+    {
+      "start": 864.3,
+      "end": 884.6,
+      "speaker": "ECONOMIST",
+      "text": "Take the pound and the dollar. How much does their exchange rate typically move in a year? Under gold, 0.26 percent. Under Bretton Woods, 0.42 percent. Both are less than half of one percent. With floating rates, 8.51 percent, more than 30 times as much as under gold."
+    },
+    {
+      "start": 884.6,
+      "end": 899.2,
+      "speaker": "HOST",
+      "text": "Next leaf: currency crises. A central bank defends a fixed rate by selling its reserves, its stock of foreign money. So if it has enough reserves, it can defend its peg forever."
+    },
+    {
+      "start": 899.2,
+      "end": 940.9,
+      "speaker": "ECONOMIST",
+      "text": "Not quite. It works only while investors believe the promise. Suppose they start to fear a devaluation of 10 percent, meaning a cut in the fixed price of the currency. With Mainland's rate at 5 percent, Islandia must pay roughly 5 plus 10 percent, and a bit more, about 16.7 percent. A rate that high makes borrowing very expensive and pushes the economy toward recession. So a central bank may decide to pay less. Then investors swap their Islandia dollars for the Bank's euros. The money that can leave may be much larger than the reserves. When the reserves run out, the peg breaks."
+    },
+    {
+      "start": 940.9,
+      "end": 942.9,
+      "speaker": "HOST",
+      "text": "Has that happened in real life?"
+    },
+    {
+      "start": 942.9,
+      "end": 976.7,
+      "speaker": "ECONOMIST",
+      "text": "Yes. In late 1994, fears of a devaluation grew in Mexico. The central bank defended the peso until its reserves ran very low, then let it float. Make an index: set the peso's dollar value in 1991 at 100. By 1995, it was down to 40. Argentina's currency board ended in early 2002, after the government stopped paying its debt. With the same kind of index, Argentina's peso fell to 30, less than a third of its old value."
+    },
+    {
+      "start": 976.7,
+      "end": 980.4,
+      "speaker": "HOST",
+      "text": "Next leaf: the euro boom and bust."
+    },
+    {
+      "start": 980.4,
+      "end": 1006.1,
+      "speaker": "ECONOMIST",
+      "text": "Imagine Islandia gives up its dollar and shares Mainland's euro. Before, Islandia paid higher interest, partly because its inflation was expected to be higher. With one money, that part goes away, so Islandia can borrow cheaply. That's what happened in southern Europe. By the end of 1998, Italian, Spanish and German government bonds all paid about 4 percent."
+    },
+    {
+      "start": 1006.1,
+      "end": 1009.2,
+      "speaker": "HOST",
+      "text": "So cheap money flowed south."
+    },
+    {
+      "start": 1009.2,
+      "end": 1026.7,
+      "speaker": "ECONOMIST",
+      "text": "Yes, northern Europe lent to the south. Then came the financial crisis of 2008, and investors feared that some governments would not repay. In February 2012, the interest rate that investors demanded on Greek government bonds reached 29.2 percent."
+    },
+    {
+      "start": 1026.7,
+      "end": 1032.4,
+      "speaker": "HOST",
+      "text": "Next leaf: debt and competitiveness. Why was the fear so strong?"
+    },
+    {
+      "start": 1032.4,
+      "end": 1054.7,
+      "speaker": "ECONOMIST",
+      "text": "Two problems. First, debt. The rate on a risky bond is about the safe rate plus the chance of default, meaning the government does not repay. So the spread, the gap over the safe rate, measures the fear. Say the safe rate is 2 percent and investors see a 3 percent chance of default. Then the government pays about 5 percent."
+    },
+    {
+      "start": 1054.7,
+      "end": 1057.4,
+      "speaker": "HOST",
+      "text": "And why can the fear keep growing?"
+    },
+    {
+      "start": 1057.4,
+      "end": 1083.1,
+      "speaker": "ECONOMIST",
+      "text": "Take a debt equal to one year of GDP, a country's total output. Then, once the debt is renewed at the new rate, each extra point of interest costs a point of GDP every year. So fear raises the rate, the rate raises the interest bill, and the bigger bill makes default more likely. The fear can come true just because people hold it."
+    },
+    {
+      "start": 1083.1,
+      "end": 1084.9,
+      "speaker": "HOST",
+      "text": "And the second problem?"
+    },
+    {
+      "start": 1084.9,
+      "end": 1120.6,
+      "speaker": "ECONOMIST",
+      "text": "Competitiveness. The unit labor cost is the wage cost of making one unit of output. From 1995 to 2007, it went up 70 percent in Greece and 42 percent in Spain, and not at all in Germany. So southern goods became expensive. A country with its own money could let its currency fall. Inside the euro, wages must instead grow more slowly than productivity for years. That's painful, and it helps explain southern Europe's high unemployment."
+    },
+    {
+      "start": 1120.6,
+      "end": 1125.6,
+      "speaker": "HOST",
+      "text": "Last leaf: policy. What can governments and central banks do?"
+    },
+    {
+      "start": 1125.6,
+      "end": 1142.9,
+      "speaker": "ECONOMIST",
+      "text": "The map names three answers. First, floating, which keeps your own interest rate. But some economists argue that money still flows in and out of small floating economies when the Federal Reserve, the U.S. central bank, changes its rate. So how much freedom a float gives is debated."
+    },
+    {
+      "start": 1142.9,
+      "end": 1144.7,
+      "speaker": "HOST",
+      "text": "And the second answer?"
+    },
+    {
+      "start": 1144.7,
+      "end": 1170.5,
+      "speaker": "ECONOMIST",
+      "text": "\"Whatever it takes.\" In July 2012, Mario Draghi, the head of the European Central Bank, promised to do whatever it takes to preserve the euro. That meant buying the bonds of countries in trouble, if needed. A trusted buyer of bonds lowers the fear of default, and so the rate. Spreads fell, although the bank never used this program. Critics worry that governments borrow too freely once they know the central bank will buy their bonds."
+    },
+    {
+      "start": 1170.5,
+      "end": 1172.7,
+      "speaker": "HOST",
+      "text": "And the third, a currency union?"
+    },
+    {
+      "start": 1172.7,
+      "end": 1188.3,
+      "speaker": "ECONOMIST",
+      "text": "A shared currency works best when workers move to where the jobs are, wages can fall, and a shared budget sends money to regions in a recession. The euro had little of these, so adjustment was slow and painful."
+    },
+    {
+      "start": 1188.3,
+      "end": 1204.9,
+      "speaker": "HOST",
+      "text": "So in part three, we saw fixed rates under gold and Bretton Woods give way to floating rates. A fixed rate that lost investors' trust broke, as in Mexico and Argentina. And the euro took away the exchange rate as a way to adjust."
+    },
+    {
+      "start": 1204.9,
+      "end": 1208.1,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. Let's sum up."
+    },
+    {
+      "start": 1208.1,
+      "end": 1214.5,
+      "speaker": "HOST",
+      "text": "Let's go back to our three goals. First, why does the currency of a high-inflation country lose value?"
+    },
+    {
+      "start": 1214.5,
+      "end": 1227.8,
+      "speaker": "ECONOMIST",
+      "text": "Because in the long run a currency is worth what it buys. So it falls by about the inflation gap each year. Real exchange rates still drift, because services cost more where wages are high."
+    },
+    {
+      "start": 1227.8,
+      "end": 1240.2,
+      "speaker": "HOST",
+      "text": "Second, a higher interest rate makes the currency jump, then slide back, which gives monetary policy a second channel, through trade. And third, what does a country give up when it fixes its rate?"
+    },
+    {
+      "start": 1240.2,
+      "end": 1271.3,
+      "speaker": "ECONOMIST",
+      "text": "With free capital flows, it must copy its partner's interest rate, so it gives up its own monetary policy. And if investors stop trusting the peg, it breaks, as in Mexico and Argentina. So here is the big message. In the long run, money and prices set the exchange rate, and in the short run, interest rates move it. An open economy can have only two of a stable exchange rate, its own monetary policy and free capital flows."
+    },
+    {
+      "start": 1271.3,
+      "end": 1288.0,
+      "speaker": "HOST",
+      "text": "Here's a question to think about. Suppose Islandia pegs its dollar to the euro, and money flows freely. Then Mainland raises its interest rate by 2 points. In part two, with a floating dollar, Islandia boomed. What happens now, and why?"
+    },
+    {
+      "start": 1288.0,
+      "end": 1295.0,
+      "speaker": "ECONOMIST",
+      "text": "Pause the episode and think about it for a moment."
+    },
+    {
+      "start": 1295.0,
+      "end": 1298.1,
+      "speaker": "HOST",
+      "text": "Okay, we're back. What's the answer?"
+    },
+    {
+      "start": 1298.1,
+      "end": 1322.0,
+      "speaker": "ECONOMIST",
+      "text": "No boom this time. With a trusted peg and free flows, the Bank of Islandia must raise its rate by the same 2 points. So the dollar cannot fall, and net exports get no boost. But the higher rate at home makes borrowing more expensive, so investment falls. Islandia slows down. That's the cost of the peg: Islandia gave up its own monetary policy."
+    },
+    {
+      "start": 1322.0,
+      "end": 1324.2,
+      "speaker": "HOST",
+      "text": "Where can students try all this themselves?"
+    },
+    {
+      "start": 1324.2,
+      "end": 1339.0,
+      "speaker": "ECONOMIST",
+      "text": "Open the chapter's Colab notebook to run the models and data yourself. The Model Apps put the IS curve, the foreign shock and the trilemma on sliders, without code. The Data Apps let you explore currencies, Big Macs and the euro crisis."
+    },
+    {
+      "start": 1339.0,
+      "end": 1340.0,
+      "speaker": "HOST",
+      "text": "And next time?"
+    },
+    {
+      "start": 1340.0,
+      "end": 1349.0,
+      "speaker": "ECONOMIST",
+      "text": "In Chapter 21, we step back and look at the whole book. We ask: what has macroeconomics learned, and what does it still not know?"
+    },
+    {
+      "start": 1349.0,
+      "end": 1352.1,
+      "speaker": "HOST",
+      "text": "That's it for today. Thanks for listening, and see you next time."
+    }
+  ]
+}

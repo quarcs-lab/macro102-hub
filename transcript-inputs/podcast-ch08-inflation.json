@@ -1,0 +1,699 @@
+{
+  "title": "Inflation",
+  "duration": 1365.3,
+  "sections": [
+    {
+      "title": "Opening",
+      "start": 0.0,
+      "segment": 0
+    },
+    {
+      "title": "Measuring inflation",
+      "start": 79.2,
+      "segment": 6
+    },
+    {
+      "title": "Money and prices",
+      "start": 343.2,
+      "segment": 32
+    },
+    {
+      "title": "Interest rates and deficits",
+      "start": 763.5,
+      "segment": 62
+    },
+    {
+      "title": "Wrap-up",
+      "start": 1199.5,
+      "segment": 96
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 15.0,
+      "speaker": "HOST",
+      "text": "Welcome back. Today we are on inflation, the rise of prices over time. In 2018, in Venezuela, something that cost one bolívar in January cost about 650 bolívars by December."
+    },
+    {
+      "start": 15.0,
+      "end": 23.0,
+      "speaker": "ECONOMIST",
+      "text": "The bolívar is Venezuela's money. So in a single year, prices there became about 650 times as high."
+    },
+    {
+      "start": 23.0,
+      "end": 33.8,
+      "speaker": "HOST",
+      "text": "In most countries, prices go up only a little each year. So here is today's question. What makes prices rise, and why do some countries let inflation explode?"
+    },
+    {
+      "start": 33.8,
+      "end": 54.6,
+      "speaker": "ECONOMIST",
+      "text": "By the end of this episode, you'll be able to do three things. First, explain the difference between high prices and high inflation. Second, explain why, in the long run, inflation equals the growth of money minus the growth of the goods it buys. Third, explain why very high inflation usually starts with a government that cannot pay its bills."
+    },
+    {
+      "start": 54.6,
+      "end": 58.0,
+      "speaker": "HOST",
+      "text": "And we'll follow the chapter's mind map part by part?"
+    },
+    {
+      "start": 58.0,
+      "end": 79.2,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Part one measures inflation. Part two links money and prices. Part three turns to interest rates and deficits, the gaps between what a government spends and what it collects in taxes. Each part has four or five leaves, small topics we take in order."
+    },
+    {
+      "start": 79.2,
+      "end": 89.3,
+      "speaker": "HOST",
+      "text": "Part one of the map: Measuring inflation. The first leaf says inflation is the growth rate of the price level. So what is a price level?"
+    },
+    {
+      "start": 89.3,
+      "end": 109.2,
+      "speaker": "ECONOMIST",
+      "text": "Let's visit Islandia, a small imaginary island country. A typical household there buys a basket of things each year: fish, bread, rent and a few nets. The price level is what that basket costs, written as an index. We pick one base year and set the index to 100 in that year."
+    },
+    {
+      "start": 109.2,
+      "end": 111.9,
+      "speaker": "HOST",
+      "text": "And inflation is how fast that index grows?"
+    },
+    {
+      "start": 111.9,
+      "end": 130.0,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. Inflation is the change in the price level from one year to the next, as a share of the old level. If Islandia's index goes from 100 to 102, inflation is 2 percent. If the price level falls, inflation is negative. We call that deflation."
+    },
+    {
+      "start": 130.0,
+      "end": 138.0,
+      "speaker": "HOST",
+      "text": "Next leaf: the United States, 13.5 percent in 1980 and 8.0 percent in 2022."
+    },
+    {
+      "start": 138.0,
+      "end": 151.8,
+      "speaker": "ECONOMIST",
+      "text": "In the early 1960s, U.S. inflation was low. Then it climbed for about fifteen years, in what is called the Great Inflation. It peaked at 13.5 percent in 1980."
+    },
+    {
+      "start": 151.8,
+      "end": 152.8,
+      "speaker": "HOST",
+      "text": "And after that?"
+    },
+    {
+      "start": 152.8,
+      "end": 165.3,
+      "speaker": "ECONOMIST",
+      "text": "It fell fast. From the early 1990s, it stayed below 4 percent for almost three decades. Then the pandemic years brought it back, to 8.0 percent in 2022."
+    },
+    {
+      "start": 165.3,
+      "end": 171.4,
+      "speaker": "HOST",
+      "text": "Prices today are far higher than in 1980. So inflation today must be higher too, right?"
+    },
+    {
+      "start": 171.4,
+      "end": 191.2,
+      "speaker": "ECONOMIST",
+      "text": "A lot of students think that, but it mixes up a level and a growth rate. In 2025, U.S. prices were the highest ever, about 4 times their 1980 level. But inflation that year was below 3 percent. Inflation tells you how fast prices are rising, not how high they are."
+    },
+    {
+      "start": 191.2,
+      "end": 200.2,
+      "speaker": "HOST",
+      "text": "Next leaf: 27 cents in 1950 equals 3.28 dollars in 2022 dollars. That's a gallon of gasoline, right?"
+    },
+    {
+      "start": 200.2,
+      "end": 208.1,
+      "speaker": "ECONOMIST",
+      "text": "Yes, in the United States. In 2022, people paid about 3.50 dollars a gallon."
+    },
+    {
+      "start": 208.1,
+      "end": 220.1,
+      "speaker": "HOST",
+      "text": "I don't get the 2022 dollars part yet. 3.50 is more than ten times 27 cents. So gasoline must have been much cheaper back then. That's my guess."
+    },
+    {
+      "start": 220.1,
+      "end": 240.1,
+      "speaker": "ECONOMIST",
+      "text": "That's the natural guess, but it's wrong. A dollar back then bought much more than a dollar in 2022. A price counted in the dollars of its own year is called a nominal price. To compare two years, we count both prices in the dollars of the same year. Economists call that a real price."
+    },
+    {
+      "start": 240.1,
+      "end": 244.0,
+      "speaker": "HOST",
+      "text": "And how do we change old dollars into 2022 dollars?"
+    },
+    {
+      "start": 244.0,
+      "end": 252.6,
+      "speaker": "ECONOMIST",
+      "text": "With the price index, set to 100 in our base year, 2022. In 1950, it stood at about 8.2."
+    },
+    {
+      "start": 252.6,
+      "end": 256.1,
+      "speaker": "HOST",
+      "text": "So prices became about 12 times as high?"
+    },
+    {
+      "start": 256.1,
+      "end": 269.8,
+      "speaker": "ECONOMIST",
+      "text": "A bit more than 12. We divide the new index by the old one. Then we multiply the old price by the result: 27 cents times that is 3.28 dollars of 2022."
+    },
+    {
+      "start": 269.8,
+      "end": 276.9,
+      "speaker": "HOST",
+      "text": "Compared with the 3.50 people paid in 2022. So gasoline was only a little cheaper!"
+    },
+    {
+      "start": 276.9,
+      "end": 282.6,
+      "speaker": "ECONOMIST",
+      "text": "Right. The old price looks tiny mostly because the dollar has lost value."
+    },
+    {
+      "start": 282.6,
+      "end": 292.2,
+      "speaker": "HOST",
+      "text": "Last leaf of this part: 1994, when 31.1 percent of countries had inflation above 25 percent. What does that count?"
+    },
+    {
+      "start": 292.2,
+      "end": 312.6,
+      "speaker": "ECONOMIST",
+      "text": "For each year, we count the countries where prices went up more than 25 percent, as a share of all countries with data. The share was small in the 1960s, climbed sharply after that, and peaked in 1994 at 31.1 percent. That's almost one country in three."
+    },
+    {
+      "start": 312.6,
+      "end": 313.5,
+      "speaker": "HOST",
+      "text": "And today?"
+    },
+    {
+      "start": 313.5,
+      "end": 321.2,
+      "speaker": "ECONOMIST",
+      "text": "High inflation is rare. After the mid-1990s the share fell sharply, and by 2025 it was down to 3 percent."
+    },
+    {
+      "start": 321.2,
+      "end": 337.4,
+      "speaker": "HOST",
+      "text": "So in part one we saw that inflation measures how fast prices climb, not how high they are. Old prices only make sense in the same year's dollars. And around the world, high inflation was common from the 1970s to the mid-1990s."
+    },
+    {
+      "start": 337.4,
+      "end": 343.2,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. Next branch: where does inflation come from?"
+    },
+    {
+      "start": 343.2,
+      "end": 355.4,
+      "speaker": "HOST",
+      "text": "Part two of the map: Money and prices. The first leaf is an equation: money times velocity equals the price level times real GDP. What is velocity?"
+    },
+    {
+      "start": 355.4,
+      "end": 380.6,
+      "speaker": "ECONOMIST",
+      "text": "Back to Islandia. Islanders pay in dollars, with paper notes and from bank accounts. Only the Bank of Islandia, the island's central bank, may print the notes. Velocity is how many times a year each dollar is spent, on average. Suppose there are 100 dollars of money, and each dollar is spent twice a year. Then they pay for 200 dollars of goods."
+    },
+    {
+      "start": 380.6,
+      "end": 382.2,
+      "speaker": "HOST",
+      "text": "And real GDP?"
+    },
+    {
+      "start": 382.2,
+      "end": 407.2,
+      "speaker": "ECONOMIST",
+      "text": "GDP, gross domestic product, is everything a country produces in a year. Real GDP counts the goods themselves. The price level times real GDP gives nominal GDP, the spending on those goods in dollars. The leaf's whole equation is called the quantity equation. It says: the money, times how often it's spent, equals the spending."
+    },
+    {
+      "start": 407.2,
+      "end": 413.5,
+      "speaker": "HOST",
+      "text": "Next leaf: inflation equals money growth minus real GDP growth. How do we get there?"
+    },
+    {
+      "start": 413.5,
+      "end": 438.0,
+      "speaker": "ECONOMIST",
+      "text": "We add three assumptions, and the equation becomes the quantity theory of money. Real GDP is set by tools, workers and ideas, as in the growth chapters, not by money. Velocity stays constant, because payment habits change slowly. And the central bank chooses the amount of money. Now let's build Islandia's price level step by step."
+    },
+    {
+      "start": 438.0,
+      "end": 444.9,
+      "speaker": "HOST",
+      "text": "Okay. 100 dollars of money, each spent twice, means 200 dollars of spending."
+    },
+    {
+      "start": 444.9,
+      "end": 459.0,
+      "speaker": "ECONOMIST",
+      "text": "Right. Suppose Islanders make 200 units of goods a year. So 200 dollars buy 200 units, and each unit costs 1 dollar. That's the price level, here simply the price of one unit."
+    },
+    {
+      "start": 459.0,
+      "end": 465.1,
+      "speaker": "HOST",
+      "text": "Now the Bank prints 5 percent more money each year. So prices go up 5 percent a year?"
+    },
+    {
+      "start": 465.1,
+      "end": 479.0,
+      "speaker": "ECONOMIST",
+      "text": "That would be right if the island made the same amount of goods every year. But the goods grow too, 3 percent a year. Next year there are 105 dollars, each spent twice. That's 210 dollars of spending."
+    },
+    {
+      "start": 479.0,
+      "end": 481.4,
+      "speaker": "HOST",
+      "text": "And how many goods?"
+    },
+    {
+      "start": 481.4,
+      "end": 493.6,
+      "speaker": "ECONOMIST",
+      "text": "206 units. Divide the spending by the goods, and each unit costs about 1.02 dollars. So prices went up about 2 percent, not 5."
+    },
+    {
+      "start": 493.6,
+      "end": 500.6,
+      "speaker": "HOST",
+      "text": "So 5 percent more money, minus 3 percent more goods, gives 2 percent inflation."
+    },
+    {
+      "start": 500.6,
+      "end": 531.7,
+      "speaker": "ECONOMIST",
+      "text": "Exactly, and that's the leaf's equation. The gap between two percentages is counted in percentage points, or just points. Three of the five points of new money only pay for the extra goods. The other two have nothing new to buy, so they push prices up. And real GDP grows only a few percent a year, while money growth can be anything from 2 percent to thousands of percent. So large, lasting differences in inflation must come from money growth."
+    },
+    {
+      "start": 531.7,
+      "end": 541.0,
+      "speaker": "HOST",
+      "text": "Next leaf: double the money, double the prices, and real GDP is unchanged. Why wouldn't more money mean more goods?"
+    },
+    {
+      "start": 541.0,
+      "end": 573.4,
+      "speaker": "ECONOMIST",
+      "text": "Suppose the Bank of Islandia doubles the money once, from 100 to 200 dollars, and every price and every wage doubles. Then an hour of work still buys 10 loaves of bread. That's the real wage, what an hour of work buys. Relative prices, like bread compared with a book, don't change either. So nobody has a reason to work, buy or produce differently, and real GDP stays the same. With velocity unchanged too, the quantity equation says the price level doubles. Economists say money is neutral."
+    },
+    {
+      "start": 573.4,
+      "end": 579.6,
+      "speaker": "HOST",
+      "text": "But if the government printed money and handed it out, couldn't everyone buy more?"
+    },
+    {
+      "start": 579.6,
+      "end": 595.0,
+      "speaker": "ECONOMIST",
+      "text": "A lot of students think so, but no. One person who finds a hundred-dollar note is richer. A whole country with more dollars and the same amount of goods only pays higher prices. Only more goods make a country richer."
+    },
+    {
+      "start": 595.0,
+      "end": 598.8,
+      "speaker": "HOST",
+      "text": "And after the doubling, does inflation stay higher?"
+    },
+    {
+      "start": 598.8,
+      "end": 624.2,
+      "speaker": "ECONOMIST",
+      "text": "No. A one-time change in the amount of money moves the price level once. After that, inflation goes back to money growth minus real growth. Among changes in money, only a lasting change in its growth rate changes inflation. One limit: all this is the long run. In the short run, many prices adjust slowly, and money can move real GDP for a while."
+    },
+    {
+      "start": 624.2,
+      "end": 630.3,
+      "speaker": "HOST",
+      "text": "Next leaf: U.S. decades, about 4 points below the 45-degree line. What line is that?"
+    },
+    {
+      "start": 630.3,
+      "end": 649.9,
+      "speaker": "ECONOMIST",
+      "text": "Take each U.S. decade over about 150 years, and compare two averages: how fast money grew, and how fast prices went up. Put money growth along one side of a chart and inflation along the other. The 45-degree line marks where the two are equal."
+    },
+    {
+      "start": 649.9,
+      "end": 654.9,
+      "speaker": "HOST",
+      "text": "If money drives prices, I'd guess the decades sit right on that line."
+    },
+    {
+      "start": 654.9,
+      "end": 675.8,
+      "speaker": "ECONOMIST",
+      "text": "Close, but not quite. Fast-money decades, like the 1970s, did have high inflation, and in the slow-money 1920s and 1930s, prices fell. But on average, the decades sit about 4 points below the line. Below the line means inflation was lower than money growth."
+    },
+    {
+      "start": 675.8,
+      "end": 677.2,
+      "speaker": "HOST",
+      "text": "Why below it?"
+    },
+    {
+      "start": 677.2,
+      "end": 702.6,
+      "speaker": "ECONOMIST",
+      "text": "Think of Islandia. Money grew 5 percent and prices 2 percent, so Islandia sits 3 points below the line. Part of the new money pays for more goods. So the gap is mainly real GDP growth. The rest comes from velocity, which is not really constant. When each dollar is spent less often, the same money growth pushes prices up less."
+    },
+    {
+      "start": 702.6,
+      "end": 712.0,
+      "speaker": "HOST",
+      "text": "Last leaf of this part: 165 economies line up, with a correlation of 0.85. What's a correlation?"
+    },
+    {
+      "start": 712.0,
+      "end": 739.5,
+      "speaker": "ECONOMIST",
+      "text": "A number that measures how close points lie to a straight line. One means a perfect line, and zero means no link. Here, each economy is one point: its average money growth and inflation from 1990 to 2025. The correlation is 0.85. That's close to one, so the link is strong. In Brazil and Angola, money growth and inflation were both in the hundreds of percent a year."
+    },
+    {
+      "start": 739.5,
+      "end": 756.4,
+      "speaker": "HOST",
+      "text": "So in part two we saw that, in the long run, prices rise when money grows faster than the goods it buys. A one-time jump in money moves the price level once and changes nothing real. And U.S. decades and 165 economies agree."
+    },
+    {
+      "start": 756.4,
+      "end": 763.5,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Next branch: interest rates, and why governments let inflation happen."
+    },
+    {
+      "start": 763.5,
+      "end": 777.7,
+      "speaker": "HOST",
+      "text": "Part three of the map: Interest rates and deficits. The first leaf is another equation: the nominal interest rate equals the real interest rate plus inflation. Nominal and real again?"
+    },
+    {
+      "start": 777.7,
+      "end": 803.5,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Economists call it the Fisher equation. A nominal interest rate is paid in dollars. A real interest rate is paid in goods: how much more you can buy next year. A lender wants a reward for waiting, which is the real rate. And she wants to be paid back for what rising prices take away: next year, each dollar buys less fish. That part of the rate equals inflation."
+    },
+    {
+      "start": 803.5,
+      "end": 811.5,
+      "speaker": "HOST",
+      "text": "So on Islandia, if lenders want a real rate of 2 percent, and inflation is 2 percent, a loan must pay 4 percent."
+    },
+    {
+      "start": 811.5,
+      "end": 835.8,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. Put the other way, the real rate is the nominal rate minus inflation. That's how we measure it. In the long run, the real rate is set by how much one more machine adds to output, not by money. So one more point of money growth adds one point of inflation, and one point to the nominal rate. Nominal rates carry inflation with them."
+    },
+    {
+      "start": 835.8,
+      "end": 849.4,
+      "speaker": "HOST",
+      "text": "Next leaf: the U.S. real rate was negative in 23 of 66 years. I doubt the 1970s were among them. U.S. interest rates were high then, so savers must have done very well."
+    },
+    {
+      "start": 849.4,
+      "end": 868.5,
+      "speaker": "ECONOMIST",
+      "text": "That's the tempting answer, but it's wrong. Take the interest rate on loans to the U.S. government that last only three months. In the 1970s it was high, but inflation was even higher. So in the second half of the 1970s, the real rate was below zero, and savers lost buying power."
+    },
+    {
+      "start": 868.5,
+      "end": 870.2,
+      "speaker": "HOST",
+      "text": "And the other negative years?"
+    },
+    {
+      "start": 870.2,
+      "end": 891.4,
+      "speaker": "ECONOMIST",
+      "text": "Most years since 2008. In all, 23 of the 66 years since 1960. In the long run, the real rate should equal what one more machine adds to output, and that's not negative. So when the real rate stays below zero for many years, short-run forces are at work. Later chapters explain them."
+    },
+    {
+      "start": 891.4,
+      "end": 898.1,
+      "speaker": "HOST",
+      "text": "Next leaf: surprise inflation, lenders lose and borrowers gain. Why a surprise?"
+    },
+    {
+      "start": 898.1,
+      "end": 911.8,
+      "speaker": "ECONOMIST",
+      "text": "Back to Islandia. Harbor Boatworks, the island's boatyard, borrows from islanders to build a new workshop. Everyone expects 2 percent inflation, so they fix the interest rate at 4 percent."
+    },
+    {
+      "start": 911.8,
+      "end": 915.4,
+      "speaker": "HOST",
+      "text": "And then inflation turns out to be 8 percent instead."
+    },
+    {
+      "start": 915.4,
+      "end": 943.1,
+      "speaker": "ECONOMIST",
+      "text": "Then the lenders' real return is 4 minus 8, which is minus 4 percent. The boatyard repays with dollars that buy fewer fish than anyone planned. What the lenders lose, the boatyard gains. If everyone had expected that inflation, they would have set a higher rate, and nobody would lose. Only the surprise moves wealth: from lenders, savers and people on fixed pensions, to borrowers."
+    },
+    {
+      "start": 943.1,
+      "end": 951.3,
+      "speaker": "HOST",
+      "text": "Next leaf: government spending equals taxes, plus new borrowing, plus new money. Why is new money in a budget?"
+    },
+    {
+      "start": 951.3,
+      "end": 975.6,
+      "speaker": "ECONOMIST",
+      "text": "This is the government budget constraint, a rule every budget must obey. A government can pay for its spending in three ways: it can tax, it can borrow, or it can have the central bank print money for it. On Islandia, the Bank can print notes for the Islandia Treasury, the government's finance office. The revenue from new money is called seigniorage, or the inflation tax."
+    },
+    {
+      "start": 975.6,
+      "end": 978.1,
+      "speaker": "HOST",
+      "text": "A tax? Nobody gets a bill."
+    },
+    {
+      "start": 978.1,
+      "end": 995.5,
+      "speaker": "ECONOMIST",
+      "text": "No, but someone pays. If printing doubles the price level, 200 dollars of cash buy only what 100 dollars bought before. So people who hold cash pay. Owners of land or houses don't, because those prices go up with all the others."
+    },
+    {
+      "start": 995.5,
+      "end": 998.2,
+      "speaker": "HOST",
+      "text": "How much can a government raise this way?"
+    },
+    {
+      "start": 998.2,
+      "end": 1023.1,
+      "speaker": "ECONOMIST",
+      "text": "Here we count only cash, the notes the Bank prints. In part two, we counted notes and bank accounts together, and all that money was worth half a year of spending. Cash alone is worth only about one month of spending, about 8 percent of GDP. Now suppose lenders refuse to lend, and the Treasury must cover a deficit of 5 percent of GDP with new notes."
+    },
+    {
+      "start": 1023.1,
+      "end": 1025.8,
+      "speaker": "HOST",
+      "text": "So how fast must the Bank print?"
+    },
+    {
+      "start": 1025.8,
+      "end": 1041.7,
+      "speaker": "ECONOMIST",
+      "text": "The new notes must be worth 5 percent of GDP. As they come out, prices rise, so all the cash, new notes included, is still worth only about 8. So the new notes are about 60 percent of the cash at the end of the year."
+    },
+    {
+      "start": 1041.7,
+      "end": 1044.4,
+      "speaker": "HOST",
+      "text": "And the old notes only 40 percent?"
+    },
+    {
+      "start": 1044.4,
+      "end": 1057.2,
+      "speaker": "ECONOMIST",
+      "text": "Right. 100 divided by 40 is two and a half, so the stock of cash becomes two and a half times as large. That's money growth of 150 percent a year."
+    },
+    {
+      "start": 1057.2,
+      "end": 1064.5,
+      "speaker": "HOST",
+      "text": "And real GDP still grows 3 percent a year. So prices more than double every year?"
+    },
+    {
+      "start": 1064.5,
+      "end": 1073.8,
+      "speaker": "ECONOMIST",
+      "text": "Yes. By our rule, 150 minus 3 gives about 147 percent, and a rise of 100 percent already means prices double."
+    },
+    {
+      "start": 1073.8,
+      "end": 1082.0,
+      "speaker": "HOST",
+      "text": "Last leaf: Venezuela, 65,374 percent in 2018. Our opening story?"
+    },
+    {
+      "start": 1082.0,
+      "end": 1101.8,
+      "speaker": "ECONOMIST",
+      "text": "Yes. A rise of 100 percent means prices double. For 65,374 percent, divide by one hundred and add one for the starting price: prices end the year about 650 times as high. Inflation above about 500 percent a year is called a hyperinflation."
+    },
+    {
+      "start": 1101.8,
+      "end": 1103.9,
+      "speaker": "HOST",
+      "text": "Why would a government let that happen?"
+    },
+    {
+      "start": 1103.9,
+      "end": 1133.2,
+      "speaker": "ECONOMIST",
+      "text": "Venezuela's government depended on money from oil, and much of that money disappeared. It could not borrow abroad, so it printed money to pay its bills. The economist Milton Friedman said inflation always comes from money. The economist Thomas Sargent said lasting high inflation always comes from the government's budget. Both are right: a budget that has no other way to pay causes the money growth, and the money growth causes the inflation."
+    },
+    {
+      "start": 1133.2,
+      "end": 1135.9,
+      "speaker": "HOST",
+      "text": "How does a hyperinflation end?"
+    },
+    {
+      "start": 1135.9,
+      "end": 1158.1,
+      "speaker": "ECONOMIST",
+      "text": "Money growth must fall, and by the budget equation, that needs lower spending, higher taxes or new loans. Everyone who sets prices must also believe it will end. If sellers expect prices to keep jumping, they keep raising their own prices. Venezuela's hyperinflation is over, but inflation there was still 49 percent in 2024."
+    },
+    {
+      "start": 1158.1,
+      "end": 1162.4,
+      "speaker": "HOST",
+      "text": "Can a country protect itself before a crisis?"
+    },
+    {
+      "start": 1162.4,
+      "end": 1181.9,
+      "speaker": "ECONOMIST",
+      "text": "Many make the central bank independent. In the United States, the government cannot order the Federal Reserve, the central bank, to print money for its bills. But politicians still choose the head of the central bank. When a budget can't be balanced any other way, the pressure to print grows."
+    },
+    {
+      "start": 1181.9,
+      "end": 1196.4,
+      "speaker": "HOST",
+      "text": "So in part three we saw that inflation passes into nominal interest rates, and that surprise inflation moves wealth from lenders to borrowers. And very high inflation starts when a government pays its bills with new money."
+    },
+    {
+      "start": 1196.4,
+      "end": 1199.5,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. Let's sum up."
+    },
+    {
+      "start": 1199.5,
+      "end": 1204.8,
+      "speaker": "HOST",
+      "text": "Let's go back to our three goals. First, high prices versus high inflation."
+    },
+    {
+      "start": 1204.8,
+      "end": 1213.8,
+      "speaker": "ECONOMIST",
+      "text": "High prices are a level. Inflation is how fast that level grows. Prices can be the highest ever while inflation is low."
+    },
+    {
+      "start": 1213.8,
+      "end": 1221.9,
+      "speaker": "HOST",
+      "text": "Second, where inflation comes from. I'd say: in the long run, inflation equals money growth minus the growth of real GDP."
+    },
+    {
+      "start": 1221.9,
+      "end": 1237.0,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Money growth up to the growth of the goods only pays for the extra goods. Money growth beyond that pushes prices up. And printing money can't make a country richer, because prices and wages go up together and the goods stay the same."
+    },
+    {
+      "start": 1237.0,
+      "end": 1238.1,
+      "speaker": "HOST",
+      "text": "And third?"
+    },
+    {
+      "start": 1238.1,
+      "end": 1261.0,
+      "speaker": "ECONOMIST",
+      "text": "A government that cannot tax or borrow prints money, and prices rise. So here is the big message. In the long run, inflation is money growth beyond real growth. Nominal interest rates carry inflation with them. And very high inflation comes from governments that pay their bills by printing money."
+    },
+    {
+      "start": 1261.0,
+      "end": 1280.2,
+      "speaker": "HOST",
+      "text": "Here's a question to think about. In 2005, Turkey replaced its money, the lira. One new lira was worth one million old liras. Overnight, every price, wage and debt was divided by one million. Did this reform lower Turkish inflation? And why?"
+    },
+    {
+      "start": 1280.2,
+      "end": 1287.1,
+      "speaker": "ECONOMIST",
+      "text": "Pause the episode and think about it for a moment."
+    },
+    {
+      "start": 1287.1,
+      "end": 1289.4,
+      "speaker": "HOST",
+      "text": "Okay, we're back. What's the answer?"
+    },
+    {
+      "start": 1289.4,
+      "end": 1322.4,
+      "speaker": "ECONOMIST",
+      "text": "No, not by itself. The reform only changed the unit, like counting in dollars instead of cents. Every amount, in every year, was divided by the same one million. So the yearly growth of prices did not change, and neither did the real wage or the growth rate of money, which drives inflation. Turkish inflation stayed a bit above 8 percent, in the year before the reform and in the year of it. To lower inflation, money growth must slow, and that needs a budget that doesn't depend on new money."
+    },
+    {
+      "start": 1322.4,
+      "end": 1324.5,
+      "speaker": "HOST",
+      "text": "Where can students try all this themselves?"
+    },
+    {
+      "start": 1324.5,
+      "end": 1341.7,
+      "speaker": "ECONOMIST",
+      "text": "Open the chapter's Colab notebook to rebuild every number yourself. The Model Apps let you move real GDP growth and see the quantity theory's line across 165 economies. And the Data Apps show inflation, money and interest rates around the world."
+    },
+    {
+      "start": 1341.7,
+      "end": 1343.0,
+      "speaker": "HOST",
+      "text": "And next time?"
+    },
+    {
+      "start": 1343.0,
+      "end": 1361.8,
+      "speaker": "ECONOMIST",
+      "text": "In Chapter 9, we leave the long run. Prices and wages adjust slowly, so money is no longer neutral. We ask: why does output rise above and fall below its normal path, and what do good and bad years do to inflation and jobs?"
+    },
+    {
+      "start": 1361.8,
+      "end": 1365.3,
+      "speaker": "HOST",
+      "text": "That's it for today. Thanks for listening, and see you next time."
+    }
+  ]
+}

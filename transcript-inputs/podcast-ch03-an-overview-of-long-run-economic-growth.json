@@ -1,0 +1,795 @@
+{
+  "title": "An Overview of Long-Run Economic Growth",
+  "duration": 1322.2,
+  "sections": [
+    {
+      "title": "Opening",
+      "start": 0.0,
+      "segment": 0
+    },
+    {
+      "title": "The long-run facts",
+      "start": 106.0,
+      "segment": 8
+    },
+    {
+      "title": "The mathematics of growth",
+      "start": 346.1,
+      "segment": 30
+    },
+    {
+      "title": "Across countries & people",
+      "start": 774.9,
+      "segment": 70
+    },
+    {
+      "title": "Wrap-up",
+      "start": 1166.1,
+      "segment": 110
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 10.3,
+      "speaker": "HOST",
+      "text": "Welcome back. Today we are on long-run economic growth: how living standards rise over decades and centuries. Let's start with a guessing game."
+    },
+    {
+      "start": 10.3,
+      "end": 28.7,
+      "speaker": "ECONOMIST",
+      "text": "Okay. I'll describe a country, and you tell me which one it is. A baby born there can expect to live less than 50 years. 1 baby in 10 dies before its first birthday. More than 90 percent of homes have no electricity, no fridge, no phone and no car."
+    },
+    {
+      "start": 28.7,
+      "end": 32.8,
+      "speaker": "HOST",
+      "text": "That sounds like one of the poorest countries in the world today."
+    },
+    {
+      "start": 32.8,
+      "end": 45.5,
+      "speaker": "ECONOMIST",
+      "text": "Good guess, but no. It's the United States, more than a hundred years ago, around 1900. Growth changed that country completely. But many other countries did not have that growth."
+    },
+    {
+      "start": 45.5,
+      "end": 53.0,
+      "speaker": "HOST",
+      "text": "So here is today's question. Why are some countries so much richer than others, and how do we read growth from the data?"
+    },
+    {
+      "start": 53.0,
+      "end": 86.2,
+      "speaker": "ECONOMIST",
+      "text": "By the end of this episode, you'll be able to do three things. First, describe how recent lasting growth is, and explain how it opened huge gaps between countries. Second, use two simple tools. The Rule of 70 tells you how long an income takes to double. The growth rules split total growth into growth per person and population growth. Third, explain why growing a little faster each year, kept up for decades, separates rich countries from poor ones."
+    },
+    {
+      "start": 86.2,
+      "end": 89.2,
+      "speaker": "HOST",
+      "text": "And we'll follow the chapter's mind map part by part?"
+    },
+    {
+      "start": 89.2,
+      "end": 106.0,
+      "speaker": "ECONOMIST",
+      "text": "Yes. The map has three parts, or branches. Part one gives the long-run facts. Part two builds the mathematics of growth. Part three compares countries and people. Each part has a few leaves, small topics we take in order."
+    },
+    {
+      "start": 106.0,
+      "end": 117.3,
+      "speaker": "HOST",
+      "text": "Part one of the map: The long-run facts. The first leaf says sustained growth is recent. What do we measure, and what does sustained mean?"
+    },
+    {
+      "start": 117.3,
+      "end": 143.5,
+      "speaker": "ECONOMIST",
+      "text": "We measure living standards with GDP per person. GDP, or gross domestic product, is the value of all the final goods and services a country produces in a year. Final means bought by the people who use them, like bread, not the flour inside it. Divide GDP by the number of people, and you get average income per person. Sustained growth means that this income rises year after year, for a long time."
+    },
+    {
+      "start": 143.5,
+      "end": 152.1,
+      "speaker": "HOST",
+      "text": "Okay. Then over the last 2,000 years, my guess is that income per person grew slowly and steadily the whole time."
+    },
+    {
+      "start": 152.1,
+      "end": 171.1,
+      "speaker": "ECONOMIST",
+      "text": "That's what most people guess, but it's wrong. For almost all of history, income per person stayed close to the level where people can barely survive. Then, only in the last two or three centuries, it climbed very fast. People call this shape a hockey stick: a long flat handle, then a sharp turn upward at the end."
+    },
+    {
+      "start": 171.1,
+      "end": 176.6,
+      "speaker": "HOST",
+      "text": "So for most of history, people lived about as well as their great-grandparents."
+    },
+    {
+      "start": 176.6,
+      "end": 191.2,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. Our imaginary island country, Islandia, has the same story. For most of its history, income per person on the island barely changed. Then it began to rise a little every year, and it has kept rising ever since."
+    },
+    {
+      "start": 191.2,
+      "end": 193.9,
+      "speaker": "HOST",
+      "text": "How big is the rise in a real country?"
+    },
+    {
+      "start": 193.9,
+      "end": 202.6,
+      "speaker": "ECONOMIST",
+      "text": "Take the United Kingdom. In 2022, its income per person was 33 times its level in the year 1, about 2,000 years ago."
+    },
+    {
+      "start": 202.6,
+      "end": 205.3,
+      "speaker": "HOST",
+      "text": "And when did most of that rise happen?"
+    },
+    {
+      "start": 205.3,
+      "end": 224.8,
+      "speaker": "ECONOMIST",
+      "text": "Almost all of it came after 1800. Why it started then is still debated, and Chapter 6 comes back to it. But we know it did not start everywhere at once. It came first to the United Kingdom and the United States, later to Japan and Argentina, and to China only in recent decades. In Ghana, the rise has been much smaller."
+    },
+    {
+      "start": 224.8,
+      "end": 231.2,
+      "speaker": "HOST",
+      "text": "That brings us to the next leaf: the Great Divergence. Divergence means moving apart, right?"
+    },
+    {
+      "start": 231.2,
+      "end": 249.7,
+      "speaker": "ECONOMIST",
+      "text": "Right. Before 1700, the richest countries were probably at most 2 or 3 times as rich as the poorest. Then growth started at different times in different places. Each early starter kept growing, so small gaps became huge ones."
+    },
+    {
+      "start": 249.7,
+      "end": 250.8,
+      "speaker": "HOST",
+      "text": "How huge?"
+    },
+    {
+      "start": 250.8,
+      "end": 269.6,
+      "speaker": "ECONOMIST",
+      "text": "In 2022, income per person in Ghana was about one fourteenth of the U.S. level. In other words, the average American was about 14 times as rich as the average person in Ghana. This widening of the gaps is what economists call the Great Divergence."
+    },
+    {
+      "start": 269.6,
+      "end": 277.3,
+      "speaker": "HOST",
+      "text": "Next leaf: U.S. GDP per person since 1870. How much richer is an American today?"
+    },
+    {
+      "start": 277.3,
+      "end": 291.6,
+      "speaker": "ECONOMIST",
+      "text": "In 1870, GDP per person in the United States was 4,634 dollars a year. Both numbers I'll give you use the same prices, so they compare what people could really buy."
+    },
+    {
+      "start": 291.6,
+      "end": 293.7,
+      "speaker": "HOST",
+      "text": "And in 2022?"
+    },
+    {
+      "start": 293.7,
+      "end": 304.6,
+      "speaker": "ECONOMIST",
+      "text": "77,942 dollars. That's almost 17 times as much. And over time, the yearly rise in dollars kept getting bigger."
+    },
+    {
+      "start": 304.6,
+      "end": 307.4,
+      "speaker": "HOST",
+      "text": "So U.S. growth has been speeding up."
+    },
+    {
+      "start": 307.4,
+      "end": 321.0,
+      "speaker": "ECONOMIST",
+      "text": "A lot of students think that, but not really. The percentage rise stays roughly the same, around 2 percent a year. 2 percent of a large income is simply more dollars than 2 percent of a small income."
+    },
+    {
+      "start": 321.0,
+      "end": 337.6,
+      "speaker": "HOST",
+      "text": "So in part one we saw that lasting growth is new in history. It began at different times in different places, and that turned small gaps into huge ones. And in the U.S., a steady rate of about 2 percent a year made income almost 17 times as large since 1870."
+    },
+    {
+      "start": 337.6,
+      "end": 346.1,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Next branch: the mathematics that turns a small rate into such a big change."
+    },
+    {
+      "start": 346.1,
+      "end": 358.4,
+      "speaker": "HOST",
+      "text": "Part two of the map: The mathematics of growth. The first leaf is the constant growth rule, the equation for steady growth. Let's start simple. What is a growth rate?"
+    },
+    {
+      "start": 358.4,
+      "end": 373.7,
+      "speaker": "ECONOMIST",
+      "text": "A growth rate is a percentage change: how much something changed in a year, divided by where it started. Let's go back to Islandia. Today each islander earns 6 units of the goods the island makes, and income grows by 2 percent a year."
+    },
+    {
+      "start": 373.7,
+      "end": 376.0,
+      "speaker": "HOST",
+      "text": "So what happens in the first year?"
+    },
+    {
+      "start": 376.0,
+      "end": 383.7,
+      "speaker": "ECONOMIST",
+      "text": "Income gains 2 percent of 6, which is 0.12. So after one year, income is 6.12."
+    },
+    {
+      "start": 383.7,
+      "end": 385.3,
+      "speaker": "HOST",
+      "text": "And the year after?"
+    },
+    {
+      "start": 385.3,
+      "end": 400.6,
+      "speaker": "ECONOMIST",
+      "text": "Again 2 percent, but now of 6.12, so the gain is a little bigger. Each year, you multiply income by 1.02, which is one plus the growth rate. Do that once for each year, and you have the constant growth rule."
+    },
+    {
+      "start": 400.6,
+      "end": 413.9,
+      "speaker": "HOST",
+      "text": "Let me guess where Islandia is after a century. The gain grows only a tiny bit each year, so let's say 0.12 a year. A century adds about 12. My guess is 18."
+    },
+    {
+      "start": 413.9,
+      "end": 437.4,
+      "speaker": "ECONOMIST",
+      "text": "That's the natural guess, but it's far too low. 18 is what you get if every year adds the same amount. With a constant growth rate, each year's gain is taken of a bigger income, because last year's gain is now part of it. Economists call this compounding. After 100 years, Islandia's income is 43.5 units."
+    },
+    {
+      "start": 437.4,
+      "end": 441.8,
+      "speaker": "HOST",
+      "text": "43.5! That's more than seven times where it started."
+    },
+    {
+      "start": 441.8,
+      "end": 466.0,
+      "speaker": "ECONOMIST",
+      "text": "Right. On an ordinary chart, that path bends upward more and more steeply. Next leaf: the ratio scale, another way to draw growth. On an ordinary chart, each equal step up adds the same amount: one, two, three, four. On a ratio scale, each equal step multiplies by the same amount: one, two, four, eight."
+    },
+    {
+      "start": 466.0,
+      "end": 471.4,
+      "speaker": "HOST",
+      "text": "So on a ratio scale, Islandia's income still curves upward?"
+    },
+    {
+      "start": 471.4,
+      "end": 485.0,
+      "speaker": "ECONOMIST",
+      "text": "No, it becomes a straight line. Under steady growth, income doubles again and again, at regular intervals. So it climbs one equal step in each interval. And a steeper line means faster growth."
+    },
+    {
+      "start": 485.0,
+      "end": 490.1,
+      "speaker": "HOST",
+      "text": "And how long is each interval? Is that the next leaf, the Rule of 70?"
+    },
+    {
+      "start": 490.1,
+      "end": 500.6,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Divide 70 by the growth rate, in percent. For Islandia, 70 divided by 2 gives 35 years. That's how long its income takes to double."
+    },
+    {
+      "start": 500.6,
+      "end": 504.2,
+      "speaker": "HOST",
+      "text": "Why 70, and not some other number?"
+    },
+    {
+      "start": 504.2,
+      "end": 518.8,
+      "speaker": "ECONOMIST",
+      "text": "At 1 percent a year, doubling takes almost exactly 70 years. Without compounding, it would take 100 years, but each year's gain also grows. If you grow twice as fast, doubling takes half as long."
+    },
+    {
+      "start": 518.8,
+      "end": 525.4,
+      "speaker": "HOST",
+      "text": "Next leaf: the U.S. since 1870, about 2 percent a year. What does that mean?"
+    },
+    {
+      "start": 525.4,
+      "end": 538.9,
+      "speaker": "ECONOMIST",
+      "text": "Something remarkable. On a ratio scale, U.S. income since 1870 stays close to a straight line, with growth of about 2 percent a year, for more than 150 years."
+    },
+    {
+      "start": 538.9,
+      "end": 544.5,
+      "speaker": "HOST",
+      "text": "Even through wars and the Great Depression, the deep economic crisis of the early 1930s?"
+    },
+    {
+      "start": 544.5,
+      "end": 567.1,
+      "speaker": "ECONOMIST",
+      "text": "Yes. The Great Depression and World War Two cause large swings, but the path comes back close to the same line. Look closely, and growth was a little slower before 1929 and a little faster in the decades after 1950. The exact average since 1870 is 1.88 percent a year."
+    },
+    {
+      "start": 567.1,
+      "end": 574.9,
+      "speaker": "HOST",
+      "text": "Still on this leaf: where does an exact number like 1.88 come from, when the data go up and down?"
+    },
+    {
+      "start": 574.9,
+      "end": 601.5,
+      "speaker": "ECONOMIST",
+      "text": "From the average growth rate. You use only the first value and the last value. You ask: what one steady yearly rate would take you from the first to the last in the same number of years? You can't just divide the total rise by the number of years, because growth compounds. Take Islandia's century. Its income went from 6 to 43.5, so it became about 7.2 times as large."
+    },
+    {
+      "start": 601.5,
+      "end": 602.5,
+      "speaker": "HOST",
+      "text": "And then?"
+    },
+    {
+      "start": 602.5,
+      "end": 617.3,
+      "speaker": "ECONOMIST",
+      "text": "Then ask: what number, multiplied by itself 100 times, gives 7.2? The answer is 1.02. Take away the one that stands for the starting income, and 2 percent a year is left."
+    },
+    {
+      "start": 617.3,
+      "end": 631.6,
+      "speaker": "HOST",
+      "text": "Islandia has good years and bad years too. Say, just for this example, a good year raises income by 20 percent, and then a bad year cuts it by 20 percent. On average that's zero, so islanders are back where they started."
+    },
+    {
+      "start": 631.6,
+      "end": 638.6,
+      "speaker": "ECONOMIST",
+      "text": "Let's test it with simple numbers. Start at 100. A 20 percent rise takes you to 120."
+    },
+    {
+      "start": 638.6,
+      "end": 641.6,
+      "speaker": "HOST",
+      "text": "And the 20 percent fall takes me back to 100."
+    },
+    {
+      "start": 641.6,
+      "end": 652.2,
+      "speaker": "ECONOMIST",
+      "text": "That's a common mistake. The fall hits a bigger income than the rise did. 20 percent of 120 is 24, so you end at 96."
+    },
+    {
+      "start": 652.2,
+      "end": 658.1,
+      "speaker": "HOST",
+      "text": "So islanders end 4 percent poorer. What's the average growth rate, then?"
+    },
+    {
+      "start": 658.1,
+      "end": 668.4,
+      "speaker": "ECONOMIST",
+      "text": "Use the same method. It gives about minus 2 percent a year, not zero. A 2 percent fall, two years in a row, also takes 100 to about 96."
+    },
+    {
+      "start": 668.4,
+      "end": 672.8,
+      "speaker": "HOST",
+      "text": "Last leaf of this part: growth rules. What are they?"
+    },
+    {
+      "start": 672.8,
+      "end": 694.8,
+      "speaker": "ECONOMIST",
+      "text": "When you multiply two things, their growth rates add. When you divide one thing by another, their growth rates subtract. Total GDP is GDP per person times the number of people. It grows for two reasons at once: each person produces more, and there are more people. So total GDP grows at about the sum of those two growth rates."
+    },
+    {
+      "start": 694.8,
+      "end": 696.4,
+      "speaker": "HOST",
+      "text": "Can we check it with the U.S.?"
+    },
+    {
+      "start": 696.4,
+      "end": 705.6,
+      "speaker": "ECONOMIST",
+      "text": "Since 1870, U.S. GDP per person grew 1.88 percent a year. The population grew 1.39 percent a year."
+    },
+    {
+      "start": 705.6,
+      "end": 710.5,
+      "speaker": "HOST",
+      "text": "So total GDP grew about 3.3 percent a year, the sum."
+    },
+    {
+      "start": 710.5,
+      "end": 721.5,
+      "speaker": "ECONOMIST",
+      "text": "Very close. The data say 3.29 percent a year. The rule is not exact, because each year's growth compounds a little, but for small rates the gap is tiny."
+    },
+    {
+      "start": 721.5,
+      "end": 723.5,
+      "speaker": "HOST",
+      "text": "And the rule for dividing?"
+    },
+    {
+      "start": 723.5,
+      "end": 748.4,
+      "speaker": "ECONOMIST",
+      "text": "Income per person is total GDP divided by the number of people. So its growth rate is GDP growth minus population growth. Take Niger, one of the poorest countries in the world. Since 1950, its GDP grew 2.9 percent a year, but its population grew 2.8 percent a year. So income per person barely changed, even though GDP grew fast."
+    },
+    {
+      "start": 748.4,
+      "end": 767.5,
+      "speaker": "HOST",
+      "text": "So in part two we built a toolkit for reading growth. Steady growth compounds, and 70 divided by the growth rate gives the doubling time. On a ratio scale, it's a straight line, like U.S. income at about 2 percent a year. The first and last values give the average rate. And growth rates add when we multiply and subtract when we divide."
+    },
+    {
+      "start": 767.5,
+      "end": 774.9,
+      "speaker": "ECONOMIST",
+      "text": "Right. Next branch: what these tools show when countries grow at different rates."
+    },
+    {
+      "start": 774.9,
+      "end": 782.2,
+      "speaker": "HOST",
+      "text": "Part three of the map: Across countries and people. The first leaf is catch-up. What does that mean?"
+    },
+    {
+      "start": 782.2,
+      "end": 800.9,
+      "speaker": "ECONOMIST",
+      "text": "Catch-up means a poorer country grows faster than a richer one, so it closes part of the gap. Economists also call it convergence. South Korea is a famous example. In 1950, its income per person was only 7 percent of the U.S. level."
+    },
+    {
+      "start": 800.9,
+      "end": 801.9,
+      "speaker": "HOST",
+      "text": "And by now?"
+    },
+    {
+      "start": 801.9,
+      "end": 813.7,
+      "speaker": "ECONOMIST",
+      "text": "By 2022, it was 71 percent. Korea grew so much faster than the United States that it closed most of the gap. Japan did something similar after World War Two."
+    },
+    {
+      "start": 813.7,
+      "end": 819.4,
+      "speaker": "HOST",
+      "text": "So poor countries naturally grow faster. Give them time, and they all catch up."
+    },
+    {
+      "start": 819.4,
+      "end": 837.9,
+      "speaker": "ECONOMIST",
+      "text": "Look at Argentina. It grew well until about 1980, then slowly, and it fell behind. So no: catch-up happens, but not automatically, and not everywhere. And since 1960, poor countries as a group did not grow faster than rich ones on average."
+    },
+    {
+      "start": 837.9,
+      "end": 841.0,
+      "speaker": "HOST",
+      "text": "Did some countries actually get poorer?"
+    },
+    {
+      "start": 841.0,
+      "end": 851.4,
+      "speaker": "ECONOMIST",
+      "text": "Yes, a few, like the Democratic Republic of the Congo. But since 2000, many poor countries have grown as fast as rich ones, or faster."
+    },
+    {
+      "start": 851.4,
+      "end": 858.4,
+      "speaker": "HOST",
+      "text": "Next leaf: Singapore, and how small gaps in growth compound. What counts as a small gap here?"
+    },
+    {
+      "start": 858.4,
+      "end": 867.6,
+      "speaker": "ECONOMIST",
+      "text": "Here the gap is a difference in growth rates, not in income. Since 1960, most countries grew between 1 and 3 percent a year."
+    },
+    {
+      "start": 867.6,
+      "end": 871.7,
+      "speaker": "HOST",
+      "text": "Can such small differences really matter that much?"
+    },
+    {
+      "start": 871.7,
+      "end": 891.8,
+      "speaker": "ECONOMIST",
+      "text": "Over decades, they can. Look at Singapore. It grew 5.9 percent a year, several percentage points faster than most countries. A percentage point is the step from 2 percent a year to 3 percent a year. Singapore's income became about 36 times as large."
+    },
+    {
+      "start": 891.8,
+      "end": 896.9,
+      "speaker": "HOST",
+      "text": "36 times! How does 5.9 percent turn into that?"
+    },
+    {
+      "start": 896.9,
+      "end": 905.8,
+      "speaker": "ECONOMIST",
+      "text": "Let's build that number step by step. First, the doubling time. 70 divided by 5.9 is about 12."
+    },
+    {
+      "start": 905.8,
+      "end": 911.4,
+      "speaker": "HOST",
+      "text": "So Singapore's income doubled about every 12 years. How many doublings is that?"
+    },
+    {
+      "start": 911.4,
+      "end": 922.2,
+      "speaker": "ECONOMIST",
+      "text": "The data cover 63 years. Five doublings take five times 12 years, which is 60 years. So there's time for a bit more than five doublings."
+    },
+    {
+      "start": 922.2,
+      "end": 925.0,
+      "speaker": "HOST",
+      "text": "And what do five doublings give?"
+    },
+    {
+      "start": 925.0,
+      "end": 933.9,
+      "speaker": "ECONOMIST",
+      "text": "Each doubling multiplies income by 2. After two doublings, income is 4 times as large. After three, 8 times."
+    },
+    {
+      "start": 933.9,
+      "end": 938.8,
+      "speaker": "HOST",
+      "text": "Then 16 times after four doublings, and 32 times after five."
+    },
+    {
+      "start": 938.8,
+      "end": 961.0,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. The few extra years add a little more. The exact figure in the data is 36 times, so the shortcut gets us close. In Singapore, young adults today are many times richer than their grandparents were at the same age. In Madagascar, people are slightly poorer. That's the difference that a few percentage points of growth a year can make."
+    },
+    {
+      "start": 961.0,
+      "end": 968.7,
+      "speaker": "HOST",
+      "text": "Next leaf: counting people, and the share below the poverty line. Haven't we been counting people all along?"
+    },
+    {
+      "start": 968.7,
+      "end": 992.3,
+      "speaker": "ECONOMIST",
+      "text": "Not quite. So far, each country counted once. China, with more than a billion people, counted the same as a tiny country. Now every person counts equally. We draw a very low poverty line: an average income of about 3,400 dollars a year per person. Then we ask what share of the world's people live in countries below it."
+    },
+    {
+      "start": 992.3,
+      "end": 998.1,
+      "speaker": "HOST",
+      "text": "Poverty is always in the news. So my guess is that the share of poor people has barely fallen."
+    },
+    {
+      "start": 998.1,
+      "end": 1006.4,
+      "speaker": "ECONOMIST",
+      "text": "The data show the opposite. In 1960, 69 percent of the world's people lived below that line."
+    },
+    {
+      "start": 1006.4,
+      "end": 1008.9,
+      "speaker": "HOST",
+      "text": "And in 2019?"
+    },
+    {
+      "start": 1008.9,
+      "end": 1026.3,
+      "speaker": "ECONOMIST",
+      "text": "Only 8.5 percent. The fall was slow until about 1990, and very fast after that. That's mostly China and India. Together they are home to more than a third of the world's people, and their fast growth moved hundreds of millions above the line."
+    },
+    {
+      "start": 1026.3,
+      "end": 1029.0,
+      "speaker": "HOST",
+      "text": "Is there a problem with this way of counting?"
+    },
+    {
+      "start": 1029.0,
+      "end": 1044.2,
+      "speaker": "ECONOMIST",
+      "text": "One caution. It uses each country's average income, so it ignores inequality inside countries. Surveys of households tell the same broad story, though: a large fall in poverty since 1990."
+    },
+    {
+      "start": 1044.2,
+      "end": 1049.2,
+      "speaker": "HOST",
+      "text": "Last leaf: can policy start growth, and at what cost?"
+    },
+    {
+      "start": 1049.2,
+      "end": 1061.0,
+      "speaker": "ECONOMIST",
+      "text": "The economist Robert Lucas asked a famous question about India. Is there something its government could do to make India grow like the fastest growers? If so, what exactly?"
+    },
+    {
+      "start": 1061.0,
+      "end": 1063.5,
+      "speaker": "HOST",
+      "text": "So what does the evidence say?"
+    },
+    {
+      "start": 1063.5,
+      "end": 1072.1,
+      "speaker": "ECONOMIST",
+      "text": "Growth take-offs, when growth speeds up by at least two percentage points for eight years or more, are common. Keeping them going for decades is rare."
+    },
+    {
+      "start": 1072.1,
+      "end": 1074.9,
+      "speaker": "HOST",
+      "text": "So what did the fast growers do?"
+    },
+    {
+      "start": 1074.9,
+      "end": 1096.6,
+      "speaker": "ECONOMIST",
+      "text": "They usually invested a lot, opened up to trade and kept their economies stable. Rules that protect property and contracts, what economists call institutions, matter in the long run. But the question is still debated. Most take-offs follow no clear change in policy, so luck plays a role. And what works in one country often fails in another."
+    },
+    {
+      "start": 1096.6,
+      "end": 1101.8,
+      "speaker": "HOST",
+      "text": "And the cost? More growth means more pollution, doesn't it?"
+    },
+    {
+      "start": 1101.8,
+      "end": 1122.7,
+      "speaker": "ECONOMIST",
+      "text": "Growth does have costs: pollution, using up natural resources, and climate change. Local pollution often gets worse early in development and then better as incomes rise. London's smog, a thick fog of smoke, was deadly for many decades. Today London's air is far cleaner."
+    },
+    {
+      "start": 1122.7,
+      "end": 1126.6,
+      "speaker": "HOST",
+      "text": "So pollution goes away by itself as countries get richer?"
+    },
+    {
+      "start": 1126.6,
+      "end": 1146.9,
+      "speaker": "ECONOMIST",
+      "text": "Not by itself. The cleaner air came from rules and regulation. And the gases that warm the planet harm everyone, not only the country that produces them. Still, most economists who study these costs think the benefits of growth are larger. In the poorest countries, the main problem is too little growth, not too much."
+    },
+    {
+      "start": 1146.9,
+      "end": 1163.4,
+      "speaker": "HOST",
+      "text": "So in part three we saw that a few extra percentage points of growth, kept up for decades, made South Korea and Singapore rich, while others fell behind. Counting people, poverty fell sharply. And policy can help, but no one has a plan that works everywhere."
+    },
+    {
+      "start": 1163.4,
+      "end": 1166.1,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Let's sum up."
+    },
+    {
+      "start": 1166.1,
+      "end": 1173.9,
+      "speaker": "HOST",
+      "text": "Let's go back to our three goals. First, how new is lasting growth, and why are the gaps so big?"
+    },
+    {
+      "start": 1173.9,
+      "end": 1191.0,
+      "speaker": "ECONOMIST",
+      "text": "Lasting growth began only two or three centuries ago. It started at different times in different places, and the early starters kept growing. So gaps of 2 or 3 times became gaps like the 14 times between the United States and Ghana."
+    },
+    {
+      "start": 1191.0,
+      "end": 1203.0,
+      "speaker": "HOST",
+      "text": "Second, the tools. An income that grows 2 percent a year doubles in about 35 years, by the Rule of 70. And total growth is growth per person plus population growth."
+    },
+    {
+      "start": 1203.0,
+      "end": 1209.2,
+      "speaker": "ECONOMIST",
+      "text": "Yes. So when GDP grows only as fast as the population, people get no richer."
+    },
+    {
+      "start": 1209.2,
+      "end": 1211.8,
+      "speaker": "HOST",
+      "text": "Third, rich versus poor."
+    },
+    {
+      "start": 1211.8,
+      "end": 1236.1,
+      "speaker": "ECONOMIST",
+      "text": "South Korea and Singapore grew a few percentage points faster than most countries, for decades, and that made them rich. So here is the big message. Lasting growth is new in history, and it spread unevenly. And it compounds, so a few percentage points of growth a year, kept up for decades, is what separates rich countries from poor ones."
+    },
+    {
+      "start": 1236.1,
+      "end": 1252.3,
+      "speaker": "HOST",
+      "text": "Here's a question to think about. A neighboring island is half as rich as Islandia today. Islandia keeps growing at 2 percent a year, and the neighbor grows at 3 percent a year. About how long until the neighbor catches up, and why?"
+    },
+    {
+      "start": 1252.3,
+      "end": 1260.3,
+      "speaker": "ECONOMIST",
+      "text": "Pause the episode and think about it for a moment."
+    },
+    {
+      "start": 1260.3,
+      "end": 1263.2,
+      "speaker": "HOST",
+      "text": "Okay, we're back. What's the answer?"
+    },
+    {
+      "start": 1263.2,
+      "end": 1273.3,
+      "speaker": "ECONOMIST",
+      "text": "About 70 years. Use the rule for dividing. The neighbor's income divided by Islandia's grows at 3 minus 2, so at 1 percent a year."
+    },
+    {
+      "start": 1273.3,
+      "end": 1279.1,
+      "speaker": "HOST",
+      "text": "And the neighbor catches up when that ratio has doubled, from one half to one."
+    },
+    {
+      "start": 1279.1,
+      "end": 1291.0,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. At 1 percent a year, doubling takes about 70 years. That's two or three generations. And if both islands grew at the same rate, the neighbor would never catch up."
+    },
+    {
+      "start": 1291.0,
+      "end": 1293.4,
+      "speaker": "HOST",
+      "text": "Where can students try all this themselves?"
+    },
+    {
+      "start": 1293.4,
+      "end": 1306.7,
+      "speaker": "ECONOMIST",
+      "text": "Open the chapter's Colab notebook to rebuild every number from the data. The Model Apps let you move a growth-rate slider and watch the doubling time change, with no code. The Data Apps let you add any country to the charts."
+    },
+    {
+      "start": 1306.7,
+      "end": 1308.2,
+      "speaker": "HOST",
+      "text": "And next time?"
+    },
+    {
+      "start": 1308.2,
+      "end": 1319.0,
+      "speaker": "ECONOMIST",
+      "text": "In Chapter 4, we build a first model to explain these gaps. We ask: why are some countries so much richer than others: more machines, or better use of them?"
+    },
+    {
+      "start": 1319.0,
+      "end": 1322.2,
+      "speaker": "HOST",
+      "text": "That's it for today. Thanks for listening, and see you next time."
+    }
+  ]
+}

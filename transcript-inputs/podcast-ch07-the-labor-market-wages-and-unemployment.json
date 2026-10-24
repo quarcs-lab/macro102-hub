@@ -1,0 +1,747 @@
+{
+  "title": "The Labor Market, Wages, and Unemployment",
+  "duration": 1327.2,
+  "sections": [
+    {
+      "title": "Opening",
+      "start": 0.0,
+      "segment": 0
+    },
+    {
+      "title": "Who works, and at what wage",
+      "start": 87.4,
+      "segment": 6
+    },
+    {
+      "title": "Unemployment",
+      "start": 469.1,
+      "segment": 38
+    },
+    {
+      "title": "Wages, skills and inequality",
+      "start": 836.6,
+      "segment": 72
+    },
+    {
+      "title": "Wrap-up",
+      "start": 1172.1,
+      "segment": 104
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 13.8,
+      "speaker": "HOST",
+      "text": "Welcome back. Today we are on the labor market: who has a job, what it pays, and who is left without one. In February 2020, the U.S. unemployment rate was 3.5 percent. What do you think it was two months later?"
+    },
+    {
+      "start": 13.8,
+      "end": 26.9,
+      "speaker": "ECONOMIST",
+      "text": "In April 2020, it was 14.8 percent. The Covid pandemic had hit, and lockdowns had begun. About one in seven people who were working or looking for work had no job."
+    },
+    {
+      "start": 26.9,
+      "end": 38.0,
+      "speaker": "HOST",
+      "text": "One in seven. And most people live on what they earn from work. So here is today's question. Who works, why can't everyone find a job, and why do some earn more?"
+    },
+    {
+      "start": 38.0,
+      "end": 69.2,
+      "speaker": "ECONOMIST",
+      "text": "By the end of this episode, you'll be able to do three things. First, explain with supply and demand why a tax on wages costs jobs, and why a wage that cannot fall turns a drop in demand into unemployment. Second, compute the natural rate of unemployment, its normal level, from two monthly rates: how many workers lose a job, and how many jobless people find one. Third, explain why the extra pay of college graduates went up, even though there are many more of them."
+    },
+    {
+      "start": 69.2,
+      "end": 72.6,
+      "speaker": "HOST",
+      "text": "And we'll follow the chapter's mind map part by part?"
+    },
+    {
+      "start": 72.6,
+      "end": 87.4,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Part one: who works, and at what wage. Part two: unemployment. Part three: wages, skills and inequality. Each part has four or five leaves, small topics we take in order."
+    },
+    {
+      "start": 87.4,
+      "end": 106.4,
+      "speaker": "HOST",
+      "text": "Part one of the map: who works, and at what wage. The first leaf is about women at work. Their ratio went from 35.5 percent in 1960 to a peak of 58 percent in 2000, while men's ratio fell. Ratio of what?"
+    },
+    {
+      "start": 106.4,
+      "end": 111.3,
+      "speaker": "ECONOMIST",
+      "text": "The employment-population ratio: the share of adults who have a paid job."
+    },
+    {
+      "start": 111.3,
+      "end": 113.9,
+      "speaker": "HOST",
+      "text": "So women took the jobs that men lost?"
+    },
+    {
+      "start": 113.9,
+      "end": 135.2,
+      "speaker": "ECONOMIST",
+      "text": "Many people believe that, but no. If jobs were a fixed number, more women at work would mean fewer jobs for others. Instead, the share of all adults with a job went up, from about 56 percent in 1960 to almost 65 percent in 2000. New workers also produce and spend, so firms hire more."
+    },
+    {
+      "start": 135.2,
+      "end": 139.4,
+      "speaker": "HOST",
+      "text": "Next leaf: the equation that links three statistics. Which three?"
+    },
+    {
+      "start": 139.4,
+      "end": 157.1,
+      "speaker": "ECONOMIST",
+      "text": "Start with three groups of adults: those with a job, the unemployed, and everyone else. Unemployed means you have no job, you looked for one in the last four weeks, and you could start now. The first two groups together, people who work or look for work, are the labor force."
+    },
+    {
+      "start": 157.1,
+      "end": 159.7,
+      "speaker": "HOST",
+      "text": "And the three statistics?"
+    },
+    {
+      "start": 159.7,
+      "end": 194.8,
+      "speaker": "ECONOMIST",
+      "text": "One, the unemployment rate: the share of the labor force without a job. Two, the participation rate: the share of adults in the labor force. Three, the employment-population ratio. Take 100 percent minus the unemployment rate: that's the share of the labor force with a job. Multiply it by the participation rate, and you get the employment-population ratio. Let's try it on Islandia, a small imaginary island country. It has 100 adults. 59 have a job, and 3 are looking for one."
+    },
+    {
+      "start": 194.8,
+      "end": 201.2,
+      "speaker": "HOST",
+      "text": "So 62 of the 100 adults are in the labor force. The participation rate is 62 percent."
+    },
+    {
+      "start": 201.2,
+      "end": 211.8,
+      "speaker": "ECONOMIST",
+      "text": "Right. And 3 of those 62 are jobless, an unemployment rate of almost 5 percent. So about 95 percent of the labor force has a job."
+    },
+    {
+      "start": 211.8,
+      "end": 218.3,
+      "speaker": "HOST",
+      "text": "So the equation says: 95 percent times 62 percent."
+    },
+    {
+      "start": 218.3,
+      "end": 225.6,
+      "speaker": "ECONOMIST",
+      "text": "That's 59 percent, the employment-population ratio. And indeed, 59 of the 100 adults work."
+    },
+    {
+      "start": 225.6,
+      "end": 237.7,
+      "speaker": "HOST",
+      "text": "Now one of the 3 jobless islanders gives up and stops looking. Unemployment falls to 2 out of 61, about 3.3 percent. That's good news, right?"
+    },
+    {
+      "start": 237.7,
+      "end": 254.7,
+      "speaker": "ECONOMIST",
+      "text": "Many students would say yes, but nobody found a job. The islander just left the labor force. 59 islanders still work, so the employment-population ratio has not moved. That's why we read the unemployment rate together with the share of adults who work."
+    },
+    {
+      "start": 254.7,
+      "end": 264.2,
+      "speaker": "HOST",
+      "text": "Next leaf: a 25 percent tax, and employment falling from 45 to 37.1. Employment of 45 what?"
+    },
+    {
+      "start": 264.2,
+      "end": 291.2,
+      "speaker": "ECONOMIST",
+      "text": "45 workers, in a new example with made-up numbers, separate from the 100 adults we just counted. Demand is how many workers firms want at each wage. On Islandia, it comes from Harbor Boatworks, which builds and repairs boats. It hires as long as one more worker adds at least as much output as she costs. Each extra worker shares the same tools and adds less, so the firm offers less and less."
+    },
+    {
+      "start": 291.2,
+      "end": 294.1,
+      "speaker": "HOST",
+      "text": "And supply comes from the islanders."
+    },
+    {
+      "start": 294.1,
+      "end": 318.9,
+      "speaker": "ECONOMIST",
+      "text": "Yes: how many islanders want to work at each wage. An hour on the beach costs the wage you could have earned, so a higher wage draws more islanders into work. In the example, the firm would pay 100 for its first worker, and its offer falls by 1 with each hire. The first islander is willing to work for a wage of 10, and each extra islander asks for 1 more."
+    },
+    {
+      "start": 318.9,
+      "end": 321.2,
+      "speaker": "HOST",
+      "text": "So where do the two sides meet?"
+    },
+    {
+      "start": 321.2,
+      "end": 331.2,
+      "speaker": "ECONOMIST",
+      "text": "At 45 workers. By then, the firm's offer has fallen to 55, and the pay the next islander asks has climbed to 55 too. So the wage is 55."
+    },
+    {
+      "start": 331.2,
+      "end": 344.5,
+      "speaker": "HOST",
+      "text": "Now the Islandia Treasury, the government's tax office, takes 25 percent of every wage. My guess: the workers pay all of it. The firm still pays 55, and islanders keep less."
+    },
+    {
+      "start": 344.5,
+      "end": 362.9,
+      "speaker": "ECONOMIST",
+      "text": "No, because people react. At a wage of 55, an islander now keeps only about 41. Fewer islanders want to work for that, so the firm can't fill its jobs at 55 and must offer more. But at a higher wage, the firm wants fewer workers."
+    },
+    {
+      "start": 362.9,
+      "end": 364.1,
+      "speaker": "HOST",
+      "text": "So where does it end?"
+    },
+    {
+      "start": 364.1,
+      "end": 374.9,
+      "speaker": "ECONOMIST",
+      "text": "Employment falls from 45 to 37.1. The firm now pays about 63, and islanders keep about 47. So the tax is shared."
+    },
+    {
+      "start": 374.9,
+      "end": 381.2,
+      "speaker": "HOST",
+      "text": "Last leaf of this part: demand falls by 20. Why would that happen?"
+    },
+    {
+      "start": 381.2,
+      "end": 396.8,
+      "speaker": "ECONOMIST",
+      "text": "Suppose fuel for the boats gets more expensive. Then Harbor Boatworks offers 20 less for every worker. At the old wage of 55, it wants far fewer workers than the islanders who want jobs. So the wage falls."
+    },
+    {
+      "start": 396.8,
+      "end": 398.5,
+      "speaker": "HOST",
+      "text": "And as it falls?"
+    },
+    {
+      "start": 398.5,
+      "end": 412.9,
+      "speaker": "ECONOMIST",
+      "text": "The firm hires more than it would at 55, and some islanders decide the lower wage is not worth it. The two sides meet at a wage of 45 and employment of 35. Both fall by 10."
+    },
+    {
+      "start": 412.9,
+      "end": 422.3,
+      "speaker": "HOST",
+      "text": "Wait. With the tax, the wage the firm pays went up, and jobs went down. Here both went down. Why?"
+    },
+    {
+      "start": 422.3,
+      "end": 446.3,
+      "speaker": "ECONOMIST",
+      "text": "Because they came from different sides. The tax moved supply: at each wage, fewer islanders wanted to work. The fall in demand moved demand: at each wage, the firm wanted fewer workers. So here is a rule for reading data. When demand changes, the wage and employment move together. When supply changes, they move apart."
+    },
+    {
+      "start": 446.3,
+      "end": 459.4,
+      "speaker": "HOST",
+      "text": "So in part one we saw that many more women work than in 1960, and that the unemployment rate must be read with the share of adults who work. And a tax or weaker demand costs jobs."
+    },
+    {
+      "start": 459.4,
+      "end": 469.1,
+      "speaker": "ECONOMIST",
+      "text": "And in this simple model, everyone who wants a job at the wage on offer finds one. That changes in the next branch: unemployment."
+    },
+    {
+      "start": 469.1,
+      "end": 481.2,
+      "speaker": "HOST",
+      "text": "Part two of the map: unemployment. The first leaf says every recession lifts unemployment, up to 14.8 percent in April 2020. What's a recession, exactly?"
+    },
+    {
+      "start": 481.2,
+      "end": 501.5,
+      "speaker": "ECONOMIST",
+      "text": "A period when the whole economy shrinks: firms produce less and cut jobs. In U.S. data, every recession brings a jump in the unemployment rate. In the deep recession of the financial crisis, it peaked at 10 percent in October 2009. In April 2020, it hit 14.8 percent."
+    },
+    {
+      "start": 501.5,
+      "end": 508.0,
+      "speaker": "HOST",
+      "text": "Next leaf: a rigid wage. Employment 25 instead of 35."
+    },
+    {
+      "start": 508.0,
+      "end": 515.7,
+      "speaker": "ECONOMIST",
+      "text": "Rigid means the wage does not fall. Take the same fall in demand as in part one, but now the wage stays at 55."
+    },
+    {
+      "start": 515.7,
+      "end": 518.8,
+      "speaker": "HOST",
+      "text": "Honestly, that sounds good for workers. Their pay is safe."
+    },
+    {
+      "start": 518.8,
+      "end": 532.4,
+      "speaker": "ECONOMIST",
+      "text": "It sounds that way, but now the whole fall in demand hits jobs. The firm would now pay only 80 for its first worker, not 100. So its offer falls to 55 after just 25 hires."
+    },
+    {
+      "start": 532.4,
+      "end": 536.7,
+      "speaker": "HOST",
+      "text": "But 45 islanders still want to work at 55."
+    },
+    {
+      "start": 536.7,
+      "end": 551.3,
+      "speaker": "ECONOMIST",
+      "text": "Yes. So 20 islanders want a job at that wage and can't get one. They are unemployed. With a flexible wage, the same fall in demand cost 10 jobs. With a rigid wage, it costs 20, twice as many."
+    },
+    {
+      "start": 551.3,
+      "end": 553.7,
+      "speaker": "HOST",
+      "text": "Why would a wage not fall?"
+    },
+    {
+      "start": 553.7,
+      "end": 576.8,
+      "speaker": "ECONOMIST",
+      "text": "A minimum wage can be higher than the wage where supply meets demand. And some firms choose to pay more. In 1914, Henry Ford doubled the pay of most of his car workers, to five dollars a day. They stayed longer and worked harder, and Ford said it cut his costs. A firm like that won't cut pay when demand falls, because its workers might quit or work less."
+    },
+    {
+      "start": 576.8,
+      "end": 580.6,
+      "speaker": "HOST",
+      "text": "Next leaf: the bathtub. Why a bathtub?"
+    },
+    {
+      "start": 580.6,
+      "end": 609.5,
+      "speaker": "ECONOMIST",
+      "text": "Picture a tub with the tap running and the drain open. The water is the number of jobless people. The tap is people losing a job, and the drain is jobless people finding one. Islandia has the same monthly rates as the United States. Each month, about 1 percent of people with a job lose it: the job separation rate. And about 20 percent of the jobless, one in five, find a job: the job finding rate."
+    },
+    {
+      "start": 609.5,
+      "end": 612.6,
+      "speaker": "HOST",
+      "text": "So where does the water settle?"
+    },
+    {
+      "start": 612.6,
+      "end": 640.5,
+      "speaker": "ECONOMIST",
+      "text": "At the natural rate of unemployment: the rate in a normal year, with no recession and no boom. A boom is a time of fast growth. Let's build Islandia's natural rate step by step, as shares of the labor force. Suppose a bad year has pushed unemployment up to 10 percent, so 90 percent are at work. Each month, 1 percent of those at work lose a job. That's 0.9 percent of the labor force flowing in."
+    },
+    {
+      "start": 640.5,
+      "end": 648.5,
+      "speaker": "HOST",
+      "text": "And a fifth of the 10 percent who are jobless find work. That's 2 percent flowing out, so unemployment falls."
+    },
+    {
+      "start": 648.5,
+      "end": 662.2,
+      "speaker": "ECONOMIST",
+      "text": "Right. As the water level falls, fewer jobless people are left to find work, so the outflow shrinks. And more people are at work, so the inflow grows a little. The level stops when the two flows are equal."
+    },
+    {
+      "start": 662.2,
+      "end": 663.7,
+      "speaker": "HOST",
+      "text": "When is that?"
+    },
+    {
+      "start": 663.7,
+      "end": 676.1,
+      "speaker": "ECONOMIST",
+      "text": "When a fifth of the jobless equals 1 percent of those at work. A fifth is 20 times as much as 1 percent, so there must be 20 people at work for every jobless person."
+    },
+    {
+      "start": 676.1,
+      "end": 683.0,
+      "speaker": "HOST",
+      "text": "So out of every 21 people in the labor force, 20 work and one is jobless."
+    },
+    {
+      "start": 683.0,
+      "end": 694.4,
+      "speaker": "ECONOMIST",
+      "text": "Exactly, and one in 21 is about 4.8 percent: Islandia's natural rate. The size of the labor force never matters, only the two rates."
+    },
+    {
+      "start": 694.4,
+      "end": 702.1,
+      "speaker": "HOST",
+      "text": "So to cut unemployment, a government should make firing harder. Fewer people lose their jobs, so the tap slows."
+    },
+    {
+      "start": 702.1,
+      "end": 719.9,
+      "speaker": "ECONOMIST",
+      "text": "That's the first effect. If firing costs cut the job separation rate from 1 to 0.8 percent a month, the natural rate falls from 4.8 to about 3.8 percent. But a firm that can't easily fire is also more careful about hiring."
+    },
+    {
+      "start": 719.9,
+      "end": 721.8,
+      "speaker": "HOST",
+      "text": "And if hiring slows?"
+    },
+    {
+      "start": 721.8,
+      "end": 740.3,
+      "speaker": "ECONOMIST",
+      "text": "If the job finding rate also falls, from 20 to 15 percent a month, the natural rate goes up to about 5.1 percent, higher than where we started. Rules that protect jobs can slow the drain as well as the tap."
+    },
+    {
+      "start": 740.3,
+      "end": 743.4,
+      "speaker": "HOST",
+      "text": "Last leaf of this part: Europe."
+    },
+    {
+      "start": 743.4,
+      "end": 754.1,
+      "speaker": "ECONOMIST",
+      "text": "Here Europe means a group of 12 countries that use the euro. Up to 1975, their unemployment averaged 2.6 percent, about half the U.S. rate."
+    },
+    {
+      "start": 754.1,
+      "end": 755.5,
+      "speaker": "HOST",
+      "text": "And later?"
+    },
+    {
+      "start": 755.5,
+      "end": 765.1,
+      "speaker": "ECONOMIST",
+      "text": "It climbed steeply for about ten years. Since 1985, it has averaged about 9 percent, compared with less than 6 percent in the United States."
+    },
+    {
+      "start": 765.1,
+      "end": 769.3,
+      "speaker": "HOST",
+      "text": "My guess: Europe's generous unemployment benefits."
+    },
+    {
+      "start": 769.3,
+      "end": 782.3,
+      "speaker": "ECONOMIST",
+      "text": "Partly. Unemployment benefits are the money the government pays to people who lost a job. But Europe already had generous benefits in the 1950s and 1960s, when its unemployment was low."
+    },
+    {
+      "start": 782.3,
+      "end": 783.9,
+      "speaker": "HOST",
+      "text": "So what changed?"
+    },
+    {
+      "start": 783.9,
+      "end": 812.2,
+      "speaker": "ECONOMIST",
+      "text": "The shocks of the 1970s: oil prices jumped, and productivity, the output per worker, grew more slowly. These shocks hit America and Japan too, but there unemployment did not stay high. In Europe, the rules kept it high. Generous benefits paid for a long time slow down the search for a new job, and strict firing rules slow down hiring. In the bathtub, both narrow the drain."
+    },
+    {
+      "start": 812.2,
+      "end": 830.9,
+      "speaker": "HOST",
+      "text": "So in part two we saw where unemployment comes from. A rigid wage leaves people who want work and can't find it. Job losses and job findings set the natural rate, about 4.8 percent on Islandia. And after the shocks of the 1970s, rules that narrow the drain kept Europe's rate high."
+    },
+    {
+      "start": 830.9,
+      "end": 836.6,
+      "speaker": "ECONOMIST",
+      "text": "Well put. Next branch: why some people earn more."
+    },
+    {
+      "start": 836.6,
+      "end": 849.6,
+      "speaker": "HOST",
+      "text": "Part three of the map: wages, skills and inequality. The first leaf says a working life is worth 2.53 million dollars today. Whose working life?"
+    },
+    {
+      "start": 849.6,
+      "end": 861.0,
+      "speaker": "ECONOMIST",
+      "text": "A young worker who earns 100,000 dollars a year, about the U.S. average wage. She works for 45 years, from age 22 to 67. What is all that pay worth today?"
+    },
+    {
+      "start": 861.0,
+      "end": 865.6,
+      "speaker": "HOST",
+      "text": "Easy. 45 years times 100,000 dollars is 4.5 million."
+    },
+    {
+      "start": 865.6,
+      "end": 876.1,
+      "speaker": "ECONOMIST",
+      "text": "Too much, because that forgets interest. Take an interest rate of 3 percent a year. If you put 97 dollars in the bank today, you have about 100 next year."
+    },
+    {
+      "start": 876.1,
+      "end": 880.3,
+      "speaker": "HOST",
+      "text": "So 100 dollars next year are worth only 97 today."
+    },
+    {
+      "start": 880.3,
+      "end": 901.5,
+      "speaker": "ECONOMIST",
+      "text": "Right. That step is called discounting. The last paycheck comes 44 years from now, because the first one comes today. It's worth only about a quarter of its size today. Discount every year's pay and add it all up. A dollar a year for 45 years is worth only about 25 dollars today, not 45."
+    },
+    {
+      "start": 901.5,
+      "end": 904.0,
+      "speaker": "HOST",
+      "text": "And 100,000 dollars a year?"
+    },
+    {
+      "start": 904.0,
+      "end": 913.9,
+      "speaker": "ECONOMIST",
+      "text": "A bit more than 25 times 100,000: about 2.53 million dollars today. That total is called the present discounted value of her pay."
+    },
+    {
+      "start": 913.9,
+      "end": 916.4,
+      "speaker": "HOST",
+      "text": "So a young worker is already a millionaire."
+    },
+    {
+      "start": 916.4,
+      "end": 925.8,
+      "speaker": "ECONOMIST",
+      "text": "Yes, in one way. Her skills and education are her human capital, and 2.53 million dollars is what they are worth today."
+    },
+    {
+      "start": 925.8,
+      "end": 933.4,
+      "speaker": "HOST",
+      "text": "Next leaf: more graduates, from 18.3 to 40.9 percent of jobs, and a higher premium."
+    },
+    {
+      "start": 933.4,
+      "end": 950.5,
+      "speaker": "ECONOMIST",
+      "text": "That's the share of U.S. jobs held by workers with a college degree, in 1979 and in 2020. It more than doubled. The college wage premium is how much more a graduate earns per hour than a similar high school graduate."
+    },
+    {
+      "start": 950.5,
+      "end": 955.4,
+      "speaker": "HOST",
+      "text": "Then the premium must have fallen. More supply means a lower price."
+    },
+    {
+      "start": 955.4,
+      "end": 966.1,
+      "speaker": "ECONOMIST",
+      "text": "A lot of students think so, but the premium went up. It climbed steeply in the 1980s and has stayed high since 2000. Supply alone can't do that."
+    },
+    {
+      "start": 966.1,
+      "end": 973.0,
+      "speaker": "HOST",
+      "text": "Next leaf: demand beat supply, and in the 1970s supply won. How does that work?"
+    },
+    {
+      "start": 973.0,
+      "end": 988.3,
+      "speaker": "ECONOMIST",
+      "text": "Think of two labor markets on Islandia, each with its own supply and demand. The high school market is the one from part one, with a wage of 55. In the college market, the wage starts at 66, so graduates earn 20 percent more."
+    },
+    {
+      "start": 988.3,
+      "end": 990.6,
+      "speaker": "HOST",
+      "text": "And then more islanders go to college."
+    },
+    {
+      "start": 990.6,
+      "end": 1011.9,
+      "speaker": "ECONOMIST",
+      "text": "Right, so college supply grows: at every wage, more graduates want to work. In the example, they ask 10 less for the same number of jobs. On its own, that pushes the college wage down. But firms also want more graduates: demand grows, and firms offer 15 more for every graduate."
+    },
+    {
+      "start": 1011.9,
+      "end": 1016.5,
+      "speaker": "HOST",
+      "text": "So the two changes pull the wage in opposite directions."
+    },
+    {
+      "start": 1016.5,
+      "end": 1029.5,
+      "speaker": "ECONOMIST",
+      "text": "Yes, and demand pulls harder. At the old wage of 66, firms now want more graduates than are available, so the wage climbs to 71. The premium grows from 20 to 29 percent."
+    },
+    {
+      "start": 1029.5,
+      "end": 1032.0,
+      "speaker": "HOST",
+      "text": "And in the 1970s?"
+    },
+    {
+      "start": 1032.0,
+      "end": 1062.9,
+      "speaker": "ECONOMIST",
+      "text": "Supply won. The baby boom generation, a very large group of young people, reached college age. In the model, supply grows by 25 and demand by only 10, so the college wage falls from 66 to 62. Some economists call this a race between education and technology. Education adds to the supply of skills. Technology, like computers that make skilled workers more productive, adds to the demand. Whichever grows faster decides the premium."
+    },
+    {
+      "start": 1062.9,
+      "end": 1069.2,
+      "speaker": "HOST",
+      "text": "Next leaf: manufacturing lost 34 percent of its jobs, from 2000 to 2010."
+    },
+    {
+      "start": 1069.2,
+      "end": 1099.0,
+      "speaker": "ECONOMIST",
+      "text": "Between January 2000 and February 2010, U.S. factories lost almost 6 million jobs, about a third of all their jobs. Research finds that rising imports from China explain about a quarter of that fall. In our model, losing factory jobs lowers demand for workers without a degree, in the high school market. Wages and jobs there both fall, and the gap with college graduates grows."
+    },
+    {
+      "start": 1099.0,
+      "end": 1104.7,
+      "speaker": "HOST",
+      "text": "Last leaf: since 1980, the top grew fastest. The top of what?"
+    },
+    {
+      "start": 1104.7,
+      "end": 1121.2,
+      "speaker": "ECONOMIST",
+      "text": "The top of the income ladder, with income measured after taxes and government benefits. From 1946 to 1980, the incomes of the poorer half of Americans grew fastest. From 1980 to 2014, the richest grew fastest."
+    },
+    {
+      "start": 1121.2,
+      "end": 1122.7,
+      "speaker": "HOST",
+      "text": "By how much?"
+    },
+    {
+      "start": 1122.7,
+      "end": 1133.4,
+      "speaker": "ECONOMIST",
+      "text": "The person in the middle saw income grow only about 0.9 percent a year. The very richest saw incomes grow between 4 and 6 percent a year."
+    },
+    {
+      "start": 1133.4,
+      "end": 1136.3,
+      "speaker": "HOST",
+      "text": "Why did the richest gain so much more?"
+    },
+    {
+      "start": 1136.3,
+      "end": 1154.4,
+      "speaker": "ECONOMIST",
+      "text": "The college premium widened the gap between graduates and everyone else, but it can't explain the very top. There, most of the rise came from salaries and business income, like the pay of top managers. Whether that rise is good or bad is still debated."
+    },
+    {
+      "start": 1154.4,
+      "end": 1168.9,
+      "speaker": "HOST",
+      "text": "So in part three we saw that, even after discounting, a working life is worth millions of dollars. Graduates' extra pay went up because demand for their skills grew faster than their supply. And since 1980, the richest gained the most."
+    },
+    {
+      "start": 1168.9,
+      "end": 1172.1,
+      "speaker": "ECONOMIST",
+      "text": "Right. Let's sum up."
+    },
+    {
+      "start": 1172.1,
+      "end": 1182.1,
+      "speaker": "HOST",
+      "text": "Let's go back to our three goals. First, why does a tax on wages cost jobs, and why does a rigid wage cause unemployment?"
+    },
+    {
+      "start": 1182.1,
+      "end": 1197.6,
+      "speaker": "ECONOMIST",
+      "text": "A tax means islanders keep less, so fewer want to work, and the firm hires fewer. A rigid wage can't fall to soften a drop in demand, so the whole drop hits jobs: 20 jobs lost instead of 10."
+    },
+    {
+      "start": 1197.6,
+      "end": 1206.0,
+      "speaker": "HOST",
+      "text": "Second, the natural rate. About 1 percent of workers lose a job each month, and one in five of the jobless find one."
+    },
+    {
+      "start": 1206.0,
+      "end": 1221.4,
+      "speaker": "ECONOMIST",
+      "text": "When the flows are equal, there are 20 people at work for every jobless person. So one in 21 is jobless: about 4.8 percent. The natural rate moves only when one of the two rates changes."
+    },
+    {
+      "start": 1221.4,
+      "end": 1223.9,
+      "speaker": "HOST",
+      "text": "And third, the college premium."
+    },
+    {
+      "start": 1223.9,
+      "end": 1250.6,
+      "speaker": "ECONOMIST",
+      "text": "Graduates more than doubled their share of jobs, but demand for their skills grew even faster, so their extra pay went up. So here is the big message. Supply and demand set wages and jobs. The flows of job losses and job findings set the natural rate of unemployment. And a demand for skills that grew faster than their supply raised the college premium, and that raised inequality too."
+    },
+    {
+      "start": 1250.6,
+      "end": 1265.1,
+      "speaker": "HOST",
+      "text": "Here's a question to think about. Suppose a government makes college free, and many more young people earn a degree. Demand stays the same in both labor markets. What happens to the college premium, and why?"
+    },
+    {
+      "start": 1265.1,
+      "end": 1272.9,
+      "speaker": "ECONOMIST",
+      "text": "Pause the episode and think about it for a moment."
+    },
+    {
+      "start": 1272.9,
+      "end": 1275.3,
+      "speaker": "HOST",
+      "text": "Okay, we're back. What's the answer?"
+    },
+    {
+      "start": 1275.3,
+      "end": 1302.7,
+      "speaker": "ECONOMIST",
+      "text": "The premium shrinks, from both sides. In the college market, supply grows while demand stands still, so the college wage falls. In part three, we held the high school market still. Here it moves too: fewer workers are left there, so high school supply shrinks and the high school wage goes up. In real life, demand for skills keeps growing too, so the result depends on the race between education and technology."
+    },
+    {
+      "start": 1302.7,
+      "end": 1304.6,
+      "speaker": "HOST",
+      "text": "Where can students try all this?"
+    },
+    {
+      "start": 1304.6,
+      "end": 1315.1,
+      "speaker": "ECONOMIST",
+      "text": "Open the chapter's Colab notebook to run every model and chart yourself. The Model Apps move the models with sliders, with no code. And the Data Apps show the data for many countries."
+    },
+    {
+      "start": 1315.1,
+      "end": 1316.2,
+      "speaker": "HOST",
+      "text": "And next time?"
+    },
+    {
+      "start": 1316.2,
+      "end": 1323.7,
+      "speaker": "ECONOMIST",
+      "text": "In Chapter 8, we turn to inflation: what makes prices rise, and why do some countries let inflation explode?"
+    },
+    {
+      "start": 1323.7,
+      "end": 1327.2,
+      "speaker": "HOST",
+      "text": "That's it for today. Thanks for listening, and see you next time."
+    }
+  ]
+}

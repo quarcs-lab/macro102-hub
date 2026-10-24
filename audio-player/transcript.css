@@ -1,0 +1,25 @@
+:root { color-scheme: dark; --bg: #0f172a; --text: #e2e8f0; --muted: #94a3b8; --link: #38bdf8; --border: #334155; }
+:root.light { color-scheme: light; --bg: #f8fafc; --text: #1e293b; --muted: #475569; --link: #16528c; --border: #cbd5e1; }
+* { box-sizing: border-box; }
+html { scroll-padding-top: 1rem; }
+body { margin: 0; background: var(--bg); color: var(--text); font-family: Inter, system-ui, sans-serif; line-height: 1.8; overflow-wrap: anywhere; }
+.page-header, main { width: min(100% - 2rem, 48rem); margin-inline: auto; }
+.page-header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; padding-block: 1.5rem; border-bottom: 1px solid var(--border); }
+main { padding-block: 2rem 4rem; }
+a { color: var(--link); text-underline-offset: .2em; }
+a:focus-visible, button:focus-visible { outline: 3px solid var(--link); outline-offset: 4px; }
+button { color: var(--text); background: transparent; border: 1px solid var(--border); border-radius: 999px; padding: .5rem 1rem; font: inherit; cursor: pointer; }
+[hidden] { display: none !important; }
+h1 { font-size: clamp(1.8rem, 5vw, 2.5rem); line-height: 1.25; margin-block: .5rem 1rem; }
+h2 { font-size: 1.5rem; line-height: 1.4; margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--border); }
+.eyebrow, .speaker { color: var(--link); font-weight: 600; }
+.eyebrow { font-size: .85rem; }
+.note, .timestamp { color: var(--muted); font-size: .9rem; }
+nav ul { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; list-style: none; padding: 0; }
+.passage { margin-block: 1.75rem; }
+.speaker { margin-bottom: .25rem; font-size: .9rem; }
+.timestamp { margin-left: .5rem; font-variant-numeric: tabular-nums; font-weight: 400; }
+.passage-text { margin-top: 0; font-size: 1.0625rem; }
+.skip-link { position: absolute; z-index: 1; left: 1rem; top: -5rem; padding: .5rem; background: var(--bg); }
+.skip-link:focus { top: 0; }
+@media print { :root { --bg: white; --text: black; --muted: #444; --link: black; --border: #ccc; } .page-header, .skip-link { display: none; } main { width: 100%; padding: 0; } }

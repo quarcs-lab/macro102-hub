@@ -1,0 +1,675 @@
+{
+  "title": "The IS Curve",
+  "duration": 1317.6,
+  "sections": [
+    {
+      "title": "Opening",
+      "start": 0.0,
+      "segment": 0
+    },
+    {
+      "title": "Building the IS curve",
+      "start": 107.5,
+      "segment": 8
+    },
+    {
+      "title": "Moving along or shifting",
+      "start": 410.2,
+      "segment": 32
+    },
+    {
+      "title": "Consumption and fiscal policy",
+      "start": 734.3,
+      "segment": 60
+    },
+    {
+      "title": "Wrap-up",
+      "start": 1161.1,
+      "segment": 90
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 16.1,
+      "speaker": "HOST",
+      "text": "Welcome back. Today we are on the IS curve, a simple rule that links the interest rate to how much an economy produces. Here's a puzzle. In 2022 and 2023, the Federal Reserve, the central bank of the United States, raised interest rates fast."
+    },
+    {
+      "start": 16.1,
+      "end": 34.6,
+      "speaker": "ECONOMIST",
+      "text": "From the end of 2021 to late 2023, a market measure of the real interest rate went up by about 3.4 percentage points. The real interest rate is the interest rate after taking out inflation. A percentage point is the plain difference between two percentages."
+    },
+    {
+      "start": 34.6,
+      "end": 39.0,
+      "speaker": "HOST",
+      "text": "Higher rates are supposed to slow the economy down. So people lost their jobs?"
+    },
+    {
+      "start": 39.0,
+      "end": 48.3,
+      "speaker": "ECONOMIST",
+      "text": "That's what the simple story predicts. But the unemployment rate was 3.9 percent at the start and 3.9 percent at the end."
+    },
+    {
+      "start": 48.3,
+      "end": 53.7,
+      "speaker": "HOST",
+      "text": "So here is today's question. How does the real interest rate move output in the short run?"
+    },
+    {
+      "start": 53.7,
+      "end": 85.0,
+      "speaker": "ECONOMIST",
+      "text": "By the end of this episode, you'll be able to do three things. First, explain how a higher real interest rate lowers investment and output, and why firms compare that rate with what new capital earns. Second, explain the difference between moving along the IS curve and shifting it, and say how far output moves, also with the multiplier. Third, explain why people smooth their spending, and why the way a government pays for its spending changes how much it raises output."
+    },
+    {
+      "start": 85.0,
+      "end": 88.6,
+      "speaker": "HOST",
+      "text": "And we'll follow the chapter's mind map part by part?"
+    },
+    {
+      "start": 88.6,
+      "end": 107.5,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Part one builds the IS curve. Part two asks what moves the economy along the curve, and what shifts it. Part three looks at consumption and fiscal policy, meaning government spending and taxes. Each part has four or five leaves, small topics we take in order."
+    },
+    {
+      "start": 107.5,
+      "end": 121.4,
+      "speaker": "HOST",
+      "text": "Part one of the map: Building the IS curve. The first leaf says a higher interest rate means less investment and less output. Why would one interest rate change how much a whole country produces?"
+    },
+    {
+      "start": 121.4,
+      "end": 140.5,
+      "speaker": "ECONOMIST",
+      "text": "Through investment. In economics, investment means spending on new capital: machines, factories, other buildings, and new houses. Much of it is paid for with loans. When the real interest rate goes up, loans cost more, so firms buy fewer machines and families buy fewer new houses."
+    },
+    {
+      "start": 140.5,
+      "end": 144.8,
+      "speaker": "HOST",
+      "text": "And then the firms that make machines and build houses get fewer orders."
+    },
+    {
+      "start": 144.8,
+      "end": 167.1,
+      "speaker": "ECONOMIST",
+      "text": "Exactly, so the whole economy produces less. That's the chain: a higher rate, less investment, less output. It works in the short run, the next few months or years. Over that time, potential output hardly changes. It's what the economy makes with all its workers and tools fully used. What changes is how much people want to buy."
+    },
+    {
+      "start": 167.1,
+      "end": 174.5,
+      "speaker": "HOST",
+      "text": "Next leaf: invest more when the return on capital is above the interest rate. What is the return on capital?"
+    },
+    {
+      "start": 174.5,
+      "end": 194.9,
+      "speaker": "ECONOMIST",
+      "text": "It's what one more unit of capital earns each year, as a share of its cost. Let's visit Islandia, a small imaginary island country. Harbor Boatworks builds boats there, and it pays for each new boat shed with a loan. Each new shed earns 5 percent of its cost every year."
+    },
+    {
+      "start": 194.9,
+      "end": 197.8,
+      "speaker": "HOST",
+      "text": "And the loan costs the real interest rate."
+    },
+    {
+      "start": 197.8,
+      "end": 207.8,
+      "speaker": "ECONOMIST",
+      "text": "Right. Suppose the Bank of Islandia, the island's central bank, sets that rate at 3 percent. Harbor Boatworks borrows 100 to build a shed."
+    },
+    {
+      "start": 207.8,
+      "end": 214.3,
+      "speaker": "HOST",
+      "text": "So the shed earns 5, the loan costs 3, and the firm keeps 2."
+    },
+    {
+      "start": 214.3,
+      "end": 225.4,
+      "speaker": "ECONOMIST",
+      "text": "Projects like that make money, so firms build more than usual. A firm with its own cash could buy a bond, a loan that pays interest, so it compares the same two rates."
+    },
+    {
+      "start": 225.4,
+      "end": 229.0,
+      "speaker": "HOST",
+      "text": "So when interest rates are high, firms always invest less."
+    },
+    {
+      "start": 229.0,
+      "end": 261.9,
+      "speaker": "ECONOMIST",
+      "text": "That's a natural guess, but it's wrong. Only the gap between the two rates matters. Let's give it a name: the rate gap. It's how far the interest rate sits above the return on capital. Suppose the Bank raises its rate to 8 percent, while a better boat design makes new sheds earn 8 percent too. Then the rate gap is zero, and investment stays normal. The rate gap can open in the short run, because the Bank can move its rate within a day, while the return on capital changes slowly."
+    },
+    {
+      "start": 261.9,
+      "end": 267.3,
+      "speaker": "HOST",
+      "text": "Next leaf: the equation of the IS curve. Can you say it in words?"
+    },
+    {
+      "start": 267.3,
+      "end": 285.6,
+      "speaker": "ECONOMIST",
+      "text": "Short-run output equals the demand shock, minus the sensitivity of investment times the rate gap. Short-run output is the gap between actual and potential output, in percent. It's also called the output gap. Minus 2 means that output is 2 percent below potential."
+    },
+    {
+      "start": 285.6,
+      "end": 287.7,
+      "speaker": "HOST",
+      "text": "And the demand shock?"
+    },
+    {
+      "start": 287.7,
+      "end": 310.1,
+      "speaker": "ECONOMIST",
+      "text": "It's how far total spending sits above or below potential output when the interest rate is normal, equal to the return on capital. Spending means consumption, investment, government purchases and exports to Mainland, Islandia's trading partner, minus imports from Mainland. Normally, it all adds up to exactly potential output, so the demand shock is zero."
+    },
+    {
+      "start": 310.1,
+      "end": 313.2,
+      "speaker": "HOST",
+      "text": "So a demand shock is a change in spending?"
+    },
+    {
+      "start": 313.2,
+      "end": 325.1,
+      "speaker": "ECONOMIST",
+      "text": "Yes, a change in spending that happens while the interest rate stays the same. If islanders suddenly spend an extra 2 percent of potential output, the demand shock is 2."
+    },
+    {
+      "start": 325.1,
+      "end": 327.7,
+      "speaker": "HOST",
+      "text": "And the sensitivity?"
+    },
+    {
+      "start": 327.7,
+      "end": 350.2,
+      "speaker": "ECONOMIST",
+      "text": "It says how strongly investment reacts to the rate gap. In Islandia it is 2: each point of rate gap moves investment by 2 points of potential output. The other kinds of spending stay fixed shares of potential output, so output moves by the same 2 points. Economists call this whole rule the IS curve."
+    },
+    {
+      "start": 350.2,
+      "end": 358.2,
+      "speaker": "HOST",
+      "text": "Last leaf of this part: private, government and foreign saving add up to investment. Is that where the curve gets its name?"
+    },
+    {
+      "start": 358.2,
+      "end": 390.9,
+      "speaker": "ECONOMIST",
+      "text": "Yes. The two letters stand for investment equals saving. What islanders earn but don't consume or pay in taxes is private saving. The Islandia Treasury is the island's government. Its taxes minus what it buys are government saving. And when Islandia buys more from Mainland than it sells there, Mainland lends Islandia the difference. That's foreign saving. Together, the three always add up to investment, because it's the same list of where output goes, only rearranged."
+    },
+    {
+      "start": 390.9,
+      "end": 402.5,
+      "speaker": "HOST",
+      "text": "So in part one we saw that the interest rate reaches output through investment. In Islandia, each point of rate gap moves investment, and so output, by 2 points."
+    },
+    {
+      "start": 402.5,
+      "end": 410.2,
+      "speaker": "ECONOMIST",
+      "text": "Next branch: what moves the economy along this rule, and what moves the rule itself."
+    },
+    {
+      "start": 410.2,
+      "end": 426.9,
+      "speaker": "HOST",
+      "text": "Part two of the map: Moving along or shifting. The first leaf: the rate goes up by 1 point, and output falls 2 percent. My guess is that when the Bank raises its rate, the whole IS curve shifts toward lower output."
+    },
+    {
+      "start": 426.9,
+      "end": 443.2,
+      "speaker": "ECONOMIST",
+      "text": "A lot of students think that, but no. The IS curve gives output for every interest rate, so a new rate is already inside the rule. We just use the same rule at a new rate. Economists call that a move along the curve."
+    },
+    {
+      "start": 443.2,
+      "end": 446.4,
+      "speaker": "HOST",
+      "text": "Then explain the move step by step."
+    },
+    {
+      "start": 446.4,
+      "end": 458.5,
+      "speaker": "ECONOMIST",
+      "text": "Islandia starts at potential. The Bank's rate is 5 percent, equal to what a new shed earns, so the rate gap is zero. Now the Bank raises the rate by 1 percentage point, to 6 percent."
+    },
+    {
+      "start": 458.5,
+      "end": 465.1,
+      "speaker": "HOST",
+      "text": "So a new shed now earns less than the loan costs, and Harbor Boatworks builds fewer of them."
+    },
+    {
+      "start": 465.1,
+      "end": 481.6,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Investment falls from its normal 17 percent to 15 percent of potential output. Nothing else reacts, so total spending falls by 2 points. Firms sell less and produce less, and output ends 2 percent below potential."
+    },
+    {
+      "start": 481.6,
+      "end": 487.3,
+      "speaker": "HOST",
+      "text": "Next leaf: demand shocks shift it. So when does the curve itself move?"
+    },
+    {
+      "start": 487.3,
+      "end": 504.4,
+      "speaker": "ECONOMIST",
+      "text": "When spending changes for a reason other than the interest rate. That's the demand shock from part one. Back at the start, suppose firms on Islandia become hopeful about the future. At every interest rate, they now invest 2 more points of potential output."
+    },
+    {
+      "start": 504.4,
+      "end": 509.6,
+      "speaker": "HOST",
+      "text": "So with the rate back at 5 percent, output goes to 2 percent above potential?"
+    },
+    {
+      "start": 509.6,
+      "end": 535.9,
+      "speaker": "ECONOMIST",
+      "text": "Yes, by exactly the size of the shock. With the rate at 6 percent, output is now at potential, instead of 2 percent below it. At every rate, output is 2 points higher, so the whole rule has changed: that's a shift. Economists say the curve shifts out. Worried islanders who spend less, or a Treasury that buys less, shift it in, so output is lower at every rate."
+    },
+    {
+      "start": 535.9,
+      "end": 547.2,
+      "speaker": "HOST",
+      "text": "Next leaf: better technology. Here's my guess. A new technology raises potential output, so it must push output above potential."
+    },
+    {
+      "start": 547.2,
+      "end": 564.4,
+      "speaker": "ECONOMIST",
+      "text": "That's tempting, but it confuses two things. Short-run output is the output gap. In this model, spending follows potential output, so a new technology raises actual and potential output by the same share. The output gap does not change."
+    },
+    {
+      "start": 564.4,
+      "end": 567.9,
+      "speaker": "HOST",
+      "text": "So technology does nothing in the short run?"
+    },
+    {
+      "start": 567.9,
+      "end": 585.2,
+      "speaker": "ECONOMIST",
+      "text": "It works through the return on capital. Start again with no demand shock. Suppose new computer tools make new capital earn 6 percent instead of 5, and the Bank keeps its rate at 5. Now a new shed earns 1 point more than a loan costs, so firms invest more."
+    },
+    {
+      "start": 585.2,
+      "end": 591.9,
+      "speaker": "HOST",
+      "text": "And with a sensitivity of 2, output goes to 2 percent above potential, like the demand shock."
+    },
+    {
+      "start": 591.9,
+      "end": 599.9,
+      "speaker": "ECONOMIST",
+      "text": "Yes, but here the size depends on the sensitivity. With 3, output would go 3 percent above potential."
+    },
+    {
+      "start": 599.9,
+      "end": 605.1,
+      "speaker": "HOST",
+      "text": "Last leaf of this part: the multiplier. What does it multiply?"
+    },
+    {
+      "start": 605.1,
+      "end": 628.6,
+      "speaker": "ECONOMIST",
+      "text": "Every effect we've seen. So far, consumption followed potential output only. Now suppose islanders also spend one third of any short-lived change in their income at the island's market. Let's build the multiplier step by step. The Bank raises its rate by 1 point. In the first round, investment falls by 2 points, and output falls to 2 percent below potential."
+    },
+    {
+      "start": 628.6,
+      "end": 632.0,
+      "speaker": "HOST",
+      "text": "And the boatbuilders now earn less, so they spend less at the market."
+    },
+    {
+      "start": 632.0,
+      "end": 649.0,
+      "speaker": "ECONOMIST",
+      "text": "That's the second round. Output is also income, so incomes fell by 2 points. Islanders spend one third of that change, so spending falls by another two thirds of a point, about 0.7. Then the market sellers earn less, and they cut their spending by a third of that, about 0.2."
+    },
+    {
+      "start": 649.0,
+      "end": 654.5,
+      "speaker": "HOST",
+      "text": "Wait. If every cut leads to another cut, doesn't output keep falling forever?"
+    },
+    {
+      "start": 654.5,
+      "end": 670.3,
+      "speaker": "ECONOMIST",
+      "text": "It keeps falling, but by less each time, because each round is one third of the one before. After three rounds, output is about 2.9 percent below potential. In the end, it settles 3 percent below."
+    },
+    {
+      "start": 670.3,
+      "end": 672.2,
+      "speaker": "HOST",
+      "text": "Why exactly 3?"
+    },
+    {
+      "start": 672.2,
+      "end": 693.0,
+      "speaker": "ECONOMIST",
+      "text": "The total fall must be the first two points plus a third of the total, because islanders cut spending by a third of all the income they lose. Only three works: two plus one third of three is three. So the multiplier is 3 divided by 2, which is 1.5."
+    },
+    {
+      "start": 693.0,
+      "end": 695.0,
+      "speaker": "HOST",
+      "text": "Is there a quick rule?"
+    },
+    {
+      "start": 695.0,
+      "end": 714.4,
+      "speaker": "ECONOMIST",
+      "text": "Yes: one divided by the share of extra income that islanders don't spend right away. That share is two thirds, and one divided by two thirds is 1.5. So every effect becomes 1.5 times as big. From here on, we keep the simple rule, without the multiplier."
+    },
+    {
+      "start": 714.4,
+      "end": 727.7,
+      "speaker": "HOST",
+      "text": "So in part two we saw that a new interest rate moves Islandia along the same rule. Anything else that changes spending while the rate stays the same shifts the whole rule. And the multiplier makes every effect bigger."
+    },
+    {
+      "start": 727.7,
+      "end": 734.3,
+      "speaker": "ECONOMIST",
+      "text": "Next branch: why consumption is smooth, and what that means for fiscal policy."
+    },
+    {
+      "start": 734.3,
+      "end": 750.5,
+      "speaker": "HOST",
+      "text": "Part three of the map: Consumption and fiscal policy. The first leaf is the life cycle, with consumption of 3.23 every year. In part one, consumption followed potential output, not actual output. Why?"
+    },
+    {
+      "start": 750.5,
+      "end": 772.8,
+      "speaker": "ECONOMIST",
+      "text": "Because people like smooth spending. Most of us would rather have one coffee every morning than seven on Saturday and none on other days. Each extra coffee on the same day adds less pleasure than the one before. The life-cycle model applies this to a whole life: people base their spending on their average lifetime income, not on this year's income."
+    },
+    {
+      "start": 772.8,
+      "end": 774.7,
+      "speaker": "HOST",
+      "text": "Show me with an islander."
+    },
+    {
+      "start": 774.7,
+      "end": 794.8,
+      "speaker": "ECONOMIST",
+      "text": "An islander's life has school years, then years at the boatworks, then retirement. Income is low at school, climbs to a peak at age 50, and falls back by retirement. Over a life of 80 years, it averages 3.23 units a year. The units are invented; only their relative sizes matter."
+    },
+    {
+      "start": 794.8,
+      "end": 800.6,
+      "speaker": "HOST",
+      "text": "So the islander spends 3.23 every year, and young islanders spend more than they earn?"
+    },
+    {
+      "start": 800.6,
+      "end": 818.6,
+      "speaker": "ECONOMIST",
+      "text": "Yes, with help from parents or loans. In the boatworks years they save, and in retirement they live on those savings. In a short recession, when output falls below potential for a while, lifetime income barely moves, so consumption barely moves either."
+    },
+    {
+      "start": 818.6,
+      "end": 832.3,
+      "speaker": "HOST",
+      "text": "Next leaf: a windfall of 50,000 dollars gives 1,000 dollars more a year. A windfall is money you didn't expect, like money you get from a relative after they die. I'd spend a big part of it this year."
+    },
+    {
+      "start": 832.3,
+      "end": 849.4,
+      "speaker": "ECONOMIST",
+      "text": "Many people would, but the theory disagrees. People spend according to their permanent income, a kind of average of all the income they expect in their life. For this example, take a real interest rate of 2 percent, and a person who plans as if they will live forever."
+    },
+    {
+      "start": 849.4,
+      "end": 852.2,
+      "speaker": "HOST",
+      "text": "So what does that person do with the gift?"
+    },
+    {
+      "start": 852.2,
+      "end": 877.3,
+      "speaker": "ECONOMIST",
+      "text": "Put it in a savings account, where it earns 2 percent, or 1,000 dollars a year. They can spend that every year, forever, without touching the gift. So their spending goes up by 1,000 a year. That's the theory. People do smooth big changes in income. But small surprise payments, like the checks of 2008, are partly spent right away."
+    },
+    {
+      "start": 877.3,
+      "end": 885.3,
+      "speaker": "HOST",
+      "text": "Next leaf: Ricardian equivalence, only the present value of taxes matters. What's a present value?"
+    },
+    {
+      "start": 885.3,
+      "end": 895.8,
+      "speaker": "ECONOMIST",
+      "text": "It's what a future payment is worth today. Put 1,000 dollars in a savings account at 2 percent, and next year you have 1,020."
+    },
+    {
+      "start": 895.8,
+      "end": 901.6,
+      "speaker": "HOST",
+      "text": "So 1,020 next year is worth 1,000 today. And taxes?"
+    },
+    {
+      "start": 901.6,
+      "end": 925.9,
+      "speaker": "ECONOMIST",
+      "text": "The Islandia Treasury can tax you 1,000 dollars today, or borrow and tax you 1,020 next year to repay the loan. Both have the same present value, so they cut your permanent income, and your spending, by the same amount. Only the present value of taxes matters, not their timing. It's named after David Ricardo; equivalence means being equal."
+    },
+    {
+      "start": 925.9,
+      "end": 928.1,
+      "speaker": "HOST",
+      "text": "Why does that matter for fiscal policy?"
+    },
+    {
+      "start": 928.1,
+      "end": 959.6,
+      "speaker": "ECONOMIST",
+      "text": "Suppose the Treasury buys more goods, and islanders expect higher taxes later to pay for them. Their permanent income falls, so they spend less, which cancels part of the extra demand. But if the extra spending is only spending moved forward, like a road built now instead of later, there are no extra taxes, and the full effect stays. So in this theory, the question is not whether to tax now or to borrow. It's whether the new spending brings extra taxes at all."
+    },
+    {
+      "start": 959.6,
+      "end": 967.4,
+      "speaker": "HOST",
+      "text": "Next leaf: 2009, unemployment of 10.0 percent, above the CBO's 9 percent. What happened?"
+    },
+    {
+      "start": 967.4,
+      "end": 991.1,
+      "speaker": "ECONOMIST",
+      "text": "In February 2009, in a deep recession after a financial crisis, the U.S. Congress passed a fiscal stimulus of 797 billion dollars. A stimulus is extra government spending and tax cuts to raise demand. In the model, it shifts the IS curve out. Congress's own budget office, the CBO, forecast unemployment with and without it."
+    },
+    {
+      "start": 991.1,
+      "end": 997.2,
+      "speaker": "HOST",
+      "text": "Let me guess. With the stimulus, unemployment stayed below the CBO's no-stimulus forecast."
+    },
+    {
+      "start": 997.2,
+      "end": 1020.6,
+      "speaker": "ECONOMIST",
+      "text": "That's what the forecasts expected. It didn't happen. Without the stimulus, the CBO expected unemployment to peak at 9 percent that year. In fact, it reached 10.0 percent in October. In the last three months of every year from 2009 to 2015, it was above the no-stimulus forecast."
+    },
+    {
+      "start": 1020.6,
+      "end": 1023.0,
+      "speaker": "HOST",
+      "text": "So the stimulus failed?"
+    },
+    {
+      "start": 1023.0,
+      "end": 1038.9,
+      "speaker": "ECONOMIST",
+      "text": "The data alone can't tell us. Maybe it did much less than expected. Or maybe the forecast without it was too hopeful: the crisis was deeper than anyone knew, and without the stimulus, unemployment would have been even higher."
+    },
+    {
+      "start": 1038.9,
+      "end": 1052.9,
+      "speaker": "HOST",
+      "text": "Last leaf: policy, with stimulus, checks and rate hikes, meaning rises in the interest rate. We've seen the stimulus. What about checks? Governments sometimes mail one-time payments to households."
+    },
+    {
+      "start": 1052.9,
+      "end": 1076.1,
+      "speaker": "ECONOMIST",
+      "text": "The United States did in 2008. The theory says a household with decades to live should spend almost none of a check within three months. But a study finds that households spent from 12 to 30 percent of it in that time, on everyday goods and services. Some can't borrow, so they spend cash when it arrives: the behavior behind the multiplier."
+    },
+    {
+      "start": 1076.1,
+      "end": 1079.5,
+      "speaker": "HOST",
+      "text": "And the rate hikes? That's our opening puzzle."
+    },
+    {
+      "start": 1079.5,
+      "end": 1094.5,
+      "speaker": "ECONOMIST",
+      "text": "The real rate went up by about 3.4 points. Use the sensitivity of 2 from our Islandia example, and suppose nothing else changed. Then each point would lower output by 2 percent of potential."
+    },
+    {
+      "start": 1094.5,
+      "end": 1103.5,
+      "speaker": "HOST",
+      "text": "So 2 times 3.4: output would fall by 6.8 percent of potential. Then is the IS curve wrong?"
+    },
+    {
+      "start": 1103.5,
+      "end": 1143.4,
+      "speaker": "ECONOMIST",
+      "text": "Almost 7 percent is a deep recession, with many lost jobs, and it didn't come. But that prediction assumed only the rate changed. The curve names three other things that may have moved. Demand may have gone up, with savings left from the pandemic and heavy government borrowing. The return on capital may have gone up, so the rate gap grew by less. Or investment may have reacted less for a while, because many loans had fixed rates that did not go up. For each reason, the central bank should set its rate differently, and it can't see which reason is true."
+    },
+    {
+      "start": 1143.4,
+      "end": 1157.8,
+      "speaker": "HOST",
+      "text": "So in part three we saw that people spend from lifetime income and plan for the taxes they expect, so a stimulus that brings extra taxes does less. And real households spend part of short-lived income: the multiplier at work."
+    },
+    {
+      "start": 1157.8,
+      "end": 1161.1,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Let's sum up."
+    },
+    {
+      "start": 1161.1,
+      "end": 1167.3,
+      "speaker": "HOST",
+      "text": "Let's go back to our three goals. First, how does a higher real interest rate lower output?"
+    },
+    {
+      "start": 1167.3,
+      "end": 1181.4,
+      "speaker": "ECONOMIST",
+      "text": "Through investment. When the rate is above what new capital earns, fewer projects make money, so investment and output fall. In Islandia, each point of rate gap pushes output another 2 percent below potential."
+    },
+    {
+      "start": 1181.4,
+      "end": 1192.2,
+      "speaker": "HOST",
+      "text": "Second, a new interest rate moves Islandia along the same rule, and anything else that changes spending shifts it. The multiplier makes each effect 1.5 times as big."
+    },
+    {
+      "start": 1192.2,
+      "end": 1206.7,
+      "speaker": "ECONOMIST",
+      "text": "And third, in theory people smooth spending, but those who can't borrow spend part of each change in income, which drives the multiplier. And because people plan for the taxes they expect, extra taxes can cancel part of a stimulus."
+    },
+    {
+      "start": 1206.7,
+      "end": 1208.4,
+      "speaker": "HOST",
+      "text": "So what's the big message?"
+    },
+    {
+      "start": 1208.4,
+      "end": 1226.9,
+      "speaker": "ECONOMIST",
+      "text": "When the real interest rate is above what new capital earns, firms invest less, and output falls below potential. Demand shocks shift the IS curve, and the multiplier makes them bigger. And how the government pays for its spending decides how far fiscal policy moves output."
+    },
+    {
+      "start": 1226.9,
+      "end": 1250.2,
+      "speaker": "HOST",
+      "text": "Here's a question to think about. Use the simple rule, without the multiplier. Mainland falls into a recession, and Islandia's exports fall by 2 points of potential output. Islandia starts at potential, with the rate at 5 percent. The Bank of Islandia wants output back at potential. Does the IS curve shift, or does Islandia move along it? And what rate should the Bank choose?"
+    },
+    {
+      "start": 1250.2,
+      "end": 1258.0,
+      "speaker": "ECONOMIST",
+      "text": "Pause the episode and think about it for a moment."
+    },
+    {
+      "start": 1258.0,
+      "end": 1261.6,
+      "speaker": "HOST",
+      "text": "Okay, we're back. What's the answer?"
+    },
+    {
+      "start": 1261.6,
+      "end": 1277.3,
+      "speaker": "ECONOMIST",
+      "text": "Exports are part of demand, so this is a demand shock, and the curve shifts in. At 5 percent, output falls to 2 percent below potential. The Bank can't move the curve back, but it can move Islandia along the new one."
+    },
+    {
+      "start": 1277.3,
+      "end": 1278.8,
+      "speaker": "HOST",
+      "text": "By cutting the rate?"
+    },
+    {
+      "start": 1278.8,
+      "end": 1289.7,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Each point of rate cut raises investment, and so output, by 2 points. So a cut of 1 point, to 4 percent, brings output back to potential."
+    },
+    {
+      "start": 1289.7,
+      "end": 1292.1,
+      "speaker": "HOST",
+      "text": "Where can students try all this themselves?"
+    },
+    {
+      "start": 1292.1,
+      "end": 1303.7,
+      "speaker": "ECONOMIST",
+      "text": "Open the chapter's Colab notebook to run every experiment. The Model Apps let you move the model's sliders with no code, and the Data Apps show the 2009 forecasts next to the data."
+    },
+    {
+      "start": 1303.7,
+      "end": 1305.2,
+      "speaker": "HOST",
+      "text": "And next time?"
+    },
+    {
+      "start": 1305.2,
+      "end": 1314.1,
+      "speaker": "ECONOMIST",
+      "text": "In Chapter 12, we ask how the central bank's interest rate moves output and inflation, and why bringing inflation down takes a recession."
+    },
+    {
+      "start": 1314.1,
+      "end": 1317.6,
+      "speaker": "HOST",
+      "text": "That's it for today. Thanks for listening, and see you next time."
+    }
+  ]
+}

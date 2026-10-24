@@ -1,0 +1,823 @@
+[
+  {
+    "id": "ch01",
+    "slug": "ch01-introduction-to-macroeconomics",
+    "title": "Introduction to Macroeconomics",
+    "label": "Chapter 01",
+    "group": "Foundations",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/ch01-introduction-to-macroeconomics.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch01-introduction-to-macroeconomics.ipynb",
+    "preview": "assets/previews/ch01.jpg",
+    "apps": {
+      "data": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch01-data-apps.html",
+        "topics": [
+          "1.3 Income over time and across countries",
+          "Fig. 1: GDP per person across countries",
+          "1.4 Recessions, inflation and unemployment",
+          "Fig. 2: The U.S. employment-population ratio",
+          "Fig. 2, beyond the United States: employment around the world"
+        ]
+      },
+      "model": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch01-model-apps.html",
+        "topics": [
+          "1.6 What a model does",
+          "Fig. 6: The structure of economic models",
+          "1.8 Solving a model: the labor market",
+          "Fig. 8: The labor market"
+        ]
+      }
+    },
+    "podcast": {
+      "id": "podcast-ch01-introduction-to-macroeconomics",
+      "duration": 1321.5,
+      "spotify": "https://open.spotify.com/episode/3mZFGwvB3a4UArov0IKkeV"
+    }
+  },
+  {
+    "id": "ch02",
+    "slug": "ch02-measuring-the-macroeconomy",
+    "title": "Measuring the Macroeconomy",
+    "label": "Chapter 02",
+    "group": "Foundations",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/ch02-measuring-the-macroeconomy.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch02-measuring-the-macroeconomy.ipynb",
+    "preview": "assets/previews/ch02.jpg",
+    "apps": {
+      "data": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch02-data-apps.html",
+        "topics": [
+          "2.3 Who buys GDP: the expenditure side",
+          "Fig. 1: Composition of GDP across countries",
+          "Fig. 2: Expenditure shares of GDP since 1970",
+          "Fig. 2, changes: how each U.S. share moved since a base year",
+          "2.4 Who earns GDP: labor\u2019s share"
+        ]
+      }
+    },
+    "podcast": {
+      "id": "podcast-ch02-measuring-the-macroeconomy",
+      "duration": 1348.0,
+      "spotify": "https://open.spotify.com/episode/0z5MV4pT4yLhsIUU5SBb4D"
+    }
+  },
+  {
+    "id": "ch03",
+    "slug": "ch03-an-overview-of-long-run-economic-growth",
+    "title": "An Overview of Long-Run Economic Growth",
+    "label": "Chapter 03",
+    "group": "Long-run growth",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/ch03-an-overview-of-long-run-economic-growth.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch03-an-overview-of-long-run-economic-growth.ipynb",
+    "preview": "assets/previews/ch03.jpg",
+    "apps": {
+      "data": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch03-data-apps.html",
+        "topics": [
+          "3.3 Growth over the very long run",
+          "Fig. 1: Economic growth over the very long run",
+          "Fig. 2: Per capita GDP across countries",
+          "3.4 The mathematics of growth",
+          "Fig. 5: U.S. per capita GDP on a ratio scale"
+        ]
+      },
+      "model": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch03-model-apps.html",
+        "topics": [
+          "3.4 The mathematics of growth",
+          "Fig. 3: Population over time",
+          "Fig. 4: Population over time, revisited",
+          "Fig. 5: Constant growth against U.S. per capita GDP on a ratio scale"
+        ]
+      }
+    },
+    "podcast": {
+      "id": "podcast-ch03-an-overview-of-long-run-economic-growth",
+      "duration": 1322.2,
+      "spotify": "https://open.spotify.com/episode/7iNJdwFNx0dTFfQAfsbRB5"
+    }
+  },
+  {
+    "id": "ch04",
+    "slug": "ch04-a-model-of-production",
+    "title": "A Model of Production",
+    "label": "Chapter 04",
+    "group": "Long-run growth",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/ch04-a-model-of-production.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch04-a-model-of-production.ipynb",
+    "preview": "assets/previews/ch04.jpg",
+    "apps": {
+      "data": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch04-data-apps.html",
+        "topics": [
+          "4.4 Capital income and the stock market",
+          "Fig. 3: The S&amp;P 500 stock price index",
+          "Fig. 3, other countries: real share prices around the world",
+          "4.5 Comparing the model with the data",
+          "Fig. 4: Predicted per capita GDP in the production model"
+        ]
+      },
+      "model": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch04-model-apps.html",
+        "topics": [
+          "4.3 The production function and its equilibrium",
+          "Fig. 1: The diminishing marginal product of capital",
+          "Fig. 2: Supply and demand for capital and labor",
+          "4.5 Comparing the model with the data",
+          "Fig. 5: The model\u2019s prediction for per capita GDP"
+        ]
+      }
+    },
+    "podcast": {
+      "id": "podcast-ch04-a-model-of-production",
+      "duration": 1350.0,
+      "spotify": "https://open.spotify.com/episode/4KmkTjKeBfPpnBR3h7wGpU"
+    }
+  },
+  {
+    "id": "ch05",
+    "slug": "ch05-the-solow-growth-model",
+    "title": "The Solow Growth Model",
+    "label": "Chapter 05",
+    "group": "Long-run growth",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/ch05-the-solow-growth-model.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch05-the-solow-growth-model.ipynb",
+    "preview": "assets/previews/ch05.jpg",
+    "apps": {
+      "data": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch05-data-apps.html",
+        "topics": [
+          "5.4 Does the model fit the data?",
+          "Fig. 3: Explaining capital across countries",
+          "5.6 Transition dynamics in the data",
+          "Fig. 8: Growth rates in the OECD",
+          "Fig. 9: Growth rates around the world"
+        ]
+      },
+      "model": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch05-model-apps.html",
+        "topics": [
+          "5.3 The Solow diagram and the steady state",
+          "Fig. 1: The Solow diagram",
+          "Fig. 2: The Solow diagram with output",
+          "5.4 Does the model fit the data?",
+          "Fig. 3: The Solow model\u2019s prediction for capital across countries"
+        ]
+      }
+    },
+    "podcast": {
+      "id": "podcast-ch05-the-solow-growth-model",
+      "duration": 1329.2,
+      "spotify": "https://open.spotify.com/episode/3ee0OK7sqWkZRyJdukltCa"
+    }
+  },
+  {
+    "id": "ch06",
+    "slug": "ch06-growth-and-ideas",
+    "title": "Growth and Ideas",
+    "label": "Chapter 06",
+    "group": "Long-run growth",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/ch06-growth-and-ideas.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch06-growth-and-ideas.ipynb",
+    "preview": "assets/previews/ch06.jpg",
+    "apps": {
+      "data": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch06-data-apps.html",
+        "topics": [
+          "6.5 Ideas and growth in the data",
+          "Fig. 5: The real price of industrial commodities",
+          "Fig. 5, inside the index: six commodities",
+          "Fig. 5, beyond the six: 40 commodities",
+          "Fig. 6: A slowdown in U.S. economic growth?"
+        ]
+      },
+      "model": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch06-model-apps.html",
+        "topics": [
+          "6.3 Why ideas are different",
+          "Fig. 1: A fixed cost leads to increasing returns",
+          "6.4 The Romer model: growth from ideas",
+          "Fig. 2: The balanced growth path in the Romer model",
+          "Fig. 3: A rise in research productivity"
+        ]
+      }
+    },
+    "podcast": {
+      "id": "podcast-ch06-growth-and-ideas",
+      "duration": 1375.0,
+      "spotify": "https://open.spotify.com/episode/3Dy0XaFu7Mh4P5GDTCma8a"
+    }
+  },
+  {
+    "id": "ch07",
+    "slug": "ch07-the-labor-market-wages-and-unemployment",
+    "title": "The Labor Market, Wages, and Unemployment",
+    "label": "Chapter 07",
+    "group": "Labor & inflation",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/ch07-the-labor-market-wages-and-unemployment.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch07-the-labor-market-wages-and-unemployment.ipynb",
+    "preview": "assets/previews/ch07.jpg",
+    "apps": {
+      "data": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch07-data-apps.html",
+        "topics": [
+          "7.3 The U.S. labor market in the data",
+          "Fig. 1: The U.S. employment-population ratio",
+          "Fig. 1, men and women: the employment-population ratio by sex",
+          "Fig. 1, beyond the United States: employment around the world",
+          "Fig. 2: The U.S. unemployment rate"
+        ]
+      },
+      "model": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch07-model-apps.html",
+        "topics": [
+          "7.4 Supply and demand in the labor market",
+          "Fig. 3: The labor market",
+          "Fig. 4: An income tax at rate \u03c4",
+          "Fig. 5: A reduction in labor demand",
+          "Fig. 6: A reduction in labor demand with wage rigidity"
+        ]
+      }
+    },
+    "podcast": {
+      "id": "podcast-ch07-the-labor-market-wages-and-unemployment",
+      "duration": 1327.2,
+      "spotify": "https://open.spotify.com/episode/5KUkRfg8FF3gTy2lQufPE3"
+    }
+  },
+  {
+    "id": "ch08",
+    "slug": "ch08-inflation",
+    "title": "Inflation",
+    "label": "Chapter 08",
+    "group": "Labor & inflation",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/ch08-inflation.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch08-inflation.ipynb",
+    "preview": "assets/previews/ch08.jpg",
+    "apps": {
+      "data": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch08-data-apps.html",
+        "topics": [
+          "8.3 Measuring inflation",
+          "Fig. 1: The inflation rate in the United States and the G20",
+          "Fig. 2: The percentage of countries experiencing high inflation",
+          "8.4 Testing the quantity theory",
+          "Fig. 3: Money growth and inflation in rich countries since 1870"
+        ]
+      },
+      "model": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch08-model-apps.html",
+        "topics": [
+          "8.4 Testing the quantity theory",
+          "Fig. 4: The quantity theory\u2019s prediction for inflation across countries"
+        ]
+      }
+    },
+    "podcast": {
+      "id": "podcast-ch08-inflation",
+      "duration": 1365.3,
+      "spotify": "https://open.spotify.com/episode/1qeIGwdqMw698TP5w7c0D1"
+    }
+  },
+  {
+    "id": "ch09",
+    "slug": "ch09-an-introduction-to-the-short-run",
+    "title": "An Introduction to the Short Run",
+    "label": "Chapter 09",
+    "group": "Business cycles & policy",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/ch09-an-introduction-to-the-short-run.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch09-an-introduction-to-the-short-run.ipynb",
+    "preview": "assets/previews/ch09.jpg",
+    "apps": {
+      "data": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch09-data-apps.html",
+        "topics": [
+          "9.4 U.S. fluctuations in the data",
+          "Fig. 2: Real GDP, actual and potential, across countries",
+          "Fig. 3: Economic fluctuations in the U.S. and other countries",
+          "Fig. 4: Changes in employment across countries",
+          "Fig. 5: Inflation in the U.S. and other countries"
+        ]
+      },
+      "model": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch09-model-apps.html",
+        "topics": [
+          "9.3 Trend and cycle",
+          "Fig. 1: Economic fluctuations and short-run output",
+          "9.5 The Phillips curve",
+          "Fig. 6: The Phillips curve",
+          "Fig. 7: The Phillips curve model against the U.S. data"
+        ]
+      }
+    },
+    "podcast": {
+      "id": "podcast-ch09-an-introduction-to-the-short-run",
+      "duration": 1358.0,
+      "spotify": "https://open.spotify.com/episode/3CH6V85YCseKELYz1PN47P"
+    }
+  },
+  {
+    "id": "ch10",
+    "slug": "ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look",
+    "title": "The Great Recession and the Covid-19 Pandemic: A First Look",
+    "label": "Chapter 10",
+    "group": "Business cycles & policy",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look.ipynb",
+    "preview": "assets/previews/ch10.jpg",
+    "apps": {
+      "data": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch10-data-apps.html",
+        "topics": [
+          "10.3 The Great Recession of 2007\u20132009",
+          "Fig. 1: A bursting bubble in U.S. housing prices?",
+          "Fig. 1, beyond the U.S.: house prices in other countries",
+          "Fig. 2: The Fed funds rate",
+          "Fig. 2, beyond the U.S.: central bank policy rates"
+        ]
+      }
+    },
+    "podcast": {
+      "id": "podcast-ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look",
+      "duration": 1297.2,
+      "spotify": "https://open.spotify.com/episode/1F802NxQDGkRuFv1KwEex2"
+    }
+  },
+  {
+    "id": "ch11",
+    "slug": "ch11-the-is-curve",
+    "title": "The IS Curve",
+    "label": "Chapter 11",
+    "group": "Business cycles & policy",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/ch11-the-is-curve.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch11-the-is-curve.ipynb",
+    "preview": "assets/previews/ch11.jpg",
+    "apps": {
+      "data": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch11-data-apps.html",
+        "topics": [
+          "11.5 Microfoundations: consumption and fiscal policy",
+          "Fig. 6: Unemployment forecasts from the Congressional Budget Office"
+        ]
+      },
+      "model": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch11-model-apps.html",
+        "topics": [
+          "11.3 Deriving the IS curve",
+          "Fig. 1: Introducing the IS curve",
+          "Fig. 2: The IS curve",
+          "11.4 Using the IS curve",
+          "Fig. 3: An increase in the real interest rate"
+        ]
+      }
+    },
+    "podcast": {
+      "id": "podcast-ch11-the-is-curve",
+      "duration": 1317.6,
+      "spotify": "https://open.spotify.com/episode/46lEpf302TUp2OjREkZ9Jj"
+    }
+  },
+  {
+    "id": "ch12",
+    "slug": "ch12-monetary-policy-and-the-phillips-curve",
+    "title": "Monetary Policy and the Phillips Curve",
+    "label": "Chapter 12",
+    "group": "Business cycles & policy",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/ch12-monetary-policy-and-the-phillips-curve.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch12-monetary-policy-and-the-phillips-curve.ipynb",
+    "preview": "assets/previews/ch12.jpg",
+    "apps": {
+      "data": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch12-data-apps.html",
+        "topics": [
+          "12.4 The MP curve and the IS/MP diagram",
+          "Fig. 2, other central banks: policy rates around the world",
+          "Fig. 6: The yield curve for U.S. Treasuries",
+          "Fig. 6, month by month: the yield curve as the Fed raised rates",
+          "Fig. 6, other countries: the slope of the yield curve in 47 economies"
+        ]
+      },
+      "model": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch12-model-apps.html",
+        "topics": [
+          "12.3 The short-run model at a glance",
+          "Fig. 1: The structure of the short-run model",
+          "12.4 The MP curve and the IS/MP diagram",
+          "Fig. 3: The MP curve in the IS/MP diagram",
+          "Fig. 4: Raising the interest rate in the IS/MP diagram"
+        ]
+      }
+    },
+    "podcast": {
+      "id": "podcast-ch12-monetary-policy-and-the-phillips-curve",
+      "duration": 1309.4,
+      "spotify": "https://open.spotify.com/episode/6zWAnewiQys7399VJn1Zf9"
+    }
+  },
+  {
+    "id": "ch13",
+    "slug": "ch13-stabilization-policy-and-the-as-ad-framework",
+    "title": "Stabilization Policy and the AS/AD Framework",
+    "label": "Chapter 13",
+    "group": "Business cycles & policy",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/ch13-stabilization-policy-and-the-as-ad-framework.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch13-stabilization-policy-and-the-as-ad-framework.ipynb",
+    "preview": "assets/previews/ch13.jpg",
+    "apps": {
+      "data": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch13-data-apps.html",
+        "topics": [
+          "13.8 Empirical evidence",
+          "Fig. 16: The fed funds rate, actual and predicted",
+          "Fig. 16, other countries: policy rates, actual and predicted by the rule",
+          "Fig. 17: Inflation-output loops in the U.S. economy",
+          "Fig. 17, other countries: inflation-output loops in 40 economies"
+        ]
+      },
+      "model": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch13-model-apps.html",
+        "topics": [
+          "13.3 Monetary policy rules and the AD curve",
+          "Fig. 1: The aggregate demand curve",
+          "Fig. 2: The AD curve after an inflation shock",
+          "Fig. 3: An aggressive monetary policy rule",
+          "13.4 Aggregate supply and the AS/AD diagram"
+        ]
+      }
+    },
+    "podcast": {
+      "id": "podcast-ch13-stabilization-policy-and-the-as-ad-framework",
+      "duration": 1314.3,
+      "spotify": "https://open.spotify.com/episode/4oFm8jLcarr3uBJrdMcYeE"
+    }
+  },
+  {
+    "id": "ch14",
+    "slug": "ch14-financial-crises-and-the-short-run-model",
+    "title": "Financial Crises and the Short-Run Model",
+    "label": "Chapter 14",
+    "group": "Business cycles & policy",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/ch14-financial-crises-and-the-short-run-model.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch14-financial-crises-and-the-short-run-model.ipynb",
+    "preview": "assets/previews/ch14.jpg",
+    "apps": {
+      "data": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch14-data-apps.html",
+        "topics": [
+          "14.3 Financial frictions in the short-run model",
+          "Fig. 1: The spread between corporate bonds and 10-year Treasuries",
+          "Fig. 1, beyond the United States: government bond spreads in the euro area",
+          "14.4 Monetary policy, the output gap and money",
+          "Fig. 4: The fed funds rate and the Taylor rule"
+        ]
+      },
+      "model": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch14-model-apps.html",
+        "topics": [
+          "14.3 Financial frictions in the short-run model",
+          "Fig. 2: A housing bubble and a financial crisis",
+          "Fig. 3: The financial crisis in the AS/AD framework",
+          "14.4 Monetary policy, the output gap and money",
+          "Fig. 4: What the Taylor rule recommends and what the Fed did"
+        ]
+      }
+    },
+    "podcast": {
+      "id": "podcast-ch14-financial-crises-and-the-short-run-model",
+      "duration": 1300.6,
+      "spotify": "https://open.spotify.com/episode/5D7A8ekmTgCYf1Q6L4dy5F"
+    }
+  },
+  {
+    "id": "ch15",
+    "slug": "ch15-dsge-models-the-frontier-of-business-cycle-research",
+    "title": "DSGE Models: The Frontier of Business Cycle Research",
+    "label": "Chapter 15",
+    "group": "Business cycles & policy",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/ch15-dsge-models-the-frontier-of-business-cycle-research.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch15-dsge-models-the-frontier-of-business-cycle-research.ipynb",
+    "preview": "assets/previews/ch15.jpg",
+    "apps": {
+      "data": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch15-data-apps.html",
+        "topics": [
+          "15.3 TFP and real business cycles",
+          "Fig. 1: U.S. total factor productivity growth",
+          "Fig. 1, which TFP: the raw Solow residual and the adjusted series",
+          "Fig. 1, beyond the United States: TFP growth in 120 countries"
+        ]
+      },
+      "model": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch15-model-apps.html",
+        "topics": [
+          "15.4 The labor market in the DSGE model",
+          "Fig. 2: The labor market in the DSGE model",
+          "15.5 Real shocks: productivity, taxes and government purchases",
+          "Fig. 3: A negative TFP shock in the DSGE model",
+          "Fig. 4: The imposition of a sales tax in the DSGE model"
+        ]
+      }
+    },
+    "podcast": {
+      "id": "podcast-ch15-dsge-models-the-frontier-of-business-cycle-research",
+      "duration": 1376.2,
+      "spotify": "https://open.spotify.com/episode/6dcH4qbzY44RzLyFafQB7a"
+    }
+  },
+  {
+    "id": "ch16",
+    "slug": "ch16-consumption",
+    "title": "Consumption",
+    "label": "Chapter 16",
+    "group": "Decisions & the global economy",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/ch16-consumption.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch16-consumption.ipynb",
+    "preview": "assets/previews/ch16.jpg",
+    "apps": {
+      "data": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch16-data-apps.html",
+        "topics": [
+          "16.4 Consumption in the data: debt, saving and wealth",
+          "Fig. 3: Household debt as a percentage of GDP",
+          "Fig. 3, data hygiene: household debt in two data vintages",
+          "Fig. 3, beyond the United States: household debt in 43 countries",
+          "Fig. 4: The personal saving rate"
+        ]
+      },
+      "model": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch16-model-apps.html",
+        "topics": [
+          "16.3 Utility and the desire to smooth consumption",
+          "Fig. 1: Flow utility",
+          "Fig. 2: The desire to smooth consumption"
+        ]
+      }
+    },
+    "podcast": {
+      "id": "podcast-ch16-consumption",
+      "duration": 1320.6,
+      "spotify": "https://open.spotify.com/episode/53n2URSzjogJECN8kvcbT3"
+    }
+  },
+  {
+    "id": "ch17",
+    "slug": "ch17-investment",
+    "title": "Investment",
+    "label": "Chapter 17",
+    "group": "Decisions & the global economy",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/ch17-investment.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch17-investment.ipynb",
+    "preview": "assets/previews/ch17.jpg",
+    "apps": {
+      "data": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch17-data-apps.html",
+        "topics": [
+          "17.4 The stock market",
+          "Fig. 3: The price-earnings ratio in the stock market",
+          "17.5 Investment in the data",
+          "Fig. 4: Components of private investment as a share of GDP",
+          "Fig. 4, beyond the United States: investment in 35 countries"
+        ]
+      },
+      "model": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch17-model-apps.html",
+        "topics": [
+          "17.3 How firms choose their capital stock",
+          "Fig. 1: How much should a firm invest?",
+          "Fig. 2: An increase in the corporate income tax",
+          "17.4 The stock market",
+          "Fig. 3: The model\u2019s price-earnings ratio against the U.S. stock market"
+        ]
+      }
+    },
+    "podcast": {
+      "id": "podcast-ch17-investment",
+      "duration": 1291.5,
+      "spotify": "https://open.spotify.com/episode/3x2IrynNjap9QnXzMZx14W"
+    }
+  },
+  {
+    "id": "ch18",
+    "slug": "ch18-the-government-and-the-macroeconomy",
+    "title": "The Government and the Macroeconomy",
+    "label": "Chapter 18",
+    "group": "Decisions & the global economy",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/ch18-the-government-and-the-macroeconomy.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch18-the-government-and-the-macroeconomy.ipynb",
+    "preview": "assets/previews/ch18.jpg",
+    "apps": {
+      "data": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch18-data-apps.html",
+        "topics": [
+          "18.3 U.S. spending, revenue and debt",
+          "Fig. 1: U.S. federal government revenue and spending",
+          "Fig. 1, beyond the United States: government budgets in 38 countries",
+          "Fig. 2: Federal debt and deficits in the United States",
+          "Fig. 2, beyond the United States: two centuries of government debt"
+        ]
+      },
+      "model": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch18-model-apps.html",
+        "topics": [
+          "18.6 The fiscal problem of the twenty-first century",
+          "Fig. 6, the debt: projecting the debt-GDP ratio under a deficit cut"
+        ]
+      }
+    },
+    "podcast": {
+      "id": "podcast-ch18-the-government-and-the-macroeconomy",
+      "duration": 1334.5,
+      "spotify": "https://open.spotify.com/episode/6dIV2e0BKZCMXyizLEK58B"
+    }
+  },
+  {
+    "id": "ch19",
+    "slug": "ch19-international-trade",
+    "title": "International Trade",
+    "label": "Chapter 19",
+    "group": "Decisions & the global economy",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/ch19-international-trade.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch19-international-trade.ipynb",
+    "preview": "assets/previews/ch19.jpg",
+    "apps": {
+      "data": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch19-data-apps.html",
+        "topics": [
+          "19.3 Some basic facts about trade",
+          "Fig. 1: U.S. import and export shares of GDP",
+          "Fig. 1, beyond the United States: exports and imports around the world",
+          "Fig. 2: The U.S. trade balance as a share of GDP",
+          "Fig. 2, beyond the United States: trade balances around the world"
+        ]
+      }
+    },
+    "podcast": {
+      "id": "podcast-ch19-international-trade",
+      "duration": 1343.7,
+      "spotify": "https://open.spotify.com/episode/0kLOKNtaTL6IK2VKkTVUCg"
+    }
+  },
+  {
+    "id": "ch20",
+    "slug": "ch20-exchange-rates-and-international-finance",
+    "title": "Exchange Rates and International Finance",
+    "label": "Chapter 20",
+    "group": "Decisions & the global economy",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/ch20-exchange-rates-and-international-finance.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch20-exchange-rates-and-international-finance.ipynb",
+    "preview": "assets/previews/ch20.jpg",
+    "apps": {
+      "data": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch20-data-apps.html",
+        "topics": [
+          "20.3 Exchange rates in the long run",
+          "Fig. 1: The U.S. exchange rate versus the yen and the euro",
+          "Fig. 1, other currencies: the price of a dollar in 25 currencies",
+          "Fig. 2: Inflation in the United States, Japan and other countries",
+          "Fig. 3: The real exchange rate for Japan"
+        ]
+      },
+      "model": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch20-model-apps.html",
+        "topics": [
+          "20.4 The open economy in the short-run model",
+          "Fig. 4: Increasing interest rates and the IS curve",
+          "Fig. 5: An increase in foreign interest rates",
+          "20.5 Exchange-rate regimes and the policy trilemma",
+          "Fig. 7: The policy trilemma in open economies"
+        ]
+      }
+    },
+    "podcast": {
+      "id": "podcast-ch20-exchange-rates-and-international-finance",
+      "duration": 1352.1,
+      "spotify": "https://open.spotify.com/episode/2klpjOKO9PiHzN7g1ZZaAc"
+    }
+  },
+  {
+    "id": "ch21",
+    "slug": "ch21-parting-thoughts",
+    "title": "Parting Thoughts",
+    "label": "Chapter 21",
+    "group": "Decisions & the global economy",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/ch21-parting-thoughts.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch21-parting-thoughts.ipynb",
+    "preview": "assets/previews/ch21.jpg",
+    "apps": {
+      "data": {
+        "url": "https://quarcs-lab.github.io/macro102-site/apps/ch21-data-apps.html",
+        "topics": [
+          "21.4 Lesson 2: Transition dynamics explain differences in growth rates",
+          "Fig. 1: Income relative to the United States across economies",
+          "21.6 Lesson 4: In the short run, there is a trade-off between inflation and output",
+          "Fig. 2: The U.S. Phillips curve"
+        ]
+      }
+    },
+    "podcast": {
+      "id": "podcast-ch21-parting-thoughts",
+      "duration": 1341.3,
+      "spotify": "https://open.spotify.com/episode/0EFUcqcEWiHqrYhLKhovuX"
+    }
+  },
+  {
+    "id": "appA",
+    "slug": "appA-google-colab-and-ai-powered-python",
+    "title": "Google Colab and AI-powered Python",
+    "label": "Appendix A",
+    "group": "Appendices",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/appA-google-colab-and-ai-powered-python.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appA-google-colab-and-ai-powered-python.ipynb",
+    "preview": "assets/previews/appA.jpg",
+    "apps": {}
+  },
+  {
+    "id": "appB",
+    "slug": "appB-accessing-macroeconomic-data-with-python",
+    "title": "Accessing Macroeconomic Data with Python",
+    "label": "Appendix B",
+    "group": "Appendices",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/appB-accessing-macroeconomic-data-with-python.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appB-accessing-macroeconomic-data-with-python.ipynb",
+    "preview": "assets/previews/appB.jpg",
+    "apps": {}
+  },
+  {
+    "id": "appC",
+    "slug": "appC-math-review-for-macroeconomics",
+    "title": "Math Review for Macroeconomics",
+    "label": "Appendix C",
+    "group": "Appendices",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/appC-math-review-for-macroeconomics.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appC-math-review-for-macroeconomics.ipynb",
+    "preview": "assets/previews/appC.jpg",
+    "apps": {}
+  },
+  {
+    "id": "appD",
+    "slug": "appD-growth-and-development-accounting",
+    "title": "Growth and Development Accounting",
+    "label": "Appendix D",
+    "group": "Appendices",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/appD-growth-and-development-accounting.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appD-growth-and-development-accounting.ipynb",
+    "preview": "assets/previews/appD.jpg",
+    "apps": {}
+  },
+  {
+    "id": "appE",
+    "slug": "appE-growth-and-convergence-across-countries",
+    "title": "Growth and Convergence Across Countries",
+    "label": "Appendix E",
+    "group": "Appendices",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/appE-growth-and-convergence-across-countries.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appE-growth-and-convergence-across-countries.ipynb",
+    "preview": "assets/previews/appE.jpg",
+    "apps": {}
+  },
+  {
+    "id": "appF",
+    "slug": "appF-augmented-solow-growth-model",
+    "title": "Augmented Solow Growth Model",
+    "label": "Appendix F",
+    "group": "Appendices",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/appF-augmented-solow-growth-model.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appF-augmented-solow-growth-model.ipynb",
+    "preview": "assets/previews/appF.jpg",
+    "apps": {}
+  },
+  {
+    "id": "appG",
+    "slug": "appG-growth-and-institutions",
+    "title": "Growth and Institutions",
+    "label": "Appendix G",
+    "group": "Appendices",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/appG-growth-and-institutions.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appG-growth-and-institutions.ipynb",
+    "preview": "assets/previews/appG.jpg",
+    "apps": {}
+  },
+  {
+    "id": "appH",
+    "slug": "appH-dsge-modeling-with-python",
+    "title": "DSGE Modeling with Python",
+    "label": "Appendix H",
+    "group": "Appendices",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/appH-dsge-modeling-with-python.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appH-dsge-modeling-with-python.ipynb",
+    "preview": "assets/previews/appH.jpg",
+    "apps": {}
+  },
+  {
+    "id": "appI",
+    "slug": "appI-the-dsge-model-of-smets-and-wouters",
+    "title": "The DSGE Model of Smets and Wouters",
+    "label": "Appendix I",
+    "group": "Appendices",
+    "book": "https://quarcs-lab.github.io/macro102-site/notebooks/appI-the-dsge-model-of-smets-and-wouters.html",
+    "colab": "https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appI-the-dsge-model-of-smets-and-wouters.ipynb",
+    "preview": "assets/previews/appI.jpg",
+    "apps": {}
+  }
+]

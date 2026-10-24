@@ -1,0 +1,687 @@
+{
+  "title": "A Model of Production",
+  "duration": 1350.0,
+  "sections": [
+    {
+      "title": "Opening",
+      "start": 0.0,
+      "segment": 0
+    },
+    {
+      "title": "The production model",
+      "start": 110.5,
+      "segment": 8
+    },
+    {
+      "title": "The model meets the data",
+      "start": 545.5,
+      "segment": 46
+    },
+    {
+      "title": "TFP and institutions",
+      "start": 778.1,
+      "segment": 64
+    },
+    {
+      "title": "Wrap-up",
+      "start": 1180.6,
+      "segment": 94
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 10.1,
+      "speaker": "HOST",
+      "text": "Welcome back. Today we are on a model of production: how a country turns its machines and workers into the things it makes. Let's start with a puzzle."
+    },
+    {
+      "start": 10.1,
+      "end": 33.7,
+      "speaker": "ECONOMIST",
+      "text": "Take the five richest countries in 2023, like Switzerland, Norway and Singapore. They produced about 82 times as much per person as the five poorest, like Burundi and Mozambique. So the average person in the richest group produces in about four and a half days what the average person in the poorest group produces in a whole year."
+    },
+    {
+      "start": 33.7,
+      "end": 38.9,
+      "speaker": "HOST",
+      "text": "Four and a half days against a whole year. Where does a gap like that come from?"
+    },
+    {
+      "start": 38.9,
+      "end": 47.8,
+      "speaker": "ECONOMIST",
+      "text": "There are two simple stories. Maybe rich countries have many more machines per worker. Or maybe they use their machines and workers much better."
+    },
+    {
+      "start": 47.8,
+      "end": 55.5,
+      "speaker": "HOST",
+      "text": "So here is today's question. Why are some countries so much richer than others: more machines, or better use of them?"
+    },
+    {
+      "start": 55.5,
+      "end": 90.7,
+      "speaker": "ECONOMIST",
+      "text": "By the end of this episode, you'll be able to do three things. First, explain why adding machines without adding workers raises output less and less, and how the market sets what machines and workers earn. Second, explain why a model in which countries differ only in machines predicts income gaps that are far too small. Third, explain how economists measure productivity, meaning how well a country uses its machines and workers. And explain why differences in productivity explain most of the gap between rich and poor countries."
+    },
+    {
+      "start": 90.7,
+      "end": 94.3,
+      "speaker": "HOST",
+      "text": "And we'll follow the chapter's mind map part by part?"
+    },
+    {
+      "start": 94.3,
+      "end": 110.5,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Part one builds the production model. Part two compares the model with data from many countries. Part three is about productivity and institutions, meaning the rules of a society. Each part has a few leaves, small topics we take in order."
+    },
+    {
+      "start": 110.5,
+      "end": 116.6,
+      "speaker": "HOST",
+      "text": "Part one of the map: The production model. First, what do we mean by a model?"
+    },
+    {
+      "start": 116.6,
+      "end": 140.7,
+      "speaker": "ECONOMIST",
+      "text": "A small, simple economy described by a few equations. Let's visit Islandia, a small imaginary island country. Islanders make one all-purpose product, counted in tons per year. They need two inputs: workers, and machines like boats, nets and workshops. Economists call the machines capital."
+    },
+    {
+      "start": 140.7,
+      "end": 142.7,
+      "speaker": "HOST",
+      "text": "And who does the producing?"
+    },
+    {
+      "start": 142.7,
+      "end": 158.8,
+      "speaker": "ECONOMIST",
+      "text": "Many small, identical firms, each too small to change the wage or the rent of a machine. We treat them as one firm, Harbor Boatworks. It hires every worker, and it rents every machine from the people who own the machines."
+    },
+    {
+      "start": 158.8,
+      "end": 162.8,
+      "speaker": "HOST",
+      "text": "The first leaf is Cobb-Douglas production. That sounds scary."
+    },
+    {
+      "start": 162.8,
+      "end": 188.4,
+      "speaker": "ECONOMIST",
+      "text": "It's just a recipe. A production function tells you how much output, the tons made in a year, you get from given machines and workers. Cobb-Douglas is one common recipe. Output equals productivity, times the machines raised to the power one third, times the workers raised to the power two thirds. Productivity is a number that says how well the inputs are used."
+    },
+    {
+      "start": 188.4,
+      "end": 192.5,
+      "speaker": "HOST",
+      "text": "What does a power of one third mean, in plain words?"
+    },
+    {
+      "start": 192.5,
+      "end": 216.2,
+      "speaker": "ECONOMIST",
+      "text": "It means the cube root. The cube root of twenty-seven is three, because three times three times three is twenty-seven. Now notice that the two powers, one third and two thirds, add up to one. So if Harbor Boatworks doubles both its machines and its workers, its output exactly doubles. Economists call this constant returns to scale."
+    },
+    {
+      "start": 216.2,
+      "end": 223.1,
+      "speaker": "HOST",
+      "text": "That makes sense. The firm could open an identical copy of itself next door, and the copy would make as much as the original."
+    },
+    {
+      "start": 223.1,
+      "end": 230.6,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. A firm can always copy itself. That's also why many identical firms act like one big firm."
+    },
+    {
+      "start": 230.6,
+      "end": 238.1,
+      "speaker": "HOST",
+      "text": "Next leaf: diminishing returns to capital. What if Harbor Boatworks adds machines, but no workers?"
+    },
+    {
+      "start": 238.1,
+      "end": 251.5,
+      "speaker": "ECONOMIST",
+      "text": "Let's test it. The firm has 64 workers and one machine, and makes 16 tons a year. Now it rents 8 machines and keeps the same workers. How much does it make?"
+    },
+    {
+      "start": 251.5,
+      "end": 257.6,
+      "speaker": "HOST",
+      "text": "Eight times the machines, so I'd guess eight times the output. That's 128 tons."
+    },
+    {
+      "start": 257.6,
+      "end": 278.6,
+      "speaker": "ECONOMIST",
+      "text": "That's the natural guess, but it's wrong. The firm makes only 32 tons. That's 8 times the machines, but only 2 times the output. With the workers fixed, output grows with the cube root of the machines. And the cube root of eight is two, because two times two times two is eight."
+    },
+    {
+      "start": 278.6,
+      "end": 282.0,
+      "speaker": "HOST",
+      "text": "Why does each extra machine help less?"
+    },
+    {
+      "start": 282.0,
+      "end": 308.5,
+      "speaker": "ECONOMIST",
+      "text": "With one machine, all the workers share it, so a second machine is very useful. With eight machines, each machine has fewer workers to run it, so one more adds much less. That's diminishing returns: each extra machine adds less output than the one before. Even doubling the machines multiplies output by only the cube root of two, about 1.26. That's a rise of about 26 percent."
+    },
+    {
+      "start": 308.5,
+      "end": 314.7,
+      "speaker": "HOST",
+      "text": "Wait. Doubling everything doubled output. Isn't that a contradiction?"
+    },
+    {
+      "start": 314.7,
+      "end": 327.4,
+      "speaker": "ECONOMIST",
+      "text": "No. Constant returns is about doubling all the inputs together. Diminishing returns is about adding one input alone. When the workers double too, no machine loses workers to run it."
+    },
+    {
+      "start": 327.4,
+      "end": 335.2,
+      "speaker": "HOST",
+      "text": "Next leaf: markets clear. How does Harbor Boatworks decide how many machines and workers to use?"
+    },
+    {
+      "start": 335.2,
+      "end": 362.2,
+      "speaker": "ECONOMIST",
+      "text": "Two new terms first. The marginal product of capital, MPK for short, is the extra output from one more machine, with the same workers. The marginal product of labor, MPL, is the extra output from one more worker, with the same machines. The firm rents machines until the MPK equals the rent. And it hires workers until the MPL equals the wage."
+    },
+    {
+      "start": 362.2,
+      "end": 365.5,
+      "speaker": "HOST",
+      "text": "Why stop exactly there?"
+    },
+    {
+      "start": 365.5,
+      "end": 378.1,
+      "speaker": "ECONOMIST",
+      "text": "Before that point, one more machine adds more output than it costs, so profit rises. Beyond it, the last machine costs more than it adds, so the firm gains by giving it back."
+    },
+    {
+      "start": 378.1,
+      "end": 380.8,
+      "speaker": "HOST",
+      "text": "And what sets the rent and the wage?"
+    },
+    {
+      "start": 380.8,
+      "end": 397.1,
+      "speaker": "ECONOMIST",
+      "text": "The markets. Islandia has a fixed number of machines and workers. The rent and the wage move until Harbor Boatworks wants exactly all of them. Economists say the markets clear. So no machine stays unused, and every islander who can work has a job."
+    },
+    {
+      "start": 397.1,
+      "end": 401.5,
+      "speaker": "HOST",
+      "text": "Next leaf: who gets what. How is the output shared?"
+    },
+    {
+      "start": 401.5,
+      "end": 415.2,
+      "speaker": "ECONOMIST",
+      "text": "Workers get two thirds of output as wages, and machine owners get one third as rent. Take the 32 tons from our experiment. About 21 tons go to the workers, and about 11 to the machine owners."
+    },
+    {
+      "start": 415.2,
+      "end": 419.6,
+      "speaker": "HOST",
+      "text": "Why exactly one third and two thirds? Is that luck?"
+    },
+    {
+      "start": 419.6,
+      "end": 444.6,
+      "speaker": "ECONOMIST",
+      "text": "No, it comes from the recipe. In this recipe, one more machine always adds one third of what an average machine makes. Pay every machine that amount, and the machines together get one third of output. Workers, in the same way, get two thirds. And economists chose the power one third to match the data. In the U.S., capital earns roughly a third of GDP, the value of everything the country produces."
+    },
+    {
+      "start": 444.6,
+      "end": 450.3,
+      "speaker": "HOST",
+      "text": "So one third plus two thirds is everything. Nothing is left for the firm?"
+    },
+    {
+      "start": 450.3,
+      "end": 458.3,
+      "speaker": "ECONOMIST",
+      "text": "Right. Economic profit, what is left after paying for every input, is zero. That's what we expect when many firms compete."
+    },
+    {
+      "start": 458.3,
+      "end": 461.0,
+      "speaker": "HOST",
+      "text": "But then why do people buy shares in companies?"
+    },
+    {
+      "start": 461.0,
+      "end": 488.8,
+      "speaker": "ECONOMIST",
+      "text": "A lot of students think zero profit means the company's owners, its shareholders, get nothing. But in our model, the firm rents its machines. Real companies usually own their machines, so their shareholders are also the machine owners. The rent for the machines stays in the company as accounting profit, the profit in company reports. That's the income of capital, one third of output. And a share, a small piece of a company, gives you a right to part of that income."
+    },
+    {
+      "start": 488.8,
+      "end": 493.1,
+      "speaker": "HOST",
+      "text": "That brings us to the last leaf: capital income and the stock market."
+    },
+    {
+      "start": 493.1,
+      "end": 514.8,
+      "speaker": "ECONOMIST",
+      "text": "The S&P 500 is an index, one number that follows the share prices of five hundred large U.S. companies. Divide it by an index of consumer prices, and you remove inflation, the general rise in prices. That gives the real index. Today it is about 50 times as high as in 1920."
+    },
+    {
+      "start": 514.8,
+      "end": 518.8,
+      "speaker": "HOST",
+      "text": "50 times! So the stock market only goes up?"
+    },
+    {
+      "start": 518.8,
+      "end": 527.1,
+      "speaker": "ECONOMIST",
+      "text": "Not at all. There were deep falls, like the crash after the 1929 peak, and the low point in 2009."
+    },
+    {
+      "start": 527.1,
+      "end": 539.5,
+      "speaker": "HOST",
+      "text": "So in part one we saw that doubling everything doubles output, but adding machines alone helps less and less. And paying each input what its last unit adds gives workers two thirds and machine owners one third."
+    },
+    {
+      "start": 539.5,
+      "end": 545.5,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Next branch: we take this model to real countries."
+    },
+    {
+      "start": 545.5,
+      "end": 551.4,
+      "speaker": "HOST",
+      "text": "Part two of the map: The model meets the data. What's the first leaf?"
+    },
+    {
+      "start": 551.4,
+      "end": 573.5,
+      "speaker": "ECONOMIST",
+      "text": "Income per person. Living standards depend on output per person, not on total output. Every ton is paid out as wages or rent, so output per person is also income per person. And because doubling machines and workers together doubles output, output per worker depends only on machines per worker."
+    },
+    {
+      "start": 573.5,
+      "end": 581.0,
+      "speaker": "HOST",
+      "text": "So Islandia's income per person depends on two things: its productivity and its machines per worker."
+    },
+    {
+      "start": 581.0,
+      "end": 608.9,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. Income per person equals productivity times the cube root of machines per worker, which economists call capital per person. Everybody works here, so per worker and per person are the same. Productivity raises income one for one: 10 percent more productivity, 10 percent more income. Machines per worker raise income too, but through the cube root, so with diminishing returns."
+    },
+    {
+      "start": 608.9,
+      "end": 613.7,
+      "speaker": "HOST",
+      "text": "Next leaf: equal productivity, capital only. What does that mean?"
+    },
+    {
+      "start": 613.7,
+      "end": 634.4,
+      "speaker": "ECONOMIST",
+      "text": "We can count machines, but we can't count productivity directly. So the first test gives every country the same productivity, and only capital differs. We compare each country with the United States. In 2023, China had about 35 percent of U.S. capital per person."
+    },
+    {
+      "start": 634.4,
+      "end": 638.3,
+      "speaker": "HOST",
+      "text": "And what income does the model predict for China?"
+    },
+    {
+      "start": 638.3,
+      "end": 651.7,
+      "speaker": "ECONOMIST",
+      "text": "Write 35 percent as 0.35. Its cube root is about 0.71. So the model predicts that China has about 71 percent of U.S. income per person."
+    },
+    {
+      "start": 651.7,
+      "end": 657.4,
+      "speaker": "HOST",
+      "text": "Next leaf: the model's predictions miss. How badly?"
+    },
+    {
+      "start": 657.4,
+      "end": 666.7,
+      "speaker": "ECONOMIST",
+      "text": "Take Burundi, one of the poorest countries. It has less than 1 percent of U.S. capital per person. What income would you guess the model predicts?"
+    },
+    {
+      "start": 666.7,
+      "end": 672.1,
+      "speaker": "HOST",
+      "text": "Less than 1 percent of the machines, so about 1 percent of U.S. income?"
+    },
+    {
+      "start": 672.1,
+      "end": 697.7,
+      "speaker": "ECONOMIST",
+      "text": "That's the tempting answer, but no. The cube root shrinks the gap. The cube root of a tiny number is not so tiny. So the model predicts that Burundi has about one sixth of U.S. income per person. In fact, Burundi has only about one seventy-fourth. Average income in the United States is about 74 times Burundi's, not 6 times."
+    },
+    {
+      "start": 697.7,
+      "end": 700.4,
+      "speaker": "HOST",
+      "text": "Is Burundi just one bad case?"
+    },
+    {
+      "start": 700.4,
+      "end": 721.4,
+      "speaker": "ECONOMIST",
+      "text": "No, it happens almost everywhere. Compare the model's prediction with actual income for 110 countries. Of these countries, 95 percent are poorer than the model predicts from their machines. The typical country is predicted to be about 2.8 times as rich as it really is."
+    },
+    {
+      "start": 721.4,
+      "end": 730.4,
+      "speaker": "HOST",
+      "text": "So the model's gaps are far too small. Then why not change the recipe? Give capital a bigger power than one third, and the gaps get bigger."
+    },
+    {
+      "start": 730.4,
+      "end": 756.3,
+      "speaker": "ECONOMIST",
+      "text": "It's a fair idea, but it doesn't work. To make income gaps as big as the gaps in machines, the power would have to be about one. But from part one, the power on capital equals capital's share of income. In the data, that share is about one third, far below one. So we keep the one third, and we drop the other assumption, equal productivity."
+    },
+    {
+      "start": 756.3,
+      "end": 769.9,
+      "speaker": "HOST",
+      "text": "So in part two we saw that machines per worker differ hugely across countries, but the cube root shrinks those differences in income. With equal productivity, poor countries should be much richer than they are."
+    },
+    {
+      "start": 769.9,
+      "end": 778.1,
+      "speaker": "ECONOMIST",
+      "text": "Right. So something other than machines must make poor countries poor. That's the last branch."
+    },
+    {
+      "start": 778.1,
+      "end": 785.4,
+      "speaker": "HOST",
+      "text": "Part three of the map: TFP and institutions. What is TFP?"
+    },
+    {
+      "start": 785.4,
+      "end": 804.1,
+      "speaker": "ECONOMIST",
+      "text": "TFP stands for total factor productivity. Economists call the inputs, machines and workers, factors of production. So TFP means how productive all the inputs are together. It's the productivity number in our recipe. The first leaf is TFP as the residual."
+    },
+    {
+      "start": 804.1,
+      "end": 806.7,
+      "speaker": "HOST",
+      "text": "Residual? You mean what's left over?"
+    },
+    {
+      "start": 806.7,
+      "end": 823.8,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. We can't count TFP, but we can count income and machines. So we assume the model is right, and ask what productivity makes it fit exactly. Whatever income the machines cannot explain goes into TFP. Let's build China's number step by step."
+    },
+    {
+      "start": 823.8,
+      "end": 825.2,
+      "speaker": "HOST",
+      "text": "Okay. Where do we start?"
+    },
+    {
+      "start": 825.2,
+      "end": 847.0,
+      "speaker": "ECONOMIST",
+      "text": "Step one is the machines. China has about 35 percent of U.S. capital per person. As we saw, the cube root turns that into about 71 percent of U.S. income, with U.S. productivity. Step two is reality. China's actual income per person is only about 30 percent of the U.S. level."
+    },
+    {
+      "start": 847.0,
+      "end": 856.1,
+      "speaker": "HOST",
+      "text": "So the machines alone predict 71, and China gets 30. Is step three a division?"
+    },
+    {
+      "start": 856.1,
+      "end": 877.5,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Income is productivity times what the machines give. So productivity is income divided by what the machines give: 30 divided by 71, about 0.42. That's China's TFP. With the same machines per worker, a worker in China produces about 42 percent of what a U.S. worker produces."
+    },
+    {
+      "start": 877.5,
+      "end": 889.8,
+      "speaker": "HOST",
+      "text": "Next leaf: capital or TFP? Here's my guess. Give a poor country as many machines per worker as the United States, and it would be about as rich."
+    },
+    {
+      "start": 889.8,
+      "end": 918.0,
+      "speaker": "ECONOMIST",
+      "text": "Many people hope so, but the numbers say no. Take Burundi again. Its machines predict one sixth of U.S. income, but it has one seventy-fourth. 74 divided by 6 is about 12, so Burundi's TFP is about one twelfth of the U.S. level. Give it U.S. machines per worker, and TFP is the only difference left. It would still have only about one twelfth of U.S. income."
+    },
+    {
+      "start": 918.0,
+      "end": 924.6,
+      "speaker": "HOST",
+      "text": "And the gap of 82 times from the start? How much is capital, and how much is TFP?"
+    },
+    {
+      "start": 924.6,
+      "end": 954.8,
+      "speaker": "ECONOMIST",
+      "text": "We can split that gap into two parts that multiply. Differences in capital per person, through the cube root, make the five richest countries about 5.2 times as rich as the five poorest. Differences in TFP make them another 15.9 times as rich. Multiply the two, and you get back the gap of about 82. The lesson for governments: more investment helps, but most of the possible gain is in raising productivity."
+    },
+    {
+      "start": 954.8,
+      "end": 962.7,
+      "speaker": "HOST",
+      "text": "Next leaf: why does TFP differ? I'd guess technology. Poor countries use older machines and methods."
+    },
+    {
+      "start": 962.7,
+      "end": 998.0,
+      "speaker": "ECONOMIST",
+      "text": "Technology is part of it. But a lot of students think TFP is only technology, and that's too narrow. TFP is a residual: it collects everything except machines, and the model measures it without explaining it. There are four main candidates. Institutions, like property rights, so no one can take what you own, and fair courts. Misallocation, which means machines and workers are in the wrong firms. Skills, because the recipe counts workers, but not what they know. And technology, the methods a country knows how to use."
+    },
+    {
+      "start": 998.0,
+      "end": 1002.4,
+      "speaker": "HOST",
+      "text": "Start with institutions. How can anyone measure their effect?"
+    },
+    {
+      "start": 1002.4,
+      "end": 1028.2,
+      "speaker": "ECONOMIST",
+      "text": "History gives us natural experiments, cases where history ran the experiment for us. Korea was once one country, and it was split in two. North and South share a history and a culture, but they got very different rules. Today, a satellite photo of Korea at night shows the South full of light. The North is almost completely dark, except for its capital city, Pyongyang."
+    },
+    {
+      "start": 1028.2,
+      "end": 1033.0,
+      "speaker": "HOST",
+      "text": "So the same people, under different rules, now have very different incomes."
+    },
+    {
+      "start": 1033.0,
+      "end": 1047.7,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Property rights and fair courts make it worth investing in machines, skills and new methods. They also let the best firms grow, so the same machines and workers produce more. That's higher TFP."
+    },
+    {
+      "start": 1047.7,
+      "end": 1051.1,
+      "speaker": "HOST",
+      "text": "And misallocation? Can you give an example?"
+    },
+    {
+      "start": 1051.1,
+      "end": 1079.0,
+      "speaker": "ECONOMIST",
+      "text": "Imagine two firms that import car parts. One is new, with modern methods. The other is old and slow, but its owner is a friend of a powerful politician. So the old firm gets cheap loans and licenses, and keeps machines and workers that the new firm would use better. The country has the same inputs but produces less, so its measured TFP is lower."
+    },
+    {
+      "start": 1079.0,
+      "end": 1084.4,
+      "speaker": "HOST",
+      "text": "Last leaf: reform, big bang or gradual. What does that mean?"
+    },
+    {
+      "start": 1084.4,
+      "end": 1103.2,
+      "speaker": "ECONOMIST",
+      "text": "Russia and China both moved away from central planning, where the state runs the economy, toward markets. After 1990, Russia changed its institutions fast, all at once: a big bang. China changed step by step, and let markets grow beside the old planned economy."
+    },
+    {
+      "start": 1103.2,
+      "end": 1110.2,
+      "speaker": "HOST",
+      "text": "So which one did better? My guess is the big bang. Put the good rules in place fast, and growth follows."
+    },
+    {
+      "start": 1110.2,
+      "end": 1122.2,
+      "speaker": "ECONOMIST",
+      "text": "That's what many economists expected at the time, but no. In the 1990s, Russia's income per person fell by 49 percent. It took until 2006 to get back to where it started."
+    },
+    {
+      "start": 1122.2,
+      "end": 1124.7,
+      "speaker": "HOST",
+      "text": "Almost half! And China?"
+    },
+    {
+      "start": 1124.7,
+      "end": 1132.4,
+      "speaker": "ECONOMIST",
+      "text": "China grew about 8 percent a year from 1990 to 2019, a steady pace for almost three decades."
+    },
+    {
+      "start": 1132.4,
+      "end": 1135.3,
+      "speaker": "HOST",
+      "text": "So gradual reform is the answer?"
+    },
+    {
+      "start": 1135.3,
+      "end": 1162.0,
+      "speaker": "ECONOMIST",
+      "text": "Economists still disagree about that. China started as a poor, rural country, while Russia was already industrial. And some fast reformers, like Poland, did much better than Russia. One way to see it with our model: if Russia's machines and workers stayed roughly the same, its fall in income was a fall in TFP. For policy, how institutions change can matter as much as which institutions a country finally has."
+    },
+    {
+      "start": 1162.0,
+      "end": 1177.4,
+      "speaker": "HOST",
+      "text": "So in part three we measured TFP as the income that machines can't explain, and it explains most of the gap between rich and poor. Institutions, misallocation, skills and technology all shape it, and so does the way a country reforms."
+    },
+    {
+      "start": 1177.4,
+      "end": 1180.6,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. Let's sum up."
+    },
+    {
+      "start": 1180.6,
+      "end": 1187.7,
+      "speaker": "HOST",
+      "text": "Let's go back to our three goals. First, why does adding machines alone raise output less and less?"
+    },
+    {
+      "start": 1187.7,
+      "end": 1204.7,
+      "speaker": "ECONOMIST",
+      "text": "Because each new machine has fewer workers to run it. So with the same workers, 8 times the machines give only 2 times the output. And paying each input what its last unit adds gives workers two thirds and machine owners one third."
+    },
+    {
+      "start": 1204.7,
+      "end": 1216.0,
+      "speaker": "HOST",
+      "text": "Second, the model with equal productivity predicts gaps that are too small. I'd say that's because of the cube root. It turns big gaps in machines into small gaps in income."
+    },
+    {
+      "start": 1216.0,
+      "end": 1223.2,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Burundi is predicted to have one sixth of U.S. income, but it has one seventy-fourth."
+    },
+    {
+      "start": 1223.2,
+      "end": 1226.4,
+      "speaker": "HOST",
+      "text": "And third, rich versus poor."
+    },
+    {
+      "start": 1226.4,
+      "end": 1258.6,
+      "speaker": "ECONOMIST",
+      "text": "We measure TFP as actual income divided by what the machines alone predict. Between the five richest and the five poorest countries, capital explains a gap of about 5 times, and TFP a gap of about 16 times. So here is the big message. Capital per person explains only a small part of the gap between rich and poor countries. Most of it is total factor productivity: how well countries use the machines and workers they have."
+    },
+    {
+      "start": 1258.6,
+      "end": 1279.3,
+      "speaker": "HOST",
+      "text": "Here's a question to think about. Islandia wants to double its income per person. Plan one: more machines per worker, with the same productivity. How many times as many machines per worker would it need? Plan two: higher productivity, with the same machines. How much higher would productivity have to be?"
+    },
+    {
+      "start": 1279.3,
+      "end": 1287.0,
+      "speaker": "ECONOMIST",
+      "text": "Pause the episode and think about it for a moment."
+    },
+    {
+      "start": 1287.0,
+      "end": 1289.7,
+      "speaker": "HOST",
+      "text": "Okay, we're back. What's the answer?"
+    },
+    {
+      "start": 1289.7,
+      "end": 1312.5,
+      "speaker": "ECONOMIST",
+      "text": "Plan one needs 8 times as many machines per worker, because income grows with the cube root of machines, and the cube root of eight is two. Plan two only needs productivity to double, because income rises one for one with it. And there's a bonus. Higher productivity makes each machine produce more, so investing in new machines pays more too."
+    },
+    {
+      "start": 1312.5,
+      "end": 1315.4,
+      "speaker": "HOST",
+      "text": "Where can students try all this themselves?"
+    },
+    {
+      "start": 1315.4,
+      "end": 1325.7,
+      "speaker": "ECONOMIST",
+      "text": "Open the chapter's Colab notebook to run everything yourself. The Model Apps let you move the model's sliders without code. The Data Apps show the stock market and the country data."
+    },
+    {
+      "start": 1325.7,
+      "end": 1326.7,
+      "speaker": "HOST",
+      "text": "And next time?"
+    },
+    {
+      "start": 1326.7,
+      "end": 1346.5,
+      "speaker": "ECONOMIST",
+      "text": "In this chapter, the number of machines was fixed. In Chapter 5, the Solow growth model explains where machines come from: saving and investment, minus the machines that wear out. We ask: can saving and investing in machines make a country rich forever?"
+    },
+    {
+      "start": 1346.5,
+      "end": 1350.0,
+      "speaker": "HOST",
+      "text": "That's it for today. Thanks for listening, and see you next time."
+    }
+  ]
+}

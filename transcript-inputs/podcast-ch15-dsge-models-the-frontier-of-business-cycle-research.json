@@ -1,0 +1,687 @@
+{
+  "title": "DSGE Models: The Frontier of Business Cycle Research",
+  "duration": 1376.2,
+  "sections": [
+    {
+      "title": "Opening",
+      "start": 0.0,
+      "segment": 0
+    },
+    {
+      "title": "Real business cycles",
+      "start": 109.6,
+      "segment": 8
+    },
+    {
+      "title": "The labor market block",
+      "start": 492.6,
+      "segment": 38
+    },
+    {
+      "title": "Frictions, money and numbers",
+      "start": 847.2,
+      "segment": 64
+    },
+    {
+      "title": "Wrap-up",
+      "start": 1199.3,
+      "segment": 94
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 15.9,
+      "speaker": "HOST",
+      "text": "Welcome back. Today we are on DSGE models, the models economists use to study booms and recessions. DSGE is short for four words we'll explain soon. And we start with a bold idea from the 1980s."
+    },
+    {
+      "start": 15.9,
+      "end": 35.6,
+      "speaker": "ECONOMIST",
+      "text": "Think of a farm. Good weather brings a big harvest, and bad weather a small one. A few economists said a modern economy works the same way: booms are years of high productivity, and recessions are years when it falls. Two of them, Finn Kydland and Edward Prescott, later shared a Nobel Prize, partly for this work."
+    },
+    {
+      "start": 35.6,
+      "end": 41.4,
+      "speaker": "HOST",
+      "text": "By productivity you mean how much a country can make with its workers and machines?"
+    },
+    {
+      "start": 41.4,
+      "end": 56.8,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. And a productivity shock is a sudden, unexpected change in it. So here is today's question. Do productivity shocks cause recessions, and how do sticky wages and prices change the answer? Sticky means slow to change."
+    },
+    {
+      "start": 56.8,
+      "end": 58.7,
+      "speaker": "HOST",
+      "text": "So what will you be able to do by the end?"
+    },
+    {
+      "start": 58.7,
+      "end": 91.6,
+      "speaker": "ECONOMIST",
+      "text": "By the end of this episode, you'll be able to do three things. First, explain why the usual measure of productivity falls in most recessions, and why that does not prove that productivity shocks cause them. Second, tell apart shocks to the hours firms want and shocks to the hours people offer. Third, explain how sticky wages and sticky prices let the central bank change employment, and why only sticky prices make jobs and real wages rise together. A real wage is what a wage can buy."
+    },
+    {
+      "start": 91.6,
+      "end": 95.5,
+      "speaker": "HOST",
+      "text": "And we'll follow the chapter's mind map part by part?"
+    },
+    {
+      "start": 95.5,
+      "end": 109.6,
+      "speaker": "ECONOMIST",
+      "text": "Yes. The map has three branches, our three parts: real business cycles; the labor market, solved by hand; and frictions, money and numbers. Each part has five leaves, small topics we take in order."
+    },
+    {
+      "start": 109.6,
+      "end": 121.9,
+      "speaker": "HOST",
+      "text": "Part one of the map: Real business cycles. The first leaf is the name itself: dynamic, stochastic, general equilibrium. What does each word mean?"
+    },
+    {
+      "start": 121.9,
+      "end": 152.3,
+      "speaker": "ECONOMIST",
+      "text": "Let's use Islandia, our small island country. Dynamic means the model follows the economy through time, quarter by quarter, three months at a time. What islanders save this quarter becomes next quarter's boats. Stochastic means random: shocks keep arriving that nobody can predict, like a bad fishing season or a new tax. General equilibrium means all markets at once. Wages, prices and interest rates adjust until supply meets demand everywhere."
+    },
+    {
+      "start": 152.3,
+      "end": 159.0,
+      "speaker": "HOST",
+      "text": "Still on this leaf: agents, shocks and frictions. Are the agents the islanders and their firms?"
+    },
+    {
+      "start": 159.0,
+      "end": 185.5,
+      "speaker": "ECONOMIST",
+      "text": "Yes, the decision makers. The islanders choose how much to work and consume. Harbor Boatworks, the island's firm, chooses how many to hire. The Islandia Treasury, the government, sets taxes and buys goods. The Bank of Islandia, the central bank, sets the interest rate. A friction is a feature of the economy that shapes how a shock spreads, like sticky prices, or the cost of building new boats and sheds quickly."
+    },
+    {
+      "start": 185.5,
+      "end": 191.9,
+      "speaker": "HOST",
+      "text": "Next leaf: RBC, the Solow model plus TFP shocks. What's RBC?"
+    },
+    {
+      "start": 191.9,
+      "end": 217.7,
+      "speaker": "ECONOMIST",
+      "text": "Real business cycle models, the first DSGE models. They are the Solow growth model from Chapter 5 with one change. Total factor productivity, or TFP, measures how well an economy uses its tools and workers together. It was fixed in the Solow model; now shocks push it up and down. They are called real shocks because they hit production, not money."
+    },
+    {
+      "start": 217.7,
+      "end": 223.4,
+      "speaker": "HOST",
+      "text": "Next leaf: U.S. TFP growth. How big are these shocks in real life?"
+    },
+    {
+      "start": 223.4,
+      "end": 250.0,
+      "speaker": "ECONOMIST",
+      "text": "Big. TFP cannot be seen, so economists measure it as the part of output growth that more tools and hours cannot explain. Output means everything the economy produces. The economist John Fernald's careful yearly numbers fix one problem we'll meet soon. Since 1950, U.S. TFP growth has gone from minus 2.4 percent in its worst year to 4 percent in its best."
+    },
+    {
+      "start": 250.0,
+      "end": 262.5,
+      "speaker": "HOST",
+      "text": "Next leaf: 2009, the worst year of the Great Recession, the deep recession after the financial crisis. If the theory is right, I'd guess TFP fell sharply that year."
+    },
+    {
+      "start": 262.5,
+      "end": 281.4,
+      "speaker": "ECONOMIST",
+      "text": "That's what the theory predicts, but it's wrong. That year, U.S. business output fell by almost 4 percent. Yet TFP grew by 3.5 percent, one of its largest rises. It also grew in the recessions of 2001 and 2020. So TFP shocks cannot explain every recession."
+    },
+    {
+      "start": 281.4,
+      "end": 287.5,
+      "speaker": "HOST",
+      "text": "Wait. I've read that productivity does fall in most recessions. Who's right?"
+    },
+    {
+      "start": 287.5,
+      "end": 303.5,
+      "speaker": "ECONOMIST",
+      "text": "Both. Since 1950, U.S. business output fell in 11 years, and the usual measure of TFP fell in 9 of them. That's the last leaf of this part: raw TFP tracks GDP. Raw means before any correction."
+    },
+    {
+      "start": 303.5,
+      "end": 306.4,
+      "speaker": "HOST",
+      "text": "So how is the usual measure built?"
+    },
+    {
+      "start": 306.4,
+      "end": 324.9,
+      "speaker": "ECONOMIST",
+      "text": "It's called the Solow residual. A residual is what is left over. Let's build one for Islandia, step by step. Suppose output grows by 3 percent in a year. Tools also grow by 3 percent, and hours of work by 1.5 percent."
+    },
+    {
+      "start": 324.9,
+      "end": 329.4,
+      "speaker": "HOST",
+      "text": "And how much of that do the tools and hours explain?"
+    },
+    {
+      "start": 329.4,
+      "end": 345.0,
+      "speaker": "ECONOMIST",
+      "text": "In Islandia, 1 percent more tools adds about one third of a percent to output. And 1 percent more hours adds about two thirds of a percent. So we count one third of the growth of tools, and two thirds of the growth of hours."
+    },
+    {
+      "start": 345.0,
+      "end": 354.5,
+      "speaker": "HOST",
+      "text": "So the tools explain one third of 3 percent, which is 1 percent. And the hours explain two thirds of 1.5 percent, which is also 1 percent."
+    },
+    {
+      "start": 354.5,
+      "end": 367.2,
+      "speaker": "ECONOMIST",
+      "text": "Right. That's 2 percent explained, out of the 3 percent that output grew. So 1 percent is left over. That 1 percent is Islandia's measured TFP growth."
+    },
+    {
+      "start": 367.2,
+      "end": 368.7,
+      "speaker": "HOST",
+      "text": "Is there a problem with it?"
+    },
+    {
+      "start": 368.7,
+      "end": 392.7,
+      "speaker": "ECONOMIST",
+      "text": "Yes. In a recession, Harbor Boatworks keeps its crews and boats, but uses them less: slower work, boats tied up at the dock. Economists call this lower utilization. Output falls by more than the counted tools and hours can explain. So the residual falls, as if TFP fell, even though nobody became less skilled."
+    },
+    {
+      "start": 392.7,
+      "end": 398.6,
+      "speaker": "HOST",
+      "text": "So the raw number mixes true TFP with unused boats."
+    },
+    {
+      "start": 398.6,
+      "end": 415.0,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. Fernald estimates utilization and separates it out. In 2009, utilization fell by about 3.7 percent, and that pulled the raw residual down by the same amount. Yet the raw residual fell by only 0.15 percent."
+    },
+    {
+      "start": 415.0,
+      "end": 417.9,
+      "speaker": "HOST",
+      "text": "So something else pushed it up?"
+    },
+    {
+      "start": 417.9,
+      "end": 429.2,
+      "speaker": "ECONOMIST",
+      "text": "Yes, by the difference: 3.7 minus 0.15, about 3.5 percent. That push is true TFP growth, the number we saw before."
+    },
+    {
+      "start": 429.2,
+      "end": 434.0,
+      "speaker": "HOST",
+      "text": "How closely does the raw measure follow GDP, total output?"
+    },
+    {
+      "start": 434.0,
+      "end": 452.5,
+      "speaker": "ECONOMIST",
+      "text": "We measure that with a correlation. Near 1, two lists of numbers move closely together. Near zero, there is no link. The raw residual has a correlation of 0.82 with output growth. After Fernald's correction for utilization, it is minus 0.03, about zero."
+    },
+    {
+      "start": 452.5,
+      "end": 458.7,
+      "speaker": "HOST",
+      "text": "So measured TFP may fall because the economy is weak, and not the other way around?"
+    },
+    {
+      "start": 458.7,
+      "end": 470.0,
+      "speaker": "ECONOMIST",
+      "text": "Possibly. His correction depends on its own assumptions, so this does not prove that TFP shocks never matter. But it weakens the main early evidence for them."
+    },
+    {
+      "start": 470.0,
+      "end": 484.4,
+      "speaker": "HOST",
+      "text": "So in part one we saw that the first DSGE models blamed recessions on bad years for TFP. TFP does swing a lot. But once unused crews and boats are taken out, it does not fall in most recessions."
+    },
+    {
+      "start": 484.4,
+      "end": 492.6,
+      "speaker": "ECONOMIST",
+      "text": "So other shocks must matter too. To find them, the next part of the map looks inside the labor market."
+    },
+    {
+      "start": 492.6,
+      "end": 498.6,
+      "speaker": "HOST",
+      "text": "Part two of the map: The labor market block. Why start with the labor market?"
+    },
+    {
+      "start": 498.6,
+      "end": 513.4,
+      "speaker": "ECONOMIST",
+      "text": "Because hours of work move production directly. A full DSGE model needs a computer, so we solve one block, one piece of the model, by hand. The first leaf is the equation for labor supply, and the point where it meets labor demand."
+    },
+    {
+      "start": 513.4,
+      "end": 520.4,
+      "speaker": "HOST",
+      "text": "Let's start with demand. Harbor Boatworks keeps hiring while one more worker adds more than the wage costs, right?"
+    },
+    {
+      "start": 520.4,
+      "end": 532.9,
+      "speaker": "ECONOMIST",
+      "text": "Right. Here the wage is the real wage, measured in goods. And because of diminishing returns, each extra worker adds less than the one before. So the firm wants more hours only at a lower wage."
+    },
+    {
+      "start": 532.9,
+      "end": 534.9,
+      "speaker": "HOST",
+      "text": "And supply comes from the islanders."
+    },
+    {
+      "start": 534.9,
+      "end": 560.9,
+      "speaker": "ECONOMIST",
+      "text": "Yes. The equation says the hours islanders offer rise with the wage divided by their consumption. In plain words, islanders work more when the wage is high compared with what they already consume. Someone who already consumes a lot values extra income less. Over long periods, wages and consumption grow at about the same pace, so hours per person stay roughly flat."
+    },
+    {
+      "start": 560.9,
+      "end": 563.2,
+      "speaker": "HOST",
+      "text": "So where do the two meet?"
+    },
+    {
+      "start": 563.2,
+      "end": 585.7,
+      "speaker": "ECONOMIST",
+      "text": "We pick simple starting values. TFP, the stock of boats, employment and output all start at 1. Islanders consume 0.6 of that output, and the real wage is 0.67, about two thirds. Their willingness to work is set to fit. Since employment starts at 1, its changes read directly as percents."
+    },
+    {
+      "start": 585.7,
+      "end": 593.5,
+      "speaker": "HOST",
+      "text": "Next leaf: TFP falls from 1 to 0.8. A bad quarter on Islandia?"
+    },
+    {
+      "start": 593.5,
+      "end": 618.3,
+      "speaker": "ECONOMIST",
+      "text": "Yes, a temporary one. Every crew works 20 percent less efficiently. So at any level of hiring, Harbor Boatworks will pay less per hour, and labor demand falls. Islanders base their spending on their lifetime income, their income over their whole lives. A short shock barely changes it, so consumption, and with it labor supply, stays the same."
+    },
+    {
+      "start": 618.3,
+      "end": 623.1,
+      "speaker": "HOST",
+      "text": "So fewer hours at a lower wage. By how much?"
+    },
+    {
+      "start": 623.1,
+      "end": 637.2,
+      "speaker": "ECONOMIST",
+      "text": "Employment falls from 1 to 0.85, and the real wage falls by the same 15 percent. With consumption fixed, the hours islanders offer change by the same percent as the wage."
+    },
+    {
+      "start": 637.2,
+      "end": 642.7,
+      "speaker": "HOST",
+      "text": "But TFP fell by 20 percent. Why do jobs fall by less?"
+    },
+    {
+      "start": 642.7,
+      "end": 661.8,
+      "speaker": "ECONOMIST",
+      "text": "At the old hours, the wage the firm pays would fall by the full 20 percent. But as hours fall, each remaining worker adds a bit more. So the wage falls by less, about 15 percent, and hours follow the wage. Jobs and wages fall together, just like in a recession."
+    },
+    {
+      "start": 661.8,
+      "end": 674.1,
+      "speaker": "HOST",
+      "text": "Next leaf: a sales tax of 20 percent equals TFP at 0.8. My guess is that a tax hurts less than a bad quarter. After all, nobody's skills got worse."
+    },
+    {
+      "start": 674.1,
+      "end": 706.7,
+      "speaker": "ECONOMIST",
+      "text": "That's a natural guess, but in the labor market it hurts exactly as much. Suppose the Treasury puts a temporary 20 percent tax on sales. Harbor Boatworks keeps only 80 percent of what each worker's output sells for. To the firm, that's like each worker producing 20 percent less. So jobs fall to the same 0.85, and the real wage falls just as much. Your reason does matter for output: each worker still makes as much, so output falls less."
+    },
+    {
+      "start": 706.7,
+      "end": 711.8,
+      "speaker": "HOST",
+      "text": "I always thought a fall in TFP meant that people forgot how to do things."
+    },
+    {
+      "start": 711.8,
+      "end": 725.2,
+      "speaker": "ECONOMIST",
+      "text": "A lot of students think that, but TFP measures how well tools and workers are used together, not what people know. A badly designed rule or a sudden stop in trade can lower it."
+    },
+    {
+      "start": 725.2,
+      "end": 731.5,
+      "speaker": "HOST",
+      "text": "Next leaf: more government. Government purchases aren't in either curve. So how can they matter?"
+    },
+    {
+      "start": 731.5,
+      "end": 756.0,
+      "speaker": "ECONOMIST",
+      "text": "Through consumption. Suppose the Treasury permanently buys extra goods worth 0.1, a tenth of output. Islanders pay with taxes, but not taxes on sales, so labor demand does not move. Still, they are permanently poorer. They cut consumption by the same 0.1, from 0.6 to 0.5, and offer more hours at every wage."
+    },
+    {
+      "start": 756.0,
+      "end": 761.9,
+      "speaker": "HOST",
+      "text": "Then more people work. My guess is that's a boom, with higher wages too."
+    },
+    {
+      "start": 761.9,
+      "end": 791.5,
+      "speaker": "ECONOMIST",
+      "text": "A lot of students think that more jobs always means a boom, but no. Employment rises from 1 to 1.15. But the real wage falls a little, from 0.67 to 0.64, because the extra workers meet diminishing returns. In a typical boom, wages and consumption rise along with jobs. Here islanders work more because they are poorer. So government purchases matter, but they cannot be the main cause of booms and recessions."
+    },
+    {
+      "start": 791.5,
+      "end": 798.4,
+      "speaker": "HOST",
+      "text": "Last leaf of this part: consumption carries the future into today. What does that mean?"
+    },
+    {
+      "start": 798.4,
+      "end": 819.1,
+      "speaker": "ECONOMIST",
+      "text": "In a full DSGE model, islanders choose consumption by thinking about their whole future. In this block, we set it by hand, following lifetime income: the same for a short shock, lower for more government. So a lasting tax change, or news about the years ahead, reaches today's labor market through consumption."
+    },
+    {
+      "start": 819.1,
+      "end": 836.3,
+      "speaker": "HOST",
+      "text": "So in part two we learned a simple test, as long as wages and prices are flexible. If jobs and wages move the same way, labor demand shifted, as with TFP or a tax. If they move in opposite directions, labor supply shifted, as with more government."
+    },
+    {
+      "start": 836.3,
+      "end": 847.2,
+      "speaker": "ECONOMIST",
+      "text": "And the booms and recessions we see in the data look like the first kind. Next part of the map: what changes when wages or prices are slow to adjust?"
+    },
+    {
+      "start": 847.2,
+      "end": 853.2,
+      "speaker": "HOST",
+      "text": "Part three of the map: Frictions, money and numbers. So far, money played no role at all."
+    },
+    {
+      "start": 853.2,
+      "end": 876.2,
+      "speaker": "ECONOMIST",
+      "text": "Right. If money pushes every price and wage up by the same percent, the real wage stays the same, and so do jobs. The first leaf is sticky wages. The nominal wage is the money paid per hour. The real wage is what that money buys. Suppose the nominal wage is stuck above the level where supply meets demand."
+    },
+    {
+      "start": 876.2,
+      "end": 879.8,
+      "speaker": "HOST",
+      "text": "Then Harbor Boatworks hires fewer people than want to work."
+    },
+    {
+      "start": 879.8,
+      "end": 894.6,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Some islanders would gladly work at that wage, but find no job. That's involuntary unemployment. Now the Bank of Islandia cuts its interest rate. Spending rises, and prices rise. What do you expect for jobs and pay?"
+    },
+    {
+      "start": 894.6,
+      "end": 897.9,
+      "speaker": "HOST",
+      "text": "More spending, so more jobs and better pay."
+    },
+    {
+      "start": 897.9,
+      "end": 920.8,
+      "speaker": "ECONOMIST",
+      "text": "More jobs, yes. Better pay, no. The stuck nominal wage now buys less, so the real wage falls. Each hour is cheaper for the firm, so it hires more. In actual booms, though, jobs and real wages tend to rise together. So sticky wages alone don't match the data."
+    },
+    {
+      "start": 920.8,
+      "end": 923.9,
+      "speaker": "HOST",
+      "text": "Next leaf: sticky prices. What's different?"
+    },
+    {
+      "start": 923.9,
+      "end": 939.5,
+      "speaker": "ECONOMIST",
+      "text": "Now wages are flexible, but prices change slowly. Harbor Boatworks keeps its price unchanged and makes whatever its customers order. So spending decides output, and output decides how many hours the firm needs."
+    },
+    {
+      "start": 939.5,
+      "end": 942.4,
+      "speaker": "HOST",
+      "text": "And when the Bank of Islandia cuts its rate?"
+    },
+    {
+      "start": 942.4,
+      "end": 949.9,
+      "speaker": "ECONOMIST",
+      "text": "Spending on Islandia's output rises by 15 percent. To fill the extra orders, the firm needs more hours."
+    },
+    {
+      "start": 949.9,
+      "end": 952.0,
+      "speaker": "HOST",
+      "text": "So 15 percent more hours?"
+    },
+    {
+      "start": 952.0,
+      "end": 966.2,
+      "speaker": "ECONOMIST",
+      "text": "More. Employment rises from 1 to 1.23, so by 23 percent. Each extra worker adds less output than the one before, so hours must rise faster than orders."
+    },
+    {
+      "start": 966.2,
+      "end": 967.7,
+      "speaker": "HOST",
+      "text": "And the wage?"
+    },
+    {
+      "start": 967.7,
+      "end": 999.2,
+      "speaker": "ECONOMIST",
+      "text": "To get islanders to work that much more, the firm must pay more. With prices stuck, the real wage rises too, from 0.67 to 0.82. Now jobs and real wages rise together, as in the booms we see in the data. A surprise rate cut is called a money shock. Models with sticky prices and money shocks are called new Keynesian. Today's DSGE models combine both: TFP shocks and money shocks, with sticky prices."
+    },
+    {
+      "start": 999.2,
+      "end": 1004.4,
+      "speaker": "HOST",
+      "text": "Next leaf: good news. Good news must be good for jobs."
+    },
+    {
+      "start": 1004.4,
+      "end": 1019.6,
+      "speaker": "ECONOMIST",
+      "text": "Not necessarily. Suppose islanders learn of a discovery that will make Islandia more productive in 5 years. Nothing changes in production today. They expect to be richer, so consumption rises now, from 0.6 to 0.7."
+    },
+    {
+      "start": 1019.6,
+      "end": 1021.6,
+      "speaker": "HOST",
+      "text": "And what happens to jobs?"
+    },
+    {
+      "start": 1021.6,
+      "end": 1052.1,
+      "speaker": "ECONOMIST",
+      "text": "With flexible prices, islanders feel richer and want more free time, so they offer fewer hours. Employment falls to 0.89, and the real wage rises a little. With sticky prices, spending decides output, as we just saw. The extra buying means extra orders, so firms hire more, and employment rises to 1.15. Same news, opposite effects on jobs. So economists argue a lot about how sticky prices really are."
+    },
+    {
+      "start": 1052.1,
+      "end": 1062.1,
+      "speaker": "HOST",
+      "text": "Next leaf: impulse response, with a half-life of 16 quarters. How do these models give numbers for actual economies?"
+    },
+    {
+      "start": 1062.1,
+      "end": 1078.6,
+      "speaker": "ECONOMIST",
+      "text": "Through impulse responses. An impulse response shows how one variable, like GDP, moves quarter by quarter after one shock. A simple rule describes how a shock fades: each quarter, it keeps the same share of its size from the quarter before."
+    },
+    {
+      "start": 1078.6,
+      "end": 1082.4,
+      "speaker": "HOST",
+      "text": "And the half-life is the time until half of the shock is gone?"
+    },
+    {
+      "start": 1082.4,
+      "end": 1101.3,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Two economists, Frank Smets and Rafael Wouters, built a famous model fitted to U.S. data, meaning its numbers were chosen to match the data. In their model, half of a TFP shock is gone only after 16 quarters, or 4 years."
+    },
+    {
+      "start": 1101.3,
+      "end": 1104.8,
+      "speaker": "HOST",
+      "text": "So how much does it keep each quarter?"
+    },
+    {
+      "start": 1104.8,
+      "end": 1112.9,
+      "speaker": "ECONOMIST",
+      "text": "About 96 percent. Multiply 96 percent by itself 16 times, and you get about one half."
+    },
+    {
+      "start": 1112.9,
+      "end": 1119.2,
+      "speaker": "HOST",
+      "text": "Last leaf: policy. VAT cuts, multipliers and central-bank models."
+    },
+    {
+      "start": 1119.2,
+      "end": 1151.9,
+      "speaker": "ECONOMIST",
+      "text": "VAT is a value-added tax, which works like our sales tax. In the model, a cut works in reverse: jobs and wages rise together. Germany cut its VAT from 19 to 16 percent for the second half of 2020. In the data, one study found that Germany's cut raised household spending, above all on goods that last for years. Economists still debate two things. Did shops lower their prices by the full tax cut? And did people buy more, or only buy sooner?"
+    },
+    {
+      "start": 1151.9,
+      "end": 1153.3,
+      "speaker": "HOST",
+      "text": "And multipliers?"
+    },
+    {
+      "start": 1153.3,
+      "end": 1180.4,
+      "speaker": "ECONOMIST",
+      "text": "A multiplier says how many dollars GDP rises for each extra dollar of government purchases. In the Smets and Wouters model, it is about 1 in the short run: each dollar of purchases adds about a dollar of GDP. A well-known survey of the evidence finds most estimates near 1, with a wide range. Central banks such as the Federal Reserve and the European Central Bank use versions of this model."
+    },
+    {
+      "start": 1180.4,
+      "end": 1195.5,
+      "speaker": "HOST",
+      "text": "So in part three, frictions changed the answers. With sticky wages, money raises jobs by cutting the real wage. With sticky prices, jobs and wages rise together, and the same good news can raise or lower employment."
+    },
+    {
+      "start": 1195.5,
+      "end": 1199.3,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. Let's sum up."
+    },
+    {
+      "start": 1199.3,
+      "end": 1206.7,
+      "speaker": "HOST",
+      "text": "Let's go back to our three goals. First, why does measured productivity fall in most recessions?"
+    },
+    {
+      "start": 1206.7,
+      "end": 1222.4,
+      "speaker": "ECONOMIST",
+      "text": "Because the usual measure is a residual. In a recession, firms use their workers and machines less, and the residual counts that as lower TFP. So a falling residual does not prove that TFP caused the recession."
+    },
+    {
+      "start": 1222.4,
+      "end": 1234.9,
+      "speaker": "HOST",
+      "text": "Second, telling the two kinds of shocks apart. With flexible wages and prices, if jobs and wages move together, labor demand shifted. If they move apart, labor supply shifted."
+    },
+    {
+      "start": 1234.9,
+      "end": 1242.9,
+      "speaker": "ECONOMIST",
+      "text": "Yes. TFP and the sales tax move them together. More government and good news work through consumption and move them apart."
+    },
+    {
+      "start": 1242.9,
+      "end": 1252.5,
+      "speaker": "HOST",
+      "text": "And third, sticky wages versus sticky prices. With a sticky wage, money raises jobs only by cutting the real wage, right?"
+    },
+    {
+      "start": 1252.5,
+      "end": 1285.6,
+      "speaker": "ECONOMIST",
+      "text": "Right. With sticky prices, firms must hire more to fill orders and pay more to get the hours, so jobs and real wages rise together. So here is the big message. Many shocks drive booms and recessions, and frictions decide how each one spreads. With flexible prices, only TFP shocks, and taxes that work like them, look like a business cycle. Sticky prices let money move jobs and wages together."
+    },
+    {
+      "start": 1285.6,
+      "end": 1301.9,
+      "speaker": "HOST",
+      "text": "Here's a question to think about. Suppose Islandia's TFP rises permanently by 10 percent, and islanders know it. So their consumption also rises by 10 percent. With flexible prices, what happens to employment and to the real wage?"
+    },
+    {
+      "start": 1301.9,
+      "end": 1309.6,
+      "speaker": "ECONOMIST",
+      "text": "Pause the episode and think about it for a moment."
+    },
+    {
+      "start": 1309.6,
+      "end": 1312.1,
+      "speaker": "HOST",
+      "text": "Okay, we're back. What's the answer?"
+    },
+    {
+      "start": 1312.1,
+      "end": 1341.2,
+      "speaker": "ECONOMIST",
+      "text": "Employment stays the same, and the real wage rises by the full 10 percent. Each hour is now worth 10 percent more to Harbor Boatworks. But islanders feel richer, so they offer the same hours only if the wage rises as much as their consumption. At the old employment, a wage 10 percent higher satisfies both sides. That's the long run in the data: wages grow, while hours per person stay about flat."
+    },
+    {
+      "start": 1341.2,
+      "end": 1343.5,
+      "speaker": "HOST",
+      "text": "Where can you try all this yourself?"
+    },
+    {
+      "start": 1343.5,
+      "end": 1357.5,
+      "speaker": "ECONOMIST",
+      "text": "Open the chapter's Colab notebook to run every shock. The Model Apps let you move the labor market curves with sliders. The Data Apps show TFP for 120 countries, the United States among them."
+    },
+    {
+      "start": 1357.5,
+      "end": 1358.9,
+      "speaker": "HOST",
+      "text": "And next time?"
+    },
+    {
+      "start": 1358.9,
+      "end": 1373.0,
+      "speaker": "ECONOMIST",
+      "text": "In this chapter we set consumption by hand. In Chapter 16, we ask how people choose it: how do households decide how much to spend today and how much to save for the future?"
+    },
+    {
+      "start": 1373.0,
+      "end": 1376.2,
+      "speaker": "HOST",
+      "text": "That's it for today. Thanks for listening, and see you next time."
+    }
+  ]
+}

@@ -1,0 +1,723 @@
+{
+  "title": "International Trade",
+  "duration": 1343.7,
+  "sections": [
+    {
+      "title": "Opening",
+      "start": 0.0,
+      "segment": 0
+    },
+    {
+      "title": "The facts of trade",
+      "start": 86.8,
+      "segment": 8
+    },
+    {
+      "title": "Why countries trade",
+      "start": 299.4,
+      "segment": 26
+    },
+    {
+      "title": "Deficits, debt & policy",
+      "start": 760.3,
+      "segment": 68
+    },
+    {
+      "title": "Wrap-up",
+      "start": 1180.3,
+      "segment": 100
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 14.6,
+      "speaker": "HOST",
+      "text": "Welcome back. Today we are on international trade. Let's start with a striking fact. The United States has bought more from the rest of the world than it sold to it every single year since 1976. That's 50 years in a row."
+    },
+    {
+      "start": 14.6,
+      "end": 23.8,
+      "speaker": "ECONOMIST",
+      "text": "There's a simple puzzle behind that fact. If the world keeps sending America more goods than it gets back, what does the world get in return?"
+    },
+    {
+      "start": 23.8,
+      "end": 27.3,
+      "speaker": "HOST",
+      "text": "I suspect nobody gives goods away for free."
+    },
+    {
+      "start": 27.3,
+      "end": 31.7,
+      "speaker": "ECONOMIST",
+      "text": "Nobody does. Remember that idea, because it's the key to today."
+    },
+    {
+      "start": 31.7,
+      "end": 37.8,
+      "speaker": "HOST",
+      "text": "So here is today's question. Why do countries trade, and what does a trade deficit really mean?"
+    },
+    {
+      "start": 37.8,
+      "end": 67.9,
+      "speaker": "ECONOMIST",
+      "text": "By the end of this episode, you'll be able to do three things. First, explain why a trade deficit is borrowing from abroad, and why later surpluses must repay it. Second, use an idea called comparative advantage to explain why a country that is better at making everything still gains from trade. Third, describe what the data say about fast-growing countries, budget deficits and the U.S. foreign debt, and what that means for policy."
+    },
+    {
+      "start": 67.9,
+      "end": 71.8,
+      "speaker": "HOST",
+      "text": "And we'll follow the chapter's mind map part by part?"
+    },
+    {
+      "start": 71.8,
+      "end": 86.8,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Part one looks at the facts of trade. Part two asks why countries trade. Part three turns to deficits, debt and policy. Each part has a few leaves, small topics that we take in order."
+    },
+    {
+      "start": 86.8,
+      "end": 95.5,
+      "speaker": "HOST",
+      "text": "Part one of the map: The facts of trade. The first leaf is more trade. How much more does the United States trade today?"
+    },
+    {
+      "start": 95.5,
+      "end": 123.0,
+      "speaker": "ECONOMIST",
+      "text": "A lot more. We measure trade as a share of GDP. GDP is the value of everything a country produces in a year. A share lets us compare years far apart, although the economy has grown. Exports are the goods and services a country sells abroad. In 1950, U.S. exports were 4.1 percent of GDP. By 2025, they were 10.8 percent."
+    },
+    {
+      "start": 123.0,
+      "end": 129.5,
+      "speaker": "HOST",
+      "text": "So exports more than doubled as a share. What about imports, the things Americans buy from abroad?"
+    },
+    {
+      "start": 129.5,
+      "end": 148.9,
+      "speaker": "ECONOMIST",
+      "text": "They grew even faster. In 1950, imports were 3.9 percent of GDP. By 2025, they were 13.8 percent, more than three times as large. Cheaper shipping and cheaper phone calls helped. So did lower tariffs. A tariff is a tax on imports."
+    },
+    {
+      "start": 148.9,
+      "end": 157.1,
+      "speaker": "HOST",
+      "text": "Wait. In 1950, exports were a bit bigger than imports. Now imports are much bigger. That gap must be the next leaf."
+    },
+    {
+      "start": 157.1,
+      "end": 176.9,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. The next leaf is deficits since 1976. The gap between exports and imports is called the trade balance, or net exports. When a country sells more than it buys, it runs a trade surplus. When it buys more than it sells, it runs a trade deficit."
+    },
+    {
+      "start": 176.9,
+      "end": 179.5,
+      "speaker": "HOST",
+      "text": "And the United States runs a deficit."
+    },
+    {
+      "start": 179.5,
+      "end": 194.6,
+      "speaker": "ECONOMIST",
+      "text": "Every year since 1976. Before that, it usually had a small surplus. The deficit was deepest in 2006, at 5.7 percent of GDP. Today it's about 3 percent of GDP."
+    },
+    {
+      "start": 194.6,
+      "end": 200.5,
+      "speaker": "HOST",
+      "text": "So someone must be selling all those extra goods to America. Next leaf: the world mirrors it."
+    },
+    {
+      "start": 200.5,
+      "end": 221.4,
+      "speaker": "ECONOMIST",
+      "text": "Right. For the world as a whole, trade must balance. Every import is someone else's export. So the U.S. deficit must show up as surpluses in other countries. The largest one belongs to China. In 2023, China's surplus was worth 4.4 percent of U.S. GDP."
+    },
+    {
+      "start": 221.4,
+      "end": 227.2,
+      "speaker": "HOST",
+      "text": "Why measure China's surplus against U.S. GDP, and not against China's own GDP?"
+    },
+    {
+      "start": 227.2,
+      "end": 240.6,
+      "speaker": "ECONOMIST",
+      "text": "To compare it with the U.S. deficit, we need the same unit of measure. So we divide China's surplus by the size of the U.S. economy. This number comes from a different data set, so it doesn't match the U.S. figures exactly."
+    },
+    {
+      "start": 240.6,
+      "end": 250.8,
+      "speaker": "HOST",
+      "text": "Last leaf of this part: most economies run deficits. Wait, that surprises me. If America has a deficit, I'd guess most other countries run surpluses to match it."
+    },
+    {
+      "start": 250.8,
+      "end": 262.4,
+      "speaker": "ECONOMIST",
+      "text": "That sounds logical, but it's the opposite. In 2023, 123 of 185 economies ran trade deficits. That's about two in every three."
+    },
+    {
+      "start": 262.4,
+      "end": 265.4,
+      "speaker": "HOST",
+      "text": "Then how can world trade balance?"
+    },
+    {
+      "start": 265.4,
+      "end": 278.8,
+      "speaker": "ECONOMIST",
+      "text": "Because a few large economies run big surpluses. China, Germany, the Netherlands and the oil exporters are examples. Their surpluses offset many smaller deficits."
+    },
+    {
+      "start": 278.8,
+      "end": 292.5,
+      "speaker": "HOST",
+      "text": "So in part one we saw that trade has grown a lot, and that America has bought more than it sold for half a century. Around the world, deficits are the normal case, and a few big surplus countries balance them."
+    },
+    {
+      "start": 292.5,
+      "end": 299.4,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Next branch: why do countries trade at all, and what is a deficit, really?"
+    },
+    {
+      "start": 299.4,
+      "end": 309.2,
+      "speaker": "HOST",
+      "text": "Part two of the map: Why countries trade. The first leaf says a deficit is borrowing. Isn't buying things just buying things?"
+    },
+    {
+      "start": 309.2,
+      "end": 333.5,
+      "speaker": "ECONOMIST",
+      "text": "Let's visit Islandia, a small imaginary island country. Islanders sell fish to Mainland, a large trading partner across the water, and buy many goods from it. Suppose Islandia produces 100 units of goods in a year. Islanders consume 70. They invest 20 in new boats and nets. And the government buys 15."
+    },
+    {
+      "start": 333.5,
+      "end": 337.5,
+      "speaker": "HOST",
+      "text": "Hold on, that's 105. They use more than they make."
+    },
+    {
+      "start": 337.5,
+      "end": 360.1,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. The extra 5 units come from Mainland, so Islandia runs a trade deficit of 5. But Mainland doesn't ship them for free. It gets a promise to pay: a bond, which is a written promise to repay, a share in an island firm, or money that can buy Islandia's goods later. So the deficit is a loan from Mainland."
+    },
+    {
+      "start": 360.1,
+      "end": 362.5,
+      "speaker": "HOST",
+      "text": "And the leaf's equation?"
+    },
+    {
+      "start": 362.5,
+      "end": 393.0,
+      "speaker": "ECONOMIST",
+      "text": "In words, the trade balance equals what a country saves minus what it invests. Saving here is output minus what households consume and what the government buys. For Islandia, that's 100, minus 70, minus 15, so saving is 15. Investment is 20. Saving falls short of investment by 5, which is the same deficit. When a country invests more than it saves, foreigners lend it the difference."
+    },
+    {
+      "start": 393.0,
+      "end": 396.8,
+      "speaker": "HOST",
+      "text": "So a deficit means a country is losing at trade?"
+    },
+    {
+      "start": 396.8,
+      "end": 409.3,
+      "speaker": "ECONOMIST",
+      "text": "A lot of students think that, but trade is not a game with a score. A deficit is a loan, like a student loan. Whether it's good or bad depends on what it pays for, and whether it can be repaid."
+    },
+    {
+      "start": 409.3,
+      "end": 413.6,
+      "speaker": "HOST",
+      "text": "Which brings us to the next leaf: deficits today, surpluses later."
+    },
+    {
+      "start": 413.6,
+      "end": 430.5,
+      "speaker": "ECONOMIST",
+      "text": "Right. Year after year, deficits add up to a debt to the rest of the world. To repay it, Islandia must later run surpluses, selling more than it buys. That's the rule on the map: in present value, trade must balance over time."
+    },
+    {
+      "start": 430.5,
+      "end": 433.6,
+      "speaker": "HOST",
+      "text": "What does present value mean?"
+    },
+    {
+      "start": 433.6,
+      "end": 455.9,
+      "speaker": "ECONOMIST",
+      "text": "Present value is what a future amount is worth today. Money can earn interest, so a dollar next year is worth less than a dollar now. For a country that starts with no debt and pays no interest, deficits and surpluses add up to zero. With interest, the surpluses must also cover the interest."
+    },
+    {
+      "start": 455.9,
+      "end": 461.3,
+      "speaker": "HOST",
+      "text": "Next leaf: risk sharing. Why would a country want to borrow at all?"
+    },
+    {
+      "start": 461.3,
+      "end": 478.2,
+      "speaker": "ECONOMIST",
+      "text": "Take two islands, Oddtopia and Eventopia. The only food is wheat, and it can't be stored. Oddtopia harvests 100 bushels in odd years and 0 in even years. A bushel is a large basket of grain. Eventopia is the opposite."
+    },
+    {
+      "start": 478.2,
+      "end": 482.2,
+      "speaker": "HOST",
+      "text": "So without trade, each island goes hungry every other year."
+    },
+    {
+      "start": 482.2,
+      "end": 522.1,
+      "speaker": "ECONOMIST",
+      "text": "Right. And people prefer a steady diet. The last bushel in a rich year matters much less than the first one in a poor year. With trade, each island eats 50 bushels every year. In its good year, Oddtopia ships 50 bushels to Eventopia. That's a surplus, and it's also a loan. The next year, Eventopia pays it back, so Oddtopia runs a deficit. Each island has its deficit in the year its harvest fails. Over every two years, its trade balance adds up to zero. Islandia's fish catch works the same way: in a bad season, a deficit with Mainland keeps islanders fed."
+    },
+    {
+      "start": 522.1,
+      "end": 526.2,
+      "speaker": "HOST",
+      "text": "Next leaf: comparative advantage. I've never really understood that one."
+    },
+    {
+      "start": 526.2,
+      "end": 538.2,
+      "speaker": "ECONOMIST",
+      "text": "Take two countries, the North and the South, that make apples and computers with workers alone. A northern worker can make 160 apples or 16 computers in a year."
+    },
+    {
+      "start": 538.2,
+      "end": 539.6,
+      "speaker": "HOST",
+      "text": "And a southern worker?"
+    },
+    {
+      "start": 539.6,
+      "end": 542.6,
+      "speaker": "ECONOMIST",
+      "text": "100 apples or 2 computers."
+    },
+    {
+      "start": 542.6,
+      "end": 549.0,
+      "speaker": "HOST",
+      "text": "So the North is better at both. My guess is the North doesn't need the South at all."
+    },
+    {
+      "start": 549.0,
+      "end": 560.9,
+      "speaker": "ECONOMIST",
+      "text": "That's the tempting answer, but it's wrong. What matters is what each country gives up. To make one computer, a northern worker gives up 160 divided by 16, so 10 apples."
+    },
+    {
+      "start": 560.9,
+      "end": 566.3,
+      "speaker": "HOST",
+      "text": "And a southern worker gives up 100 divided by 2. That's 50 apples."
+    },
+    {
+      "start": 566.3,
+      "end": 588.0,
+      "speaker": "ECONOMIST",
+      "text": "Right. That cost in apples is called the opportunity cost. Being more productive at a good is called absolute advantage, and the North has it in both. But its comparative advantage is only in computers, because it gives up fewer apples to make one. The South's comparative advantage is in apples. Trade follows comparative advantage."
+    },
+    {
+      "start": 588.0,
+      "end": 590.0,
+      "speaker": "HOST",
+      "text": "And without trade?"
+    },
+    {
+      "start": 590.0,
+      "end": 603.7,
+      "speaker": "ECONOMIST",
+      "text": "Each country makes both goods itself, with half of its workers on each. So each person in the North gets 80 apples and 8 computers. Each person in the South gets 50 apples and 1 computer."
+    },
+    {
+      "start": 603.7,
+      "end": 607.1,
+      "speaker": "HOST",
+      "text": "So what does a computer cost once they trade?"
+    },
+    {
+      "start": 607.1,
+      "end": 621.1,
+      "speaker": "ECONOMIST",
+      "text": "Let's build that number step by step. With free trade, each country makes only the good of its comparative advantage. The South has 400 workers, each growing 100 apples. That's 40,000 apples."
+    },
+    {
+      "start": 621.1,
+      "end": 628.2,
+      "speaker": "HOST",
+      "text": "And the North has 100 workers, each making 16 computers. So 1,600 computers."
+    },
+    {
+      "start": 628.2,
+      "end": 640.6,
+      "speaker": "ECONOMIST",
+      "text": "Right. One more fact. In every country, people spend one half of what they earn on each good. So the world's apples and the world's computers must be worth the same in total."
+    },
+    {
+      "start": 640.6,
+      "end": 649.0,
+      "speaker": "HOST",
+      "text": "So 1,600 computers are worth 40,000 apples. One computer is worth 40,000 divided by 1,600."
+    },
+    {
+      "start": 649.0,
+      "end": 657.6,
+      "speaker": "ECONOMIST",
+      "text": "Which is 25 apples. That's the world price, and it sits between the two prices without trade, 10 and 50 apples."
+    },
+    {
+      "start": 657.6,
+      "end": 658.9,
+      "speaker": "HOST",
+      "text": "And who gains?"
+    },
+    {
+      "start": 658.9,
+      "end": 672.0,
+      "speaker": "ECONOMIST",
+      "text": "Both countries. A northern worker makes 16 computers, worth 400 apples. Half of that buys 200 apples, instead of 80 without trade. And the other half still buys 8 computers."
+    },
+    {
+      "start": 672.0,
+      "end": 673.7,
+      "speaker": "HOST",
+      "text": "And the South?"
+    },
+    {
+      "start": 673.7,
+      "end": 687.5,
+      "speaker": "ECONOMIST",
+      "text": "A southern worker still grows 100 apples, and spends half on computers. At 25 apples each, that buys 2 computers instead of 1. So both countries gain, even though the North is better at everything."
+    },
+    {
+      "start": 687.5,
+      "end": 695.2,
+      "speaker": "HOST",
+      "text": "Last leaf of this part: migration follows absolute advantage. What if workers move instead of goods?"
+    },
+    {
+      "start": 695.2,
+      "end": 713.5,
+      "speaker": "ECONOMIST",
+      "text": "With trade, a northern worker earns 400 apples, four times a southern worker's 100. The North is better at both goods, so southern workers move north until the South is empty. Migration follows absolute advantage: workers go where they produce the most."
+    },
+    {
+      "start": 713.5,
+      "end": 715.9,
+      "speaker": "HOST",
+      "text": "Is that good for the world?"
+    },
+    {
+      "start": 715.9,
+      "end": 741.4,
+      "speaker": "ECONOMIST",
+      "text": "The world makes the same 40,000 apples as under free trade, but 4,000 computers instead of 1,600. The gains go to the migrants. The North now makes both goods again, so a computer costs 10 apples, as before trade. Everyone has 80 apples and 8 computers. Northerners lose their gains from trade, so they prefer free trade."
+    },
+    {
+      "start": 741.4,
+      "end": 752.9,
+      "speaker": "HOST",
+      "text": "So in part two we saw that a deficit is a loan to be repaid, and that it can help, as with the harvests. And trade pays because each country makes the good with its lowest opportunity cost."
+    },
+    {
+      "start": 752.9,
+      "end": 760.3,
+      "speaker": "ECONOMIST",
+      "text": "Well said. Next branch: do real deficits fit these models, and what should policy do?"
+    },
+    {
+      "start": 760.3,
+      "end": 778.0,
+      "speaker": "HOST",
+      "text": "Part three of the map: Deficits, debt and policy. The first leaf is fast growers lend. By the harvest logic, a country that expects to be much richer later should borrow now. So fast-growing countries should run deficits."
+    },
+    {
+      "start": 778.0,
+      "end": 797.0,
+      "speaker": "ECONOMIST",
+      "text": "That's what the theory predicts, but the data say the opposite. Take five fast growers: China, India, Singapore, Ireland and South Korea. From 2000 to 2023, 4 of the 5 ran trade surpluses on average. Only India ran a small deficit."
+    },
+    {
+      "start": 797.0,
+      "end": 801.4,
+      "speaker": "HOST",
+      "text": "So they lend to the world. How is that possible, if they invest so much?"
+    },
+    {
+      "start": 801.4,
+      "end": 831.4,
+      "speaker": "ECONOMIST",
+      "text": "By our rule, the trade balance is saving minus investment. They invest a lot, but they save even more. Or maybe trade shapes growth: countries that push their firms to export may grow faster. Across all economies, faster growth does go with slightly bigger deficits or smaller surpluses, so a bit more borrowing, as the theory says. But the link is weak, and many other fast growers borrowed from abroad or received aid. So these five are not typical."
+    },
+    {
+      "start": 831.4,
+      "end": 836.3,
+      "speaker": "HOST",
+      "text": "Next leaf: twin deficits. Which two deficits are twins?"
+    },
+    {
+      "start": 836.3,
+      "end": 861.3,
+      "speaker": "ECONOMIST",
+      "text": "The government's budget deficit and the trade deficit. A budget deficit means the government spends more than it collects in taxes. Split a country's saving into two parts: what households and firms save, and what the government saves. A government with a budget deficit has negative saving. If private saving and investment stay about the same, the trade deficit must grow along with the budget deficit."
+    },
+    {
+      "start": 861.3,
+      "end": 868.4,
+      "speaker": "HOST",
+      "text": "So if Islandia's government, its Treasury, borrows more, Islandia borrows more from Mainland."
+    },
+    {
+      "start": 868.4,
+      "end": 878.9,
+      "speaker": "ECONOMIST",
+      "text": "Right. Suppose the Islandia Treasury buys 2 more units of goods, and nothing else changes. Then the trade deficit grows from 5 to 7, by the same 2 units."
+    },
+    {
+      "start": 878.9,
+      "end": 881.1,
+      "speaker": "HOST",
+      "text": "Has that happened in a real country?"
+    },
+    {
+      "start": 881.1,
+      "end": 893.6,
+      "speaker": "ECONOMIST",
+      "text": "In the United States, yes. From 1979 to 1986, the budget deficit grew by 2.9 percentage points of GDP. The trade deficit grew by 2.0 points."
+    },
+    {
+      "start": 893.6,
+      "end": 895.0,
+      "speaker": "HOST",
+      "text": "Percentage points?"
+    },
+    {
+      "start": 895.0,
+      "end": 931.3,
+      "speaker": "ECONOMIST",
+      "text": "A percentage point is the simple difference between two shares. If the deficit grew by 2.9 points, you just add 2.9 to its old share of GDP. Of those 2.9 points, the trade deficit grew by 2.0. So foreign lending paid for a large part of the government's extra borrowing. Investment also fell, by about as much as the trade deficit grew, but it stayed high by past standards. Still, the twins are a tendency, not a law. In the Great Recession, the budget deficit soared, but the trade deficit fell."
+    },
+    {
+      "start": 931.3,
+      "end": 939.1,
+      "speaker": "HOST",
+      "text": "Next leaf: net foreign debt. If deficits are loans, the loans must add up somewhere."
+    },
+    {
+      "start": 939.1,
+      "end": 965.6,
+      "speaker": "ECONOMIST",
+      "text": "They do. A country's net foreign assets are what its residents own abroad, minus what foreigners own inside it. In 1988, Americans still owned more abroad than foreigners owned in America. Since 1989, foreigners own more, so the United States is a net debtor. By 2025, its net foreign debt was 70.9 percent of GDP."
+    },
+    {
+      "start": 965.6,
+      "end": 969.4,
+      "speaker": "HOST",
+      "text": "That sounds huge. Is it just the sum of all those deficits?"
+    },
+    {
+      "start": 969.4,
+      "end": 986.0,
+      "speaker": "ECONOMIST",
+      "text": "Roughly, yes. But it also moves when stock prices and the dollar change the value of what each side owns. Is the debt dangerous? Economists disagree. A debt can stay stable compared with GDP, as long as the economy grows faster than the interest rate on the debt."
+    },
+    {
+      "start": 986.0,
+      "end": 987.7,
+      "speaker": "HOST",
+      "text": "Can you show me with numbers?"
+    },
+    {
+      "start": 987.7,
+      "end": 1021.4,
+      "speaker": "ECONOMIST",
+      "text": "Say a country runs a deficit of 3 percent of GDP every year, and pays no interest. Its GDP, measured in dollars, grows 4 percent a year. New borrowing adds to the debt each year. But GDP growth makes the debt a smaller share of GDP. The share stops changing when these two forces are equal. That happens at roughly 3 percent divided by 4 percent, so about three quarters of GDP. The exact number is 78 percent, close to the U.S. level today."
+    },
+    {
+      "start": 1021.4,
+      "end": 1023.6,
+      "speaker": "HOST",
+      "text": "And if it does pay interest?"
+    },
+    {
+      "start": 1023.6,
+      "end": 1037.7,
+      "speaker": "ECONOMIST",
+      "text": "Then interest adds to the debt too. With an interest rate of 2 percent, interest cancels half of the 4 percent growth. Only half the shrinking force is left, so the debt share doubles, to 156 percent of GDP."
+    },
+    {
+      "start": 1037.7,
+      "end": 1042.5,
+      "speaker": "HOST",
+      "text": "But didn't part two say that deficits must be repaid?"
+    },
+    {
+      "start": 1042.5,
+      "end": 1056.5,
+      "speaker": "ECONOMIST",
+      "text": "It did, and that still holds. A stable share only means the debt is manageable while the economy grows. Lenders won't let a debt grow forever without repayment, so in present value, later surpluses must still cover it."
+    },
+    {
+      "start": 1056.5,
+      "end": 1067.1,
+      "speaker": "HOST",
+      "text": "Last leaf: policy. The map names tariffs, the losers from trade, and migration. If the deficit worries a government, why not just tax imports?"
+    },
+    {
+      "start": 1067.1,
+      "end": 1084.3,
+      "speaker": "ECONOMIST",
+      "text": "Remember the rule: the trade balance equals saving minus investment. A tariff shrinks the deficit only if it raises saving or lowers investment. Fewer imports also tend to mean fewer exports. Other countries may answer with tariffs of their own."
+    },
+    {
+      "start": 1084.3,
+      "end": 1087.4,
+      "speaker": "HOST",
+      "text": "And who actually pays the tariff?"
+    },
+    {
+      "start": 1087.4,
+      "end": 1104.1,
+      "speaker": "ECONOMIST",
+      "text": "Studies of the U.S. tariffs that began in 2018 found that American buyers paid almost all of the tax, through higher prices. Some argue that tariffs can protect key industries, but that's about what a country makes, not the size of its deficit."
+    },
+    {
+      "start": 1104.1,
+      "end": 1111.2,
+      "speaker": "HOST",
+      "text": "Then the losers. If trade makes a country richer, I'd guess it makes every worker richer too."
+    },
+    {
+      "start": 1111.2,
+      "end": 1132.0,
+      "speaker": "ECONOMIST",
+      "text": "A lot of people believe that, but trade creates winners and losers inside each country. In the model, workers switch jobs overnight. Real workers need time and new skills. One study found that rising imports from China may explain about a quarter of the fall in U.S. factory jobs from 1990 to 2007."
+    },
+    {
+      "start": 1132.0,
+      "end": 1134.4,
+      "speaker": "HOST",
+      "text": "So what should policy do for them?"
+    },
+    {
+      "start": 1134.4,
+      "end": 1161.1,
+      "speaker": "ECONOMIST",
+      "text": "The winners usually gain more than the losers lose, so the winners could compensate them. Retraining programs and a strong safety net, such as unemployment benefits, are part of the answer. In practice, this compensation is rarely paid in full. And migration? The model says it could raise world output even more, but its effect on native workers' wages is still debated."
+    },
+    {
+      "start": 1161.1,
+      "end": 1177.0,
+      "speaker": "HOST",
+      "text": "So in part three we saw that real deficits don't always follow the theory. Fast growers lend, budget deficits often bring trade deficits, and past deficits built a large foreign debt. And policy must help those who lose."
+    },
+    {
+      "start": 1177.0,
+      "end": 1180.3,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. Let's sum up."
+    },
+    {
+      "start": 1180.3,
+      "end": 1186.5,
+      "speaker": "HOST",
+      "text": "Let's go back to our three goals. First, why is a trade deficit borrowing?"
+    },
+    {
+      "start": 1186.5,
+      "end": 1201.2,
+      "speaker": "ECONOMIST",
+      "text": "Because nobody ships goods for free. When a country buys more than it sells, it pays with promises to repay. That's the same as saying it invests more than it saves. And in present value, later surpluses must repay those loans."
+    },
+    {
+      "start": 1201.2,
+      "end": 1214.7,
+      "speaker": "HOST",
+      "text": "Second, comparative advantage. The North was better at everything. But a computer cost it 10 apples, and the South 50. At the world price of 25, both countries got more of the good they import."
+    },
+    {
+      "start": 1214.7,
+      "end": 1221.2,
+      "speaker": "ECONOMIST",
+      "text": "Right. And migration is different. It follows absolute advantage, and its gains go mostly to the migrants."
+    },
+    {
+      "start": 1221.2,
+      "end": 1223.4,
+      "speaker": "HOST",
+      "text": "And third, the data and policy."
+    },
+    {
+      "start": 1223.4,
+      "end": 1256.7,
+      "speaker": "ECONOMIST",
+      "text": "Fast growers mostly lend. Budget deficits often come with trade deficits. The U.S. foreign debt is about 71 percent of GDP. A tariff can't fix the deficit, because saving and investment decide it. And the losers from trade need help. So here is the big message. A trade deficit is borrowing that must be repaid in present value. Trade itself, by comparative advantage, can make every country better off, though not every worker."
+    },
+    {
+      "start": 1256.7,
+      "end": 1284.7,
+      "speaker": "HOST",
+      "text": "Here's a question to think about. Suppose a hurricane hits Islandia. To keep the numbers simple, say its GDP is the same every year. To rebuild, it runs trade deficits of 5 percent of GDP for 3 years, borrowing from Mainland with no interest. Then it repays with equal trade surpluses over the next 10 years. How large must each surplus be? And is the deficit a sign that Islandia is failing?"
+    },
+    {
+      "start": 1284.7,
+      "end": 1292.4,
+      "speaker": "ECONOMIST",
+      "text": "Pause the episode and think about it for a moment."
+    },
+    {
+      "start": 1292.4,
+      "end": 1295.3,
+      "speaker": "HOST",
+      "text": "Okay, we're back. What's the answer?"
+    },
+    {
+      "start": 1295.3,
+      "end": 1321.6,
+      "speaker": "ECONOMIST",
+      "text": "After three years, Islandia owes three times 5, so 15 percent of a year's GDP. With no interest, the surpluses must simply add up to that debt. Spread over ten years, that's 1.5 percent of GDP each year. And no, the deficit is not failure. It pays for rebuilding: Islandia invests more than it saves, and Mainland lends the difference. With interest, each surplus would be a bit larger."
+    },
+    {
+      "start": 1321.6,
+      "end": 1323.6,
+      "speaker": "HOST",
+      "text": "Where can students try all this themselves?"
+    },
+    {
+      "start": 1323.6,
+      "end": 1330.7,
+      "speaker": "ECONOMIST",
+      "text": "Open the chapter's Colab notebook to rebuild every number from today. And the Data Apps let you explore the trade charts without any code."
+    },
+    {
+      "start": 1330.7,
+      "end": 1331.9,
+      "speaker": "HOST",
+      "text": "And next time?"
+    },
+    {
+      "start": 1331.9,
+      "end": 1339.6,
+      "speaker": "ECONOMIST",
+      "text": "In Chapter 20, we bring in exchange rates. We ask: what sets the price of a currency, and what does a country give up when it fixes it?"
+    },
+    {
+      "start": 1339.6,
+      "end": 1343.7,
+      "speaker": "HOST",
+      "text": "That's it for today. Thanks for listening, and see you next time."
+    }
+  ]
+}

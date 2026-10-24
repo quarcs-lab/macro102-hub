@@ -1,0 +1,50 @@
+{
+  "growth": {
+    "source": "Chapter 3, Maddison Project Database 2023",
+    "file": "maddison_panel.csv",
+    "selection": "United States, Japan, China, India; 1950\u20132022",
+    "unit": "GDP per capita in 2022 international dollars; plotted in thousands"
+  },
+  "recessions": {
+    "source": "Chapter 10, Figure 8; BEA/CBO via FRED",
+    "file": "fig10-8.csv",
+    "column": "short_run_output"
+  },
+  "inflation": {
+    "source": "Chapter 8, Figure 1; FRED CPIAUCSL, annual-average CPI-U inflation",
+    "file": "fig8-1.csv",
+    "column": "inflation_cpi"
+  },
+  "employment": {
+    "source": "Chapter 7, bathtub model",
+    "equation": "u[t+1] = s + (1-s-f)u[t]",
+    "parameters": {
+      "s": 0.01,
+      "f": 0.2,
+      "u0": 0.1
+    }
+  },
+  "policy": {
+    "source": "Chapter 13, AS/AD framework",
+    "equations": [
+      "Y = -b*m*(pi-pi_bar)",
+      "pi = pi_e + nu*Y"
+    ],
+    "parameters": {
+      "pi_bar": 2,
+      "pi_e": 2,
+      "b": 2,
+      "m": 0.5,
+      "nu": 1
+    }
+  },
+  "global": {
+    "source": "Chapter 20, equation 7: uncovered interest parity",
+    "equation": "E = E_expected * (1+i/100)/(1+i_foreign/100)",
+    "parameters": {
+      "E_expected": 0.92,
+      "i_foreign": 5,
+      "highlight_i": 6
+    }
+  }
+}

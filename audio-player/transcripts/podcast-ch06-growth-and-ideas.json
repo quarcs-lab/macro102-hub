@@ -1,0 +1,735 @@
+{
+  "title": "Growth and Ideas",
+  "duration": 1375.0,
+  "sections": [
+    {
+      "title": "Opening",
+      "start": 0.0,
+      "segment": 0
+    },
+    {
+      "title": "Why ideas are different",
+      "start": 124.9,
+      "segment": 10
+    },
+    {
+      "title": "The Romer model",
+      "start": 472.8,
+      "segment": 38
+    },
+    {
+      "title": "Ideas in the data",
+      "start": 904.6,
+      "segment": 74
+    },
+    {
+      "title": "Wrap-up",
+      "start": 1200.2,
+      "segment": 102
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 15.8,
+      "speaker": "HOST",
+      "text": "Welcome back. Today we are on growth and ideas. Last time, the Solow model showed that building tools cannot keep a country getting richer forever: each extra tool adds less than the last, and tools wear out. Let's start today with a puzzle."
+    },
+    {
+      "start": 15.8,
+      "end": 25.8,
+      "speaker": "ECONOMIST",
+      "text": "Here it is. English has more than 20,000 words. How many different paragraphs of 100 words could you write with them?"
+    },
+    {
+      "start": 25.8,
+      "end": 27.9,
+      "speaker": "HOST",
+      "text": "Millions? Billions?"
+    },
+    {
+      "start": 27.9,
+      "end": 48.6,
+      "speaker": "ECONOMIST",
+      "text": "Far more: more than a 1 followed by 430 zeros. Think of each paragraph as a recipe, a set of instructions. Most are nonsense. But even if only a tiny share made sense, there would still be far more useful recipes than particles in the known universe."
+    },
+    {
+      "start": 48.6,
+      "end": 54.6,
+      "speaker": "HOST",
+      "text": "So the world's raw materials are limited, but the ways to arrange them are almost endless."
+    },
+    {
+      "start": 54.6,
+      "end": 68.8,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. Tools run into diminishing returns, but new recipes do not. The economist Paul Romer built a theory of growth on this, and he shared the 2018 Nobel Prize in economics for it."
+    },
+    {
+      "start": 68.8,
+      "end": 75.5,
+      "speaker": "HOST",
+      "text": "So here is today's question. Can new ideas keep income growing forever?"
+    },
+    {
+      "start": 75.5,
+      "end": 108.3,
+      "speaker": "ECONOMIST",
+      "text": "By the end of this episode, you'll be able to do three things. First, explain why ideas differ from machines, and why a new invention's price must stay above the cost of a copy. Second, explain how a growing number of researchers keeps income growing at a steady rate, and why most policies change its level, not its growth rate. Third, use data to show that raw materials got cheaper, and that recent slowdowns came from slower productivity growth, not fewer machines."
+    },
+    {
+      "start": 108.3,
+      "end": 111.5,
+      "speaker": "HOST",
+      "text": "And we'll follow the chapter's mind map part by part?"
+    },
+    {
+      "start": 111.5,
+      "end": 124.9,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Part one asks why ideas are different. Part two builds the Romer model. Part three looks for ideas in the data. Each part has four leaves, small topics we take in order."
+    },
+    {
+      "start": 124.9,
+      "end": 134.2,
+      "speaker": "HOST",
+      "text": "Part one of the map: Why ideas are different. The first leaf says that ideas are nonrival. What does that mean?"
+    },
+    {
+      "start": 134.2,
+      "end": 156.9,
+      "speaker": "ECONOMIST",
+      "text": "Romer sorts all goods into two kinds. Objects are physical things, like land, oil and machines. Ideas are instructions for arranging objects, like the formula of a medicine. Objects are rival: when one person uses them, others cannot. One boat cannot carry two crews out to sea at the same moment."
+    },
+    {
+      "start": 156.9,
+      "end": 159.3,
+      "speaker": "HOST",
+      "text": "And ideas are not like that?"
+    },
+    {
+      "start": 159.3,
+      "end": 180.8,
+      "speaker": "ECONOMIST",
+      "text": "No. Ideas are nonrival: many people can use an idea at once, and nobody uses it up. On Islandia, our small imaginary island country, an islander draws a better design for a boat's hull, the body of the boat. Harbor Boatworks can use that one design in all its boatyards at once."
+    },
+    {
+      "start": 180.8,
+      "end": 190.4,
+      "speaker": "HOST",
+      "text": "Next leaf: increasing returns. Let me guess. If Islandia doubles its tools, its workers and its stock of designs, it makes twice as much."
+    },
+    {
+      "start": 190.4,
+      "end": 209.1,
+      "speaker": "ECONOMIST",
+      "text": "That's the natural guess, but it makes 4 times as much. To double its boats, Harbor Boatworks can open a second yard that copies the first: new sheds, new tools, new workers. It does not need a second hull design, because the one it has serves both yards."
+    },
+    {
+      "start": 209.1,
+      "end": 215.6,
+      "speaker": "HOST",
+      "text": "So copying the objects already doubles output. And then the designs double too."
+    },
+    {
+      "start": 215.6,
+      "end": 237.2,
+      "speaker": "ECONOMIST",
+      "text": "Right. In the simplest case, output rises in step with the stock of designs: twice the designs, twice the output, with the same tools and workers. Two times two gives 4 times as much. Economists call this increasing returns: doubling every input more than doubles output. It follows directly from nonrivalry."
+    },
+    {
+      "start": 237.2,
+      "end": 242.0,
+      "speaker": "HOST",
+      "text": "Next leaf: a fixed cost of research. Where does that come in?"
+    },
+    {
+      "start": 242.0,
+      "end": 266.3,
+      "speaker": "ECONOMIST",
+      "text": "Ideas cost a lot to discover and almost nothing to copy. Take a new antibiotic, a medicine against infections. Finding its formula costs 2.5 billion dollars of research. That's a fixed cost: it is paid once, however many doses, single portions of the medicine, are made. After that, each dose costs 10 dollars."
+    },
+    {
+      "start": 266.3,
+      "end": 269.2,
+      "speaker": "HOST",
+      "text": "So the research is the expensive part."
+    },
+    {
+      "start": 269.2,
+      "end": 281.1,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Now suppose total spending doubles, from 3.6 billion dollars to 7.2 billion. How many times as many doses does the firm make?"
+    },
+    {
+      "start": 281.1,
+      "end": 286.2,
+      "speaker": "HOST",
+      "text": "After the last leaf, I'd say more than twice as many. But I don't see why."
+    },
+    {
+      "start": 286.2,
+      "end": 297.5,
+      "speaker": "ECONOMIST",
+      "text": "Let's build that number step by step. At 3.6 billion, the first 2.5 billion pays for the research. So 1.1 billion is left for making doses."
+    },
+    {
+      "start": 297.5,
+      "end": 305.1,
+      "speaker": "HOST",
+      "text": "And each dose costs 10 dollars. So 1.1 billion divided by 10 is 110 million doses."
+    },
+    {
+      "start": 305.1,
+      "end": 316.1,
+      "speaker": "ECONOMIST",
+      "text": "Right. Now double the spending to 7.2 billion. The research still costs the same 2.5 billion, so 4.7 billion is left for doses."
+    },
+    {
+      "start": 316.1,
+      "end": 322.7,
+      "speaker": "HOST",
+      "text": "At 10 dollars a dose, that's 470 million doses. More than four times as many!"
+    },
+    {
+      "start": 322.7,
+      "end": 345.2,
+      "speaker": "ECONOMIST",
+      "text": "Yes. 470 divided by 110 is about 4.27. So twice the spending gives about 4.27 times the doses. Without the research cost, it would give exactly twice the doses. With it, the doses per dollar spent rise as spending grows, because the research cost is spread over more doses. A fixed cost creates increasing returns."
+    },
+    {
+      "start": 345.2,
+      "end": 353.8,
+      "speaker": "HOST",
+      "text": "Next leaf: price above marginal cost. What is marginal cost?"
+    },
+    {
+      "start": 353.8,
+      "end": 377.0,
+      "speaker": "ECONOMIST",
+      "text": "Marginal cost is the cost of making one more unit: here, 10 dollars a dose. Once the formula is known, other firms can copy it, because ideas are nonrival. The copiers never paid for the research, so competition pushes the price down to 10 dollars. Then the 2.5 billion of research is lost, so no firm would start it."
+    },
+    {
+      "start": 377.0,
+      "end": 381.5,
+      "speaker": "HOST",
+      "text": "So the price has to be higher than the cost of a dose."
+    },
+    {
+      "start": 381.5,
+      "end": 397.5,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Otherwise nobody pays for new ideas. Software shows it even more clearly. Suppose a word processor, a program for writing texts, costs 100 million dollars to develop. Each copy costs 1 dollar, and sells for 20 dollars."
+    },
+    {
+      "start": 397.5,
+      "end": 405.3,
+      "speaker": "HOST",
+      "text": "So each copy brings in 19 dollars above its cost. And the firm needs enough copies to cover the 100 million."
+    },
+    {
+      "start": 405.3,
+      "end": 420.4,
+      "speaker": "ECONOMIST",
+      "text": "Correct. 100 million divided by 19 is about 5.26 million copies. That's the break-even point, where the firm neither gains nor loses. The lower the price, the bigger the market the firm needs."
+    },
+    {
+      "start": 420.4,
+      "end": 423.6,
+      "speaker": "HOST",
+      "text": "So how should a society pay for new ideas?"
+    },
+    {
+      "start": 423.6,
+      "end": 451.0,
+      "speaker": "ECONOMIST",
+      "text": "There are several ways, each with a cost. A patent gives only the inventor the right to sell the invention for 20 years. The higher price pays for the research. But some buyers who would pay the cost of making a dose now go without. Governments can also fund research with taxes, or someone can offer a prize. These avoid the high price, but someone else must pay."
+    },
+    {
+      "start": 451.0,
+      "end": 465.4,
+      "speaker": "HOST",
+      "text": "So in part one we saw a chain. Ideas can be shared without being used up, so doubling everything more than doubles output. And since an idea costs a lot to find, its price must stay above the cost of a copy."
+    },
+    {
+      "start": 465.4,
+      "end": 472.8,
+      "speaker": "ECONOMIST",
+      "text": "That's the chain. Next branch: how can ideas keep income growing year after year?"
+    },
+    {
+      "start": 472.8,
+      "end": 480.0,
+      "speaker": "HOST",
+      "text": "Part two of the map: The Romer model. The first leaf is long-run growth. How does the model work?"
+    },
+    {
+      "start": 480.0,
+      "end": 496.8,
+      "speaker": "ECONOMIST",
+      "text": "Romer leaves out tools at first. On Islandia, some islanders work as researchers. They add new blueprints, designs like the new hull, to a library of ideas. The rest make goods. Ideas never wear out, so the library only grows."
+    },
+    {
+      "start": 496.8,
+      "end": 499.5,
+      "speaker": "HOST",
+      "text": "And what decides an islander's income?"
+    },
+    {
+      "start": 499.5,
+      "end": 510.5,
+      "speaker": "ECONOMIST",
+      "text": "The whole library, not blueprints per person. One new hull design helps every yard on the island. In the Solow model it was the opposite: a boat helps only the crew that sails it."
+    },
+    {
+      "start": 510.5,
+      "end": 513.0,
+      "speaker": "HOST",
+      "text": "So how fast does the library grow?"
+    },
+    {
+      "start": 513.0,
+      "end": 537.7,
+      "speaker": "ECONOMIST",
+      "text": "A fixed share of islanders do research, so researchers grow as fast as the population. Suppose that's 5 percent a year. Each researcher adds the same number of blueprints a year. So new blueprints also grow 5 percent a year, and in the long run, so does the library. If it grew faster, new blueprints would be a shrinking share of it, and its growth would slow."
+    },
+    {
+      "start": 537.7,
+      "end": 541.1,
+      "speaker": "HOST",
+      "text": "So income per person grows 5 percent a year too?"
+    },
+    {
+      "start": 541.1,
+      "end": 554.0,
+      "speaker": "ECONOMIST",
+      "text": "Less. A number says how much ideas matter in making goods. In our example, it's 0.6. So when the library grows by 1 percent, income per person grows by only 0.6 percent."
+    },
+    {
+      "start": 554.0,
+      "end": 558.6,
+      "speaker": "HOST",
+      "text": "So 0.6 times 5 percent. That's 3 percent a year."
+    },
+    {
+      "start": 558.6,
+      "end": 572.0,
+      "speaker": "ECONOMIST",
+      "text": "Right. That's the leaf's equation in words: long-run growth equals how much ideas matter, times population growth. So income moves along a steady growth path, 3 percent higher every year."
+    },
+    {
+      "start": 572.0,
+      "end": 580.8,
+      "speaker": "HOST",
+      "text": "Wait. Last time, faster population growth lowered income per person on Islandia. Now more people make everyone richer?"
+    },
+    {
+      "start": 580.8,
+      "end": 611.4,
+      "speaker": "ECONOMIST",
+      "text": "A lot of students think more people must mean less for each person. That's true for objects: each newcomer needs tools. But ideas are shared, not divided. More people means more researchers, and each new idea serves everyone. So faster population growth means faster growth of income per person. And ideas cross borders: Islandia also builds from designs drawn on Mainland, the country across the sea. So what counts is the world's number of researchers."
+    },
+    {
+      "start": 611.4,
+      "end": 624.0,
+      "speaker": "HOST",
+      "text": "Next leaf: more productive research. Suppose artificial intelligence makes every researcher eight times as productive. My guess is that Islandia now grows much faster, forever."
+    },
+    {
+      "start": 624.0,
+      "end": 648.6,
+      "speaker": "ECONOMIST",
+      "text": "Surprisingly, no. Long-run growth stays at 3 percent. Researchers now add 8 times as many blueprints a year, so at first the library grows very fast. But as it gets bigger, the new blueprints are a smaller share of it. In the long run, the library is 8 times as large as on the old path, and grows at the old pace."
+    },
+    {
+      "start": 648.6,
+      "end": 651.9,
+      "speaker": "HOST",
+      "text": "So income ends up 8 times higher?"
+    },
+    {
+      "start": 651.9,
+      "end": 663.8,
+      "speaker": "ECONOMIST",
+      "text": "Less, because in our example income grows by a smaller percentage than the library. The model raises 8 to the power 0.6, which is about 3.48."
+    },
+    {
+      "start": 663.8,
+      "end": 671.7,
+      "speaker": "HOST",
+      "text": "So the growth path ends up about 3.48 times higher, but it still grows 3 percent a year."
+    },
+    {
+      "start": 671.7,
+      "end": 678.8,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. Economists call this a level effect. A growth effect would change the growth rate itself."
+    },
+    {
+      "start": 678.8,
+      "end": 688.5,
+      "speaker": "HOST",
+      "text": "Next leaf: a larger research share, the share of islanders who do research. If it goes up, I'd expect income to rise right away."
+    },
+    {
+      "start": 688.5,
+      "end": 706.6,
+      "speaker": "ECONOMIST",
+      "text": "That's the tempting answer, but income falls first. Suppose the research share rises from 0.03 to 0.35, so from 3 to 35 percent of islanders. The library is the same at first, but fewer people make goods."
+    },
+    {
+      "start": 706.6,
+      "end": 708.5,
+      "speaker": "HOST",
+      "text": "How many fewer?"
+    },
+    {
+      "start": 708.5,
+      "end": 716.0,
+      "speaker": "ECONOMIST",
+      "text": "Before, 97 of every 100 islanders made goods. Now only 65 do."
+    },
+    {
+      "start": 716.0,
+      "end": 720.1,
+      "speaker": "HOST",
+      "text": "And 65 divided by 97 is about two thirds."
+    },
+    {
+      "start": 720.1,
+      "end": 744.2,
+      "speaker": "ECONOMIST",
+      "text": "Each goods worker still makes as much as before, so output per person falls by about a third, 33 percent. Then the extra researchers fill the library faster. More ideas push its path up, fewer goods workers pull it down, and in the end Islandia sits on a path 2.93 times the old one. Long-run growth is again 3 percent."
+    },
+    {
+      "start": 744.2,
+      "end": 747.9,
+      "speaker": "HOST",
+      "text": "Then why not put everyone into research?"
+    },
+    {
+      "start": 747.9,
+      "end": 766.6,
+      "speaker": "ECONOMIST",
+      "text": "Because someone has to use the ideas. Here, the path is highest when 37.5 percent of islanders do research. Beyond that, more research lowers the path. For a government, moving people into research is an investment: less output today, more later."
+    },
+    {
+      "start": 766.6,
+      "end": 772.5,
+      "speaker": "HOST",
+      "text": "Last leaf of this part: Solow plus Romer. We bring the tools back?"
+    },
+    {
+      "start": 772.5,
+      "end": 796.9,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Tools cannot drive growth on their own, but they make the growth from ideas bigger. A new design raises output, and part of the extra output becomes new tools. Those tools raise output again, by a third as much, since tools count for one third in making goods. One, plus a third, plus a ninth, and so on, adds up to one and a half."
+    },
+    {
+      "start": 796.9,
+      "end": 801.3,
+      "speaker": "HOST",
+      "text": "So growth is one and a half times what ideas alone would give."
+    },
+    {
+      "start": 801.3,
+      "end": 815.4,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. This leaf uses its own values. Ideas matter a bit more, two thirds, and the population grows 3 percent a year. So ideas alone give two thirds of 3 percent, which is 2 percent a year."
+    },
+    {
+      "start": 815.4,
+      "end": 833.7,
+      "speaker": "HOST",
+      "text": "And tools multiply that by one and a half, so income per person grows 3 percent a year. Now suppose Islandia raises its investment rate, the share of output it turns into tools, from 5 to 60 percent. Tools make growth bigger, so I'd guess Islandia now grows faster for good."
+    },
+    {
+      "start": 833.7,
+      "end": 853.4,
+      "speaker": "ECONOMIST",
+      "text": "Most people would say that. But long-run growth stays at 3 percent a year, because tools still have diminishing returns. What rises is the path. As in the Solow model, income follows the square root of the investment rate. The rate is 12 times as high, and the square root of 12 is about 3.46."
+    },
+    {
+      "start": 853.4,
+      "end": 857.0,
+      "speaker": "HOST",
+      "text": "So the path ends up about 3.46 times higher."
+    },
+    {
+      "start": 857.0,
+      "end": 879.3,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Saving more, which here means investing more, lifts the path, but ideas set its growth rate. And the farther an economy is below its path, the faster it grows: that's transition dynamics. So a reform that lifts a country's path brings decades of fast catch-up growth, as in Japan and South Korea."
+    },
+    {
+      "start": 879.3,
+      "end": 898.1,
+      "speaker": "HOST",
+      "text": "So in part two, a growing number of researchers keeps the library, and income, growing at a steady rate. Better research, a larger share of researchers, up to a point, and more saving lift the path. Only faster population growth, or ideas mattering more, change its growth rate."
+    },
+    {
+      "start": 898.1,
+      "end": 904.6,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. Next branch: can we see ideas at work in the data?"
+    },
+    {
+      "start": 904.6,
+      "end": 921.8,
+      "speaker": "HOST",
+      "text": "Part three of the map: Ideas in the data. The first leaf is cheaper raw materials. Over the twentieth century, industry used far more aluminum, copper, coal and iron ore. The supply of each is limited. So their prices must have gone up a lot."
+    },
+    {
+      "start": 921.8,
+      "end": 948.1,
+      "speaker": "ECONOMIST",
+      "text": "A lot of students think that: fixed supply and growing demand must mean higher prices. But the data say the opposite. Take real prices, meaning prices adjusted for inflation. An index, one number that tracks the real prices of six commodities, raw materials like aluminum and copper, is set to 100 in the year 1900. A century later, in 2000, it had fallen to about 35."
+    },
+    {
+      "start": 948.1,
+      "end": 952.6,
+      "speaker": "HOST",
+      "text": "So they cost only about a third as much. How can that be?"
+    },
+    {
+      "start": 952.6,
+      "end": 969.4,
+      "speaker": "ECONOMIST",
+      "text": "Demand did grow enormously, so supply must have grown even faster. New ideas did that. People found new deposits, new places where metals lie in the ground. They found new ways to dig them out, and ways to use less material for the same job."
+    },
+    {
+      "start": 969.4,
+      "end": 971.6,
+      "speaker": "HOST",
+      "text": "Did anyone ever bet on this?"
+    },
+    {
+      "start": 971.6,
+      "end": 987.1,
+      "speaker": "ECONOMIST",
+      "text": "Yes. In 1980, the economist Julian Simon bet the biologist Paul Ehrlich that the real prices of five metals would fall over ten years. Simon won, though in many other decades he would have lost."
+    },
+    {
+      "start": 987.1,
+      "end": 992.7,
+      "speaker": "HOST",
+      "text": "Next leaf: a U.S. slowdown. What slowed down?"
+    },
+    {
+      "start": 992.7,
+      "end": 1012.2,
+      "speaker": "ECONOMIST",
+      "text": "Growth of GDP per person. GDP is the value of everything a country produces in a year. One year's growth goes up and down a lot, so for each year we average growth over the previous 10 years. From 1960 to 2006, this average moved around 2.2 percent a year."
+    },
+    {
+      "start": 1012.2,
+      "end": 1013.4,
+      "speaker": "HOST",
+      "text": "And after that?"
+    },
+    {
+      "start": 1013.4,
+      "end": 1024.9,
+      "speaker": "ECONOMIST",
+      "text": "Then came the Great Recession, the deep downturn that began in 2007. Since 2009, the average has been only about 1.2 percent a year, still below the old average."
+    },
+    {
+      "start": 1024.9,
+      "end": 1029.2,
+      "speaker": "HOST",
+      "text": "Next leaf: growth accounting. What is that?"
+    },
+    {
+      "start": 1029.2,
+      "end": 1047.7,
+      "speaker": "ECONOMIST",
+      "text": "It's a way to split growth into its sources. Take output per hour worked. It can grow for three reasons: more tools per hour, more skills, like more schooling, or using everything better. That last part is TFP, short for total factor productivity."
+    },
+    {
+      "start": 1047.7,
+      "end": 1049.9,
+      "speaker": "HOST",
+      "text": "How do we measure it?"
+    },
+    {
+      "start": 1049.9,
+      "end": 1068.8,
+      "speaker": "ECONOMIST",
+      "text": "Not directly. Think of Islandia's statisticians. They can count hours, tools and schooling, but not blueprints. So they call whatever growth is left over TFP growth. It's our best measure of new ideas, but it also includes everything else we fail to measure."
+    },
+    {
+      "start": 1068.8,
+      "end": 1073.0,
+      "speaker": "HOST",
+      "text": "So what does growth accounting say about the slowdown?"
+    },
+    {
+      "start": 1073.0,
+      "end": 1091.8,
+      "speaker": "ECONOMIST",
+      "text": "It looks at output per hour, over fixed periods. There it finds two slowdowns: an older one after 1973, and a newer one that began around 2003, a few years before the Great Recession. The newer one is behind the slow growth of the previous leaf."
+    },
+    {
+      "start": 1091.8,
+      "end": 1097.2,
+      "speaker": "HOST",
+      "text": "Two slowdowns, then. My guess is that firms stopped investing in machines both times."
+    },
+    {
+      "start": 1097.2,
+      "end": 1106.9,
+      "speaker": "ECONOMIST",
+      "text": "Close, but the data point elsewhere. Take the older one. From 1948 to 1973, TFP grew 2.1 percent a year."
+    },
+    {
+      "start": 1106.9,
+      "end": 1109.6,
+      "speaker": "HOST",
+      "text": "Did it come back after 1973?"
+    },
+    {
+      "start": 1109.6,
+      "end": 1116.5,
+      "speaker": "ECONOMIST",
+      "text": "No. From 1973 to 1995, it grew only 0.5 percent a year."
+    },
+    {
+      "start": 1116.5,
+      "end": 1120.8,
+      "speaker": "HOST",
+      "text": "So TFP growth fell a lot. And the machines?"
+    },
+    {
+      "start": 1120.8,
+      "end": 1139.3,
+      "speaker": "ECONOMIST",
+      "text": "Their part barely moved: about 1 point of growth a year before 1973, and about 0.8 points after. So the slowdown was mostly a slowdown in TFP growth, the part the Romer model links to new ideas. The newer slowdown is also mostly a TFP slowdown."
+    },
+    {
+      "start": 1139.3,
+      "end": 1144.1,
+      "speaker": "HOST",
+      "text": "Last leaf: around the world. Was the slowdown only American?"
+    },
+    {
+      "start": 1144.1,
+      "end": 1158.4,
+      "speaker": "ECONOMIST",
+      "text": "No. Growth slowed after 2007 in every country of the G7, a group of seven large rich economies like the United States, Japan and Germany. In Italy, GDP per person even shrank."
+    },
+    {
+      "start": 1158.4,
+      "end": 1160.8,
+      "speaker": "HOST",
+      "text": "So the whole world slowed down?"
+    },
+    {
+      "start": 1160.8,
+      "end": 1186.0,
+      "speaker": "ECONOMIST",
+      "text": "Not quite. After 2007, growth in China and India went up. Rich countries are near the frontier: they already use the best ideas known, so they grow with the world's stock of ideas. When they all slow at once, new ideas may be arriving more slowly. China and India are far below their paths, so they grow fast while they catch up."
+    },
+    {
+      "start": 1186.0,
+      "end": 1197.4,
+      "speaker": "HOST",
+      "text": "So in part three, ideas showed up in cheaper raw materials and in the TFP slowdowns. And rich countries slowed down, while countries catching up sped up."
+    },
+    {
+      "start": 1197.4,
+      "end": 1200.2,
+      "speaker": "ECONOMIST",
+      "text": "Right. Let's sum up."
+    },
+    {
+      "start": 1200.2,
+      "end": 1207.0,
+      "speaker": "HOST",
+      "text": "Let's go back to our three goals. First, why are ideas different?"
+    },
+    {
+      "start": 1207.0,
+      "end": 1221.7,
+      "speaker": "ECONOMIST",
+      "text": "Because they are nonrival. So doubling every input, ideas included, more than doubles output. And since an idea costs a lot to find, a price equal to marginal cost could never pay for it."
+    },
+    {
+      "start": 1221.7,
+      "end": 1234.2,
+      "speaker": "HOST",
+      "text": "Second, how do ideas keep income growing? I'd say more people means more researchers, more researchers means more ideas, and every idea helps everyone."
+    },
+    {
+      "start": 1234.2,
+      "end": 1245.1,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Better research or more saving lift the path, but only a growing research workforce keeps income growing at a steady rate."
+    },
+    {
+      "start": 1245.1,
+      "end": 1247.5,
+      "speaker": "HOST",
+      "text": "And third, the data."
+    },
+    {
+      "start": 1247.5,
+      "end": 1276.3,
+      "speaker": "ECONOMIST",
+      "text": "Raw materials got cheaper, because ideas expanded supply faster than demand. And the U.S. slowdowns were mostly TFP slowdowns. So here is the big message. Growth that lasts comes from new ideas. Because ideas are nonrival, a growing number of researchers raises everyone's income. Saving and research policies move the level of the growth path, not its long-run growth rate."
+    },
+    {
+      "start": 1276.3,
+      "end": 1296.2,
+      "speaker": "HOST",
+      "text": "Here's a question to think about. Suppose the population of the whole world stops growing, on Islandia, on Mainland and everywhere else. So the number of researchers stays the same, and they keep adding new blueprints every year. Does income per person keep rising? And does it keep growing at 3 percent a year?"
+    },
+    {
+      "start": 1296.2,
+      "end": 1303.6,
+      "speaker": "ECONOMIST",
+      "text": "Pause the episode and think about it for a moment."
+    },
+    {
+      "start": 1303.6,
+      "end": 1306.5,
+      "speaker": "HOST",
+      "text": "Okay, we're back. What's the answer?"
+    },
+    {
+      "start": 1306.5,
+      "end": 1343.7,
+      "speaker": "ECONOMIST",
+      "text": "Income keeps rising, but its growth rate falls toward zero. The same researchers add the same number of new blueprints each year. But the library keeps growing, so those blueprints are a smaller and smaller share of it, and income growth slows too. Remember the rule from part two: long-run growth equals how much ideas matter, times population growth. With zero population growth, that is zero. That's why education, more research and billions of people in poorer countries joining the frontier matter: they keep the number of researchers growing."
+    },
+    {
+      "start": 1343.7,
+      "end": 1345.9,
+      "speaker": "HOST",
+      "text": "Where can students try all this themselves?"
+    },
+    {
+      "start": 1345.9,
+      "end": 1359.0,
+      "speaker": "ECONOMIST",
+      "text": "Open the chapter's Colab notebook to run the Romer model yourself. The Model Apps let you move the sliders of every model chart without code. The Data Apps show commodity prices and growth in any country."
+    },
+    {
+      "start": 1359.0,
+      "end": 1360.5,
+      "speaker": "HOST",
+      "text": "And next time?"
+    },
+    {
+      "start": 1360.5,
+      "end": 1372.0,
+      "speaker": "ECONOMIST",
+      "text": "In Chapter 7, we turn from long-run growth to the labor market. We ask: who works, why can't everyone find a job, and why do some earn more?"
+    },
+    {
+      "start": 1372.0,
+      "end": 1375.0,
+      "speaker": "HOST",
+      "text": "That's it for today. Thanks for listening, and see you next time."
+    }
+  ]
+}

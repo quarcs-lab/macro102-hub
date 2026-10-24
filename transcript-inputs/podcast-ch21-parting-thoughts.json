@@ -1,0 +1,651 @@
+{
+  "title": "Parting Thoughts",
+  "duration": 1341.3,
+  "sections": [
+    {
+      "title": "Opening",
+      "start": 0.0,
+      "segment": 0
+    },
+    {
+      "title": "The long run",
+      "start": 95.6,
+      "segment": 8
+    },
+    {
+      "title": "The short run",
+      "start": 506.9,
+      "segment": 40
+    },
+    {
+      "title": "The frontier",
+      "start": 878.8,
+      "segment": 66
+    },
+    {
+      "title": "Wrap-up",
+      "start": 1155.9,
+      "segment": 88
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 12.0,
+      "speaker": "HOST",
+      "text": "Welcome back. Today we are on the last stop of the course: a look back at what we have learned, and a look ahead at what nobody knows yet. Can we start with a puzzle?"
+    },
+    {
+      "start": 12.0,
+      "end": 24.5,
+      "speaker": "ECONOMIST",
+      "text": "Sure. Take the ten poorest countries in a large data set. Their income per person for a whole year is about what the United States has per person in just over a week."
+    },
+    {
+      "start": 24.5,
+      "end": 31.2,
+      "speaker": "HOST",
+      "text": "A week? That's a huge gap. After all these models, surely we know exactly why."
+    },
+    {
+      "start": 31.2,
+      "end": 35.8,
+      "speaker": "ECONOMIST",
+      "text": "We know where the gap sits. We still don't fully know why it is there."
+    },
+    {
+      "start": 35.8,
+      "end": 42.6,
+      "speaker": "HOST",
+      "text": "So here is today's question. What has macroeconomics learned, and what does it still not know?"
+    },
+    {
+      "start": 42.6,
+      "end": 75.2,
+      "speaker": "ECONOMIST",
+      "text": "By the end of this episode, you'll be able to do three things. First, explain why ideas and productivity, more than machines, explain lasting growth and the gap between rich and poor countries. Second, explain why a central bank can move output for a year or two but not over decades, and why being believed makes lower inflation cheaper. Third, name the big open questions, and explain why a slowdown in productivity matters for policy."
+    },
+    {
+      "start": 75.2,
+      "end": 78.3,
+      "speaker": "HOST",
+      "text": "And we'll follow the chapter's mind map part by part?"
+    },
+    {
+      "start": 78.3,
+      "end": 95.6,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Part one is the long run, over decades. Part two is the short run, over a year or two. Part three is the frontier, the open questions. Along the way we meet five lessons, the big ideas of the whole course."
+    },
+    {
+      "start": 95.6,
+      "end": 102.2,
+      "speaker": "HOST",
+      "text": "Part one of the map: The long run. The first leaf is living standards. What's the first lesson?"
+    },
+    {
+      "start": 102.2,
+      "end": 129.1,
+      "speaker": "ECONOMIST",
+      "text": "The first lesson is about levels, meaning how rich a country is. Income per person depends on four things. How much a country invests in machines and in people's skills. How many hours people work. The ideas and technology it can use. And how well it combines all of these. That last one is total factor productivity, or TFP. Think of it as know-how: how much output a country gets from its tools and workers."
+    },
+    {
+      "start": 129.1,
+      "end": 130.9,
+      "speaker": "HOST",
+      "text": "And the leaf's equation?"
+    },
+    {
+      "start": 130.9,
+      "end": 157.8,
+      "speaker": "ECONOMIST",
+      "text": "It says output per person equals TFP times the cube root of capital per person. For example, the cube root of eight is two, because two times two times two is eight. So capital has strong diminishing returns: each extra machine adds less output than the one before. But it breaks just as often. So in the end, new machines only replace broken ones, and machines alone cannot keep income per person rising."
+    },
+    {
+      "start": 157.8,
+      "end": 163.5,
+      "speaker": "HOST",
+      "text": "Still, my guess is that poor countries are poor mainly because they have so few machines."
+    },
+    {
+      "start": 163.5,
+      "end": 182.7,
+      "speaker": "ECONOMIST",
+      "text": "That's the natural guess, but the data say no. Measure each country as a share of U.S. income per person. The ten poorest countries, out of 110, earn about 2 percent of U.S. income. But with U.S. know-how, their capital alone would put them at 24 percent, about a quarter."
+    },
+    {
+      "start": 182.7,
+      "end": 185.8,
+      "speaker": "HOST",
+      "text": "So what fills the rest of the gap?"
+    },
+    {
+      "start": 185.8,
+      "end": 210.0,
+      "speaker": "ECONOMIST",
+      "text": "TFP. Let's build that number step by step. We never measure TFP directly. It is what is left over once we count capital. Actual income is capital's part times TFP. Without rounding, capital's part is 24.4 percent of U.S. income, and actual income is 2.3 percent. So TFP must be 2.3 divided by 24.4."
+    },
+    {
+      "start": 210.0,
+      "end": 213.0,
+      "speaker": "HOST",
+      "text": "That's about one tenth, right?"
+    },
+    {
+      "start": 213.0,
+      "end": 233.8,
+      "speaker": "ECONOMIST",
+      "text": "Yes, about 0.094, a bit less than one tenth of the U.S. level. So capital explains a gap of about four times, and low TFP a gap of about ten times. Four times ten is about forty, and indeed the poorest earn about one fortieth of U.S. income."
+    },
+    {
+      "start": 233.8,
+      "end": 241.2,
+      "speaker": "HOST",
+      "text": "Next leaf: ideas drive growth. If machines can't keep income rising, what can?"
+    },
+    {
+      "start": 241.2,
+      "end": 263.9,
+      "speaker": "ECONOMIST",
+      "text": "New ideas. A boat can be used by one person at a time. Now take Islandia, our small imaginary island country. An idea, like a better way to build boats, can be used by every islander at once. Economists call this nonrival. So income per person depends on the whole stock of ideas, and it keeps growing as long as that stock grows."
+    },
+    {
+      "start": 263.9,
+      "end": 266.0,
+      "speaker": "HOST",
+      "text": "And what makes the stock grow?"
+    },
+    {
+      "start": 266.0,
+      "end": 292.1,
+      "speaker": "ECONOMIST",
+      "text": "Researchers. More people means more researchers, so more new ideas. The leaf's equation says that, in the long run, income per person grows at the rate of population growth, times a number that measures how strongly ideas raise output. On Islandia, say the population grows 2 percent a year, and that number is one half. Then income per person grows half as fast, 1 percent a year, year after year."
+    },
+    {
+      "start": 292.1,
+      "end": 297.0,
+      "speaker": "HOST",
+      "text": "Next leaf: Japan's income compared with U.S. income. What does it show?"
+    },
+    {
+      "start": 297.0,
+      "end": 323.0,
+      "speaker": "ECONOMIST",
+      "text": "It shows transition dynamics, the second lesson. Every economy has a steady state, a long-run path set by its own investment, its own TFP and its own institutions, meaning the rules a society lives by. The principle of transition dynamics says that the farther an economy sits below its own path, the faster it grows. As it gets closer, its growth slows down."
+    },
+    {
+      "start": 323.0,
+      "end": 324.8,
+      "speaker": "HOST",
+      "text": "Japan is the classic case, isn't it?"
+    },
+    {
+      "start": 324.8,
+      "end": 338.8,
+      "speaker": "ECONOMIST",
+      "text": "It is. In 1950, after the Second World War, Japan's income per person was only 0.20 of U.S. income, a fifth. It sat far below its own path, so it grew fast."
+    },
+    {
+      "start": 338.8,
+      "end": 339.9,
+      "speaker": "HOST",
+      "text": "How fast?"
+    },
+    {
+      "start": 339.9,
+      "end": 350.3,
+      "speaker": "ECONOMIST",
+      "text": "From 1950 to 2000, on average, Japan's income per person grew 4.8 percent a year. That's more than twice the U.S. rate of 2.2 percent."
+    },
+    {
+      "start": 350.3,
+      "end": 356.5,
+      "speaker": "HOST",
+      "text": "So Japan kept growing faster until it caught up completely, and maybe passed the United States?"
+    },
+    {
+      "start": 356.5,
+      "end": 383.8,
+      "speaker": "ECONOMIST",
+      "text": "That's what many students expect, but no. Japan's ratio peaked at 0.85 in 1991. Since then, Japan has grown more slowly than the United States, and by 2022 the ratio was down to 0.65. Japan's own steady state seems to sit below the U.S. level. Its peak was above that steady state, so after the peak it grew slowly."
+    },
+    {
+      "start": 383.8,
+      "end": 388.0,
+      "speaker": "HOST",
+      "text": "Still, in the end all poor countries catch up with rich ones, don't they?"
+    },
+    {
+      "start": 388.0,
+      "end": 410.0,
+      "speaker": "ECONOMIST",
+      "text": "A lot of students think that, but the key word is \"own\". Transition dynamics pulls a country toward its own steady state, not toward the United States. And policies and institutions can move that steady state down. Argentina had about half of U.S. income per person in 1950, and less than a third in 2022."
+    },
+    {
+      "start": 410.0,
+      "end": 418.5,
+      "speaker": "HOST",
+      "text": "Last leaf of this part: money growth and inflation. The chapter calls it the classical dichotomy. That's a long word."
+    },
+    {
+      "start": 418.5,
+      "end": 448.2,
+      "speaker": "ECONOMIST",
+      "text": "It's the third lesson. A dichotomy is a split into two parts. In the long run, the economy splits into a real side and a nominal side. The real side is output, jobs and wages, set by the real forces we just heard about. The nominal side is prices and inflation, and money sets it. The leaf's equation is the quantity theory. If people spend each unit of money about as often as before, inflation equals money growth minus the growth of real output."
+    },
+    {
+      "start": 448.2,
+      "end": 451.5,
+      "speaker": "HOST",
+      "text": "So printing more money doesn't make a country richer."
+    },
+    {
+      "start": 451.5,
+      "end": 464.4,
+      "speaker": "ECONOMIST",
+      "text": "Not in the long run. It only raises prices. And the data support this. A correlation measures how closely two things move together. A correlation of one would mean a perfect line."
+    },
+    {
+      "start": 464.4,
+      "end": 468.1,
+      "speaker": "HOST",
+      "text": "So how close is the link between money growth and inflation?"
+    },
+    {
+      "start": 468.1,
+      "end": 484.4,
+      "speaker": "ECONOMIST",
+      "text": "Across 165 economies, the correlation is 0.85. That's very high. At one end, Japan had slow money growth and inflation below 1 percent a year. At the other end, Brazil had both above 200 percent a year."
+    },
+    {
+      "start": 484.4,
+      "end": 499.7,
+      "speaker": "HOST",
+      "text": "So in part one we saw that, over decades, real things decide how rich a country is: tools and skills, but above all ideas and know-how. Countries far below their own path grow fast, then slow down. And money only sets prices."
+    },
+    {
+      "start": 499.7,
+      "end": 506.9,
+      "speaker": "ECONOMIST",
+      "text": "Right. Next branch: what changes when we look at a year or two instead of decades."
+    },
+    {
+      "start": 506.9,
+      "end": 517.0,
+      "speaker": "HOST",
+      "text": "Part two of the map: The short run. The first leaf is the slope of the Phillips curve. It's about sticky inflation. What does sticky mean here?"
+    },
+    {
+      "start": 517.0,
+      "end": 540.8,
+      "speaker": "ECONOMIST",
+      "text": "Sticky means slow to change. Firms set prices partly by looking at last year's inflation, so inflation moves only gradually. What moves it is the state of the economy. We measure that with short-run output, the percent gap between actual output and potential output. Potential output is what the economy produces in normal times, without a boom or a slump."
+    },
+    {
+      "start": 540.8,
+      "end": 544.6,
+      "speaker": "HOST",
+      "text": "So in a boom, output is above potential."
+    },
+    {
+      "start": 544.6,
+      "end": 562.0,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Then firms raise prices faster than last year, so inflation rises. In a slump, inflation falls. That's the Phillips curve, and it gives the fourth lesson. Over a year or two, a country can get more output only by accepting faster inflation."
+    },
+    {
+      "start": 562.0,
+      "end": 569.6,
+      "speaker": "HOST",
+      "text": "How strong is the link? I'd guess one for one. Output one percent above potential, and inflation goes up a full percentage point."
+    },
+    {
+      "start": 569.6,
+      "end": 611.1,
+      "speaker": "ECONOMIST",
+      "text": "That's too strong. Inflation is sticky, so a boom pushes it up only a little each year. In U.S. data from 1961 to 2025, the slope, meaning the size of that link, is 0.35. A percentage point is the plain difference between two percentages. So each percent of output above potential goes with inflation about a third of a point higher than the year before. The link is loose, though. In some years, sudden jumps in prices, like the jumps in oil prices in the 1970s, pushed inflation far from what output alone would predict. Economists call these price shocks."
+    },
+    {
+      "start": 611.1,
+      "end": 621.3,
+      "speaker": "HOST",
+      "text": "Next leaf: a higher interest rate means lower output. So monetary policy moves output? But part one said money only sets prices."
+    },
+    {
+      "start": 621.3,
+      "end": 657.7,
+      "speaker": "ECONOMIST",
+      "text": "In the long run, yes. A lot of students think that means the central bank can't change real output at all. But sticky inflation breaks the split in the short run. The central bank raises the nominal interest rate, the rate you see at the bank. Inflation barely moves, so the real interest rate, the nominal rate minus inflation, rises too. Firms invest less, and output falls. But sticky means slow, not frozen. After a year or two, inflation adjusts and output goes back to potential. That's why this power lasts only a while."
+    },
+    {
+      "start": 657.7,
+      "end": 660.1,
+      "speaker": "HOST",
+      "text": "Can we see that on Islandia?"
+    },
+    {
+      "start": 660.1,
+      "end": 692.6,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Say the Bank of Islandia raises its rate. Harbor Boatworks, the island's boat builder, borrows to build boat sheds. With a higher real rate, borrowing costs more than a new shed would earn, so it postpones the sheds. If the island trades with other countries, there is a second way this works. A higher rate makes the currency more valuable, so the island's goods cost more abroad. Net exports, meaning exports minus imports, fall."
+    },
+    {
+      "start": 692.6,
+      "end": 702.4,
+      "speaker": "HOST",
+      "text": "Next leaf: 1980 to 1985, the cost of disinflation. Disinflation means inflation falling, not prices falling?"
+    },
+    {
+      "start": 702.4,
+      "end": 724.7,
+      "speaker": "ECONOMIST",
+      "text": "Exactly. Prices still rise, just more slowly. The fifth lesson's story is the United States. In 1980, inflation was 13.5 percent. The Federal Reserve, the U.S. central bank, or the Fed for short, was led by Paul Volcker. It raised interest rates sharply. By 1985, inflation was down to 3.5 percent."
+    },
+    {
+      "start": 724.7,
+      "end": 728.6,
+      "speaker": "HOST",
+      "text": "So 10 points less inflation. What did that cost?"
+    },
+    {
+      "start": 728.6,
+      "end": 751.1,
+      "speaker": "ECONOMIST",
+      "text": "A deep recession. Take each year from 1980 to 1985, and add up how far output fell below potential. GDP is a country's total output. The total loss is 16.4 percent of a year's GDP. That's about one sixth of a whole year's output, lost."
+    },
+    {
+      "start": 751.1,
+      "end": 754.2,
+      "speaker": "HOST",
+      "text": "And per point of inflation?"
+    },
+    {
+      "start": 754.2,
+      "end": 766.8,
+      "speaker": "ECONOMIST",
+      "text": "Divide 16.4 by 10, and you get about 1.6. Economists call this the sacrifice ratio. Each point of lower inflation cost about 1.6 percent of a year's output."
+    },
+    {
+      "start": 766.8,
+      "end": 774.2,
+      "speaker": "HOST",
+      "text": "Last leaf of this part: credibility makes disinflation cheaper. Credibility means being believed?"
+    },
+    {
+      "start": 774.2,
+      "end": 807.4,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Through the Phillips curve, the sure way to lower inflation is a recession. But suppose firms and workers truly believe that the central bank will hit a lower target. Then they cut their own price plans at once. Inflation can fall with a much smaller slump. That's the surprise in the fifth lesson. A central bank known for fighting inflation is believed, so it needs fewer and smaller recessions to keep inflation down. So being serious about low inflation also keeps output closer to normal."
+    },
+    {
+      "start": 807.4,
+      "end": 811.3,
+      "speaker": "HOST",
+      "text": "So in 1980, people didn't believe the Fed?"
+    },
+    {
+      "start": 811.3,
+      "end": 819.2,
+      "speaker": "ECONOMIST",
+      "text": "Not at first. It had let inflation run high for years, so it had lost its credibility. It paid with a deep recession."
+    },
+    {
+      "start": 819.2,
+      "end": 821.2,
+      "speaker": "HOST",
+      "text": "And once people believed it again?"
+    },
+    {
+      "start": 821.2,
+      "end": 834.9,
+      "speaker": "ECONOMIST",
+      "text": "Inflation stayed low. From 1993 to 2019, it averaged only 2.3 percent a year, far below the high inflation of the 1970s. Good luck, with fewer price shocks, probably helped too."
+    },
+    {
+      "start": 834.9,
+      "end": 838.4,
+      "speaker": "HOST",
+      "text": "Is that why central banks announce inflation targets?"
+    },
+    {
+      "start": 838.4,
+      "end": 859.3,
+      "speaker": "ECONOMIST",
+      "text": "Yes, that's the policy question. Since 1990, from New Zealand's central bank to the Fed in 2012, many central banks have announced a number for inflation. A public target should keep what people expect close to that number. But the evidence is debated. Some studies find that countries without targets brought inflation down about as much."
+    },
+    {
+      "start": 859.3,
+      "end": 873.2,
+      "speaker": "HOST",
+      "text": "So in part two we saw that sticky inflation gives the central bank real power for a while. Raising rates cools the economy, and bringing inflation down costs output, unless people believe the target."
+    },
+    {
+      "start": 873.2,
+      "end": 878.8,
+      "speaker": "ECONOMIST",
+      "text": "Right. Now the last branch: what we still don't know."
+    },
+    {
+      "start": 878.8,
+      "end": 887.0,
+      "speaker": "HOST",
+      "text": "Part three of the map: The frontier. The first leaf is a question: why is TFP low in poor countries?"
+    },
+    {
+      "start": 887.0,
+      "end": 918.5,
+      "speaker": "ECONOMIST",
+      "text": "It goes back to the first lesson. Low TFP explains most of the gap between rich and poor. Ideas are nonrival, and most of them are available everywhere. So why don't poor countries use them as well? Research points to institutions, such as property rights, meaning people can keep what they own and earn, and the rule of law, meaning the same rules apply to everyone. If investors can't keep the earnings from a machine or a new method, they don't invest."
+    },
+    {
+      "start": 918.5,
+      "end": 921.6,
+      "speaker": "HOST",
+      "text": "So the answer is simple: fix the institutions."
+    },
+    {
+      "start": 921.6,
+      "end": 933.8,
+      "speaker": "ECONOMIST",
+      "text": "That answer raises a new question. Why are property rights weak in some places? And which comes first: good institutions, better skills, or geography? That is still debated."
+    },
+    {
+      "start": 933.8,
+      "end": 946.8,
+      "speaker": "HOST",
+      "text": "Next leaf: productivity after 2003, the productivity slowdown. Since 2003 we got smartphones, cloud computing and now AI. My guess is that productivity growth sped up."
+    },
+    {
+      "start": 946.8,
+      "end": 958.4,
+      "speaker": "ECONOMIST",
+      "text": "Most people guess that, but it slowed down. In U.S. businesses, output per hour grew 3.2 percent a year from 1995 to 2003."
+    },
+    {
+      "start": 958.4,
+      "end": 960.2,
+      "speaker": "HOST",
+      "text": "And since then?"
+    },
+    {
+      "start": 960.2,
+      "end": 967.5,
+      "speaker": "ECONOMIST",
+      "text": "Since 2003, it has grown only 1.8 percent a year. TFP growth roughly halved too."
+    },
+    {
+      "start": 967.5,
+      "end": 971.6,
+      "speaker": "HOST",
+      "text": "Is a difference of 1.4 points a year important?"
+    },
+    {
+      "start": 971.6,
+      "end": 988.6,
+      "speaker": "ECONOMIST",
+      "text": "Yes, because small differences grow large over many years. Over 22 years, the old pace would have given about a third more output per hour than we have now. And nobody knows yet if this is a pause between big inventions or a lasting change."
+    },
+    {
+      "start": 988.6,
+      "end": 990.6,
+      "speaker": "HOST",
+      "text": "Why does that matter for policy?"
+    },
+    {
+      "start": 990.6,
+      "end": 1018.3,
+      "speaker": "ECONOMIST",
+      "text": "Because of potential output, which nobody can measure directly. Suppose potential growth slows, but the central bank reads the slow growth as a recession. It cuts interest rates to boost spending, so output runs above the true potential. And from part two, output above potential pushes inflation up, year after year. Many economists think this happened in the 1970s."
+    },
+    {
+      "start": 1018.3,
+      "end": 1025.5,
+      "speaker": "HOST",
+      "text": "Next leaf: which institutions? The map says ideas, trade and money."
+    },
+    {
+      "start": 1025.5,
+      "end": 1054.3,
+      "speaker": "ECONOMIST",
+      "text": "Three areas. For ideas: patents, prizes or public research funding. For trade: open trade helps a country as a whole, but it creates winners and losers. How can the gains be shared, so that people keep supporting trade? For money: should a country keep its own currency, or share one with its neighbors, as much of Europe does with the euro? Or should it limit money flowing across its borders, as China does?"
+    },
+    {
+      "start": 1054.3,
+      "end": 1057.8,
+      "speaker": "HOST",
+      "text": "Next leaf: bubbles and leverage."
+    },
+    {
+      "start": 1057.8,
+      "end": 1086.2,
+      "speaker": "ECONOMIST",
+      "text": "A bubble is when the price of something, like houses, rises far above what it can really earn. Leverage means buying with borrowed money. Our models explain the deep slump after the financial crisis of 2008 quite well, once borrowing became expensive. They explain much less about why the housing bubble formed, and why banks borrowed so much. And what should policy do when prices look too high? That is open."
+    },
+    {
+      "start": 1086.2,
+      "end": 1099.3,
+      "speaker": "HOST",
+      "text": "So a critic could say that macroeconomics failed. It missed the crisis. And its biggest explanation, TFP, is just the part left over that machines cannot explain."
+    },
+    {
+      "start": 1099.3,
+      "end": 1116.8,
+      "speaker": "ECONOMIST",
+      "text": "That's partly fair. But the models tell us where our ignorance sits, and what to measure next. They show that the gap between rich and poor is mostly in TFP, not in machines. Naming what we don't know is how a science moves forward."
+    },
+    {
+      "start": 1116.8,
+      "end": 1120.4,
+      "speaker": "HOST",
+      "text": "And the last leaf: aging and health spending."
+    },
+    {
+      "start": 1120.4,
+      "end": 1138.4,
+      "speaker": "ECONOMIST",
+      "text": "Populations are getting older, so governments will pay more for pensions. Health spending keeps rising too. In the United States and other rich countries, current policies cannot last in the long run. Either taxes rise a lot, or spending grows much more slowly."
+    },
+    {
+      "start": 1138.4,
+      "end": 1147.7,
+      "speaker": "HOST",
+      "text": "So in part three we saw that the models show where the gaps are, like low TFP and slower productivity, but not yet why."
+    },
+    {
+      "start": 1147.7,
+      "end": 1155.9,
+      "speaker": "ECONOMIST",
+      "text": "Right. And each open question builds on a lesson from the first two parts. Let's sum up."
+    },
+    {
+      "start": 1155.9,
+      "end": 1162.5,
+      "speaker": "HOST",
+      "text": "Let's go back to our three goals. First, why do ideas and productivity matter more than machines?"
+    },
+    {
+      "start": 1162.5,
+      "end": 1185.9,
+      "speaker": "ECONOMIST",
+      "text": "Because each extra machine adds less output but wears out just as fast, so new machines end up only replacing broken ones. Capital alone would put the poorest countries at a quarter of U.S. income, not at 2 percent. Low TFP does the rest. And ideas can be used by everyone at once, so new ideas keep income growing."
+    },
+    {
+      "start": 1185.9,
+      "end": 1194.5,
+      "speaker": "HOST",
+      "text": "Second, the central bank. It can move output for a year or two, because inflation is sticky. Over decades, money only sets prices."
+    },
+    {
+      "start": 1194.5,
+      "end": 1203.2,
+      "speaker": "ECONOMIST",
+      "text": "Yes. And lowering inflation usually costs a recession, unless people believe the central bank. Being believed makes it cheaper."
+    },
+    {
+      "start": 1203.2,
+      "end": 1205.4,
+      "speaker": "HOST",
+      "text": "And third, the open questions."
+    },
+    {
+      "start": 1205.4,
+      "end": 1244.6,
+      "speaker": "ECONOMIST",
+      "text": "Why TFP is low in poor countries, why productivity slowed after 2003, which institutions work best, why bubbles form, and how to pay for aging. The slowdown matters for policy, because a central bank that mistakes it for a recession boosts spending too much and raises inflation. So here is the big message. Five lessons explain how rich countries are, how fast they grow, what causes inflation, and what drives booms and slumps. But the biggest questions, like why know-how is so low in poor countries, are still open."
+    },
+    {
+      "start": 1244.6,
+      "end": 1264.6,
+      "speaker": "HOST",
+      "text": "Here's a question to think about. Islandia's inflation is 6 percent, and the Bank of Islandia wants 2 percent. Islanders are not sure the bank means it. If each point costs what it cost the United States in the early 1980s, about how much output does Islandia lose? And how could the bank make it cheaper?"
+    },
+    {
+      "start": 1264.6,
+      "end": 1272.1,
+      "speaker": "ECONOMIST",
+      "text": "Pause the episode and think about it for a moment."
+    },
+    {
+      "start": 1272.1,
+      "end": 1274.9,
+      "speaker": "HOST",
+      "text": "Okay, we're back. What's the answer?"
+    },
+    {
+      "start": 1274.9,
+      "end": 1299.7,
+      "speaker": "ECONOMIST",
+      "text": "Inflation must fall by 4 points. With the rounded 1.6 percent of a year's output per point, that's about 6.4 percent of a year's output. Islanders don't believe the target, so inflation falls only through a slump. To make it cheaper, the bank must be believed. If islanders trust the new target, they cut their price plans at once, and the slump can be much smaller."
+    },
+    {
+      "start": 1299.7,
+      "end": 1302.1,
+      "speaker": "HOST",
+      "text": "Where can students try all this themselves?"
+    },
+    {
+      "start": 1302.1,
+      "end": 1313.5,
+      "speaker": "ECONOMIST",
+      "text": "Open the chapter's Colab notebook. You can recompute the chapter's key numbers. The Data Apps show Japan's catch-up next to other economies, and the U.S. Phillips curve, without any code."
+    },
+    {
+      "start": 1313.5,
+      "end": 1314.6,
+      "speaker": "HOST",
+      "text": "And next time?"
+    },
+    {
+      "start": 1314.6,
+      "end": 1336.5,
+      "speaker": "ECONOMIST",
+      "text": "There is no next time. This is the end of the course, and you now have the big picture: the long run, the short run, and the questions still open. Go back to any notebook, change a number or a period, and ask your own question. Maybe one day you'll help answer one of the open ones."
+    },
+    {
+      "start": 1336.5,
+      "end": 1341.3,
+      "speaker": "HOST",
+      "text": "That's it for the whole course. Thanks for listening, and good luck with your own questions."
+    }
+  ]
+}

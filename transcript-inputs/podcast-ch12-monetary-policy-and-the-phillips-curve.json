@@ -1,0 +1,639 @@
+{
+  "title": "Monetary Policy and the Phillips Curve",
+  "duration": 1309.4,
+  "sections": [
+    {
+      "title": "Opening",
+      "start": 0.0,
+      "segment": 0
+    },
+    {
+      "title": "The central bank's lever",
+      "start": 128.6,
+      "segment": 8
+    },
+    {
+      "title": "IS, MP and the Phillips curve",
+      "start": 414.0,
+      "segment": 28
+    },
+    {
+      "title": "Disinflation and the Great Inflation",
+      "start": 736.3,
+      "segment": 52
+    },
+    {
+      "title": "Wrap-up",
+      "start": 1131.7,
+      "segment": 84
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 13.0,
+      "speaker": "HOST",
+      "text": "Welcome back. Today we are on monetary policy: how a central bank uses one interest rate to steer a whole economy. Let's start with a story from 1979."
+    },
+    {
+      "start": 13.0,
+      "end": 30.9,
+      "speaker": "ECONOMIST",
+      "text": "That year, prices in the United States were going up by more than 10 percent a year. That rate is called inflation. Paul Volcker became head of the Federal Reserve, the U.S. central bank, or the Fed for short. By 1981, the Fed had pushed its interest rate to nearly 20 percent."
+    },
+    {
+      "start": 30.9,
+      "end": 35.3,
+      "speaker": "HOST",
+      "text": "Nearly 20 percent? Who could borrow at that price?"
+    },
+    {
+      "start": 35.3,
+      "end": 53.0,
+      "speaker": "ECONOMIST",
+      "text": "Very few. Firms cut their investment, their spending on new machines and buildings, and families bought far fewer new houses. The country fell into its deepest recession in decades. A recession is a time when the economy produces less than it normally can. But inflation came down fast."
+    },
+    {
+      "start": 53.0,
+      "end": 66.8,
+      "speaker": "HOST",
+      "text": "So the Fed caused a recession on purpose. Here is today's question. How does the central bank's interest rate move output and inflation, and why does bringing inflation down take a recession?"
+    },
+    {
+      "start": 66.8,
+      "end": 101.0,
+      "speaker": "ECONOMIST",
+      "text": "By the end of this episode, you'll be able to do three things. First, explain how one overnight interest rate moves the real interest rate, the cost of a loan after inflation, and then output, what the economy produces, and inflation. Second, use the Phillips curve, a rule that links output to inflation, to explain why a boom makes inflation rise every year it lasts. Third, explain why bringing inflation down takes a recession, and work out how much output it costs."
+    },
+    {
+      "start": 101.0,
+      "end": 104.7,
+      "speaker": "HOST",
+      "text": "And we'll follow the chapter's mind map part by part?"
+    },
+    {
+      "start": 104.7,
+      "end": 128.6,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Part one is the central bank's lever, its main tool. Part two joins two curves we'll explain, the IS curve and the MP curve, with the Phillips curve. Part three is about disinflation, meaning bringing inflation down, and the Great Inflation, the high inflation of the 1970s. Each part has a few leaves, small topics we take in order."
+    },
+    {
+      "start": 128.6,
+      "end": 140.2,
+      "speaker": "HOST",
+      "text": "Part one of the map: The central bank's lever. A lever is a handle you pull to move something heavy. The first leaf is the fed funds rate. What is it?"
+    },
+    {
+      "start": 140.2,
+      "end": 155.2,
+      "speaker": "ECONOMIST",
+      "text": "Banks lend to each other overnight, and the fed funds rate is the interest rate on those loans. The Fed decides where it should be. Its peak was 19.1 percent, in June 1981, under Volcker."
+    },
+    {
+      "start": 155.2,
+      "end": 156.4,
+      "speaker": "HOST",
+      "text": "And the lowest?"
+    },
+    {
+      "start": 156.4,
+      "end": 170.3,
+      "speaker": "ECONOMIST",
+      "text": "Almost zero. After the global financial crisis, it stayed near zero from 2009 to 2015. In the Covid pandemic, it was near zero again, in 2020 and 2021."
+    },
+    {
+      "start": 170.3,
+      "end": 176.1,
+      "speaker": "HOST",
+      "text": "Next leaf: setting the rate. How can the Fed decide what private banks charge each other?"
+    },
+    {
+      "start": 176.1,
+      "end": 210.0,
+      "speaker": "ECONOMIST",
+      "text": "Let's visit Islandia, a small imaginary island country. Its central bank, the Bank of Islandia, will lend or borrow any amount overnight at its chosen rate, say 7 percent. So no private bank pays more than 7 percent to borrow. It could always borrow from the central bank instead. And no bank can keep lending below 7 percent. Other banks would borrow that cheap money and put it in the central bank at 7 percent, a gain with no risk. Soon the cheap lender would run out of money."
+    },
+    {
+      "start": 210.0,
+      "end": 219.8,
+      "speaker": "HOST",
+      "text": "The leaf says the central bank supplies whatever money is demanded at its target, meaning the rate it aims for. How does money fit into this?"
+    },
+    {
+      "start": 219.8,
+      "end": 250.2,
+      "speaker": "ECONOMIST",
+      "text": "Islanders hold cash and checking accounts, which pay no interest, and savings accounts, which do. So the interest rate is what you give up by holding money. When islanders want more money, the central bank supplies it at its target rate. It buys government bonds, which are loans to the government, and pays with new money. So the amount of money moves, and the rate stays the same. With a fixed amount of money, every change in demand for it would move the rate, and then spending, for no good reason."
+    },
+    {
+      "start": 250.2,
+      "end": 259.2,
+      "speaker": "HOST",
+      "text": "Next leaf: the real rate is the nominal rate minus inflation, with inflation sticky. What do those words mean?"
+    },
+    {
+      "start": 259.2,
+      "end": 281.4,
+      "speaker": "ECONOMIST",
+      "text": "The nominal rate is what a loan costs in money. The real rate is what it costs in goods. Harbor Boatworks, Islandia's boat builder, borrows to build boats. Say it pays 7 percent interest, and prices rise 2 percent a year. Its boats will sell for more next year, so in boats, the loan costs only about 5 percent."
+    },
+    {
+      "start": 281.4,
+      "end": 282.6,
+      "speaker": "HOST",
+      "text": "And sticky?"
+    },
+    {
+      "start": 282.6,
+      "end": 299.9,
+      "speaker": "ECONOMIST",
+      "text": "The Bank sets only the nominal rate. To move the real rate, it needs inflation to stay the same for a while. On Islandia, inflation moves only slowly, because firms change their prices only now and then. So for about six months, inflation doesn't react to the Bank."
+    },
+    {
+      "start": 299.9,
+      "end": 305.1,
+      "speaker": "HOST",
+      "text": "So when the Bank raises its rate from 7 to 8 percent, with inflation stuck at 2 percent..."
+    },
+    {
+      "start": 305.1,
+      "end": 326.4,
+      "speaker": "ECONOMIST",
+      "text": "The real rate goes from 5 to 6 percent. That's a rise of 1 percentage point, the plain difference between two percentages. Each point on the nominal rate is a point on the real rate. So while inflation is sticky, the central bank chooses the real rate. This choice is called the MP curve, where MP stands for monetary policy."
+    },
+    {
+      "start": 326.4,
+      "end": 336.6,
+      "speaker": "HOST",
+      "text": "Last leaf of this part: the yield curve, inverted from November 2022. But Harbor Boatworks borrows for years, not for one night."
+    },
+    {
+      "start": 336.6,
+      "end": 364.3,
+      "speaker": "ECONOMIST",
+      "text": "A saver can buy one two-year bond, or a one-year bond now and another next year. If one plan paid more, nobody would choose the other. So a long rate is roughly the average of the short rates expected until the loan is paid back. If the one-year rate is 4 percent, and investors expect 6 next year, the two-year rate is about 5. The yield curve shows the rates on loans of different lengths."
+    },
+    {
+      "start": 364.3,
+      "end": 369.7,
+      "speaker": "HOST",
+      "text": "Then when the Fed raises its rate, I'd guess all rates go up by the same amount."
+    },
+    {
+      "start": 369.7,
+      "end": 396.9,
+      "speaker": "ECONOMIST",
+      "text": "Not quite. The longer investors expect the short rate to stay high, the more a long rate goes up. In 2022, inflation was high, and the Fed raised its rate fast. Short rates went above 4 percent, but long rates went up less. From November 2022, the curve was inverted, or upside down: long rates were below short ones. Investors expected rates to fall later, once inflation was down."
+    },
+    {
+      "start": 396.9,
+      "end": 407.2,
+      "speaker": "HOST",
+      "text": "So in part one we saw the lever. The central bank fixes an overnight rate, and because inflation is sticky, that moves the real rate. Longer rates follow what investors expect."
+    },
+    {
+      "start": 407.2,
+      "end": 414.0,
+      "speaker": "ECONOMIST",
+      "text": "Next branch: what the real rate does to output, and what output does to inflation."
+    },
+    {
+      "start": 414.0,
+      "end": 427.7,
+      "speaker": "HOST",
+      "text": "Part two of the map: IS, MP and the Phillips curve. The first leaf: the real rate goes from 5 to 6 percent, and output falls 2 percent. Why?"
+    },
+    {
+      "start": 427.7,
+      "end": 454.2,
+      "speaker": "ECONOMIST",
+      "text": "Because of the IS curve from Chapter 11, the rule that links the real rate to output. On Islandia, new capital, like a boat shed, earns 5 percent a year. When a loan costs more than that, firms invest less. In normal times, at a real rate of 5, Islandia is at potential output. That's its normal level, with workers and machines used at a normal pace."
+    },
+    {
+      "start": 454.2,
+      "end": 455.9,
+      "speaker": "HOST",
+      "text": "And at 6 percent?"
+    },
+    {
+      "start": 455.9,
+      "end": 494.6,
+      "speaker": "ECONOMIST",
+      "text": "A loan now costs 1 point more than a new shed earns, so Harbor Boatworks delays new sheds. Each point of that gap cuts output by 2 percent of potential, so output ends 2 percent below potential. We call this short-run output: the percent gap between actual and potential output, here minus 2. Above potential is a boom, below it a slump. In a diagram, the MP curve is a flat line at the Bank's chosen rate, and the IS curve slopes down, because a higher rate means less output. Islandia sits where they cross."
+    },
+    {
+      "start": 494.6,
+      "end": 499.5,
+      "speaker": "HOST",
+      "text": "Next leaf: a housing bust, and a cut from 5 to 4 percent."
+    },
+    {
+      "start": 499.5,
+      "end": 529.9,
+      "speaker": "ECONOMIST",
+      "text": "When house prices fall sharply, families feel poorer and spend less. That's a demand shock: a change in spending that doesn't come from the interest rate. Say it cuts spending by 2 percent of potential. If the rate does not change, output falls by that same amount. But each point of rate cut adds 2 percent to output, through cheaper loans. So a cut of one point, from 5 to 4 percent, fills the hole in spending."
+    },
+    {
+      "start": 529.9,
+      "end": 532.0,
+      "speaker": "HOST",
+      "text": "That sounds too easy."
+    },
+    {
+      "start": 532.0,
+      "end": 540.2,
+      "speaker": "ECONOMIST",
+      "text": "In practice, it's hard. A shock takes time to see, and a rate change takes between 6 and 18 months to reach spending."
+    },
+    {
+      "start": 540.2,
+      "end": 544.2,
+      "speaker": "HOST",
+      "text": "Next leaf is the equation of the Phillips curve. What does it say?"
+    },
+    {
+      "start": 544.2,
+      "end": 559.4,
+      "speaker": "ECONOMIST",
+      "text": "In words: the change in inflation from last year to this year equals a slope times short-run output, the gap from potential, plus a price shock. The slope says how strongly prices react to a boom or a slump."
+    },
+    {
+      "start": 559.4,
+      "end": 562.6,
+      "speaker": "HOST",
+      "text": "But why would output change inflation?"
+    },
+    {
+      "start": 562.6,
+      "end": 584.7,
+      "speaker": "ECONOMIST",
+      "text": "Say prices on Islandia have gone up 2 percent a year for a while. Harbor Boatworks expects the same this year. That's expected inflation: Islandia's firms expect this year's inflation to equal last year's. In a boom, orders are strong, so the firm raises its prices a bit more than that. In a slump, a bit less, to win customers back."
+    },
+    {
+      "start": 584.7,
+      "end": 585.8,
+      "speaker": "HOST",
+      "text": "How much more?"
+    },
+    {
+      "start": 585.8,
+      "end": 601.3,
+      "speaker": "ECONOMIST",
+      "text": "In this chapter's example, the slope is one half, a round number for teaching. Chapter 9's estimate for the United States was flatter, about one third. So with output 2 percent above potential, inflation rises by half of that, from 2 to 3 percent."
+    },
+    {
+      "start": 601.3,
+      "end": 609.5,
+      "speaker": "HOST",
+      "text": "And if the boom goes on next year, my guess is that inflation stays at 3. It already went up once."
+    },
+    {
+      "start": 609.5,
+      "end": 632.0,
+      "speaker": "ECONOMIST",
+      "text": "It went up once, yes, but watch next year. Firms now expect 3 percent, last year's inflation. Orders are still strong, so they add a bit more again, and inflation reaches 4. Output sets the change in inflation, not its level. So inflation climbs every year the boom lasts. At potential, it stays at its new level."
+    },
+    {
+      "start": 632.0,
+      "end": 636.3,
+      "speaker": "HOST",
+      "text": "Next leaf: an oil shock shifts the curve up."
+    },
+    {
+      "start": 636.3,
+      "end": 651.5,
+      "speaker": "ECONOMIST",
+      "text": "That's the price shock. When oil prices jump, gasoline, flights and heating cost more at once, and firms that use oil raise their prices. So inflation goes up even with output at potential."
+    },
+    {
+      "start": 651.5,
+      "end": 661.4,
+      "speaker": "HOST",
+      "text": "Say an oil shock adds 1 point, so inflation goes from 2 to 3 percent. Once oil prices stop rising, inflation should go back to 2 by itself."
+    },
+    {
+      "start": 661.4,
+      "end": 681.2,
+      "speaker": "ECONOMIST",
+      "text": "Many students believe that, but in this model it's wrong. Next year, firms expect 3 percent. With output at potential, nothing changes that, so inflation stays at 3. The Bank then has a hard choice. It can accept inflation 1 point higher, or push output below potential to bring it back down."
+    },
+    {
+      "start": 681.2,
+      "end": 689.2,
+      "speaker": "HOST",
+      "text": "Last leaf of this part: a higher nominal rate, a higher real rate, lower output, lower inflation. Haven't we seen most of that chain already?"
+    },
+    {
+      "start": 689.2,
+      "end": 715.7,
+      "speaker": "ECONOMIST",
+      "text": "We have: the real rate up 1 point, and output 2 percent below potential. The last link is the Phillips curve. Firms see weak orders, so they raise prices by less than the inflation they expected. With a slope of one half, inflation falls by 1 point a year, as long as the Bank keeps the real rate at 6. As inflation falls, that means cutting its nominal rate by the same amount."
+    },
+    {
+      "start": 715.7,
+      "end": 729.2,
+      "speaker": "HOST",
+      "text": "So in part two we saw how the three pieces fit. The real rate sets output, and output sets how fast inflation changes. A boom keeps inflation climbing, and a price shock lifts it to a new level."
+    },
+    {
+      "start": 729.2,
+      "end": 736.3,
+      "speaker": "ECONOMIST",
+      "text": "Right. Next branch: how to bring inflation down, and how it got so high."
+    },
+    {
+      "start": 736.3,
+      "end": 743.9,
+      "speaker": "HOST",
+      "text": "Part three of the map: Disinflation and the Great Inflation. The first leaf is Volcker, so we're back to our opening story."
+    },
+    {
+      "start": 743.9,
+      "end": 753.6,
+      "speaker": "ECONOMIST",
+      "text": "When Volcker took over in 1979, inflation was above 10 percent. It peaked at 13.5 percent in 1980."
+    },
+    {
+      "start": 753.6,
+      "end": 759.4,
+      "speaker": "HOST",
+      "text": "But in 1980 the Fed's rate averaged over 13 percent. That's already tight money, surely."
+    },
+    {
+      "start": 759.4,
+      "end": 779.2,
+      "speaker": "ECONOMIST",
+      "text": "It sounds tight, but look at inflation. Tight money means a high real rate. Inflation was 13.5 percent, almost the same as the Fed's rate, so the real rate was about zero. Then, in 1981, the Fed pushed its rate far above inflation. The real rate jumped to about 6 percent."
+    },
+    {
+      "start": 779.2,
+      "end": 781.0,
+      "speaker": "HOST",
+      "text": "And then?"
+    },
+    {
+      "start": 781.0,
+      "end": 789.3,
+      "speaker": "ECONOMIST",
+      "text": "A deep recession, and inflation fell to 3.2 percent by 1983. That's the direction our chain predicts."
+    },
+    {
+      "start": 789.3,
+      "end": 802.1,
+      "speaker": "HOST",
+      "text": "Next leaf: the cost. Bringing inflation from 10 to 5 percent costs 10 percent-years of output. But why a recession at all? Couldn't the Fed just announce lower inflation?"
+    },
+    {
+      "start": 802.1,
+      "end": 825.7,
+      "speaker": "ECONOMIST",
+      "text": "Not in this model. Firms expect last year's inflation, whatever the Fed says. Only weak orders make them raise prices by less than that. So once high inflation is expected, the only way down is a period of output below potential. We measure the cost in percent-years: one percent-year is output 1 percent below potential for one year."
+    },
+    {
+      "start": 825.7,
+      "end": 827.7,
+      "speaker": "HOST",
+      "text": "Show me on Islandia."
+    },
+    {
+      "start": 827.7,
+      "end": 838.2,
+      "speaker": "ECONOMIST",
+      "text": "Let's build the number step by step. For this experiment, inflation starts at 10 percent instead of 2. The Bank of Islandia wants 5 percent, in five years."
+    },
+    {
+      "start": 838.2,
+      "end": 843.8,
+      "speaker": "HOST",
+      "text": "So inflation has to fall by 5 points in five years. That's 1 point a year."
+    },
+    {
+      "start": 843.8,
+      "end": 861.4,
+      "speaker": "ECONOMIST",
+      "text": "Right. Now start from the end, with the Phillips curve. With a slope of one half, each percent that output is below potential lowers inflation by half a point. So to lower it by a full point a year, output must be 2 percent below potential."
+    },
+    {
+      "start": 861.4,
+      "end": 865.5,
+      "speaker": "HOST",
+      "text": "So a slump of 2 percent. What rate gets us there?"
+    },
+    {
+      "start": 865.5,
+      "end": 876.6,
+      "speaker": "ECONOMIST",
+      "text": "Each point that the real rate sits above what a shed earns costs 2 percent of output. So the real rate must be 1 point above 5 percent: 6 percent."
+    },
+    {
+      "start": 876.6,
+      "end": 879.5,
+      "speaker": "HOST",
+      "text": "So what's the total cost?"
+    },
+    {
+      "start": 879.5,
+      "end": 895.2,
+      "speaker": "ECONOMIST",
+      "text": "Output is 2 percent below potential in each of the five years. Two percent, five times, makes 10 percent-years of lost output. Then the real rate goes back to 5 percent, output returns to potential, and inflation stays at its new level."
+    },
+    {
+      "start": 895.2,
+      "end": 898.2,
+      "speaker": "HOST",
+      "text": "Could the Bank go faster and pay less?"
+    },
+    {
+      "start": 898.2,
+      "end": 921.5,
+      "speaker": "ECONOMIST",
+      "text": "Faster, yes. Cheaper, no. Output 4 percent below potential gets there in two and a half years: again 10 percent-years. Each percent-year of slump lowers inflation by half a point, whatever the path. Only a steeper Phillips curve, where prices react more to a slump, makes it cheaper. Twice as steep would halve the cost, to 5 percent-years."
+    },
+    {
+      "start": 921.5,
+      "end": 929.5,
+      "speaker": "HOST",
+      "text": "Next leaf: the 1970s, a slowdown in potential output mistaken for a slump. How did inflation get so high?"
+    },
+    {
+      "start": 929.5,
+      "end": 971.4,
+      "speaker": "ECONOMIST",
+      "text": "Economists name at least three causes. First, the oil shocks of 1974 and 1979. Second, interest rates were kept too low, partly because many wrongly believed that more inflation could buy more output permanently. Third, and this is our leaf, a mistake about potential output. Productivity, meaning how much workers and machines produce, grew more slowly from the early 1970s, so potential output did too. But policymakers still believed in the old, faster path. Actual output fell further and further below that path, and to them it looked like a slump."
+    },
+    {
+      "start": 971.4,
+      "end": 976.5,
+      "speaker": "HOST",
+      "text": "So they cut rates to fight the slump. That sounds like the right move."
+    },
+    {
+      "start": 976.5,
+      "end": 1006.7,
+      "speaker": "ECONOMIST",
+      "text": "In an actual slump, it would be. In the housing bust, a cut from 5 to 4 percent filled a hole in spending. Here, demand had not fallen, so the same cut pushed output about 2 percent above its true potential: a boom. With our slope, inflation climbs about 1 point a year while the mistake lasts. Rising inflation was the warning sign, but oil shocks raised inflation too, so the mistake took years to see."
+    },
+    {
+      "start": 1006.7,
+      "end": 1013.7,
+      "speaker": "HOST",
+      "text": "Next leaf: Covid. U.S. inflation reached 9 percent in June 2022. Why?"
+    },
+    {
+      "start": 1013.7,
+      "end": 1031.6,
+      "speaker": "ECONOMIST",
+      "text": "Price shocks pushed it up: higher energy prices, and broken supply chains, the links from factories to shops. And demand may have been higher than potential output, which the pandemic had lowered. Central banks were slow to raise rates."
+    },
+    {
+      "start": 1031.6,
+      "end": 1035.3,
+      "speaker": "HOST",
+      "text": "Inflation came down later. Did that take a recession?"
+    },
+    {
+      "start": 1035.3,
+      "end": 1069.1,
+      "speaker": "ECONOMIST",
+      "text": "No. By mid 2024, it was back to 3 percent or less, with no recession. Remember part two: a price shock that simply stops leaves inflation high. But energy prices fell back and supply chains healed. That's a price shock in reverse, and it pulls inflation down with no slump. Also, the cost we worked out is for inflation that people have learned to expect, and many people may have kept expecting low inflation. Our model leaves that out. This is still debated."
+    },
+    {
+      "start": 1069.1,
+      "end": 1076.6,
+      "speaker": "HOST",
+      "text": "Last leaf: policy, with a rule, oil shocks, and the surge of 2021 and 2022."
+    },
+    {
+      "start": 1076.6,
+      "end": 1096.6,
+      "speaker": "ECONOMIST",
+      "text": "A central bank could follow a rule instead of its judgment. The further inflation is above its target, say 2 percent, the higher it sets the real rate. The slump that follows brings inflation down, step by step. But the total loss of output is the same as on any other path."
+    },
+    {
+      "start": 1096.6,
+      "end": 1098.9,
+      "speaker": "HOST",
+      "text": "And oil shocks, and the surge?"
+    },
+    {
+      "start": 1098.9,
+      "end": 1117.1,
+      "speaker": "ECONOMIST",
+      "text": "An oil shock brings the hard choice from part two. For 2021 and 2022, economists still argue. Was the jump in inflation mostly price shocks, which a central bank might choose not to fight? Or too much demand, which it should have fought sooner?"
+    },
+    {
+      "start": 1117.1,
+      "end": 1128.6,
+      "speaker": "HOST",
+      "text": "So in part three we saw that once high inflation is expected, only a slump brings it down. A slowdown mistaken for a slump, plus oil shocks, had pushed it up."
+    },
+    {
+      "start": 1128.6,
+      "end": 1131.7,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Let's sum up."
+    },
+    {
+      "start": 1131.7,
+      "end": 1138.9,
+      "speaker": "HOST",
+      "text": "Let's go back to our three goals. First, how does one overnight rate move the economy?"
+    },
+    {
+      "start": 1138.9,
+      "end": 1154.6,
+      "speaker": "ECONOMIST",
+      "text": "Inflation is sticky, so a higher nominal rate means a higher real rate. Firms invest less, so output falls below potential. Then firms raise prices by less than the inflation they expected, and inflation falls."
+    },
+    {
+      "start": 1154.6,
+      "end": 1163.1,
+      "speaker": "HOST",
+      "text": "Second, a boom makes inflation rise every year it lasts, because firms expect last year's inflation and add a bit more."
+    },
+    {
+      "start": 1163.1,
+      "end": 1198.9,
+      "speaker": "ECONOMIST",
+      "text": "And third, once high inflation is expected, firms raise prices by less than that only when demand is weak. On Islandia, going from 10 to 5 percent costs 10 percent-years, however fast it is done. So here is the big message. Because inflation is sticky, the central bank's nominal rate sets the real rate, the real rate sets output, and output moves inflation. So bringing inflation down takes a recession, and only a steeper Phillips curve, where prices react more to a slump, makes it cheaper."
+    },
+    {
+      "start": 1198.9,
+      "end": 1215.1,
+      "speaker": "HOST",
+      "text": "Here's a question to think about. An oil shock pushes Islandia's inflation from 2 to 4 percent, and the Bank of Islandia keeps its nominal rate at 7 percent. What happens next? And what nominal rate would stop inflation from rising?"
+    },
+    {
+      "start": 1215.1,
+      "end": 1222.2,
+      "speaker": "ECONOMIST",
+      "text": "Pause the episode and think about it for a moment."
+    },
+    {
+      "start": 1222.2,
+      "end": 1224.8,
+      "speaker": "HOST",
+      "text": "Okay, we're back. What's the answer?"
+    },
+    {
+      "start": 1224.8,
+      "end": 1237.1,
+      "speaker": "ECONOMIST",
+      "text": "Loans still cost 7 percent, but prices now rise 4 percent a year. So the real rate falls by 2 points, to 3 percent, below what a new shed earns."
+    },
+    {
+      "start": 1237.1,
+      "end": 1239.2,
+      "speaker": "HOST",
+      "text": "So firms invest more."
+    },
+    {
+      "start": 1239.2,
+      "end": 1257.9,
+      "speaker": "ECONOMIST",
+      "text": "Yes. Each point below adds 2 percent to output, so output goes 4 percent above potential. With a slope of one half, inflation rises by another 2 points, to 6. That lowers the real rate again. It's a spiral, where each step makes the next one worse."
+    },
+    {
+      "start": 1257.9,
+      "end": 1260.5,
+      "speaker": "HOST",
+      "text": "So how does the Bank stop it?"
+    },
+    {
+      "start": 1260.5,
+      "end": 1278.6,
+      "speaker": "ECONOMIST",
+      "text": "By raising its nominal rate at least as much as inflation went up. If it raises it by those 2 points at once, to 9 percent, the real rate is back at 5. Inflation stops rising, but stays at its new level. Getting it back to 2 takes an even higher rate, and so a recession."
+    },
+    {
+      "start": 1278.6,
+      "end": 1281.2,
+      "speaker": "HOST",
+      "text": "Where can students try all this?"
+    },
+    {
+      "start": 1281.2,
+      "end": 1292.2,
+      "speaker": "ECONOMIST",
+      "text": "Open the chapter's Colab notebook to run the Volcker disinflation year by year. The Model Apps and Data Apps let you explore the models and the data with no code."
+    },
+    {
+      "start": 1292.2,
+      "end": 1293.8,
+      "speaker": "HOST",
+      "text": "And next time?"
+    },
+    {
+      "start": 1293.8,
+      "end": 1306.0,
+      "speaker": "ECONOMIST",
+      "text": "In Chapter 13, the central bank follows a rule, and expectations enter the model. We ask: what happens to output and inflation when the central bank follows a rule?"
+    },
+    {
+      "start": 1306.0,
+      "end": 1309.4,
+      "speaker": "HOST",
+      "text": "That's it for today. Thanks for listening, and see you next time."
+    }
+  ]
+}
