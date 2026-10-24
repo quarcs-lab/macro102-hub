@@ -5,3 +5,11 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
 /* Keep every carousel action reachable on narrow phones. */
 @media(max-width:560px){.carousel-controls{flex-direction:column;gap:8px}.transport button{width:40px;height:36px}.slide-intro{min-height:170px}.slide-caption{min-height:205px}}
+/* Topic illustrations sit behind the question and fade beneath the evidence. */
+.question-slide{position:relative;isolation:isolate;overflow:hidden}
+.question-slide .scene-art{position:absolute;inset:0 0 auto;width:100%;height:360px;object-fit:cover;object-position:center 45%;z-index:-2;pointer-events:none}
+.question-slide::before{content:'';position:absolute;inset:0 0 auto;height:362px;z-index:-1;pointer-events:none;background:linear-gradient(180deg,rgba(13,25,45,.06) 0%,rgba(13,25,45,.12) 28%,rgba(13,25,45,.75) 58%,#0d192d 96%),linear-gradient(90deg,rgba(13,25,45,.86),rgba(13,25,45,.48) 43%,rgba(13,25,45,.08) 80%)}
+.question-slide .slide-intro h2{color:#f5f8ff;text-shadow:0 2px 14px #061020}
+.question-slide .slide-intro .eyebrow{color:#9ed7ff;text-shadow:0 1px 8px #061020}
+.question-slide .chart{position:relative}
+@media(max-width:560px){.question-slide .scene-art{height:305px;object-position:65% center}.question-slide::before{height:307px;background:linear-gradient(180deg,rgba(13,25,45,.06),rgba(13,25,45,.22) 32%,rgba(13,25,45,.87) 66%,#0d192d 97%),linear-gradient(90deg,rgba(13,25,45,.8),rgba(13,25,45,.35) 55%,rgba(13,25,45,.08))}}

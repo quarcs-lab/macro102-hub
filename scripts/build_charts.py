@@ -13,7 +13,7 @@ def setup(ylabel):
  ax.spines[['top','right','left']].set_visible(False);ax.spines['bottom'].set_color('#31435d');ax.grid(axis='y',color='#26364d',lw=.7);ax.set_axisbelow(True);ax.tick_params(length=0,pad=8);ax.set_ylabel(ylabel,labelpad=12,fontsize=12)
  return fig,ax
 def save(fig,name):
- fig.tight_layout(pad=1.5);fig.savefig(ROOT/f'assets/charts/{name}.svg',facecolor=navy);plt.close(fig)
+ fig.tight_layout(pad=1.5);fig.savefig(ROOT/f'assets/charts/{name}.svg',transparent=True);plt.close(fig)
  path=ROOT/f'assets/charts/{name}.svg';path.write_text("\n".join(line.rstrip() for line in path.read_text().replace("font-family: 'DejaVu Sans'","font-family: Arial, sans-serif").splitlines())+"\n")
 def rows(path):
  dst=ROOT/'data'/Path(path).name;shutil.copy2(a.book/'data'/path,dst)
