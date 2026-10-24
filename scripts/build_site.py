@@ -36,7 +36,7 @@ pillars='''<section class="section shell learning-path" id="pathways" aria-label
 def curriculum_card(r):
  e=editorial[r['id']]; chapter=r['id'].startswith('ch'); number=r['id'][2:] if chapter else r['id'][-1]
  anchor=f"chapter-{int(number)}" if chapter else f"appendix-{number.lower()}"
- actions=[('↗','Read chapter' if chapter else 'Read appendix',r['book']),('</>','Open notebook',r['colab'])]
+ actions=[('↗','Read chapter' if chapter else 'Read appendix',r['book']),('</>','Open AI notebook',r['colab'])]
  if r.get('slides'): actions.append(('▤','Slides',r['slides']))
  for kind,label,icon in [('data','Data Apps','↗'),('model','Figure Apps','↗')]:
   if kind in r['apps']: actions.append((icon,label,r['apps'][kind]['url']))
