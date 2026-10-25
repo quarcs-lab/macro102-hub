@@ -20,7 +20,9 @@ def normalized(text):
     # These product names are read aloud in Japanese although the script keeps
     # their Latin spelling. Normalize the common ASR renderings to the script form.
     for spoken, written in (("コラボ", "colab"), ("モデルアプリ", "modelapps"),
-                            ("データアプリ", "dataapps"), ("ショー", "章")):
+                            ("データアプリ", "dataapps"), ("ショー", "章"),
+                            ("とおり", "通り"), ("算出量", "産出量"),
+                            ("低減", "逓減"), ("喧嘩焼却", "減価償却")):
         text = text.replace(spoken, written)
     return "".join(c for c in text if not c.isspace() and unicodedata.category(c)[0] not in "PZ")
 

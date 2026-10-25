@@ -80,6 +80,25 @@
       "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-04.html",
       "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch04-a-model-of-production.html",
       "status": "website_ready_spotify_pending"
+    },
+    {
+      "id": "podcast-ja-ch05-macroeconomics",
+      "chapter": 5,
+      "title": "ソロー成長モデル",
+      "question": "貯蓄と投資だけで、国はいつまでも豊かになれるのでしょうか。",
+      "description": "資本蓄積が定常状態に向かう仕組みを学びます。貯蓄、減価償却、人口増加、災害を取り上げ、ソローモデルで何を説明できるかを考えます。",
+      "topics": [
+        "資本蓄積と定常状態",
+        "ソロー・モデルの実験",
+        "生産性と所得格差"
+      ],
+      "duration": 1729.46,
+      "audio": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-05.mp3",
+      "artwork": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-05.png",
+      "transcript": "transcript-inputs-ja/podcast-ja-ch05-macroeconomics.json",
+      "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-05.html",
+      "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch05-the-solow-growth-model.html",
+      "status": "website_ready_spotify_pending"
     }
   ]
 }

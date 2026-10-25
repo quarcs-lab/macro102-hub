@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第5章 · ソロー成長モデル — Transcript | Data Science &amp; Macroeconomics</title>
+  <link rel="stylesheet" href="../transcript.css">
+  <script src="../transcript-theme.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#transcript">Skip to transcript</a>
+  <header class="page-header">
+    <a href="../../podcasts-ja.html#chapter-5">← Back to 第5章 · ソロー成長モデル</a>
+    <button type="button" id="transcript-theme" hidden aria-pressed="false">Light theme</button>
+  </header>
+  <main id="transcript">
+    <p class="eyebrow">Data Science &amp; Macroeconomics · Podcast transcript</p>
+    <h1>第5章 · ソロー成長モデル</h1>
+    <p class="note">AI-generated Japanese narration. Transcript timing is approximate.</p>
+    <nav aria-label="Transcript sections"><ul><li><a href="#section-0">はじめに</a></li><li><a href="#section-1">第1部：ソロー・モデル</a></li><li><a href="#section-2">第2部：実験</a></li><li><a href="#section-3">第3部：モデルとデータ</a></li><li><a href="#section-4">まとめ</a></li></ul></nav>
+    <article aria-label="Full transcript"><h2 id="section-0">はじめに</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">00:00</span></p><p class="passage-text">今回もよろしくお願いします。今日は、経済学者ロバート・ソローの名前が付いたソロー成長モデルを取り上げます。1960年、韓国はフィリピンより貧しい国でした。その後、何が起きたのでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">00:16</span></p><p class="passage-text">1960年から2023年まで、韓国の1人あたり所得は年平均で約6％成長しました。フィリピンでは、年平均約2.5％でした。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">00:30</span></p><p class="passage-text">韓国は何をしたのでしょう。工場をたくさん建てたと聞いたことがあります。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">00:36</span></p><p class="passage-text">そのとおりです。韓国は所得の大きな割合を貯蓄し、機械や建物に投資しました。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">00:44</span></p><p class="passage-text">では、今日の問いです。貯蓄して機械に投資すれば、国はいつまでも豊かになれるのでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">00:52</span></p><p class="passage-text">答えは、単純な「はい」ではありません。このエピソードを聞き終わるころには、三つのことができるようになります。一つ目は、道具を増やすと、1人あたり所得はある定常状態までは上がるものの、そこで止まる理由を説明することです。二つ目は、貯蓄を増やす、道具が早く壊れる、人口が速く増える、災害が起きると、それぞれ何が起こるか予測することです。三つ目は、国が持つものをどれだけうまく使うかを表す生産性が、投資よりも、豊かな国と貧しい国の格差をよく説明する理由を、モデルで示すことです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">01:35</span></p><p class="passage-text">章のマインドマップを、順番に見ていくのですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">01:37</span></p><p class="passage-text">はい。第1部ではソロー・モデルを作ります。第2部ではモデルを使って実験します。第3部ではモデルをデータに当てはめます。各部に四つの小項目があり、順番に取り上げます。</p></div>
+<h2 id="section-1">第1部：ソロー・モデル</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">01:57</span></p><p class="passage-text">マップの第1部、「ソロー・モデル」です。最初の項目は資本蓄積ですね。簡単に言うと、どういう意味ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">02:06</span></p><p class="passage-text">資本とは、機械、建物、船などの道具のことです。資本蓄積とは、国が道具のストック、つまりある時点で持っている道具の全体を増やしていくことです。架空の小さな島国、アイランディアに行きましょう。島の人々は、何にでも使える一種類の財を作っています。毎年、その一部を消費したり、船や網、作業場などの道具に変えたりできます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">02:37</span></p><p class="passage-text">でも、道具はいつまでも使えるわけではありませんよね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">02:41</span></p><p class="passage-text">そうです。毎年、船の一部は壊れ、網も一部は破れます。新しい道具はストックに加わります。これが投資です。使い古した道具はストックから減ります。これが減価償却です。この項目の式が示すのは、まさにこのことです。道具の変化は、投資から減価償却を引いたものです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">03:07</span></p><p class="passage-text">つまり、浴槽に似ていますね。水が道具のストックで、蛇口が投資、排水口が減価償却です。それぞれの流れの速さは、何で決まるのでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">03:21</span></p><p class="passage-text">二つの簡単なルールです。島の人々は、産出量、つまり1年間に作るもののうち、いつも同じ割合を投資します。この割合を投資率と呼びます。ここでは、貯蓄と投資は同じものです。また、道具も毎年、同じ割合だけ使えなくなります。これが減価償却率です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">03:47</span></p><p class="passage-text">産出量の大きさは、何で決まりますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">03:51</span></p><p class="passage-text">道具と生産性です。生産性とは、国が道具や労働者をどれだけうまく使うかを表します。ここでは、すべてを1人あたりで数えます。1人あたり産出量は、1人あたり所得でもあります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">04:08</span></p><p class="passage-text">道具が増えれば、産出量もいつも同じように増えるのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">04:13</span></p><p class="passage-text">産出量は増えますが、増え方はだんだん小さくなります。経済学者はこれを限界収穫逓減と呼びます。道具を一つ増やしたときの産出量の増加は、その前の道具による増加より小さくなります。最初の船が漁師の生活を変えるとしても、10隻目の船が加えるものはごくわずかです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">04:38</span></p><p class="passage-text">では、予想してみます。アイランディアは毎年、新しい道具を増やしています。きっと、いつまでも豊かになり続けますよね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">04:48</span></p><p class="passage-text">そう考えるのは自然ですが、違います。最初は、道具を一つ加えると産出量が大きく増えるため、ストックも速く増えます。しかし、道具を加えるたびに産出量の増加が小さくなるので、投資の増加も前より小さくなります。投資は増え続けますが、その増え方はだんだん遅くなります。一方、減価償却はストックの一定割合なので、ストックが大きくなるほど減価償却の量も増えます。船が増えれば、壊れる船も増えます。最後には、新しい道具は壊れた道具を補うだけになります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">05:31</span></p><p class="passage-text">それが二つ目の項目、「定常状態」ですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">05:34</span></p><p class="passage-text">そのとおりです。定常状態とは、投資と減価償却がちょうど等しくなる状態です。浴槽で言えば、流れ込む水と流れ出る水が等しい水位です。そこより低ければストックは増え、そこより高ければ減ります。ですから、アイランディアはどこから始めても、同じ点に向かいます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">05:59</span></p><p class="passage-text">アイランディアの場合、その点はどこですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">06:02</span></p><p class="passage-text">アイランディアは産出量の40％を投資するので、投資率は0.4です。道具は毎年10％使えなくなるので、減価償却率は0.1です。生産性は1とします。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">06:18</span></p><p class="passage-text">その数字を使うと、アイランディアはどこに落ち着きますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">06:23</span></p><p class="passage-text">1人あたり道具が8個、1人あたり産出量が2単位のところです。順に確かめましょう。このモデルでは、1人あたり産出量は、生産性に1人あたり道具の立方根を掛けたものです。立方根とは、同じ数を3回掛けると元の数になる、その数です。道具が8個なら産出量は2単位です。2掛ける2掛ける2が8だからです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">06:53</span></p><p class="passage-text">なるほど。道具が8個のとき、産出量は2です。では、投資は2の40％なので、0.8ですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">07:02</span></p><p class="passage-text">そうです。減価償却は道具8個の10％なので、こちらも0.8です。新しい道具が壊れた道具をちょうど補い、ストックは変わらなくなります。島の人々は何を食べるのでしょうか。産出量から投資を引くので、2引く0.8です。つまり、1人あたり消費量は1.2単位です。投資しない産出量の60％に当たります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">07:34</span></p><p class="passage-text">次の項目は、「投資より生産性が重要」です。投資が中心のモデルなのに、なぜ生産性のほうが重要なのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">07:43</span></p><p class="passage-text">生産性には二つの経路があるのに対して、投資には一つしかないからです。一つ目は直接的な効果です。よりよい方法を使うと、同じ道具でも、島の人々はより多くを作れます。二つ目は、道具を通じた効果です。産出量が増えると投資も増え、それによって道具が増え、さらに産出量が増えます。投資はこの二つ目の経路だけで働きます。そして限界収穫逓減が、その効果を小さくします。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">08:22</span></p><p class="passage-text">それを測ることはできますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">08:25</span></p><p class="passage-text">はい。「弾力性」という言葉を使います。弾力性は、あるものが1％増えたとき、別のものが何％変化するかを示します。定常状態での1人あたり産出量を、長期産出量と呼びましょう。生産性が1％上がると、長期産出量は1.5％、つまり1％の1.5倍上がります。一方、投資率がその値の1％分だけ上がる場合、たとえば40％から40.4％になるとき、長期産出量は0.5％しか上がりません。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">09:07</span></p><p class="passage-text">生産性の効果は投資の3倍ですね。でも、0.5という数字はどこから来るのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">09:14</span></p><p class="passage-text">このモデルでは、長期産出量は投資率の平方根に従います。1％のような小さな変化では、平方根はおよそ0.5％上がります。しかし、大きな変化には平方根そのものを使います。投資率が2倍になると、長期産出量は2の平方根倍、およそ1.41倍になります。1.5倍ではありません。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">09:45</span></p><p class="passage-text">この部の最後は、「長期成長はない」です。定常状態では、何も成長しないのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">09:53</span></p><p class="passage-text">1人あたりでは、何も成長しません。道具も産出量も消費量も、1人あたりの値はすべて一定です。成長が起きるのは定常状態に向かう途中だけで、限界収穫逓減によって終わります。しかし、アメリカの1人あたり所得は、1世紀以上にわたって年約2％成長してきました。ですから、長期にわたって生活水準を高める原動力は、道具を増やすことだけではありません。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">10:26</span></p><p class="passage-text">第1部では、道具は使ううちに壊れること、そして道具を一つ増やすごとの効果が小さくなることを見ました。だから貯蓄を増やすと、成長が終わらなくなるのではなく、より高い定常状態に移るのですね。そして、投資より生産性が重要です。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">10:48</span></p><p class="passage-text">はい。次の部では、一度に一つずつ数字を変えてみます。</p></div>
+<h2 id="section-2">第2部：実験</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">10:54</span></p><p class="passage-text">マップの第2部、「実験」です。このようなモデルで実験をするとは、どういう意味ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">11:01</span></p><p class="passage-text">まずアイランディアを定常状態から出発させ、一つの数字を恒久的に変えます。最初の項目は、投資率の上昇です。アイランディアが投資率を0.4から0.6へ、つまり産出量の40％から60％に上げたとします。以前の定常状態では、投資が減価償却を上回るようになります。道具と産出量は成長し、アイランディアは新しい定常状態に到達します。そこへ向かう道筋を移行過程と呼びます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">11:39</span></p><p class="passage-text">第1部では、投資率の効果は平方根を通じて表れると学びました。では、アイランディアはどのくらい豊かになりますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">11:48</span></p><p class="passage-text">投資率は1.5倍になります。ですから、長期産出量は1.5の平方根倍、およそ1.22倍になります。2から2.45に増えます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">12:02</span></p><p class="passage-text">ちょっと待ってください。貯蓄を増やした国は、成長率もずっと高くなるのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">12:08</span></p><p class="passage-text">そう考える学生は多いのですが、違います。成長率は、最初の年に約1.6％まで跳ね上がります。その後、年々小さくなり、最後には再びゼロになります。投資率が上がると、所得の水準は恒久的に高くなりますが、成長率は高くなり続けません。経済学者はこれを成長効果ではなく、水準効果と呼びます。変化の直後は、新しい定常状態から最も遠いため、成長が最も速くなります。これを移行動学の原理といいます。経済は、定常状態より低いところにいるほど、速く成長します。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">12:56</span></p><p class="passage-text">次の項目は減価償却の上昇です。どんなときに道具は早く使えなくなるのでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">13:04</span></p><p class="passage-text">たとえば気候が長期的に変わり、毎年、建物や機械の損傷が増える場合です。減価償却率が10％から15％へ上がったとしましょう。排水口が大きくなります。以前の定常状態では、作られる道具より壊れる道具のほうが多くなり、ストックは減ります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">13:30</span></p><p class="passage-text">今度も率は1.5倍ですが、変わったのは排水のほうです。では産出量は、同じ1.22で割られるのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">13:40</span></p><p class="passage-text">はい。大切なのは、投資率を減価償却率で割った値だからです。排水が1.5倍になると、蛇口が1.5倍になる場合と打ち消し合います。長期産出量は2から約1.63に下がり、低下は最初に最も速く進みます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">14:02</span></p><p class="passage-text">次は人口成長です。人が増えれば労働者も増えて、産出量が増えます。それなら、アイランディアは1人あたりでも豊かになりませんか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">14:12</span></p><p class="passage-text">国全体の規模は大きくなりますが、1人あたりで豊かになるとは限りません。新しく来た人にも道具が必要だからです。投資は壊れた道具を補うだけでなく、新しい人に道具を持たせる分も必要です。そのため、人口成長は減価償却を増やすのと同じように働きます。この実験では、最初の値を少し変えます。道具は年に8％使えなくなり、人口は年2％増えます。合わせると、これまでと同じ10％の流出です。ですから定常状態は、以前の1人あたり道具8個、産出量2単位のままです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">14:56</span></p><p class="passage-text">では、人口成長率が年3％に上がったらどうなりますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">15:02</span></p><p class="passage-text">道具の減価償却8％に人口成長3％を加えると、流出は10％ではなく11％になります。1.1倍です。長期の1人あたり産出量は1.1の平方根で割られ、およそ4.7％低くなります。しかし、産出量の合計は人口と同じ速さで成長し続けます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">15:28</span></p><p class="passage-text">この部の最後は地震です。道具の半分が失われました。産出量も半分になると思います。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">15:37</span></p><p class="passage-text">そう考えがちですが、産出量の低下は約21％だけです。アイランディアで、大嵐が来て船と作業場の半分が壊れたものの、けが人はいなかったと考えてください。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">15:53</span></p><p class="passage-text">21％だけですか。なぜですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">15:57</span></p><p class="passage-text">1人あたり道具は8個から4個に減ります。産出量は道具の立方根です。4の立方根は約1.59で、以前の2と比べると約79％です。ですから、産出量は約21％減ります。最後の半分の道具は、それより前の道具ほど大きな産出量を生んでいませんでした。そのため、道具の半分を失っても、産出量は半分も減りません。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">16:27</span></p><p class="passage-text">嵐のあと、何が起こりますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">16:31</span></p><p class="passage-text">アイランディアの投資率、減価償却率、生産性は変わっていません。ですから、定常状態は同じままで、経済はそこまで回復します。嵐の直後が最も速く成長します。このモデルでは、産出量は約43年後に、以前の水準の1％以内まで戻ります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">16:54</span></p><p class="passage-text">災害のあとに成長が速くなるのは、最終的にはよい知らせなのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">17:00</span></p><p class="passage-text">よくある誤解です。速い成長は、失われたものを取り戻しているだけです。回復のどの年も、嵐がなかった場合と比べて、アイランディアの産出量は少なくなります。現実にも、こうした回復はあります。第二次世界大戦中、広島と長崎は原子爆弾を受けました。数十年のうちに、両市は日本の都市の中で以前の位置を取り戻しました。ベトナムでは、爆撃を最も多く受けた省が、国の他の地域に追いつきました。しかし、現実の災害では人命が失われ、技能や組織も破壊されることがあります。そうした損失は長く続く場合があります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">17:49</span></p><p class="passage-text">第2部の実験は、どれも同じ形でしたね。貯蓄を増やすなど、恒久的な変化は定常状態を動かし、経済はそこに向かいます。最初は速く、次第に遅くなります。一方、災害は経済を動かしますが、定常状態は変えません。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">18:10</span></p><p class="passage-text">次が最後の枝です。現実の世界も、このモデルのように動くのでしょうか。</p></div>
+<h2 id="section-3">第3部：モデルとデータ</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">18:19</span></p><p class="passage-text">マップの第3部、「モデルとデータ」です。最初の項目は国ごとの資本です。何を確かめられますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">18:27</span></p><p class="passage-text">産出量のうち、投資する割合が大きい国は、毎年の減価償却と投資が等しくなるまでに、より多くの道具を持つ必要があります。定常状態では、産出量の何年分に当たるかで測った道具のストックは、投資率を減価償却率で割った値になります。アイランディアは1人あたり道具が8個で、産出量が2単位なので、道具の価値は産出量の4年分です。0.4を0.1で割っても4になります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">19:05</span></p><p class="passage-text">生産性が高い国ほど、産出量に比べて多くの資本を持っているはずだ、と考えたくなりますね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">19:12</span></p><p class="passage-text">自然な予想ですが、違います。生産性が上がると資本と産出量が同じ割合で増えるので、生産性はこの比率を変えません。減価償却率がどの国でも似ているなら、関係するのは投資率だけです。データも一致しています。シンガポールと韓国は投資が多く、産出量に比べて多くの資本を持っています。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">19:39</span></p><p class="passage-text">次の項目は「どの国が追いつくか」です。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">19:43</span></p><p class="passage-text">ここでは移行動学の原理を使います。同じような定常状態を持つ国々を考えましょう。最初に貧しかった国は、そこからより遠く下にいるため、より速く成長するはずです。その集団では、貧しい国々が差を大きく縮め、収束します。主に豊かな国々からなる経済協力開発機構、OECDの24か国を見てみましょう。1960年、日本、ポルトガル、スペイン、アイルランドは比較的貧しく、豊かなアメリカは成長が遅い一方で、これらの国は最も速く成長しました。OECD諸国の間では、収束が起きました。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">20:33</span></p><p class="passage-text">では、世界全体でも同じはずですね。貧しい国ほど速く成長するのでしょう。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">20:38</span></p><p class="passage-text">それは、ほとんど当てはまりません。すべての国を見ると、平均して、貧しい国が速く成長したわけではありません。ソロー・モデルの答えは、多くの貧しい国が、それぞれの低い定常状態の近くにすでにいる、というものです。投資と生産性が低いため、定常状態も低くなります。韓国、中国、ボツワナのように、とても速く成長した国もあります。これらの国では、定常状態が上がったのでしょう。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">21:11</span></p><p class="passage-text">次の項目は韓国ですね。韓国の定常状態を押し上げたものは何ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">21:16</span></p><p class="passage-text">少なくとも一部は投資です。GDPは、国の産出量の合計です。韓国の投資率は、1950年代以降、急上昇しました。1990年以降の平均で、韓国はGDPの約37％を投資しています。アメリカは約24％です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">21:40</span></p><p class="passage-text">韓国はアメリカよりずっと多く投資しています。では、今ごろはアメリカより豊かになっているはずではありませんか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">21:48</span></p><p class="passage-text">そう聞くと筋が通っているようですが、違います。2023年、韓国の1人あたり所得は、アメリカの水準の約77％でした。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">22:01</span></p><p class="passage-text">では、投資だけで考えると、どう予測されますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">22:05</span></p><p class="passage-text">37を24で割ると、1.5を少し上回ります。その平方根は約1.25です。両国が同じ生産性で定常状態にいるなら、韓国の所得はアメリカより約25％高いはずです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">22:23</span></p><p class="passage-text">でも、韓国の所得は低いのですね。韓国では、何か別のものが低いはずです。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">22:29</span></p><p class="passage-text">そのとおりです。両国が道具を同じ率で失うと仮定すると、モデルに残るのは生産性だけです。韓国はより多く投資しているのに所得が低いので、生産性は低いはずです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">22:47</span></p><p class="passage-text">最後の項目は、最も豊かな国と最も貧しい国ですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">22:52</span></p><p class="passage-text">2023年の最も豊かな5か国、たとえばルクセンブルクやノルウェーと、最も貧しい5か国、たとえば南スーダンやブルンジを比べましょう。豊かな5か国の1人あたり所得は、貧しい5か国の約115倍です。しかし、豊かな国々の投資率は、所得に占める割合で比べると、約2.7倍にすぎません。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">23:20</span></p><p class="passage-text">その格差のうち、投資で説明できるのはどのくらいですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">23:24</span></p><p class="passage-text">2.7の平方根を取ると、1.6を少し上回ります。つまり、投資だけなら、豊かな国々は約1.6倍豊かになるはずです。115を1.6で割ると、生産性で説明される部分が約70倍残ります。二つを掛けると、約1.6倍に70倍で115倍です。この70倍には、生産性が高いために増える道具も含まれています。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">23:58</span></p><p class="passage-text">とても大きな格差ですね。たとえば、海外援助の政策にとって、どんな意味がありますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">24:06</span></p><p class="passage-text">何十年もの間、海外援助は「資金不足を埋める」よう計画されてきました。これは、貧しい国が成長目標を達成するために必要な投資額を補うという考え方です。ソロー・モデルが示すのは、投資によって速く成長する時期は生まれても、成長が続くわけではない、ということです。経済学者イースタリーによる研究では、援助額の全額が投資の増加につながったわけではなく、投資も計画どおりに成長率を高めなかったと報告されています。他の研究では小さな効果が見つかっていますが、追加データによって確認されなかった結果もあります。ですから、証拠については今も議論が続いています。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">24:57</span></p><p class="passage-text">第3部では、このモデルは資本をうまく説明し、似た国々の間で起きる追いつきを説明することも見ました。しかし、豊かな国と貧しい国を比べると、生産性が大部分を説明します。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">25:13</span></p><p class="passage-text">そのとおりです。まとめましょう。</p></div>
+<h2 id="section-4">まとめ</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">25:17</span></p><p class="passage-text">三つの目標を振り返ります。一つ目。道具を増やしても、1人あたり所得の上昇が止まるのはなぜですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">25:24</span></p><p class="passage-text">限界収穫逓減があるからです。道具を一つ増やすごとの産出量の増加は小さくなりますが、その道具も他の道具と同じように使えなくなります。最後には、新しい道具は壊れた道具を補うだけになります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">25:43</span></p><p class="passage-text">二つ目は実験です。貯蓄を増やすと所得の水準は上がりますが、成長率がいつまでも上がるわけではありません。道具が早く壊れることや、人口が速く増えることは、1人あたり所得を下げます。災害のあとには、経済は回復します。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">26:00</span></p><p class="passage-text">はい。どの場合も、定常状態から最も遠いときに、経済は最も速く動きます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">26:08</span></p><p class="passage-text">三つ目は、豊かな国と貧しい国の違いです。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">26:12</span></p><p class="passage-text">投資で説明できる差は約1.6倍です。生産性で説明できる差は約70倍です。二つを掛けると115倍になります。なぜでしょうか。投資率の差は3倍未満で、投資の効果は平方根を通じて表れるからです。大切な点をまとめます。貯蓄と投資は、国がどれだけ資本を持つか、また、一部の国が一定期間速く成長する理由を説明します。しかし、限界収穫逓減があるため、資本を増やすことだけでは長期成長を生み出せません。豊かな国と貧しい国の格差の大部分を説明するのは、投資ではなく生産性の違いです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">26:59</span></p><p class="passage-text">考えてみてください。島の人々が、魔法のような船を発明したとします。船の数に関係なく、新しい船は一隻前の船と同じ量の魚を増やします。このとき、道具を増やせば、アイランディアはいつまでも豊かになれるでしょうか。なぜですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">27:20</span></p><p class="passage-text">いったんエピソードを止めて、少し考えてみてください。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">27:23</span></p><p class="passage-text">では、戻ってきました。答えは何ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">27:26</span></p><p class="passage-text">はい、可能です。このモデルで成長を止めるのは、限界収穫逓減だからです。すべての船が同じ量の魚を増やすなら、産出量は船の数と同じ速さで増えます。産出量の40％を占める投資も同じ速さで増えます。壊れる船の割合も一定です。ですから、最初に新しい船が壊れる船より多ければ、その後も多いままで、産出量は成長し続けます。その世界では、貯蓄を増やすと成長率がいつまでも上がります。現実の機械はそのようには動きません。しかし、新しいアイデアはそうかもしれません。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">28:09</span></p><p class="passage-text">学生が自分で試すには、どこを見ればいいですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">28:13</span></p><p class="passage-text">章のColabノートブックを開けば、すべての実験を自分で実行できます。Model Appsでは、コードを使わずに、モデルのグラフのスライダーを動かせます。Data Appsでは、第3部で見た国別データを確認できます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">28:30</span></p><p class="passage-text">次回は何を取り上げますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">28:32</span></p><p class="passage-text">第6章では、ソロー・モデルに欠けている成長の原動力を探します。新しいアイデアによって、所得をいつまでも成長させられるのかを考えます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">28:44</span></p><p class="passage-text">今日はここまでです。お聞きいただき、ありがとうございました。それでは、また次回。</p></div></article>
+  </main>
+</body>
+</html>
