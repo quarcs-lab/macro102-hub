@@ -3,6 +3,7 @@ import json,re,html,hashlib
 from pathlib import Path
 R=Path(__file__).resolve().parents[1]; resources=json.loads((R/'data/resources.json').read_text()); esc=html.escape
 BOOK='https://quarcs-lab.github.io/macro102-site/'
+TUTORS='https://notebook.google.com/notebook/837887f1-e221-4181-b42f-ef2ae52378fa?hl=en'   # the AI Tutors notebook (NotebookLM)
 def versioned(path):
  return path+'?v='+hashlib.sha256((R/path).read_bytes()).hexdigest()[:12]
 byid={r['id']:r for r in resources}
@@ -21,7 +22,7 @@ def relocate(s):
  return re.sub(r'(href|src|data-podcast)="(?!https?:|#|mailto:|data:|//|index\.html)([^"]*)"',r'\1="../\2"',s)
 def page(name,title,description,body,lang='en'):
  S=I18N[lang]; C=S['chrome']; home=name=='index.html'; book=BOOK if lang=='en' else BOOK+lang+'/'
- urls=['index.html',book,'podcasts.html','tutors.html','data-apps.html','figure-apps.html']
+ urls=['index.html',book,'podcasts.html',TUTORS,'data-apps.html','figure-apps.html']
  if name=='podcasts-ja.html': urls[2]='podcasts-ja.html'
  links=''.join(f'<a href="{url}"'+(' aria-current="page"' if url==name else '')+f'>{label}</a>' for label,url in zip(C['nav'],urls))
  extra=('<link rel="stylesheet" href="'+versioned('assets/home.css')+'">') if home else ''
