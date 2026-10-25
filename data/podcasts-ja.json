@@ -10,7 +10,11 @@
       "title": "マクロ経済学入門",
       "question": "経済全体を見ると、何が分かるのでしょうか。",
       "description": "1989年のアルゼンチンのハイパーインフレーションから、マクロ経済学が扱う所得・雇用・物価、事実からモデルを組み立てる方法までを対話形式でたどります。",
-      "topics": ["マクロ経済学の問いと事実", "モデルの仕組み", "長期・短期と経済政策"],
+      "topics": [
+        "マクロ経済学の問いと事実",
+        "モデルの仕組み",
+        "長期・短期と経済政策"
+      ],
       "duration": 1825.49,
       "audio": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-01.mp3",
       "artwork": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-01.png",
@@ -26,13 +30,36 @@
       "title": "マクロ経済の測定",
       "question": "GDPは、経済の何を測り、何を見落とすのでしょうか。",
       "description": "GDPの計算で、生産・所得・支出がどうつながるかを学びます。実質成長とインフレを分け、国ごとの購買力を比べ、GDPでは捉えきれないものを考えます。",
-      "topics": ["GDPの三つの計算方法", "実質GDPとインフレ", "購買力平価とGDPの限界"],
+      "topics": [
+        "GDPの三つの計算方法",
+        "実質GDPとインフレ",
+        "購買力平価とGDPの限界"
+      ],
       "duration": 1935.64,
       "audio": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-02.mp3",
       "artwork": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-02.png",
       "transcript": "transcript-inputs-ja/podcast-ja-ch02-macroeconomics.json",
       "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-02.html",
       "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch02-measuring-the-macroeconomy.html",
+      "status": "website_ready_spotify_pending"
+    },
+    {
+      "id": "podcast-ja-ch03-macroeconomics",
+      "chapter": 3,
+      "title": "長期の経済成長の概観",
+      "question": "なぜ国によって所得が大きく違い、成長率の差は長期にどう広がるのでしょうか。",
+      "description": "持続的な成長の歴史と、国際的な所得格差をたどります。複利と70の法則を使って、小さな成長率の差が何十年もの間に大きな違いを生む理由を考えます。",
+      "topics": [
+        "世界の所得格差",
+        "複利と70の法則",
+        "持続的な成長"
+      ],
+      "duration": 1752.18,
+      "audio": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-03.mp3",
+      "artwork": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-03.png",
+      "transcript": "transcript-inputs-ja/podcast-ja-ch03-macroeconomics.json",
+      "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-03.html",
+      "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch03-an-overview-of-long-run-economic-growth.html",
       "status": "website_ready_spotify_pending"
     }
   ]
