@@ -46,13 +46,13 @@ resources.sort(key=lambda r:(r['id'].startswith('app'),r['id']))
 (ROOT/'data/resources.json').write_text(json.dumps(resources,indent=2)+'\n')
 japanese=json.loads((ROOT/'data/podcasts-ja.json').read_text())
 for item in sorted(japanese['episodes'],key=lambda item:item['chapter']):
- if item.get('status')!='publicly_verified': continue
+ if item.get('status') not in ('publicly_verified','website_ready_spotify_pending'): continue
  transcript=ROOT/item['transcript']
  if not transcript.is_file(): raise SystemExit(f'Missing timed Japanese transcript: {transcript}')
  episodes.append({'id':item['id'],'title':f'第{item["chapter"]}章 · {item["title"]}',
   'audio_sources':[{'src':item['audio'],'type':'audio/mpeg'}],
   'transcript':str(transcript.relative_to(ROOT)),
-  'spotify_url':item['spotify_url'],
+  **({'spotify_url':item['spotify_url']} if item.get('spotify_url') else {}),
   'transcript_page':f'audio-player/transcripts/{item["id"]}.html',
   'study_url':item['transcript_page'],
   'return_url':f'podcasts-ja.html#chapter-{item["chapter"]}',

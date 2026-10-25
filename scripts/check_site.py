@@ -33,7 +33,7 @@ resources=json.loads((R/'data/resources.json').read_text());config=json.loads((R
 assert len(resources)==30
 assert sum(ep['id'].startswith('podcast-ch') for ep in config['episodes'])==21
 ja_catalog=json.loads((R/'data/podcasts-ja.json').read_text())
-ja_episodes=[item for item in ja_catalog['episodes'] if item.get('status')=='publicly_verified']
+ja_episodes=[item for item in ja_catalog['episodes'] if item.get('status') in ('publicly_verified','website_ready_spotify_pending')]
 assert sum(ep['id'].startswith('podcast-ja-') for ep in config['episodes'])==len(ja_episodes)
 assert pages[(R/'podcasts.html').resolve()].audios==21
 japanese_page=(R/'podcasts-ja.html').read_text()
@@ -61,7 +61,8 @@ for resource in resources:
 for episode in config['episodes']:
  src=json.loads((R/episode['transcript']).read_text());out=json.loads((R/'audio-player/transcripts'/f'{episode["id"]}.json').read_text())
  assert src==out,episode['id']
- assert re.match(r'https://open.spotify.com/episode/[A-Za-z0-9]{22}$',episode['spotify_url'])
+ if episode.get('spotify_url'): assert re.match(r'https://open.spotify.com/episode/[A-Za-z0-9]{22}$',episode['spotify_url'])
+ elif episode['id'].startswith('podcast-ch'): raise AssertionError(f'Missing Spotify link for English episode {episode["id"]}')
 assert len(list((R/'assets/charts').glob('*.svg')))==18
 # The Spanish and Japanese home pages: every string translated, and made from the current English
 # (data/i18n/en.json and data/curriculum.json); after changing those, update es.json and ja.json, then --stamp-i18n.

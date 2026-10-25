@@ -19,6 +19,21 @@
       "spotify_url": "https://open.spotify.com/episode/7jPL9rYtTRAzfyjicmIP5m",
       "book_url": "https://quarcs-lab.github.io/macro102-site/ja/notebooks/ch01-introduction-to-macroeconomics.html",
       "status": "publicly_verified"
+    },
+    {
+      "id": "podcast-ja-ch02-macroeconomics",
+      "chapter": 2,
+      "title": "マクロ経済の測定",
+      "question": "GDPは、経済の何を測り、何を見落とすのでしょうか。",
+      "description": "GDPの計算で、生産・所得・支出がどうつながるかを学びます。実質成長とインフレを分け、国ごとの購買力を比べ、GDPでは捉えきれないものを考えます。",
+      "topics": ["GDPの三つの計算方法", "実質GDPとインフレ", "購買力平価とGDPの限界"],
+      "duration": 1935.64,
+      "audio": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-02.mp3",
+      "artwork": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-02.png",
+      "transcript": "transcript-inputs-ja/podcast-ja-ch02-macroeconomics.json",
+      "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-02.html",
+      "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch02-measuring-the-macroeconomy.html",
+      "status": "website_ready_spotify_pending"
     }
   ]
 }
