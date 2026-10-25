@@ -61,6 +61,25 @@
       "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-03.html",
       "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch03-an-overview-of-long-run-economic-growth.html",
       "status": "website_ready_spotify_pending"
+    },
+    {
+      "id": "podcast-ja-ch04-macroeconomics",
+      "chapter": 4,
+      "title": "生産のモデル",
+      "question": "資本と労働は、どのように産出量を生み出すのでしょうか。",
+      "description": "資本、労働、収穫逓減を使って生産のモデルを作ります。モデルの予測を所得のデータと比べ、生産性や制度の役割を考えます。",
+      "topics": [
+        "コブ＝ダグラス型生産関数",
+        "限界収穫逓減",
+        "生産性と所得格差"
+      ],
+      "duration": 1806.57,
+      "audio": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-04.mp3",
+      "artwork": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-04.png",
+      "transcript": "transcript-inputs-ja/podcast-ja-ch04-macroeconomics.json",
+      "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-04.html",
+      "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch04-a-model-of-production.html",
+      "status": "website_ready_spotify_pending"
     }
   ]
 }

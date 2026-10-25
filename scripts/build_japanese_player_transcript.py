@@ -17,6 +17,11 @@ EPISODE_ID = "podcast-ja-ch{chapter:02}-macroeconomics"
 
 def normalized(text):
     text = unicodedata.normalize("NFKC", text).casefold()
+    # These product names are read aloud in Japanese although the script keeps
+    # their Latin spelling. Normalize the common ASR renderings to the script form.
+    for spoken, written in (("コラボ", "colab"), ("モデルアプリ", "modelapps"),
+                            ("データアプリ", "dataapps"), ("ショー", "章")):
+        text = text.replace(spoken, written)
     return "".join(c for c in text if not c.isspace() and unicodedata.category(c)[0] not in "PZ")
 
 
@@ -86,6 +91,45 @@ def build(source, chapter):
                 for pos in range(start_offset, end_offset)
                 if pos in target_to_observed
             ]
+            if len(matched) < (end_offset - start_offset) * 0.75:
+                # A main ASR pass can skip a short turn even when the audio contains it.
+                # Use saved overlapping-window ASR as timing evidence for that turn.
+                work = source.parents[2] / ".work" / "podcast-japanese" / prefix
+                pcm_name = Path(chunk["pcm"]).stem
+                chunk_hash = pcm_name.split("-")[-1]
+                for window_path in sorted(work.glob(f"asr-{chunk_hash[:16]}-w*.json")):
+                    window_text = window_path.stem.rsplit("-w", 1)[-1]
+                    try:
+                        window_start = int(window_text) / 1000
+                    except ValueError:
+                        continue
+                    window = json.loads(window_path.read_text())
+                    window_positions = []
+                    window_parts = []
+                    for cue in window.get("transcription", []):
+                        part = normalized(cue.get("text", ""))
+                        if not part:
+                            continue
+                        cue_start = cue["offsets"]["from"] / 1000
+                        cue_end = cue["offsets"]["to"] / 1000
+                        span = cue_end - cue_start
+                        window_parts.append(part)
+                        window_positions.extend((
+                            chunk["start_seconds"] + window_start + cue_start + span * i / len(part),
+                            chunk["start_seconds"] + window_start + cue_start + span * (i + 1) / len(part),
+                        ) for i in range(len(part)))
+                    window_observed = "".join(window_parts)
+                    window_matcher = difflib.SequenceMatcher(None, normalized(turn["text"]), window_observed, autojunk=False)
+                    window_coverage = sum(block.size for block in window_matcher.get_matching_blocks()) / max(len(normalized(turn["text"])), 1)
+                    window_map = {}
+                    for target_pos, observed_pos, length in window_matcher.get_matching_blocks():
+                        for offset in range(length):
+                            window_map[target_pos + offset] = observed_pos + offset
+                    window_matched = [window_positions[window_map[pos]] for pos in range(len(normalized(turn["text"]))) if pos in window_map]
+                    if (window_coverage >= 0.75 and
+                            len(window_matched) >= len(normalized(turn["text"])) * 0.75):
+                        matched = window_matched
+                        break
             if len(matched) < (end_offset - start_offset) * 0.75:
                 raise ValueError(f"Insufficient timing alignment for {turn['id']}")
             start = min(span[0] for span in matched)
