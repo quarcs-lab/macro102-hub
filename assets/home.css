@@ -113,8 +113,15 @@ main{overflow:clip}
   .carousel-controls{padding-block:6px}
   .hero-grid{row-gap:16px}
 }
-/* Language switcher (English · Español · 日本語) on the three home pages; assets/i18n.js remembers the choice */
-.lang-switch{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:18px;font-size:13px;line-height:1.4;color:var(--muted)}
-.lang-switch a{color:var(--muted);padding:4px 0;min-height:24px}
+/* Language switcher (English · Español · 日本語) in the header after the theme button, on the three home pages;
+   assets/i18n.js remembers the choice. Narrow screens show EN · ES · JA. */
+.lang-switch{display:flex;align-items:center;gap:6px;font-size:12px;line-height:1.2;color:var(--muted);white-space:nowrap}
+.lang-switch a{color:var(--muted);padding:6px 2px;min-height:32px;display:inline-flex;align-items:center}
 .lang-switch a:hover{color:var(--blue)}
 .lang-switch a[aria-current]{color:var(--text);font-weight:650;text-decoration:underline;text-decoration-color:var(--coral);text-underline-offset:4px}
+.lang-switch .lang-sep{opacity:.6}
+.lang-short{display:none}
+@media(max-width:1280px){.lang-long{display:none}.lang-short{display:inline}}
+@media(max-width:560px){.lang-switch{gap:2px;font-size:11px}.lang-switch a{padding:6px 1px}.menu-button{white-space:nowrap;padding:5px 8px}}
+/* phones: room for the switcher in the header (home pages only) */
+@media(max-width:420px){.nav-shell{gap:6px}.header .brand{gap:8px}.header .brand>span:not(.brand-mark){font-size:11px}.icon-button,.menu-button{min-width:40px;padding:5px 7px}}
