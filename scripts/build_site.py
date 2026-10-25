@@ -10,7 +10,10 @@ byid={r['id']:r for r in resources}
 editorial=json.loads((R/'data/curriculum.json').read_text())
 widgets=(R/'audio-player/players.html').read_text()
 chunks=re.split(r'(?=<div class="podcast-widget" id=)',widgets)[1:]
-players={r['id']:chunk for r,chunk in zip([r for r in resources if 'podcast' in r],chunks)}
+widget_chunks={re.search(r'id="([^"]+)"',chunk).group(1):chunk for chunk in chunks}
+english_podcasts=[r for r in resources if 'podcast' in r]
+players={r['id']:widget_chunks[r['podcast']['id']] for r in english_podcasts}
+players[english_podcasts[-1]['id']]=players[english_podcasts[-1]['id']][:-1]
 player_assets='<link rel="stylesheet" href="audio-player/podcast-player.css"><script src="audio-player/podcast-player.js" defer></script>'
 # The home page exists in English (index.html), Spanish (es/index.html) and Japanese (ja/index.html);
 # every other page is English only. data/i18n/<lang>.json holds the home page's strings.
@@ -28,7 +31,7 @@ def page(name,title,description,body,lang='en'):
  extra=('<link rel="stylesheet" href="'+versioned('assets/home.css')+'">') if home else ''
  if name in ('data-apps.html','figure-apps.html'): extra='<link rel="stylesheet" href="'+versioned('assets/apps.css')+'">'
  if name=='podcasts.html': extra=player_assets+'<link rel="stylesheet" href="'+versioned('assets/podcasts.css')+'"><script src="'+versioned('assets/podcasts.js')+'" defer></script>'
- if name=='podcasts-ja.html': extra='<link rel="stylesheet" href="'+versioned('assets/podcasts.css')+'">'
+ if name=='podcasts-ja.html': extra=player_assets+'<link rel="stylesheet" href="'+versioned('assets/podcasts.css')+'">'
  canonical=HUB+('' if lang=='en' else lang+'/') if home else HUB+name
  if home:
   # The language versions, the redirect/switcher script and, on es/ja, the strings for site.js and the player
@@ -108,6 +111,11 @@ for kind,name,label,hook,desc,featured_id in [
 episodes=[r for r in resources if 'podcast' in r]
 config=json.loads((R/'player-config.json').read_text())
 episode_config={r['id']:ep for r,ep in zip(episodes,config['episodes'])}
+for ep in config['episodes']:
+ if ep['id'] not in episode_config:
+  episode_config[ep['id']]=ep
+  players[ep['id']]=widget_chunks[ep['id']]
+JAPANESE_EPISODE={'id':'podcast-ja-ch01-macroeconomics'}
 def duration_label(seconds):
  seconds=int(seconds)
  return f'{seconds//60:02d}:{seconds%60:02d}'
@@ -123,7 +131,46 @@ def listening_player(r):
  chunk=chunk.replace('class="podcast-player"','class="podcast-player episode-player"',1)
  chunk=re.sub(r'(<section[^>]+) hidden>',r'\1 tabindex="-1">',chunk,count=1)
  chunk=chunk.replace('class="podcast-close"','hidden class="podcast-close"',1)
+ if r['id']==JAPANESE_EPISODE['id']:
+  transcript_link='<a class="podcast-action-link" href="https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-01.html" target="_blank" rel="noopener" aria-label="English Japanese transcript (opens in a new tab)"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14"/><path d="M10 3H3v18h18v-7"/></svg>English Japanese transcript</a>\n    '
+  chunk=re.sub(r'(?=\s*<a class="podcast-action-link" href="https://open\.spotify\.com/episode/)', '\n    '+transcript_link, chunk, count=1)
+  for english, japanese in {
+   'Chapter 1 · Macroeconomics': '第1章 · マクロ経済学入門',
+   '第1章 · マクロ経済学入門': '第1章 · マクロ経済学入門',
+   'AI podcast · ': '日本語版 AI音声 · ',
+   'Now: Opening': '再生中：はじめに',
+   'Close the podcast player': 'プレーヤーを閉じる',
+   'Your browser does not support audio playback. You can read the transcript below.': 'お使いのブラウザーは音声再生に対応していません。下のトランスクリプトをお読みください。',
+   'Seek in podcast': 'ポッドキャストの再生位置',
+   'Back 15 seconds': '15秒戻る',
+   'Play podcast': 'ポッドキャストを再生',
+   'Forward 30 seconds': '30秒進む',
+   'Playback speed: 1×. Click to change': '再生速度：1×。クリックで変更',
+   'Episode sections': 'エピソードのセクション',
+   '<span>Read along</span>': '<span>文字を追う</span>',
+   'Open Transcript': '日本語トランスクリプト',
+   'Listen on Spotify': 'Spotifyで聴く',
+   ' (opens in a new tab)': '（新しいタブで開きます）',
+   'Timed transcript. Select a passage to seek.': '時間付きトランスクリプト。段落を選ぶとその位置へ移動します。',
+   '> Follow audio<': '> 音声に合わせて移動<',
+   ' podcast study player"': 'の日本語ポッドキャスト・プレーヤー"',
+   ' podcast">': 'の日本語ポッドキャスト">',
+  }.items():
+   if english != japanese: chunk=chunk.replace(english,japanese)
  return '\n'.join(line.rstrip() for line in chunk.replace('<h5>','<h3>').replace('</h5>','</h3>').splitlines())+'\n'
+
+def replace_div_contents(document, opening_tag, content):
+ start=document.index(opening_tag)
+ content_start=start+len(opening_tag)
+ tags=re.finditer(r'</?div\b[^>]*>',document[content_start:])
+ depth=1
+ for match in tags:
+  token=match.group(0)
+  depth += -1 if token.startswith('</') else 1
+  if depth==0:
+   closing_start=content_start+match.start()
+   return document[:content_start]+content+document[closing_start:]
+ raise ValueError(f'Unclosed integration wrapper: {opening_tag}')
 first=episodes[0]; first_ep=episode_config[first['id']]
 total_minutes=round(sum(r['podcast']['duration'] for r in episodes)/60)
 body=f'''<div class="podcasts-page"><section class="podcast-hero shell" aria-labelledby="page-title"><div class="podcast-hero-copy"><p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>21 CHAPTERS. A NEW WAY TO LISTEN.</p><h1 id="page-title">AI <span>Podcasts</span></h1><p class="podcast-hook">Hear the question.<br>Follow the reasoning.</p><p class="podcast-description">From rising living standards to recessions and inflation, explore the ideas behind the whole economy. Listen at your own pace, jump to a section, or follow the conversation word by word.</p><div class="podcast-hero-actions"><a class="button primary" href="#episodes">Explore the episodes <span aria-hidden="true">↓</span></a><a class="button secondary" href="podcasts-ja.html" lang="ja" hreflang="ja">Explore the episodes in Japanese <span aria-hidden="true">↗</span></a><p>Start at Chapter 1, or follow your curiosity.</p></div><div class="collection-facts"><span><strong>21</strong> English episodes</span><span><strong>{total_minutes}</strong> minutes of listening</span><span>Read along as you listen</span></div></div><figure class="podcast-feature" aria-labelledby="featured-title"><div class="feature-top"><span class="eyebrow">YOUR FIRST LISTEN</span><span class="tiny-tag">CHAPTER 01 · {duration_label(first['podcast']['duration'])}</span></div><a class="featured-art" href="#chapter-1" aria-label="Explore Chapter 1: Introduction to Macroeconomics"><img src="{first['preview']}" width="900" height="600" alt="Introduction to Macroeconomics: the chapter mind map" fetchpriority="high"></a><h2 id="featured-title">What can we learn by looking at the whole economy?</h2><p>Income. Jobs. Prices.<br>Start with the questions that connect them.</p><figcaption><button class="feature-listen" type="button" data-podcast-start="{first_ep['id']}-player" hidden><span class="listen-circle" aria-hidden="true">▶</span><span>Start listening<small>Introduction to Macroeconomics · Chapter 1</small></span><span class="listen-arrow" aria-hidden="true">↘</span></button><noscript><a href="#chapter-1">Go to Chapter 1’s audio player ↓</a></noscript></figcaption></figure></section><section class="shell episode-collection" id="episodes" aria-labelledby="episodes-title"><div class="collection-heading"><div><p class="eyebrow">THE LISTENING COLLECTION</p><h2 id="episodes-title">One chapter. One big question.</h2></div><p>Explore the facts. Follow the model.<br>Connect the reasoning to the real world.</p></div>'''
@@ -139,6 +186,7 @@ page('podcasts.html','AI Podcasts','Listen to all 21 macroeconomics chapters wit
 # The Japanese edition is published separately from the English collection. Only link episodes whose
 # audio is live; future chapters are described as in production rather than presented as playable.
 ja_body='''<div class="podcasts-page"><section class="podcast-hero shell" aria-labelledby="page-title"><div class="podcast-hero-copy"><p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>日本語版 · 第1章を公開中</p><h1 id="page-title">AI <span>ポッドキャスト</span></h1><p class="podcast-hook">問いを聞き、<br>考え方をたどる。</p><p class="podcast-description">マクロ経済学の問いや、経済学者が答えを考えるために使うモデルを、日本語の会話で紹介します。音声を聞きながら、英語との対訳、ふりがな、用語集も利用できます。</p><div class="podcast-hero-actions"><a class="button primary" href="#episodes">日本語版のエピソードを聴く <span aria-hidden="true">↓</span></a><a class="button secondary" href="https://open.spotify.com/show/0Rch7WqDEa5z1vWXd1aWcM" target="_blank" rel="noopener">Spotifyで番組を開く <span aria-hidden="true">↗</span></a></div><div class="collection-facts"><span><strong>1</strong> エピソード公開中</span><span>第2章以降は制作中</span><span>対訳・ふりがな付き</span></div></div><figure class="podcast-feature" aria-labelledby="featured-title"><div class="feature-top"><span class="eyebrow">最初に聴くエピソード</span><span class="tiny-tag">第1章 · 30:25</span></div><a class="featured-art" href="#chapter-1" aria-label="第1章 マクロ経済学入門"><img src="https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-01.png" width="320" height="320" alt="第1章のマインドマップ" fetchpriority="high"></a><h2 id="featured-title">マクロ経済学は、経済全体について何を教えてくれるのでしょうか。</h2><p>所得、雇用、物価。<br>経済を見るための問いから始めます。</p><figcaption><a class="feature-listen" href="#chapter-1"><span class="listen-circle" aria-hidden="true">↓</span><span>第1章を聴く<small>マクロ経済学入門</small></span><span class="listen-arrow" aria-hidden="true">↘</span></a></figcaption></figure></section><section class="shell episode-collection" id="episodes" aria-labelledby="episodes-title"><div class="collection-heading"><div><p class="eyebrow">日本語版のエピソード</p><h2 id="episodes-title">第1章 · マクロ経済学入門</h2></div><p>音声を聞き、対訳で内容を確認し、用語集で専門用語を復習できます。</p></div><nav class="episode-directory" aria-label="日本語ポッドキャストの章"><a href="#chapter-1"><span>01</span>マクロ経済学入門<span class="chapter-arrow" aria-hidden="true">↗</span></a></nav><div class="listening-guide"><span class="guide-icon" aria-hidden="true">♫</span><p><strong>聞きながら学ぶ。</strong>まず音声を聞き、必要に応じて学習ページで英語との対訳やふりがなを表示してください。Spotifyでも同じエピソードを再生できます。</p><span class="guide-label">聴く · 止める · 振り返る</span></div><div class="episodes"><article class="episode resource" id="chapter-1" aria-labelledby="episode-1-title" data-topic="基礎" data-search="第1章 マクロ経済学入門 所得 雇用 物価 モデル"><header class="episode-header"><span class="episode-number" aria-hidden="true">01</span><div><p class="eyebrow">第1章 / マクロ経済学入門</p><h2 id="episode-1-title">経済全体を見ると、何が分かるのでしょうか。</h2></div><span class="episode-duration" aria-label="再生時間 30分25秒">◷ 30:25</span></header><div class="episode-grid"><div class="episode-context"><a class="episode-art" href="https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-01.png" target="_blank" rel="noopener" aria-label="第1章のマインドマップを拡大表示"><img src="https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-01.png" alt="第1章のマインドマップ" loading="lazy" width="320" height="320"><span>マインドマップを見る <span aria-hidden="true">↗</span></span></a><p class="episode-description">1989年のアルゼンチンのハイパーインフレーションから、マクロ経済学が扱う所得・雇用・物価、事実からモデルを組み立てる方法までを対話形式でたどります。</p><div class="listening-notes"><h3>このエピソードで扱う内容</h3><ul><li>マクロ経済学の問いと事実</li><li>モデルの仕組み</li><li>長期・短期と経済政策</li></ul></div><a class="episode-book" href="https://quarcs-lab.github.io/macro102-site/notebooks/ch01-introduction-to-macroeconomics.html" target="_blank" rel="noopener">本書の第1章を読む <span aria-hidden="true">↗</span></a></div><div class="episode-listening"><div class="podcast-player episode-player"><div class="podcast-heading"><div><p class="podcast-eyebrow">AI音声 · 30分</p><h3>第1章 · マクロ経済学入門</h3><p class="podcast-now">司会者 Puck ／ 経済学者 Kore</p></div></div><div class="podcast-playback"><audio controls controlslist="nodownload" preload="none" aria-label="第1章 マクロ経済学入門の日本語音声"><source src="https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-01.mp3" type="audio/mpeg">このブラウザーでは音声を再生できません。</audio></div><div class="podcast-transcript-actions"><a class="podcast-action-link" href="https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-01.html" target="_blank" rel="noopener">English-Japanese Transcript <span aria-hidden="true">↗</span></a><a class="podcast-action-link" href="https://open.spotify.com/episode/7jPL9rYtTRAzfyjicmIP5m" target="_blank" rel="noopener">Spotifyで聴く <span aria-hidden="true">↗</span></a></div></div></div></div></article></div><p class="resource-note">日本語版の音声はAIによるナレーションです。教科書 Charles I. Jones, <i>Macroeconomics</i>, 第6版（2024年）に基づく独立した学習用コンテンツであり、著者・出版社による承認や提携を示すものではありません。</p><div class="listening-close"><p class="eyebrow">次の問いへ</p><h2>聞いた内容を、本書で確かめる。</h2><p>データを見て、モデルを動かし、経済の考え方を自分で試してみましょう。</p><a class="button primary" href="https://quarcs-lab.github.io/macro102-site/ja/">日本語版の本を開く <span aria-hidden="true">↗</span></a></div></section></div>'''
+ja_body=replace_div_contents(ja_body,'<div class="episode-listening">',listening_player(JAPANESE_EPISODE))
 page('podcasts-ja.html','日本語版 AIポッドキャスト','マクロ経済学の日本語AIポッドキャスト。音声、英日対訳、ふりがな、用語集を利用できます。',ja_body,'ja')
 body=intro('AI TUTORS · FORTHCOMING','A thinking partner.<br>For your next question.','A dedicated space for AI tutors that accompany the book. This collection is forthcoming.')+f'''<section class="shell tutor-section"><div class="tutor-panel"><div class="tutor-art" aria-hidden="true"><span>?</span><i>Y</i><b>π</b><em>g</em></div><div><span class="coming-badge">IN DEVELOPMENT</span><h2>More ways to work<br>through an idea.</h2><p>The tutors will appear here when they are available. In the meantime, start with the book’s explanations, explore its interactive figures, or listen to a chapter discussion.</p><div class="actions"><a class="button primary" href="{BOOK}">Read the book ↗</a><a class="text-link" href="figure-apps.html">Explore Figure Apps →</a></div></div></div></section>'''
 page('tutors.html','AI Tutors — Forthcoming','AI tutors for Data Science & Macroeconomics are forthcoming. Explore the book and its existing resources today.',body)

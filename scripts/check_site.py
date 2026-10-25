@@ -30,8 +30,16 @@ for f,doc in pages.items():
   if not dest.is_file():errors.append(f'{f.name}: missing {link}')
   elif u.fragment and dest in pages and urllib.parse.unquote(u.fragment) not in pages[dest].ids:errors.append(f'{f.name}: broken anchor {link}')
 resources=json.loads((R/'data/resources.json').read_text());config=json.loads((R/'player-config.json').read_text())
-assert len(resources)==30 and len(config['episodes'])==21
+assert len(resources)==30 and len(config['episodes'])==22
+assert sum(ep['id'].startswith('podcast-ch') for ep in config['episodes'])==21
+assert sum(ep['id'].startswith('podcast-ja-') for ep in config['episodes'])==1
 assert pages[(R/'podcasts.html').resolve()].audios==21
+japanese_page=(R/'podcasts-ja.html').read_text()
+assert pages[(R/'podcasts-ja.html').resolve()].audios==1
+assert 'data-podcast="audio-player/transcripts/podcast-ja-ch01-macroeconomics.json"' in japanese_page
+assert 'English Japanese transcript' in japanese_page
+assert 'href="https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-01.html"' in japanese_page
+assert 'audio-player/podcast-player.js' in japanese_page
 for lang in ('','es/','ja/'):
  assert pages[(R/lang/'index.html').resolve()].audios==21,lang
  page_=(R/lang/'index.html').read_text()
@@ -79,4 +87,4 @@ if a.remote:
  with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:errors += [x for x in pool.map(check,sorted(urls)) if x]
  print(f'Checked {len(urls)} live book/app/audio destinations.')
 if errors:print('\n'.join(errors));sys.exit(1)
-print(f'PASS: {len(pages)} HTML pages; local assets, anchors, IDs, 21 complete transcripts, episode mappings, 18 charts (en/es/ja) and the translated home pages.')
+print(f'PASS: {len(pages)} HTML pages; local assets, anchors, IDs, 21 English and 1 Japanese timed transcripts, episode mappings, 18 charts (en/es/ja), and the translated home pages.')
