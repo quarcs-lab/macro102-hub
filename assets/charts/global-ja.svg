@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="460.8pt" height="259.2pt" viewBox="0 0 460.8 259.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-25T11:46:58.402284</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.7, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 259.2
+L 460.8 259.2
+L 460.8 0
+L 0 0
+L 0 259.2
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 82.07 201.78
+L 441.3 201.78
+L 441.3 19.5
+L 82.07 19.5
+L 82.07 201.78
+z
+" style="fill: none"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: middle; fill: #a6b4cc" x="98.398636" y="219.802188" transform="rotate(-0 98.398636 219.802188)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: middle; fill: #a6b4cc" x="163.713182" y="219.802188" transform="rotate(-0 163.713182 219.802188)">2</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: middle; fill: #a6b4cc" x="229.027727" y="219.802188" transform="rotate(-0 229.027727 219.802188)">4</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: middle; fill: #a6b4cc" x="294.342273" y="219.802188" transform="rotate(-0 294.342273 219.802188)">6</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: middle; fill: #a6b4cc" x="359.656818" y="219.802188" transform="rotate(-0 359.656818 219.802188)">8</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: middle; fill: #a6b4cc" x="424.971364" y="219.802188" transform="rotate(-0 424.971364 219.802188)">10</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: middle; fill: #a6b4cc" x="261.685" y="236.489375" transform="rotate(-0 261.685 236.489375)">アメリカの金利 · %</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_7">
+      <path d="M 82.07 186.289802
+L 441.3 186.289802
+" clip-path="url(#pd07bf1aade)" style="fill: none; stroke: #26364d; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_8">
+      <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: end; fill: #a6b4cc" x="74.07" y="191.300896" transform="rotate(-0 74.07 191.300896)">0.88</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_9">
+      <path d="M 82.07 148.464901
+L 441.3 148.464901
+" clip-path="url(#pd07bf1aade)" style="fill: none; stroke: #26364d; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_9">
+      <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: end; fill: #a6b4cc" x="74.07" y="153.475995" transform="rotate(-0 74.07 153.475995)">0.90</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_11">
+      <path d="M 82.07 110.64
+L 441.3 110.64
+" clip-path="url(#pd07bf1aade)" style="fill: none; stroke: #26364d; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_10">
+      <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: end; fill: #a6b4cc" x="74.07" y="115.651094" transform="rotate(-0 74.07 115.651094)">0.92</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_13">
+      <path d="M 82.07 72.815099
+L 441.3 72.815099
+" clip-path="url(#pd07bf1aade)" style="fill: none; stroke: #26364d; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14"/>
+     <g id="text_11">
+      <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: end; fill: #a6b4cc" x="74.07" y="77.826193" transform="rotate(-0 74.07 77.826193)">0.94</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_15">
+      <path d="M 82.07 34.990198
+L 441.3 34.990198
+" clip-path="url(#pd07bf1aade)" style="fill: none; stroke: #26364d; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16"/>
+     <g id="text_12">
+      <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: end; fill: #a6b4cc" x="74.07" y="40.001291" transform="rotate(-0 74.07 40.001291)">0.96</text>
+     </g>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 12px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: middle; fill: #a6b4cc" x="30.087813" y="110.64" transform="rotate(-90 30.087813 110.64)">1米ドルあたりの外国通貨</text>
+    </g>
+   </g>
+   <g id="line2d_17">
+    <path d="M 98.398636 193.494545
+L 101.664364 191.837455
+L 104.930091 190.180364
+L 108.195818 188.523273
+L 111.461545 186.866182
+L 114.727273 185.209091
+L 117.993 183.552
+L 121.258727 181.894909
+L 124.524455 180.237818
+L 127.790182 178.580727
+L 131.055909 176.923636
+L 134.321636 175.266545
+L 137.587364 173.609455
+L 140.853091 171.952364
+L 144.118818 170.295273
+L 147.384545 168.638182
+L 150.650273 166.981091
+L 153.916 165.324
+L 157.181727 163.666909
+L 160.447455 162.009818
+L 163.713182 160.352727
+L 166.978909 158.695636
+L 170.244636 157.038545
+L 173.510364 155.381455
+L 176.776091 153.724364
+L 180.041818 152.067273
+L 183.307545 150.410182
+L 186.573273 148.753091
+L 189.839 147.096
+L 193.104727 145.438909
+L 196.370455 143.781818
+L 199.636182 142.124727
+L 202.901909 140.467636
+L 206.167636 138.810545
+L 209.433364 137.153455
+L 212.699091 135.496364
+L 215.964818 133.839273
+L 219.230545 132.182182
+L 222.496273 130.525091
+L 225.762 128.868
+L 229.027727 127.210909
+L 232.293455 125.553818
+L 235.559182 123.896727
+L 238.824909 122.239636
+L 242.090636 120.582545
+L 245.356364 118.925455
+L 248.622091 117.268364
+L 251.887818 115.611273
+L 255.153545 113.954182
+L 258.419273 112.297091
+L 261.685 110.64
+L 264.950727 108.982909
+L 268.216455 107.325818
+L 271.482182 105.668727
+L 274.747909 104.011636
+L 278.013636 102.354545
+L 281.279364 100.697455
+L 284.545091 99.040364
+L 287.810818 97.383273
+L 291.076545 95.726182
+L 294.342273 94.069091
+L 297.608 92.412
+L 300.873727 90.754909
+L 304.139455 89.097818
+L 307.405182 87.440727
+L 310.670909 85.783636
+L 313.936636 84.126545
+L 317.202364 82.469455
+L 320.468091 80.812364
+L 323.733818 79.155273
+L 326.999545 77.498182
+L 330.265273 75.841091
+L 333.531 74.184
+L 336.796727 72.526909
+L 340.062455 70.869818
+L 343.328182 69.212727
+L 346.593909 67.555636
+L 349.859636 65.898545
+L 353.125364 64.241455
+L 356.391091 62.584364
+L 359.656818 60.927273
+L 362.922545 59.270182
+L 366.188273 57.613091
+L 369.454 55.956
+L 372.719727 54.298909
+L 375.985455 52.641818
+L 379.251182 50.984727
+L 382.516909 49.327636
+L 385.782636 47.670545
+L 389.048364 46.013455
+L 392.314091 44.356364
+L 395.579818 42.699273
+L 398.845545 41.042182
+L 402.111273 39.385091
+L 405.377 37.728
+L 408.642727 36.070909
+L 411.908455 34.413818
+L 415.174182 32.756727
+L 418.439909 31.099636
+L 421.705636 29.442545
+L 424.971364 27.785455
+" clip-path="url(#pd07bf1aade)" style="fill: none; stroke: #bcaaff; stroke-width: 2.4; stroke-linecap: square"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 82.07 201.78
+L 441.3 201.78
+" style="fill: none; stroke: #31435d; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m8b0c03ac5c" d="M 0 3.162278
+C 0.838646 3.162278 1.643056 2.82908 2.236068 2.236068
+C 2.82908 1.643056 3.162278 0.838646 3.162278 0
+C 3.162278 -0.838646 2.82908 -1.643056 2.236068 -2.236068
+C 1.643056 -2.82908 0.838646 -3.162278 0 -3.162278
+C -0.838646 -3.162278 -1.643056 -2.82908 -2.236068 -2.236068
+C -2.82908 -1.643056 -3.162278 -0.838646 -3.162278 0
+C -3.162278 0.838646 -2.82908 1.643056 -2.236068 2.236068
+C -1.643056 2.82908 -0.838646 3.162278 0 3.162278
+z
+" style="stroke: #ffa698"/>
+    </defs>
+    <g clip-path="url(#pd07bf1aade)">
+     <use xlink:href="#m8b0c03ac5c" x="294.342273" y="94.069091" style="fill: #ffa698; stroke: #ffa698"/>
+    </g>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: start; fill: #a6b4cc" x="111.461545" y="44.446423" transform="rotate(-0 111.461545 44.446423)">外国の金利 = 5% · 予想為替レート = 0.92</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd07bf1aade">
+   <rect x="82.07" y="19.5" width="359.23" height="182.28"/>
+  </clipPath>
+ </defs>
+</svg>

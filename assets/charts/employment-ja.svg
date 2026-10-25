@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="460.8pt" height="259.2pt" viewBox="0 0 460.8 259.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-25T11:46:58.178415</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.7, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 259.2
+L 460.8 259.2
+L 460.8 0
+L 0 0
+L 0 259.2
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 69.92 201.78
+L 435.275455 201.78
+L 435.275455 19.5
+L 69.92 19.5
+L 69.92 201.78
+z
+" style="fill: none"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: middle; fill: #a6b4cc" x="86.527066" y="219.802188" transform="rotate(-0 86.527066 219.802188)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: middle; fill: #a6b4cc" x="155.723175" y="219.802188" transform="rotate(-0 155.723175 219.802188)">5</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: middle; fill: #a6b4cc" x="224.919284" y="219.802188" transform="rotate(-0 224.919284 219.802188)">10</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: middle; fill: #a6b4cc" x="294.115393" y="219.802188" transform="rotate(-0 294.115393 219.802188)">15</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: middle; fill: #a6b4cc" x="363.311501" y="219.802188" transform="rotate(-0 363.311501 219.802188)">20</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: middle; fill: #a6b4cc" x="432.50761" y="219.802188" transform="rotate(-0 432.50761 219.802188)">25</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: middle; fill: #a6b4cc" x="252.597727" y="236.489375" transform="rotate(-0 252.597727 236.489375)">月</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_7">
+      <path d="M 69.92 186.516572
+L 435.275455 186.516572
+" clip-path="url(#pcf784e31a7)" style="fill: none; stroke: #26364d; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_8">
+      <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: end; fill: #a6b4cc" x="61.92" y="191.527666" transform="rotate(-0 61.92 191.527666)">5</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_9">
+      <path d="M 69.92 154.770349
+L 435.275455 154.770349
+" clip-path="url(#pcf784e31a7)" style="fill: none; stroke: #26364d; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_9">
+      <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: end; fill: #a6b4cc" x="61.92" y="159.781443" transform="rotate(-0 61.92 159.781443)">6</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_11">
+      <path d="M 69.92 123.024125
+L 435.275455 123.024125
+" clip-path="url(#pcf784e31a7)" style="fill: none; stroke: #26364d; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_10">
+      <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: end; fill: #a6b4cc" x="61.92" y="128.035219" transform="rotate(-0 61.92 128.035219)">7</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_13">
+      <path d="M 69.92 91.277902
+L 435.275455 91.277902
+" clip-path="url(#pcf784e31a7)" style="fill: none; stroke: #26364d; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14"/>
+     <g id="text_11">
+      <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: end; fill: #a6b4cc" x="61.92" y="96.288995" transform="rotate(-0 61.92 96.288995)">8</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_15">
+      <path d="M 69.92 59.531678
+L 435.275455 59.531678
+" clip-path="url(#pcf784e31a7)" style="fill: none; stroke: #26364d; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16"/>
+     <g id="text_12">
+      <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: end; fill: #a6b4cc" x="61.92" y="64.542772" transform="rotate(-0 61.92 64.542772)">9</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_17">
+      <path d="M 69.92 27.785455
+L 435.275455 27.785455
+" clip-path="url(#pcf784e31a7)" style="fill: none; stroke: #26364d; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_18"/>
+     <g id="text_13">
+      <text style="font-size: 13px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: end; fill: #a6b4cc" x="61.92" y="32.796548" transform="rotate(-0 61.92 32.796548)">10</text>
+     </g>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 12px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: middle; fill: #a6b4cc" x="29.962813" y="110.64" transform="rotate(-90 29.962813 110.64)">失業率 · 労働力に占める%</text>
+    </g>
+   </g>
+   <g id="line2d_19">
+    <path d="M 86.527066 27.785455
+L 100.366288 62.7063
+L 114.20551 90.293769
+L 128.044731 112.087869
+L 141.883953 129.305208
+L 155.723175 142.906905
+L 169.562397 153.652247
+L 183.401618 162.141066
+L 197.24084 168.847234
+L 211.080062 174.145106
+L 224.919284 178.330425
+L 238.758506 181.636827
+L 252.597727 184.248885
+L 266.436949 186.31241
+L 280.276171 187.942596
+L 294.115393 189.230442
+L 307.954614 190.247841
+L 321.793836 191.051585
+L 335.633058 191.686544
+L 349.47228 192.188161
+L 363.311501 192.584439
+L 377.150723 192.897498
+L 390.989945 193.144815
+L 404.829167 193.340195
+L 418.668388 193.494545
+" clip-path="url(#pcf784e31a7)" style="fill: none; stroke: #8dcaff; stroke-width: 2.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_20">
+    <path d="M 69.92 194.075197
+L 435.275455 194.075197
+" clip-path="url(#pcf784e31a7)" style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #ffa698; stroke-width: 1.5"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 69.92 201.78
+L 435.275455 201.78
+" style="fill: none; stroke: #31435d; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="legend_1">
+    <g id="line2d_21">
+     <path d="M 280.884205 35.35125
+L 292.884205 35.35125
+L 304.884205 35.35125
+" style="fill: none; stroke: #8dcaff; stroke-width: 2.5; stroke-linecap: square"/>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 12px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: start; fill: #a6b4cc" x="314.484205" y="39.55125" transform="rotate(-0 314.484205 39.55125)">ショックの後</text>
+    </g>
+    <g id="line2d_22">
+     <path d="M 280.884205 53.0625
+L 292.884205 53.0625
+L 304.884205 53.0625
+" style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #ffa698; stroke-width: 1.5"/>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 12px; font-family: Arial, 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', sans-serif; text-anchor: start; fill: #a6b4cc" x="314.484205" y="57.2625" transform="rotate(-0 314.484205 57.2625)">自然失業率：4.76%</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pcf784e31a7">
+   <rect x="69.92" y="19.5" width="365.355455" height="182.28"/>
+  </clipPath>
+ </defs>
+</svg>

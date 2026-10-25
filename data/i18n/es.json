@@ -1,0 +1,343 @@
+{
+ "lang": "es",
+ "page_title": "Explora el libro",
+ "page_description": "Explora la macroeconomía con datos reales, modelos interactivos, cuadernos de Python y pódcasts de IA. Un complemento de Carlos Mendez.",
+ "brand_title": "Ciencia de Datos y Macroeconomía",
+ "slides": [
+  {
+   "id": "growth",
+   "topic": "Crecimiento de largo plazo",
+   "question": "¿Por qué algunos países<br>son mucho más ricos?",
+   "description": "Empieza por las diferencias en el nivel de vida. Luego pregúntate qué pueden explicar el capital, las ideas y las instituciones.",
+   "chapter": "ch03",
+   "source": "Datos · Proyecto Maddison · 1950–2022",
+   "alt": "PIB por persona de Estados Unidos, Japón, China e India de 1950 a 2022."
+  },
+  {
+   "id": "recessions",
+   "topic": "Ciclos económicos",
+   "question": "¿Por qué las economías<br>caen en recesión?",
+   "description": "Sigue la producción a través de las crisis financieras y la pandemia. Mira cuánto puede alejarse una economía de su potencial.",
+   "chapter": "ch10",
+   "source": "Datos · Brecha del producto de EE. UU. · BEA / CBO vía FRED",
+   "alt": "Producción de Estados Unidos en relación con su potencial, incluidas la crisis financiera y la pandemia."
+  },
+  {
+   "id": "inflation",
+   "topic": "Precios y poder adquisitivo",
+   "question": "¿Qué impulsa<br>la inflación?",
+   "description": "Recorre la historia del alza de precios y luego conecta el dinero, las expectativas y la política con la tasa de inflación.",
+   "chapter": "ch08",
+   "source": "Datos · Inflación del IPC de EE. UU. · FRED",
+   "alt": "Inflación anual de los precios al consumidor en Estados Unidos de 1960 a 2025."
+  },
+  {
+   "id": "employment",
+   "topic": "El mercado de trabajo",
+   "question": "¿Por qué persiste<br>el desempleo?",
+   "description": "Incluso en una economía que crece, se crean y se pierden empleos. Un modelo sencillo de flujos explica una tasa natural persistente.",
+   "chapter": "ch07",
+   "source": "Modelo · Separación del empleo 1 % · búsqueda exitosa 20 % / mes",
+   "alt": "El desempleo converge del 10 % a una tasa natural del 4,76 % en 24 meses."
+  },
+  {
+   "id": "policy",
+   "topic": "Política de estabilización",
+   "question": "¿Cómo puede la política<br>estabilizar la economía?",
+   "description": "Reúne la inflación y la producción en un solo diagrama. Explora las disyuntivas que enfrentan los bancos centrales tras un choque.",
+   "chapter": "ch13",
+   "source": "Modelo · OA/DA · parámetros base del libro",
+   "alt": "La oferta y la demanda agregadas se cruzan con una brecha del producto nula y una inflación del 2 %."
+  },
+  {
+   "id": "global",
+   "topic": "La economía global",
+   "question": "¿Cómo conectan el comercio y los<br>tipos de cambio a las economías?",
+   "description": "Sigue los precios y las tasas de interés a través de las fronteras. Explora cómo las conexiones internacionales transforman las decisiones internas.",
+   "chapter": "ch20",
+   "source": "Modelo · Paridad no cubierta de intereses · horizonte de un año",
+   "alt": "El tipo de cambio sube con la tasa de interés interna, manteniendo fijas la tasa de interés extranjera y el tipo de cambio esperado."
+  }
+ ],
+ "slide_aria": "{n} de 6: {topic}",
+ "explore_chapter": "Explora el capítulo {n}",
+ "topic_labels": [
+  "Crecimiento",
+  "Recesiones",
+  "Inflación",
+  "Empleo",
+  "Política",
+  "Global"
+ ],
+ "show_question": "Mostrar la pregunta {n}: {label}",
+ "hero_html": "<section class=\"hero\" aria-labelledby=\"page-title\"><div class=\"hero-orbit\" aria-hidden=\"true\"></div><div class=\"shell hero-grid\"><div class=\"hero-copy\"><p class=\"eyebrow\"><span class=\"status-dot\"></span> UNA GUÍA DE CAMPO DE TODA LA ECONOMÍA</p><h1 id=\"page-title\">Ciencia de Datos<br><span>y Macroeconomía.</span></h1><p class=\"hero-hook\">Encuentra los hechos.<br>Explica la economía.</p><p class=\"hero-description\">¿Por qué sube el nivel de vida? ¿Qué causa las recesiones y la inflación? Explora los datos, pon los modelos a trabajar y hazte mejores preguntas, con Python e IA.</p><div class=\"actions\"><a class=\"button primary\" href=\"{ch1}\">Empieza por el capítulo 1 <span aria-hidden=\"true\">↗</span></a><a class=\"text-link\" href=\"#curriculum\">Explora todos los capítulos <span aria-hidden=\"true\">↓</span></a></div><p class=\"hero-welcome\">Un complemento en Python para la macroeconomía intermedia.</p></div><div class=\"hero-author\"><img src=\"https://github.com/cmg777.png\" alt=\"Carlos Mendez\" width=\"72\" height=\"72\"><div><p>Un proyecto de aprendizaje de <a href=\"https://carlos-mendez.org/\">Carlos Mendez</a></p><p>Un complemento de <a href=\"https://web.stanford.edu/~chadj/macrobook.html\" target=\"_blank\" rel=\"noopener\"><em>Macroeconomics</em></a><br>de <a href=\"https://web.stanford.edu/~chadj/\" target=\"_blank\" rel=\"noopener\">Charles I. Jones</a> · 6.ª edición.</p></div></div><div class=\"question-deck\" role=\"region\" aria-roledescription=\"carrusel\" aria-label=\"Seis grandes preguntas de la macroeconomía\"><div class=\"deck-header\"><span>SEIS GRANDES PREGUNTAS</span><span id=\"slide-count\">01 / 06</span></div><div class=\"slides\">{slides}</div><div class=\"carousel-controls\"><div class=\"question-selectors\" aria-label=\"Elige un tema\">{selectors}</div><div class=\"transport\"><button id=\"previous-slide\" aria-label=\"Pregunta anterior\">←</button><button id=\"pause-slides\" aria-label=\"Pausar la rotación automática\" aria-pressed=\"false\">Ⅱ Pausa</button><button id=\"next-slide\" aria-label=\"Pregunta siguiente\">→</button><span id=\"rotation-status\">Cambia cada 10 segundos</span></div></div></div></div><div class=\"shell hero-bottom\"><p><strong>21</strong> capítulos <span>/</span> <strong>9</strong> apéndices <span>/</span> Aprende haciendo</p><a href=\"#pathways\">De los datos a la comprensión <span aria-hidden=\"true\">↓</span></a></div></section>",
+ "pillars_html": "<section class=\"section shell learning-path\" id=\"pathways\" aria-labelledby=\"pillars-title\"><div class=\"section-heading\"><p class=\"eyebrow\">TRES PILARES. UN ENFOQUE CONECTADO.</p><h2 id=\"pillars-title\">De la evidencia<br>a la explicación.</h2><p>Encuentra un patrón. Construye una explicación.<br>Usa la IA para ir más lejos, y comprueba cada paso.</p></div><ol class=\"pillars\"><li><span class=\"large-number\">01 / CIENCIA DE DATOS</span><h3>De los datos a los hechos</h3><p>Descarga, grafica y explora datos económicos reales. Compara países y periodos para descubrir qué patrones se mantienen y qué preguntas hacer después.</p><a href=\"data-apps.html\">Explora las Apps de datos <span aria-hidden=\"true\">↗</span></a></li><li><span class=\"large-number\">02 / MODELOS MACROECONÓMICOS</span><h3>De los hechos a los modelos</h3><p>Maneja los modelos que explican los hechos. Mueve un deslizador, cambia un parámetro y compara la predicción con lo que muestran los datos.</p><a href=\"figure-apps.html\">Explora las Apps de figuras <span aria-hidden=\"true\">↗</span></a></li><li><span class=\"large-number\">03 / APRENDIZAJE CON IA</span><h3>Aprendizaje impulsado por IA</h3><p>Trabaja con un asistente de IA en Colab, ve la visión de conjunto en mapas mentales y diapositivas, y aprende cambiando el código. Usa la IA, pero comprueba sus respuestas.</p><a href=\"https://quarcs-lab.github.io/macro102-site/notebooks/appA-google-colab-and-ai-powered-python.html\">Empieza con Python e IA <span aria-hidden=\"true\">↗</span></a></li></ol></section>",
+ "viewer_html": "<dialog id=\"mindmap-viewer\" aria-labelledby=\"mindmap-title\"><div class=\"viewer-bar\"><h2 id=\"mindmap-title\">Mapa mental del capítulo</h2><div><a id=\"mindmap-original\" target=\"_blank\" rel=\"noopener\">Abrir original ↗</a><button type=\"button\" id=\"close-mindmap\" aria-label=\"Cerrar el mapa mental\">×</button></div></div><div class=\"viewer-image\"><img id=\"mindmap-image\" alt=\"\"></div><p id=\"mindmap-status\" role=\"status\"></p></dialog>",
+ "chrome": {
+  "skip": "Saltar al contenido",
+  "nav": [
+   "Inicio",
+   "Libro",
+   "Pódcasts de IA",
+   "Tutores de IA",
+   "Apps de datos",
+   "Apps de figuras"
+  ],
+  "nav_aria": "Navegación principal",
+  "brand_html": "Ciencia de Datos <span class=\"brand-second\">y Macroeconomía</span>",
+  "theme_aria": "Cambiar al tema claro",
+  "theme_title": "Cambiar el tema",
+  "menu": "Menú",
+  "footer_tagline": "Un complemento en Python para la macroeconomía intermedia.",
+  "footer_by": "Por",
+  "read_book": "Lee el libro ↗",
+  "source_github": "Código en GitHub ↗",
+  "report_issue": "Informar de un problema ↗",
+  "credit_html": "Complemento de <a href=\"https://web.stanford.edu/~chadj/\" target=\"_blank\" rel=\"noopener\">Charles I. Jones</a>, <a href=\"https://web.stanford.edu/~chadj/macrobook.html\" target=\"_blank\" rel=\"noopener\"><em>Macroeconomics</em></a> (6.ª ed., 2024). Proyecto educativo independiente; no está afiliado al autor ni a la editorial. Ilustraciones originales del sitio generadas con IA.",
+  "license": "https://creativecommons.org/licenses/by-nc/4.0/deed.es"
+ },
+ "curriculum_heading_html": "<p class=\"eyebrow\">EL CURRÍCULO COMPLETO</p><h2 id=\"curriculum-title\">Entiende la economía.<br><span>Una pregunta a la vez.</span></h2></div><p>Sigue los capítulos en orden o empieza por la pregunta que tengas en mente. Lee, programa, explora o escucha: cada capítulo te ofrece una manera de entrar.</p>",
+ "search_label": "Buscar en {label}",
+ "search_target": "el currículo",
+ "search_placeholder": "Prueba crecimiento, inflación o capítulo 7…",
+ "topic_label": "Tema",
+ "all_topics": "Todos los temas",
+ "card": {
+  "read_chapter": "Leer el capítulo",
+  "read_appendix": "Leer el apéndice",
+  "open_notebook": "Abrir el cuaderno de IA",
+  "slides": "Diapositivas",
+  "data_apps": "Apps de datos",
+  "figure_apps": "Apps de figuras",
+  "start_here": "Empieza aquí",
+  "enlarge": "Ampliar el mapa mental del {label}",
+  "map_alt": "Mapa mental del {label}: {title}",
+  "map_caption": "Explora el mapa del capítulo",
+  "chapter_label": "Capítulo {n}",
+  "appendix_label": "Apéndice {n}"
+ },
+ "appendices_summary_html": "<strong>Nueve apéndices</strong><small>Python, datos, herramientas matemáticas y extensiones de investigación</small>",
+ "empty": "Ningún capítulo o apéndice coincide. Prueba otra búsqueda u otro tema.",
+ "curriculum_credit": "Cada capítulo y cada apéndice tiene un mapa mental y diapositivas de clase. Los 21 capítulos tienen pódcasts generados con IA. Solo esta página está traducida: los capítulos, las apps y los pódcasts están en inglés.",
+ "listen": "Escucha el pódcast (en inglés)",
+ "groups": {
+  "Foundations": "Fundamentos",
+  "Long-run growth": "Crecimiento de largo plazo",
+  "Labor & inflation": "Trabajo e inflación",
+  "Business cycles & policy": "Ciclos económicos y política",
+  "Decisions & the global economy": "Decisiones y economía global",
+  "Appendices": "Apéndices"
+ },
+ "titles": {
+  "ch01": "Introducción a la macroeconomía",
+  "ch02": "La medición de la macroeconomía",
+  "ch03": "Panorama del crecimiento económico de largo plazo",
+  "ch04": "Un modelo de producción",
+  "ch05": "El modelo de crecimiento de Solow",
+  "ch06": "El crecimiento y las ideas",
+  "ch07": "El mercado de trabajo, los salarios y el desempleo",
+  "ch08": "La inflación",
+  "ch09": "Introducción al corto plazo",
+  "ch10": "La Gran Recesión y la pandemia de Covid-19: una primera mirada",
+  "ch11": "La curva IS",
+  "ch12": "La política monetaria y la curva de Phillips",
+  "ch13": "La política de estabilización y el marco OA/DA",
+  "ch14": "Las crisis financieras y el modelo de corto plazo",
+  "ch15": "Modelos DSGE: la frontera de la investigación sobre los ciclos económicos",
+  "ch16": "El consumo",
+  "ch17": "La inversión",
+  "ch18": "El gobierno y la macroeconomía",
+  "ch19": "El comercio internacional",
+  "ch20": "Los tipos de cambio y las finanzas internacionales",
+  "ch21": "Reflexiones finales",
+  "appA": "Google Colab y Python impulsado por IA",
+  "appB": "Acceso a datos macroeconómicos con Python",
+  "appC": "Repaso de matemáticas para macroeconomía",
+  "appD": "Contabilidad del crecimiento y del desarrollo",
+  "appE": "Crecimiento y convergencia entre países",
+  "appF": "El modelo de crecimiento de Solow aumentado",
+  "appG": "Crecimiento e instituciones",
+  "appH": "Modelación DSGE con Python",
+  "appI": "El modelo DSGE de Smets y Wouters"
+ },
+ "curriculum": {
+  "ch01": {
+   "question": "¿Qué podemos aprender mirando la economía en su conjunto?",
+   "introduction": "Empieza por el ingreso, el empleo y los precios. Descubre cómo los economistas pasan de los hechos a los modelos y luego usan esos modelos para hacer nuevas preguntas."
+  },
+  "ch02": {
+   "question": "¿Cómo se mide toda una economía?",
+   "introduction": "Sigue la producción, el gasto y el ingreso a través de las cuentas nacionales. Aprende qué mide el PIB, cómo cambian los precios y qué dejan fuera las cifras principales."
+  },
+  "ch03": {
+   "question": "¿Cómo se volvió el mundo tanto más rico?",
+   "introduction": "Recorre el nivel de vida a través de países y siglos. Explora el poder del crecimiento compuesto y las enormes diferencias en el momento en que empezó el crecimiento sostenido."
+  },
+  "ch04": {
+   "question": "¿Por qué algunas economías producen tanto más?",
+   "introduction": "Construye un modelo de producción con capital, trabajo y productividad. Compara sus predicciones con los datos para ver qué parte de la brecha de ingreso puede explicar."
+  },
+  "ch05": {
+   "question": "¿Puede un país hacerse más rico ahorrando más?",
+   "introduction": "Maneja el modelo de Solow y observa cómo se acumula el capital. Explora los estados estacionarios, la dinámica de transición y los límites del crecimiento basado solo en la inversión."
+  },
+  "ch06": {
+   "question": "¿Qué mantiene en marcha el crecimiento económico?",
+   "introduction": "Muchas personas pueden usar una idea al mismo tiempo. Explora cómo esto cambia la economía de la producción y por qué la investigación puede sostener un nivel de vida cada vez más alto."
+  },
+  "ch07": {
+   "question": "¿Por qué hay personas desempleadas incluso cuando hay empleos?",
+   "introduction": "Conecta los salarios y el empleo con la oferta y la demanda de trabajo. Luego sigue a los trabajadores al entrar y salir de los empleos para entender el desempleo persistente."
+  },
+  "ch08": {
+   "question": "¿Por qué el dinero pierde su poder adquisitivo?",
+   "introduction": "Mide la inflación en los datos y conecta los precios con el dinero y la producción. Explora la teoría cuantitativa, las tasas de interés reales y los costos de la inflación."
+  },
+  "ch09": {
+   "question": "¿Por qué la economía tiene altibajos?",
+   "introduction": "Separa la trayectoria de largo plazo de la producción de las fluctuaciones de corto plazo. Usa datos de producción, empleo e inflación para describir qué pasa en una recesión."
+  },
+  "ch10": {
+   "question": "¿Por qué fueron tan perturbadoras la crisis financiera y la pandemia?",
+   "introduction": "Compara dos recesiones muy distintas. Sigue la vivienda, los mercados financieros, la producción y el empleo para ver cómo se propagó cada choque por la economía."
+  },
+  "ch11": {
+   "question": "¿Cómo cambian las tasas de interés el gasto y la producción?",
+   "introduction": "Construye la curva IS a partir de la identidad del ingreso nacional. Cambia la demanda y el costo del crédito para ver por qué se mueve la producción de corto plazo."
+  },
+  "ch12": {
+   "question": "¿Cómo puede un banco central bajar la inflación?",
+   "introduction": "Conecta la política monetaria con las curvas IS y de Phillips. Sigue la trayectoria de la producción y la inflación cuando el banco central cambia la tasa de interés."
+  },
+  "ch13": {
+   "question": "¿Puede la política amortiguar un choque económico?",
+   "introduction": "Reúne el modelo de corto plazo en el diagrama OA/DA. Explora cómo las reglas de política, las expectativas y los distintos choques moldean el ajuste."
+  },
+  "ch14": {
+   "question": "¿Qué pasa cuando el sistema financiero deja de funcionar?",
+   "introduction": "Añade primas de riesgo y fricciones financieras al modelo de corto plazo. Examina cómo una crisis de crédito, la deflación y los límites de la política pueden agravar una recesión."
+  },
+  "ch15": {
+   "question": "¿Cómo explican los modelos modernos los ciclos económicos?",
+   "introduction": "Conoce a los agentes, los choques y las fricciones de los modelos DSGE. Explora cómo la productividad, los mercados de trabajo y los precios rígidos moldean la respuesta de la economía."
+  },
+  "ch16": {
+   "question": "¿Cómo deciden los hogares cuánto gastar hoy?",
+   "introduction": "Reparte el ingreso y la riqueza a lo largo de la vida. Usa un modelo de dos periodos para explorar la suavización del consumo, la paciencia y el papel de las tasas de interés."
+  },
+  "ch17": {
+   "question": "¿Qué hace que una nueva inversión valga la pena?",
+   "introduction": "Compara el rendimiento del capital con su costo. Conecta las decisiones de inversión de las empresas con las tasas de interés, los impuestos, los precios de las acciones y la vivienda."
+  },
+  "ch18": {
+   "question": "¿Cómo condicionan los déficits de hoy las decisiones de mañana?",
+   "introduction": "Sigue el gasto público, los impuestos y el endeudamiento a través de la restricción presupuestaria. Explora la dinámica de la deuda y las decisiones que implica financiar el gasto público."
+  },
+  "ch19": {
+   "question": "¿Por qué comercian los países y quién gana?",
+   "introduction": "Trabaja la ventaja comparativa y las ganancias del intercambio. Conecta la balanza comercial con el ahorro, la inversión y el endeudamiento con el resto del mundo."
+  },
+  "ch20": {
+   "question": "¿Qué mueve el valor de una moneda?",
+   "introduction": "Compara el poder adquisitivo entre países y los rendimientos entre monedas. Explora los tipos de cambio, las finanzas internacionales y la política en una economía abierta."
+  },
+  "ch21": {
+   "question": "¿Qué hemos aprendido y qué sigue sin resolverse?",
+   "introduction": "Reúne las lecciones principales del libro. Vuelve al nivel de vida, el crecimiento, la inflación y la estabilización, y luego piensa en las preguntas que la macroeconomía aún debe responder."
+  },
+  "appA": {
+   "question": "¿Cómo puedes hacer economía con Python e IA?",
+   "introduction": "Abre un cuaderno en Google Colab, ejecuta su código y hazlo tuyo. Aprende a pedirle ayuda a un asistente de IA y a comprobar las respuestas que te da."
+  },
+  "appB": {
+   "question": "¿Dónde encontrar los datos detrás de las preguntas?",
+   "introduction": "Descarga series macroeconómicas directamente con Python. Aprende a elegir fuentes, comparar definiciones y preparar los datos para el análisis."
+  },
+  "appC": {
+   "question": "¿Qué herramientas matemáticas hacen más claros los modelos?",
+   "introduction": "Repasa porcentajes, logaritmos, tasas de crecimiento y el álgebra detrás del libro. Conecta cada herramienta con las preguntas económicas que ayuda a responder."
+  },
+  "appD": {
+   "question": "¿Cuánto crecimiento viene de los insumos y cuánto de la productividad?",
+   "introduction": "Usa la contabilidad del crecimiento y del desarrollo para separar el capital, el trabajo y la productividad. Compara los cambios en el tiempo y las diferencias de nivel de vida entre países."
+  },
+  "appE": {
+   "question": "¿Están alcanzando los países pobres a los ricos?",
+   "introduction": "Deriva la convergencia a partir del modelo de Solow y luego ponla a prueba entre países. Compara las regresiones de crecimiento con los cambios en la dispersión del ingreso."
+  },
+  "appF": {
+   "question": "¿Explica el capital humano la brecha de ingreso?",
+   "introduction": "Añade la escolaridad al modelo de Solow. Reconstruye el análisis de Mankiw–Romer–Weil y compara sus resultados con datos internacionales más recientes."
+  },
+  "appG": {
+   "question": "¿Causan las mejores instituciones una mayor prosperidad?",
+   "introduction": "Revisa el estudio de Acemoglu–Johnson–Robinson. Explora por qué la correlación no basta y cómo se usan instrumentos históricos para estudiar las instituciones y el ingreso."
+  },
+  "appH": {
+   "question": "¿Cómo puedes construir y estimar un modelo DSGE?",
+   "introduction": "Usa Python y Snowdrop para escribir, resolver, simular y estimar modelos dinámicos. Deja que los datos ayuden a determinar los parámetros e inspecciona la respuesta a los choques."
+  },
+  "appI": {
+   "question": "¿Cómo responde una economía estimada a los choques?",
+   "introduction": "Trabaja con el modelo de Smets–Wouters en Python. Vuelve a calcular las respuestas al impulso y explora el papel de los salarios rígidos, los precios rígidos y la política monetaria."
+  }
+ },
+ "player": {
+  "episode": "{label} · {title}",
+  "mind_map_of": "Mapa mental del {label}",
+  "labels": {
+   ">⊕ Mind map<": ">⊕ Mapa mental<",
+   "Open image: ": "Abrir imagen: ",
+   " podcast study player\"": " · reproductor del pódcast\"",
+   " AI podcast · ": " Pódcast de IA en inglés · ",
+   ">Now: ": ">Ahora: ",
+   "Close the podcast player": "Cerrar el reproductor",
+   "Your browser does not support audio playback. You can read the transcript below.": "Tu navegador no puede reproducir el audio. Puedes leer la transcripción más abajo.",
+   "Seek in podcast": "Avanzar o retroceder en el pódcast",
+   "Back 15 seconds": "Retroceder 15 segundos",
+   "Play podcast": "Reproducir el pódcast",
+   "Forward 30 seconds": "Avanzar 30 segundos",
+   "Playback speed: 1×. Click to change": "Velocidad: 1×. Haz clic para cambiarla",
+   "Episode sections": "Secciones del episodio",
+   "<span>Read along</span>": "<span>Leer a la par</span>",
+   "Open Transcript": "Abrir la transcripción",
+   "Listen on Spotify": "Escuchar en Spotify",
+   " (opens in a new tab)": " (se abre en una pestaña nueva)",
+   "Timed transcript. Select a passage to seek.": "Transcripción sincronizada. Elige un pasaje para ir a él.",
+   "> Follow audio<": "> Seguir el audio<",
+   " podcast\">": " · pódcast\">"
+  }
+ },
+ "js": {
+  "theme": "Cambiar al tema {mode}",
+  "light": "claro",
+  "dark": "oscuro",
+  "count": "{n} de {total} recursos",
+  "map_alt": "Mapa mental del {title}",
+  "map_loading": "Cargando el mapa mental en alta resolución…",
+  "map_error": "No se pudo cargar el mapa mental. Usa Abrir original para ver la imagen de origen.",
+  "reduced_motion": "La rotación automática está desactivada porque el movimiento reducido está activado",
+  "play": "▶ Reproducir",
+  "pause": "Ⅱ Pausa",
+  "rotation_off": "Rotación automática desactivada",
+  "rotation_paused": "Rotación automática en pausa",
+  "rotation_on": "Cambia cada 10 segundos",
+  "start_rotation": "Iniciar la rotación automática",
+  "pause_rotation": "Pausar la rotación automática",
+  "player": {
+   "read_along": "Leer a la par",
+   "hide_transcript": "Ocultar la transcripción",
+   "now_part": "Ahora: Parte $1 · $2",
+   "now": "Ahora: $1",
+   "part": "Parte $1 · $2",
+   "error_play": "No se pudo reproducir el audio. Inténtalo de nuevo. También puedes abrir la transcripción.",
+   "error_audio": "El audio no está disponible. Aún puedes abrir la transcripción o escuchar en Spotify.",
+   "error_transcript": "La transcripción interactiva no está disponible. Aún puedes escuchar, abrir la transcripción o escuchar en Spotify con los enlaces de abajo.",
+   "play": "Reproducir el pódcast",
+   "pause": "Pausar el pódcast",
+   "speed": "Velocidad: $1×. Haz clic para cambiarla",
+   "of": "$1 de $2"
+  }
+ },
+ "source_sha256": "bc3c90ab35e6bee0441c484effaea6fbde0e324e41d67b14a689568ca2755d4e"
+}

@@ -1,0 +1,344 @@
+{
+ "lang": "ja",
+ "page_title": "本を探索する",
+ "page_description": "実際のデータ、インタラクティブなモデル、Pythonノートブック、AIポッドキャストでマクロ経済学を探索しましょう。Carlos Mendezによるコンパニオンです。",
+ "brand_title": "データサイエンスとマクロ経済学",
+ "slides": [
+  {
+   "id": "growth",
+   "topic": "長期の成長",
+   "question": "なぜ一部の国は<br>はるかに豊かなのでしょうか？",
+   "description": "まず生活水準の違いから始めましょう。そのうえで、資本、アイデア、制度が何を説明できるかを問います。",
+   "chapter": "ch03",
+   "source": "データ · Maddison Project · 1950–2022年",
+   "alt": "1950年から2022年までのアメリカ、日本、中国、インドの一人あたりGDP。"
+  },
+  {
+   "id": "recessions",
+   "topic": "景気循環",
+   "question": "なぜ経済は<br>不況に陥るのでしょうか？",
+   "description": "金融危機とコロナ禍を通して産出の動きを追いましょう。経済が潜在水準からどこまで離れうるかが分かります。",
+   "chapter": "ch10",
+   "source": "データ · アメリカのGDPギャップ · BEA / CBO（FRED経由）",
+   "alt": "金融危機とコロナ禍を含む、潜在産出に対するアメリカの産出。"
+  },
+  {
+   "id": "inflation",
+   "topic": "物価と購買力",
+   "question": "インフレを<br>引き起こすものは？",
+   "description": "物価上昇の歴史をたどり、貨幣、期待、政策をインフレ率と結びつけましょう。",
+   "chapter": "ch08",
+   "source": "データ · アメリカのCPIインフレ率 · FRED",
+   "alt": "1960年から2025年までのアメリカの消費者物価の年間インフレ率。"
+  },
+  {
+   "id": "employment",
+   "topic": "労働市場",
+   "question": "なぜ失業は<br>なくならないのでしょうか？",
+   "description": "成長している経済でも、仕事は生まれては失われます。単純なフローのモデルが、なくならない自然失業率を説明します。",
+   "chapter": "ch07",
+   "source": "モデル · 離職率 1% · 就職率 20% / 月",
+   "alt": "失業率は24か月で10%から自然失業率4.76%へ収束する。"
+  },
+  {
+   "id": "policy",
+   "topic": "安定化政策",
+   "question": "政策は経済を<br>安定させられるでしょうか？",
+   "description": "インフレと産出を一つの図にまとめましょう。ショックの後に中央銀行が直面するトレードオフを探ります。",
+   "chapter": "ch13",
+   "source": "モデル · AS/AD · 本書の基準パラメータ",
+   "alt": "総供給と総需要は、GDPギャップがゼロ、インフレ率2%の点で交わる。"
+  },
+  {
+   "id": "global",
+   "topic": "世界経済",
+   "question": "貿易と為替レートは<br>経済をどう結びつけるのでしょうか？",
+   "description": "国境を越える物価と金利を追いましょう。国際的なつながりが国内の選択をどう変えるかを探ります。",
+   "chapter": "ch20",
+   "source": "モデル · カバーなし金利平価 · 1年の期間",
+   "alt": "外国の金利と予想為替レートを一定とすると、為替レートは国内金利とともに上昇する。"
+  }
+ ],
+ "slide_aria": "{n} / 6：{topic}",
+ "explore_chapter": "第{n}章を探索する",
+ "topic_labels": [
+  "成長",
+  "不況",
+  "インフレ",
+  "雇用",
+  "政策",
+  "世界"
+ ],
+ "show_question": "問い{n}を表示：{label}",
+ "hero_html": "<section class=\"hero\" aria-labelledby=\"page-title\"><div class=\"hero-orbit\" aria-hidden=\"true\"></div><div class=\"shell hero-grid\"><div class=\"hero-copy\"><p class=\"eyebrow\"><span class=\"status-dot\"></span> 経済全体を歩くためのフィールドガイド</p><h1 id=\"page-title\">データサイエンス<br><span>とマクロ経済学。</span></h1><p class=\"hero-hook\">事実を見つける。<br>経済を説明する。</p><p class=\"hero-description\">なぜ生活水準は上がるのでしょうか。不況やインフレの原因は何でしょうか。データを探索し、モデルを動かし、よりよい問いを立てましょう。PythonとAIと一緒に。</p><div class=\"actions\"><a class=\"button primary\" href=\"{ch1}\">第1章から始める <span aria-hidden=\"true\">↗</span></a><a class=\"text-link\" href=\"#curriculum\">すべての章を見る <span aria-hidden=\"true\">↓</span></a></div><p class=\"hero-welcome\">中級マクロ経済学のためのPythonコンパニオン。</p></div><div class=\"hero-author\"><img src=\"https://github.com/cmg777.png\" alt=\"Carlos Mendez\" width=\"72\" height=\"72\"><div><p><a href=\"https://carlos-mendez.org/\">Carlos Mendez</a>による学習プロジェクト</p><p><a href=\"https://web.stanford.edu/~chadj/\" target=\"_blank\" rel=\"noopener\">Charles I. Jones</a>著<br><a href=\"https://web.stanford.edu/~chadj/macrobook.html\" target=\"_blank\" rel=\"noopener\"><em>Macroeconomics</em></a>（第6版）のコンパニオン。</p></div></div><div class=\"question-deck\" role=\"region\" aria-roledescription=\"カルーセル\" aria-label=\"マクロ経済学の六つの大きな問い\"><div class=\"deck-header\"><span>六つの大きな問い</span><span id=\"slide-count\">01 / 06</span></div><div class=\"slides\">{slides}</div><div class=\"carousel-controls\"><div class=\"question-selectors\" aria-label=\"テーマを選ぶ\">{selectors}</div><div class=\"transport\"><button id=\"previous-slide\" aria-label=\"前の問い\">←</button><button id=\"pause-slides\" aria-label=\"自動切り替えを一時停止\" aria-pressed=\"false\">Ⅱ 一時停止</button><button id=\"next-slide\" aria-label=\"次の問い\">→</button><span id=\"rotation-status\">10秒ごとに切り替わります</span></div></div></div></div><div class=\"shell hero-bottom\"><p><strong>21</strong>の章 <span>/</span> <strong>9</strong>の付録 <span>/</span> 手を動かして学ぶ</p><a href=\"#pathways\">データから理解へ <span aria-hidden=\"true\">↓</span></a></div></section>",
+ "pillars_html": "<section class=\"section shell learning-path\" id=\"pathways\" aria-labelledby=\"pillars-title\"><div class=\"section-heading\"><p class=\"eyebrow\">三つの柱、一つにつながったアプローチ</p><h2 id=\"pillars-title\">証拠から<br>説明へ。</h2><p>パターンを見つけ、説明を組み立てる。<br>AIでさらに先へ進み、すべての段階を確かめましょう。</p></div><ol class=\"pillars\"><li><span class=\"large-number\">01 / データサイエンス</span><h3>データから事実へ</h3><p>実際の経済データをダウンロードし、グラフにし、探索しましょう。国や期間を比べて、どのパターンが成り立ち、次にどんな問いを立てるべきかを見つけます。</p><a href=\"data-apps.html\">データアプリを見る <span aria-hidden=\"true\">↗</span></a></li><li><span class=\"large-number\">02 / マクロ経済モデル</span><h3>事実からモデルへ</h3><p>事実を説明するモデルを動かしましょう。スライダーを動かし、パラメータを変えて、予測をデータと比べます。</p><a href=\"figure-apps.html\">図表アプリを見る <span aria-hidden=\"true\">↗</span></a></li><li><span class=\"large-number\">03 / AIを活用した学習</span><h3>AIを活用した学習</h3><p>ColabでAIアシスタントと一緒に作業し、マインドマップとスライドで全体像をつかみ、コードを変えながら学びましょう。AIを使っても、答えは必ず確かめましょう。</p><a href=\"https://quarcs-lab.github.io/macro102-site/notebooks/appA-google-colab-and-ai-powered-python.html\">PythonとAIから始める <span aria-hidden=\"true\">↗</span></a></li></ol></section>",
+ "viewer_html": "<dialog id=\"mindmap-viewer\" aria-labelledby=\"mindmap-title\"><div class=\"viewer-bar\"><h2 id=\"mindmap-title\">章のマインドマップ</h2><div><a id=\"mindmap-original\" target=\"_blank\" rel=\"noopener\">元の画像を開く ↗</a><button type=\"button\" id=\"close-mindmap\" aria-label=\"マインドマップを閉じる\">×</button></div></div><div class=\"viewer-image\"><img id=\"mindmap-image\" alt=\"\"></div><p id=\"mindmap-status\" role=\"status\"></p></dialog>",
+ "chrome": {
+  "skip": "本文へ移動",
+  "nav": [
+   "ホーム",
+   "本",
+   "AIポッドキャスト",
+   "AIチューター",
+   "データアプリ",
+   "図表アプリ"
+  ],
+  "nav_aria": "メインナビゲーション",
+  "brand_html": "データサイエンス<span class=\"brand-second\">とマクロ経済学</span>",
+  "theme_aria": "ライトテーマに切り替える",
+  "theme_title": "テーマを切り替える",
+  "menu": "メニュー",
+  "footer_tagline": "中級マクロ経済学のためのPythonコンパニオン。",
+  "footer_by": "著者：",
+  "read_book": "本を読む ↗",
+  "source_github": "GitHubのソース ↗",
+  "report_issue": "問題を報告する ↗",
+  "credit_html": "<a href=\"https://web.stanford.edu/~chadj/\" target=\"_blank\" rel=\"noopener\">Charles I. Jones</a>著 <a href=\"https://web.stanford.edu/~chadj/macrobook.html\" target=\"_blank\" rel=\"noopener\"><em>Macroeconomics</em></a>（第6版、2024年）のコンパニオンです。独立した教育プロジェクトであり、著者や出版社とは関係ありません。サイトのオリジナルのイラストはAIで生成しています。",
+  "license": "https://creativecommons.org/licenses/by-nc/4.0/deed.ja"
+ },
+ "curriculum_heading_html": "<p class=\"eyebrow\">すべてのカリキュラム</p><h2 id=\"curriculum-title\">経済を理解しよう。<br><span>一度に一つの問いから。</span></h2></div><p>章を順番に進めても、気になる問いから始めてもかまいません。読む、コードを書く、探索する、聴く。どの章にも入り口があります。</p>",
+ "search_label": "{label}を検索",
+ "search_target": "カリキュラム",
+ "search_placeholder": "例：成長、インフレ、第7章…",
+ "topic_label": "テーマ",
+ "all_topics": "すべてのテーマ",
+ "card": {
+  "read_chapter": "章を読む",
+  "read_appendix": "付録を読む",
+  "open_notebook": "AIノートブックを開く",
+  "slides": "スライド",
+  "data_apps": "データアプリ",
+  "figure_apps": "図表アプリ",
+  "start_here": "ここから始める",
+  "enlarge": "{label}のマインドマップを拡大",
+  "map_alt": "{label}「{title}」のマインドマップ",
+  "map_caption": "章のマップを見る",
+  "chapter_label": "第{n}章",
+  "appendix_label": "付録{n}"
+ },
+ "appendices_summary_html": "<strong>九つの付録</strong><small>Python、データ、数学の道具、研究への発展</small>",
+ "empty": "一致する章や付録はありません。別の検索語やテーマを試してください。",
+ "curriculum_credit": "すべての章と付録に、マインドマップと講義スライドがあります。全21章にAIで生成したポッドキャストがあります。日本語に翻訳されているのはこのページだけで、各章、アプリ、ポッドキャストは英語です。",
+ "listen": "ポッドキャストを聴く（英語）",
+ "groups": {
+  "Foundations": "基礎",
+  "Long-run growth": "長期の成長",
+  "Labor & inflation": "労働とインフレ",
+  "Business cycles & policy": "景気循環と政策",
+  "Decisions & the global economy": "意思決定と世界経済",
+  "Appendices": "付録"
+ },
+ "titles": {
+  "ch01": "マクロ経済学入門",
+  "ch02": "マクロ経済の測定",
+  "ch03": "長期の経済成長の概観",
+  "ch04": "生産のモデル",
+  "ch05": "ソロー成長モデル",
+  "ch06": "成長とアイデア",
+  "ch07": "労働市場、賃金、失業",
+  "ch08": "インフレ",
+  "ch09": "短期入門",
+  "ch10": "大不況とコロナ禍：最初の考察",
+  "ch11": "IS曲線",
+  "ch12": "金融政策とフィリップス曲線",
+  "ch13": "安定化政策とAS/ADの枠組み",
+  "ch14": "金融危機と短期モデル",
+  "ch15": "DSGEモデル：景気循環研究の最前線",
+  "ch16": "消費",
+  "ch17": "投資",
+  "ch18": "政府とマクロ経済",
+  "ch19": "国際貿易",
+  "ch20": "為替レートと国際金融",
+  "ch21": "おわりに",
+  "appA": "Google ColabとAIを活用したPython",
+  "appB": "Pythonによるマクロ経済データへのアクセス",
+  "appC": "マクロ経済学のための数学の復習",
+  "appD": "成長会計と開発会計",
+  "appE": "国々の成長と収束",
+  "appF": "拡張ソロー成長モデル",
+  "appG": "成長と制度",
+  "appH": "PythonによるDSGEモデル分析",
+  "appI": "Smets–WoutersのDSGEモデル"
+ },
+ "curriculum": {
+  "ch01": {
+   "question": "経済全体を見ると、何が分かるのでしょうか？",
+   "introduction": "所得、仕事、物価から始めましょう。経済学者が事実からモデルへ進み、そのモデルを使って新しい問いを立てる方法を学びます。"
+  },
+  "ch02": {
+   "question": "経済全体はどのように測るのでしょうか？",
+   "introduction": "国民経済計算を通して、生産、支出、所得を追いましょう。GDPが何を測るのか、物価がどう変わるのか、主要な数字が何を見落としているのかを学びます。"
+  },
+  "ch03": {
+   "question": "世界はどのようにして、これほど豊かになったのでしょうか？",
+   "introduction": "国々と何世紀にもわたる生活水準をたどりましょう。複利の力と、持続的な成長が始まった時期の大きな違いを探ります。"
+  },
+  "ch04": {
+   "question": "なぜ一部の経済は、はるかに多く生産できるのでしょうか？",
+   "introduction": "資本、労働、生産性から生産のモデルを組み立てましょう。その予測をデータと比べ、所得格差のどれだけを説明できるかを確かめます。"
+  },
+  "ch05": {
+   "question": "もっと貯蓄すれば、国は豊かになれるのでしょうか？",
+   "introduction": "ソロー・モデルを動かし、資本が蓄積する様子を見ましょう。定常状態、移行過程、投資だけに頼る成長の限界を探ります。"
+  },
+  "ch06": {
+   "question": "経済成長を続けさせるものは何でしょうか？",
+   "introduction": "アイデアは多くの人が同時に使えます。それが生産の経済学をどう変えるのか、そして研究がなぜ生活水準の上昇を支え続けられるのかを探ります。"
+  },
+  "ch07": {
+   "question": "仕事があるのに、なぜ失業している人がいるのでしょうか？",
+   "introduction": "賃金と雇用を労働の需要と供給に結びつけましょう。そのうえで、労働者が仕事に就き、離れる流れを追い、なくならない失業を理解します。"
+  },
+  "ch08": {
+   "question": "なぜお金は購買力を失うのでしょうか？",
+   "introduction": "データでインフレを測り、物価を貨幣と産出に結びつけましょう。貨幣数量説、実質金利、インフレのコストを探ります。"
+  },
+  "ch09": {
+   "question": "なぜ経済には浮き沈みがあるのでしょうか？",
+   "introduction": "産出の長期的な経路と短期的な変動を分けましょう。産出、雇用、インフレのデータを使って、不況のときに何が起こるかを説明します。"
+  },
+  "ch10": {
+   "question": "金融危機とコロナ禍は、なぜあれほど大きな混乱を招いたのでしょうか？",
+   "introduction": "まったく異なる二つの景気後退を比べましょう。住宅、金融市場、産出、雇用をたどり、それぞれのショックが経済にどう広がったかを見ます。"
+  },
+  "ch11": {
+   "question": "金利は支出と産出をどう変えるのでしょうか？",
+   "introduction": "国民所得の恒等式からIS曲線を組み立てましょう。需要と借入コストを変えて、短期の産出がなぜ動くのかを確かめます。"
+  },
+  "ch12": {
+   "question": "中央銀行はどうすればインフレを下げられるのでしょうか？",
+   "introduction": "金融政策をIS曲線とフィリップス曲線に結びつけましょう。中央銀行が金利を変えたときの産出とインフレの経路を追います。"
+  },
+  "ch13": {
+   "question": "政策は経済ショックを和らげられるのでしょうか？",
+   "introduction": "短期モデルをAS/ADの図にまとめましょう。政策ルール、期待、さまざまなショックが調整をどう形づくるかを探ります。"
+  },
+  "ch14": {
+   "question": "金融システムが機能しなくなると、何が起こるのでしょうか？",
+   "introduction": "短期モデルにリスク・プレミアムと金融摩擦を加えましょう。信用危機、デフレ、政策の制約が不況をどう深刻にするかを調べます。"
+  },
+  "ch15": {
+   "question": "現代のモデルは景気循環をどう説明するのでしょうか？",
+   "introduction": "DSGEモデルの中にいる経済主体、ショック、摩擦を知りましょう。生産性、労働市場、価格の硬直性が経済の反応をどう形づくるかを探ります。"
+  },
+  "ch16": {
+   "question": "家計は今日いくら使うかを、どのように決めるのでしょうか？",
+   "introduction": "所得と富を一生にわたって配分しましょう。2期間モデルを使って、消費の平準化、忍耐強さ、金利の役割を探ります。"
+  },
+  "ch17": {
+   "question": "新しい投資は、何によって割に合うものになるのでしょうか？",
+   "introduction": "資本の収益とそのコストを比べましょう。企業の投資の選択を、金利、税、株価、住宅に結びつけます。"
+  },
+  "ch18": {
+   "question": "今日の財政赤字は、明日の選択をどう左右するのでしょうか？",
+   "introduction": "予算制約を通して、政府支出、税、借入を追いましょう。債務の動学と、公共支出の財源をめぐる選択を探ります。"
+  },
+  "ch19": {
+   "question": "なぜ国々は貿易をし、誰が得をするのでしょうか？",
+   "introduction": "比較優位と交換の利益について考えましょう。貿易収支を、貯蓄、投資、海外からの借入に結びつけます。"
+  },
+  "ch20": {
+   "question": "通貨の価値を動かすものは何でしょうか？",
+   "introduction": "国々の購買力と、通貨ごとの収益を比べましょう。開放経済における為替レート、国際金融、政策を探ります。"
+  },
+  "ch21": {
+   "question": "私たちは何を学び、何がまだ解かれていないのでしょうか？",
+   "introduction": "本書の主な教訓をまとめましょう。生活水準、成長、インフレ、安定化をもう一度振り返り、マクロ経済学がまだ答えるべき問いを考えます。"
+  },
+  "appA": {
+   "question": "PythonとAIで経済学をどう動かすのでしょうか？",
+   "introduction": "Google Colabでノートブックを開き、コードを実行して、自分のものにしましょう。AIアシスタントに助けを求める方法と、その答えを確かめる方法を学びます。"
+  },
+  "appB": {
+   "question": "問いの背後にあるデータは、どこで見つかるのでしょうか？",
+   "introduction": "Pythonでマクロ経済の時系列を直接ダウンロードしましょう。出典の選び方、定義の比べ方、分析のためのデータの準備のしかたを学びます。"
+  },
+  "appC": {
+   "question": "モデルを分かりやすくする数学の道具は何でしょうか？",
+   "introduction": "百分率、対数、成長率、そして本書の背後にある代数を復習しましょう。それぞれの道具を、答えるのに役立つ経済の問いと結びつけます。"
+  },
+  "appD": {
+   "question": "成長のうち、投入によるものと生産性によるものはどれくらいでしょうか？",
+   "introduction": "成長会計と開発会計を使って、資本、労働、生産性を分けましょう。時間を通じた変化と、国々の生活水準の違いを比べます。"
+  },
+  "appE": {
+   "question": "貧しい国は豊かな国に追いついているのでしょうか？",
+   "introduction": "ソロー・モデルから収束を導き、国々のデータで検証しましょう。成長回帰と所得のばらつきの変化を比べます。"
+  },
+  "appF": {
+   "question": "人的資本は所得格差を説明するのでしょうか？",
+   "introduction": "ソロー・モデルに教育を加えましょう。Mankiw–Romer–Weilの分析を再現し、その結果をより新しい国際データと比べます。"
+  },
+  "appG": {
+   "question": "よりよい制度は、より大きな繁栄をもたらすのでしょうか？",
+   "introduction": "Acemoglu–Johnson–Robinsonの研究を見直しましょう。なぜ相関だけでは不十分なのか、歴史的な操作変数を使って制度と所得をどう研究するのかを探ります。"
+  },
+  "appH": {
+   "question": "DSGEモデルはどのように作り、推定するのでしょうか？",
+   "introduction": "PythonとSnowdropを使って、動学モデルを書き、解き、シミュレーションし、推定しましょう。データを使ってパラメータを決め、ショックへの反応を調べます。"
+  },
+  "appI": {
+   "question": "推定された経済は、ショックにどう反応するのでしょうか？",
+   "introduction": "PythonでSmets–Woutersモデルを扱いましょう。インパルス応答を計算し直し、賃金の硬直性、価格の硬直性、金融政策の役割を探ります。"
+  }
+ },
+ "player": {
+  "episode": "{label}・{title}",
+  "mind_map_of": "{label}のマインドマップ",
+  "labels": {
+   ">⊕ Mind map<": ">⊕ マインドマップ<",
+   "Open image: ": "画像を開く：",
+   " podcast study player\"": "のポッドキャスト・プレーヤー\"",
+   " AI podcast · ": " AIポッドキャスト（英語） · ",
+   " min</p>": " 分</p>",
+   ">Now: ": ">再生中：",
+   "Close the podcast player": "プレーヤーを閉じる",
+   "Your browser does not support audio playback. You can read the transcript below.": "お使いのブラウザは音声の再生に対応していません。下のトランスクリプトを読むことができます。",
+   "Seek in podcast": "ポッドキャストの再生位置",
+   "Back 15 seconds": "15秒戻る",
+   "Play podcast": "ポッドキャストを再生",
+   "Forward 30 seconds": "30秒進む",
+   "Playback speed: 1×. Click to change": "再生速度：1×。クリックで変更",
+   "Episode sections": "エピソードのセクション",
+   "<span>Read along</span>": "<span>文字を追う</span>",
+   "Open Transcript": "トランスクリプトを開く",
+   "Listen on Spotify": "Spotifyで聴く",
+   " (opens in a new tab)": "（新しいタブで開きます）",
+   "Timed transcript. Select a passage to seek.": "時間付きトランスクリプト。段落を選ぶとその位置へ移動します。",
+   "> Follow audio<": "> 音声に合わせて移動<",
+   " podcast\">": "のポッドキャスト\">"
+  }
+ },
+ "js": {
+  "theme": "{mode}テーマに切り替える",
+  "light": "ライト",
+  "dark": "ダーク",
+  "count": "{total}件中{n}件",
+  "map_alt": "{title}のマインドマップ",
+  "map_loading": "高解像度のマインドマップを読み込んでいます…",
+  "map_error": "マインドマップを読み込めませんでした。「元の画像を開く」から元の画像を見てください。",
+  "reduced_motion": "「視差効果を減らす」設定が有効なため、自動切り替えはオフです",
+  "play": "▶ 再生",
+  "pause": "Ⅱ 一時停止",
+  "rotation_off": "自動切り替えはオフです",
+  "rotation_paused": "自動切り替えを一時停止中",
+  "rotation_on": "10秒ごとに切り替わります",
+  "start_rotation": "自動切り替えを開始",
+  "pause_rotation": "自動切り替えを一時停止",
+  "player": {
+   "read_along": "文字を追う",
+   "hide_transcript": "トランスクリプトを隠す",
+   "now_part": "再生中：パート$1 · $2",
+   "now": "再生中：$1",
+   "part": "パート$1 · $2",
+   "error_play": "音声を再生できませんでした。もう一度お試しください。トランスクリプトを開くこともできます。",
+   "error_audio": "音声を利用できません。トランスクリプトを開くか、Spotifyで聴くことができます。",
+   "error_transcript": "インタラクティブなトランスクリプトを利用できません。下のリンクから、聴く、トランスクリプトを開く、Spotifyで聴くことができます。",
+   "play": "ポッドキャストを再生",
+   "pause": "ポッドキャストを一時停止",
+   "speed": "再生速度：$1×。クリックで変更",
+   "of": "$1 / $2"
+  }
+ },
+ "source_sha256": "bc3c90ab35e6bee0441c484effaea6fbde0e324e41d67b14a689568ca2755d4e"
+}

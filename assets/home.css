@@ -113,3 +113,8 @@ main{overflow:clip}
   .carousel-controls{padding-block:6px}
   .hero-grid{row-gap:16px}
 }
+/* Language switcher (English · Español · 日本語) on the three home pages; assets/i18n.js remembers the choice */
+.lang-switch{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:18px;font-size:13px;line-height:1.4;color:var(--muted)}
+.lang-switch a{color:var(--muted);padding:4px 0;min-height:24px}
+.lang-switch a:hover{color:var(--blue)}
+.lang-switch a[aria-current]{color:var(--text);font-weight:650;text-decoration:underline;text-decoration-color:var(--coral);text-underline-offset:4px}

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="460.8pt" height="259.2pt" viewBox="0 0 460.8 259.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-25T11:46:57.347047</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.7, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 259.2
+L 460.8 259.2
+L 460.8 0
+L 0 0
+L 0 259.2
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 81.35 218.74
+L 441.3 218.74
+L 441.3 19.5
+L 81.35 19.5
+L 81.35 218.74
+z
+" style="fill: none"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 13px; font-family: Arial, sans-serif; text-anchor: middle; fill: #a6b4cc" x="97.711364" y="236.617969" transform="rotate(-0 97.711364 236.617969)">1960</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 13px; font-family: Arial, sans-serif; text-anchor: middle; fill: #a6b4cc" x="148.054021" y="236.617969" transform="rotate(-0 148.054021 236.617969)">1970</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 13px; font-family: Arial, sans-serif; text-anchor: middle; fill: #a6b4cc" x="198.396678" y="236.617969" transform="rotate(-0 198.396678 236.617969)">1980</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 13px; font-family: Arial, sans-serif; text-anchor: middle; fill: #a6b4cc" x="248.739336" y="236.617969" transform="rotate(-0 248.739336 236.617969)">1990</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 13px; font-family: Arial, sans-serif; text-anchor: middle; fill: #a6b4cc" x="299.081993" y="236.617969" transform="rotate(-0 299.081993 236.617969)">2000</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="font-size: 13px; font-family: Arial, sans-serif; text-anchor: middle; fill: #a6b4cc" x="349.42465" y="236.617969" transform="rotate(-0 349.42465 236.617969)">2010</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7"/>
+     <g id="text_7">
+      <text style="font-size: 13px; font-family: Arial, sans-serif; text-anchor: middle; fill: #a6b4cc" x="399.767308" y="236.617969" transform="rotate(-0 399.767308 236.617969)">2020</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_8">
+      <path d="M 81.35 205.490269
+L 441.3 205.490269
+" clip-path="url(#p4322185780)" style="fill: none; stroke: #26364d; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9"/>
+     <g id="text_8">
+      <text style="font-size: 13px; font-family: Arial, sans-serif; text-anchor: end; fill: #a6b4cc" x="73.35" y="210.429253" transform="rotate(-0 73.35 210.429253)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_10">
+      <path d="M 81.35 172.729584
+L 441.3 172.729584
+" clip-path="url(#p4322185780)" style="fill: none; stroke: #26364d; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11"/>
+     <g id="text_9">
+      <text style="font-size: 13px; font-family: Arial, sans-serif; text-anchor: end; fill: #a6b4cc" x="73.35" y="177.668569" transform="rotate(-0 73.35 177.668569)">2,5</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_12">
+      <path d="M 81.35 139.9689
+L 441.3 139.9689
+" clip-path="url(#p4322185780)" style="fill: none; stroke: #26364d; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_13"/>
+     <g id="text_10">
+      <text style="font-size: 13px; font-family: Arial, sans-serif; text-anchor: end; fill: #a6b4cc" x="73.35" y="144.907884" transform="rotate(-0 73.35 144.907884)">5</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_14">
+      <path d="M 81.35 107.208215
+L 441.3 107.208215
+" clip-path="url(#p4322185780)" style="fill: none; stroke: #26364d; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_15"/>
+     <g id="text_11">
+      <text style="font-size: 13px; font-family: Arial, sans-serif; text-anchor: end; fill: #a6b4cc" x="73.35" y="112.147199" transform="rotate(-0 73.35 112.147199)">7,5</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_16">
+      <path d="M 81.35 74.447531
+L 441.3 74.447531
+" clip-path="url(#p4322185780)" style="fill: none; stroke: #26364d; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_17"/>
+     <g id="text_12">
+      <text style="font-size: 13px; font-family: Arial, sans-serif; text-anchor: end; fill: #a6b4cc" x="73.35" y="79.386515" transform="rotate(-0 73.35 79.386515)">10</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_18">
+      <path d="M 81.35 41.686846
+L 441.3 41.686846
+" clip-path="url(#p4322185780)" style="fill: none; stroke: #26364d; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_19"/>
+     <g id="text_13">
+      <text style="font-size: 13px; font-family: Arial, sans-serif; text-anchor: end; fill: #a6b4cc" x="73.35" y="46.62583" transform="rotate(-0 73.35 46.62583)">12,5</text>
+     </g>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 12px; font-family: Arial, sans-serif; text-anchor: middle; fill: #a6b4cc" x="29.909062" y="119.12" transform="rotate(-90 29.909062 119.12)">Inflación IPC de EE. UU. · % / año</text>
+    </g>
+   </g>
+   <g id="line2d_20">
+    <path d="M 97.711364 185.938692
+L 102.745629 191.468696
+L 107.779895 190.079643
+L 112.814161 189.031301
+L 117.848427 188.166419
+L 122.882692 184.79862
+L 127.916958 166.321594
+L 132.951224 168.994866
+L 137.98549 149.862626
+L 143.019755 134.242332
+L 148.054021 128.384722
+L 153.088287 150.098503
+L 158.122552 162.599981
+L 163.156818 123.470619
+L 168.191084 61.19911
+L 173.22535 85.690997
+L 178.259615 129.813087
+L 183.293881 120.705617
+L 188.328147 105.50466
+L 193.362413 58.027875
+L 198.396678 28.556364
+L 203.430944 69.494115
+L 208.46521 124.794151
+L 213.499476 164.080763
+L 218.533741 148.250801
+L 223.568007 159.258391
+L 228.602273 180.01556
+L 233.636538 158.603177
+L 238.670804 151.762746
+L 243.70507 142.707693
+L 248.739336 134.478209
+L 253.773601 150.24265
+L 258.807867 165.627068
+L 263.842133 166.570575
+L 268.876399 171.471574
+L 273.910664 168.732781
+L 278.94493 167.003017
+L 283.979196 174.852477
+L 289.013462 185.217957
+L 294.047727 176.752596
+L 299.081993 161.368179
+L 304.116259 168.575529
+L 309.150524 184.575848
+L 314.18479 175.376648
+L 319.219056 170.528066
+L 324.253322 161.381283
+L 329.287587 163.268298
+L 334.321853 167.867899
+L 339.356119 155.497464
+L 344.390385 209.683636
+L 349.42465 184.038572
+L 354.458916 164.342849
+L 359.493182 178.325109
+L 364.527448 186.279403
+L 369.561713 184.326867
+L 374.595979 203.904652
+L 379.630245 188.887154
+L 384.66451 177.565061
+L 389.698776 173.528945
+L 394.733042 181.73222
+L 399.767308 189.070614
+L 404.801573 144.149163
+L 409.835839 100.774017
+L 414.870105 151.408931
+L 419.904371 166.806452
+L 424.938636 170.973612
+" clip-path="url(#p4322185780)" style="fill: none; stroke: #ffa698; stroke-width: 2.3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_21">
+    <path d="M 81.35 205.490269
+L 441.3 205.490269
+" clip-path="url(#p4322185780)" style="fill: none; stroke: #a6b4cc; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 81.35 218.74
+L 441.3 218.74
+" style="fill: none; stroke: #31435d; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p4322185780">
+   <rect x="81.35" y="19.5" width="359.95" height="199.24"/>
+  </clipPath>
+ </defs>
+</svg>

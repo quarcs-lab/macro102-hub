@@ -1,0 +1,123 @@
+{
+ "lang": "en",
+ "page_title": "Explore the book",
+ "page_description": "Explore macroeconomics through real data, interactive models, Python notebooks, and AI podcasts. A companion by Carlos Mendez.",
+ "brand_title": "Data Science &amp; Macroeconomics",
+ "slides": [
+  {
+   "id": "growth",
+   "topic": "Long-run growth",
+   "question": "Why are some countries<br>so much richer?",
+   "description": "Start with the differences in living standards. Then ask what capital, ideas, and institutions can explain.",
+   "chapter": "ch03",
+   "source": "Data · Maddison Project · 1950–2022",
+   "alt": "GDP per person for the United States, Japan, China, and India from 1950 to 2022."
+  },
+  {
+   "id": "recessions",
+   "topic": "Business cycles",
+   "question": "Why do economies<br>fall into recession?",
+   "description": "Follow output through financial crises and the pandemic. See how far an economy can move from its potential.",
+   "chapter": "ch10",
+   "source": "Data · U.S. output gap · BEA / CBO via FRED",
+   "alt": "U.S. output relative to potential, including the financial crisis and pandemic."
+  },
+  {
+   "id": "inflation",
+   "topic": "Prices & purchasing power",
+   "question": "What drives<br>inflation?",
+   "description": "Trace the history of rising prices, then connect money, expectations, and policy to the inflation rate.",
+   "chapter": "ch08",
+   "source": "Data · U.S. CPI inflation · FRED",
+   "alt": "Annual U.S. consumer price inflation from 1960 through 2025."
+  },
+  {
+   "id": "employment",
+   "topic": "The labor market",
+   "question": "Why does<br>unemployment persist?",
+   "description": "Even in a growing economy, jobs are created and lost. A simple flow model explains a persistent natural rate.",
+   "chapter": "ch07",
+   "source": "Model · Job separation 1% · job finding 20% / month",
+   "alt": "Unemployment converges from 10 percent to a natural rate of 4.76 percent over 24 months."
+  },
+  {
+   "id": "policy",
+   "topic": "Stabilization policy",
+   "question": "How can policy<br>stabilize the economy?",
+   "description": "Bring inflation and output into one diagram. Explore the trade-offs facing central banks after a shock.",
+   "chapter": "ch13",
+   "source": "Model · AS/AD · book baseline parameters",
+   "alt": "Aggregate supply and demand intersect at a zero output gap and 2 percent inflation."
+  },
+  {
+   "id": "global",
+   "topic": "The global economy",
+   "question": "How do trade and exchange<br>rates connect economies?",
+   "description": "Follow prices and interest rates across borders. Explore how international connections reshape domestic choices.",
+   "chapter": "ch20",
+   "source": "Model · Uncovered interest parity · one-year horizon",
+   "alt": "The exchange rate rises with the domestic interest rate, holding foreign interest and expected exchange rates fixed."
+  }
+ ],
+ "slide_aria": "{n} of 6: {topic}",
+ "explore_chapter": "Explore Chapter {n}",
+ "topic_labels": [
+  "Growth",
+  "Recessions",
+  "Inflation",
+  "Employment",
+  "Policy",
+  "Global"
+ ],
+ "show_question": "Show question {n}: {label}",
+ "hero_html": "<section class=\"hero\" aria-labelledby=\"page-title\"><div class=\"hero-orbit\" aria-hidden=\"true\"></div><div class=\"shell hero-grid\"><div class=\"hero-copy\"><p class=\"eyebrow\"><span class=\"status-dot\"></span> A FIELD GUIDE TO THE WHOLE ECONOMY</p><h1 id=\"page-title\">Data Science<br><span>&amp; Macroeconomics.</span></h1><p class=\"hero-hook\">Find the facts.<br>Explain the economy.</p><p class=\"hero-description\">Why do living standards rise? What causes recessions and inflation? Explore the data, put models to work, and ask better questions—with Python and AI.</p><div class=\"actions\"><a class=\"button primary\" href=\"{ch1}\">Start with Chapter 1 <span aria-hidden=\"true\">↗</span></a><a class=\"text-link\" href=\"#curriculum\">Explore all chapters <span aria-hidden=\"true\">↓</span></a></div><p class=\"hero-welcome\">A Python Companion to Intermediate Macroeconomics.</p></div><div class=\"hero-author\"><img src=\"https://github.com/cmg777.png\" alt=\"Carlos Mendez\" width=\"72\" height=\"72\"><div><p>A learning project by <a href=\"https://carlos-mendez.org/\">Carlos Mendez</a></p><p>A companion to <a href=\"https://web.stanford.edu/~chadj/macrobook.html\" target=\"_blank\" rel=\"noopener\"><em>Macroeconomics</em></a><br>by <a href=\"https://web.stanford.edu/~chadj/\" target=\"_blank\" rel=\"noopener\">Charles I. Jones</a> · 6th edition.</p></div></div><div class=\"question-deck\" role=\"region\" aria-roledescription=\"carousel\" aria-label=\"Six big questions in macroeconomics\"><div class=\"deck-header\"><span>SIX BIG QUESTIONS</span><span id=\"slide-count\">01 / 06</span></div><div class=\"slides\">{slides}</div><div class=\"carousel-controls\"><div class=\"question-selectors\" aria-label=\"Choose a topic\">{selectors}</div><div class=\"transport\"><button id=\"previous-slide\" aria-label=\"Previous question\">←</button><button id=\"pause-slides\" aria-label=\"Pause automatic rotation\" aria-pressed=\"false\">Ⅱ Pause</button><button id=\"next-slide\" aria-label=\"Next question\">→</button><span id=\"rotation-status\">Changes every 10 seconds</span></div></div></div></div><div class=\"shell hero-bottom\"><p><strong>21</strong> chapters <span>/</span> <strong>9</strong> appendices <span>/</span> Learn by doing</p><a href=\"#pathways\">From data to understanding <span aria-hidden=\"true\">↓</span></a></div></section>",
+ "pillars_html": "<section class=\"section shell learning-path\" id=\"pathways\" aria-labelledby=\"pillars-title\"><div class=\"section-heading\"><p class=\"eyebrow\">THREE PILLARS. ONE CONNECTED APPROACH.</p><h2 id=\"pillars-title\">From evidence<br>to explanation.</h2><p>Find a pattern. Build an explanation.<br>Use AI to go further—and check every step.</p></div><ol class=\"pillars\"><li><span class=\"large-number\">01 / DATA SCIENCE</span><h3>From data to facts</h3><p>Download, plot, and explore real economic data. Compare countries and periods to discover which patterns hold—and which questions to ask next.</p><a href=\"data-apps.html\">Explore Data Apps <span aria-hidden=\"true\">↗</span></a></li><li><span class=\"large-number\">02 / MACROECONOMIC MODELS</span><h3>From facts to models</h3><p>Operate the models that explain the facts. Move a slider, change a parameter, and compare the prediction with what the data show.</p><a href=\"figure-apps.html\">Explore Figure Apps <span aria-hidden=\"true\">↗</span></a></li><li><span class=\"large-number\">03 / AI-POWERED LEARNING</span><h3>AI-powered learning</h3><p>Work with an AI assistant in Colab, see the big picture in mind maps and slides, and learn by changing the code. Use AI, but check its answers.</p><a href=\"https://quarcs-lab.github.io/macro102-site/notebooks/appA-google-colab-and-ai-powered-python.html\">Start with Python and AI <span aria-hidden=\"true\">↗</span></a></li></ol></section>",
+ "viewer_html": "<dialog id=\"mindmap-viewer\" aria-labelledby=\"mindmap-title\"><div class=\"viewer-bar\"><h2 id=\"mindmap-title\">Chapter mind map</h2><div><a id=\"mindmap-original\" target=\"_blank\" rel=\"noopener\">Open original ↗</a><button type=\"button\" id=\"close-mindmap\" aria-label=\"Close mind map\">×</button></div></div><div class=\"viewer-image\"><img id=\"mindmap-image\" alt=\"\"></div><p id=\"mindmap-status\" role=\"status\"></p></dialog>",
+ "chrome": {
+  "skip": "Skip to content",
+  "nav": [
+   "Home",
+   "Book",
+   "AI Podcasts",
+   "AI Tutors",
+   "Data Apps",
+   "Figure Apps"
+  ],
+  "nav_aria": "Main navigation",
+  "brand_html": "Data Science <span class=\"brand-second\">&amp; Macroeconomics</span>",
+  "theme_aria": "Switch to light theme",
+  "theme_title": "Switch theme",
+  "menu": "Menu",
+  "footer_tagline": "A Python Companion to Intermediate Macroeconomics.",
+  "footer_by": "By",
+  "read_book": "Read the book ↗",
+  "source_github": "Source on GitHub ↗",
+  "report_issue": "Report an issue ↗",
+  "credit_html": "Companion to <a href=\"https://web.stanford.edu/~chadj/\" target=\"_blank\" rel=\"noopener\">Charles I. Jones</a>, <a href=\"https://web.stanford.edu/~chadj/macrobook.html\" target=\"_blank\" rel=\"noopener\"><em>Macroeconomics</em></a> (6th ed., 2024). Independent educational project; not affiliated with the author or publisher. Original website illustrations generated with AI.",
+  "license": "https://creativecommons.org/licenses/by-nc/4.0/"
+ },
+ "curriculum_heading_html": "<p class=\"eyebrow\">THE FULL CURRICULUM</p><h2 id=\"curriculum-title\">Understand the economy.<br><span>One question at a time.</span></h2></div><p>Follow the chapters in order, or start with the question on your mind. Read, code, explore, or listen—each chapter gives you a way in.</p>",
+ "search_label": "Search {label}",
+ "search_target": "the curriculum",
+ "search_placeholder": "Try growth, inflation, or Chapter 7…",
+ "topic_label": "Topic",
+ "all_topics": "All topics",
+ "card": {
+  "read_chapter": "Read chapter",
+  "read_appendix": "Read appendix",
+  "open_notebook": "Open AI notebook",
+  "slides": "Slides",
+  "data_apps": "Data Apps",
+  "figure_apps": "Figure Apps",
+  "start_here": "Start here",
+  "enlarge": "Enlarge {label} mind map",
+  "map_alt": "{label}: {title} mind map",
+  "map_caption": "Explore the chapter map",
+  "chapter_label": "Chapter {n}",
+  "appendix_label": "Appendix {n}"
+ },
+ "appendices_summary_html": "<strong>Nine appendices</strong><small>Python, data, mathematical tools, and research extensions</small>",
+ "empty": "No matching chapters or appendices. Try another search or topic.",
+ "curriculum_credit": "Mind maps and lecture slides accompany every chapter and appendix. AI-generated podcasts accompany all 21 chapters.",
+ "listen": "Listen to the podcast"
+}

@@ -1,0 +1,1197 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>本を探索する | データサイエンスとマクロ経済学</title><meta name="description" content="実際のデータ、インタラクティブなモデル、Pythonノートブック、AIポッドキャストでマクロ経済学を探索しましょう。Carlos Mendezによるコンパニオンです。"><meta name="theme-color" content="#0b1425"><meta property="og:title" content="本を探索する — データサイエンスとマクロ経済学"><meta property="og:description" content="実際のデータ、インタラクティブなモデル、Pythonノートブック、AIポッドキャストでマクロ経済学を探索しましょう。Carlos Mendezによるコンパニオンです。"><meta property="og:image" content="https://quarcs-lab.github.io/macro102-hub/assets/economic-world.jpg"><meta property="og:type" content="website"><link rel="canonical" href="https://quarcs-lab.github.io/macro102-hub/ja/"><link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><script src="../assets/theme.js"></script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;550;600;650;700;750;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="../assets/site.css?v=26901fd49fe4"><script src="../assets/site.js?v=7be30e40142d" defer></script><script>window.SITE_I18N={"theme": "{mode}テーマに切り替える", "light": "ライト", "dark": "ダーク", "count": "{total}件中{n}件", "map_alt": "{title}のマインドマップ", "map_loading": "高解像度のマインドマップを読み込んでいます…", "map_error": "マインドマップを読み込めませんでした。「元の画像を開く」から元の画像を見てください。", "reduced_motion": "「視差効果を減らす」設定が有効なため、自動切り替えはオフです", "play": "▶ 再生", "pause": "Ⅱ 一時停止", "rotation_off": "自動切り替えはオフです", "rotation_paused": "自動切り替えを一時停止中", "rotation_on": "10秒ごとに切り替わります", "start_rotation": "自動切り替えを開始", "pause_rotation": "自動切り替えを一時停止", "player": {"read_along": "文字を追う", "hide_transcript": "トランスクリプトを隠す", "now_part": "再生中：パート$1 · $2", "now": "再生中：$1", "part": "パート$1 · $2", "error_play": "音声を再生できませんでした。もう一度お試しください。トランスクリプトを開くこともできます。", "error_audio": "音声を利用できません。トランスクリプトを開くか、Spotifyで聴くことができます。", "error_transcript": "インタラクティブなトランスクリプトを利用できません。下のリンクから、聴く、トランスクリプトを開く、Spotifyで聴くことができます。", "play": "ポッドキャストを再生", "pause": "ポッドキャストを一時停止", "speed": "再生速度：$1×。クリックで変更", "of": "$1 / $2"}};</script><script src="../assets/i18n.js?v=747b22965f15"></script><link rel="alternate" hreflang="en" href="https://quarcs-lab.github.io/macro102-hub/"><link rel="alternate" hreflang="es" href="https://quarcs-lab.github.io/macro102-hub/es/"><link rel="alternate" hreflang="ja" href="https://quarcs-lab.github.io/macro102-hub/ja/"><link rel="alternate" hreflang="x-default" href="https://quarcs-lab.github.io/macro102-hub/"><link rel="stylesheet" href="../assets/home.css?v=01e30549e544"></head><body><a class="skip" href="#main">本文へ移動</a><header class="header"><div class="nav-shell"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">m<span>↗</span></span><span>データサイエンス<span class="brand-second">とマクロ経済学</span></span></a><nav id="navigation" aria-label="メインナビゲーション"><a href="index.html" aria-current="page">ホーム</a><a href="https://quarcs-lab.github.io/macro102-site/ja/">本</a><a href="../podcasts.html">AIポッドキャスト</a><a href="../tutors.html">AIチューター</a><a href="../data-apps.html">データアプリ</a><a href="../figure-apps.html">図表アプリ</a></nav><button class="icon-button" id="theme-toggle" aria-label="ライトテーマに切り替える" title="テーマを切り替える">☼</button><button class="menu-button" aria-controls="navigation" aria-expanded="false">メニュー</button></div></header><main id="main"><section class="hero" aria-labelledby="page-title"><div class="hero-orbit" aria-hidden="true"></div><div class="shell hero-grid"><div class="hero-copy"><nav class="lang-switch" aria-label="Language" translate="no"><a href=".././" lang="en" hreflang="en" data-lang="en">English</a><span aria-hidden="true">·</span><a href="../es/" lang="es" hreflang="es" data-lang="es">Español</a><span aria-hidden="true">·</span><a href="../ja/" lang="ja" hreflang="ja" data-lang="ja" aria-current="true">日本語</a></nav><p class="eyebrow"><span class="status-dot"></span> 経済全体を歩くためのフィールドガイド</p><h1 id="page-title">データサイエンス<br><span>とマクロ経済学。</span></h1><p class="hero-hook">事実を見つける。<br>経済を説明する。</p><p class="hero-description">なぜ生活水準は上がるのでしょうか。不況やインフレの原因は何でしょうか。データを探索し、モデルを動かし、よりよい問いを立てましょう。PythonとAIと一緒に。</p><div class="actions"><a class="button primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/ch01-introduction-to-macroeconomics.html">第1章から始める <span aria-hidden="true">↗</span></a><a class="text-link" href="#curriculum">すべての章を見る <span aria-hidden="true">↓</span></a></div><p class="hero-welcome">中級マクロ経済学のためのPythonコンパニオン。</p></div><div class="hero-author"><img src="https://github.com/cmg777.png" alt="Carlos Mendez" width="72" height="72"><div><p><a href="https://carlos-mendez.org/">Carlos Mendez</a>による学習プロジェクト</p><p><a href="https://web.stanford.edu/~chadj/" target="_blank" rel="noopener">Charles I. Jones</a>著<br><a href="https://web.stanford.edu/~chadj/macrobook.html" target="_blank" rel="noopener"><em>Macroeconomics</em></a>（第6版）のコンパニオン。</p></div></div><div class="question-deck" role="region" aria-roledescription="カルーセル" aria-label="マクロ経済学の六つの大きな問い"><div class="deck-header"><span>六つの大きな問い</span><span id="slide-count">01 / 06</span></div><div class="slides"><article class="question-slide" data-slide="0" aria-label="1 / 6：長期の成長"><img class="scene-art" src="../assets/scenes/growth.jpg" alt="" aria-hidden="true" width="1200" height="800" loading="eager" decoding="async"><div class="slide-intro"><p class="eyebrow">長期の成長</p><h2>なぜ一部の国は<br>はるかに豊かなのでしょうか？</h2></div><img class="chart" src="../assets/charts/growth-ja.svg?v=78221f592b16" alt="1950年から2022年までのアメリカ、日本、中国、インドの一人あたりGDP。" width="640" height="360"><div class="slide-caption"><p>まず生活水準の違いから始めましょう。そのうえで、資本、アイデア、制度が何を説明できるかを問います。</p><div class="chart-meta">データ · Maddison Project · 1950–2022年</div><a href="https://quarcs-lab.github.io/macro102-site/notebooks/ch03-an-overview-of-long-run-economic-growth.html">第3章を探索する <span aria-hidden="true">↗</span></a></div></article><article class="question-slide" data-slide="1" aria-label="2 / 6：景気循環" hidden><img class="scene-art" src="../assets/scenes/recessions.jpg" alt="" aria-hidden="true" width="1200" height="800" loading="lazy" decoding="async"><div class="slide-intro"><p class="eyebrow">景気循環</p><h2>なぜ経済は<br>不況に陥るのでしょうか？</h2></div><img class="chart" src="../assets/charts/recessions-ja.svg?v=a04fdb68f3a7" alt="金融危機とコロナ禍を含む、潜在産出に対するアメリカの産出。" width="640" height="360"><div class="slide-caption"><p>金融危機とコロナ禍を通して産出の動きを追いましょう。経済が潜在水準からどこまで離れうるかが分かります。</p><div class="chart-meta">データ · アメリカのGDPギャップ · BEA / CBO（FRED経由）</div><a href="https://quarcs-lab.github.io/macro102-site/notebooks/ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look.html">第10章を探索する <span aria-hidden="true">↗</span></a></div></article><article class="question-slide" data-slide="2" aria-label="3 / 6：物価と購買力" hidden><img class="scene-art" src="../assets/scenes/inflation.jpg" alt="" aria-hidden="true" width="1200" height="800" loading="lazy" decoding="async"><div class="slide-intro"><p class="eyebrow">物価と購買力</p><h2>インフレを<br>引き起こすものは？</h2></div><img class="chart" src="../assets/charts/inflation-ja.svg?v=ea8b3221e1c9" alt="1960年から2025年までのアメリカの消費者物価の年間インフレ率。" width="640" height="360"><div class="slide-caption"><p>物価上昇の歴史をたどり、貨幣、期待、政策をインフレ率と結びつけましょう。</p><div class="chart-meta">データ · アメリカのCPIインフレ率 · FRED</div><a href="https://quarcs-lab.github.io/macro102-site/notebooks/ch08-inflation.html">第8章を探索する <span aria-hidden="true">↗</span></a></div></article><article class="question-slide" data-slide="3" aria-label="4 / 6：労働市場" hidden><img class="scene-art" src="../assets/scenes/employment.jpg" alt="" aria-hidden="true" width="1200" height="800" loading="lazy" decoding="async"><div class="slide-intro"><p class="eyebrow">労働市場</p><h2>なぜ失業は<br>なくならないのでしょうか？</h2></div><img class="chart" src="../assets/charts/employment-ja.svg?v=90ca6ad5589c" alt="失業率は24か月で10%から自然失業率4.76%へ収束する。" width="640" height="360"><div class="slide-caption"><p>成長している経済でも、仕事は生まれては失われます。単純なフローのモデルが、なくならない自然失業率を説明します。</p><div class="chart-meta">モデル · 離職率 1% · 就職率 20% / 月</div><a href="https://quarcs-lab.github.io/macro102-site/notebooks/ch07-the-labor-market-wages-and-unemployment.html">第7章を探索する <span aria-hidden="true">↗</span></a></div></article><article class="question-slide" data-slide="4" aria-label="5 / 6：安定化政策" hidden><img class="scene-art" src="../assets/scenes/policy.jpg" alt="" aria-hidden="true" width="1200" height="800" loading="lazy" decoding="async"><div class="slide-intro"><p class="eyebrow">安定化政策</p><h2>政策は経済を<br>安定させられるでしょうか？</h2></div><img class="chart" src="../assets/charts/policy-ja.svg?v=d515dd318e20" alt="総供給と総需要は、GDPギャップがゼロ、インフレ率2%の点で交わる。" width="640" height="360"><div class="slide-caption"><p>インフレと産出を一つの図にまとめましょう。ショックの後に中央銀行が直面するトレードオフを探ります。</p><div class="chart-meta">モデル · AS/AD · 本書の基準パラメータ</div><a href="https://quarcs-lab.github.io/macro102-site/notebooks/ch13-stabilization-policy-and-the-as-ad-framework.html">第13章を探索する <span aria-hidden="true">↗</span></a></div></article><article class="question-slide" data-slide="5" aria-label="6 / 6：世界経済" hidden><img class="scene-art" src="../assets/scenes/global.jpg" alt="" aria-hidden="true" width="1200" height="800" loading="lazy" decoding="async"><div class="slide-intro"><p class="eyebrow">世界経済</p><h2>貿易と為替レートは<br>経済をどう結びつけるのでしょうか？</h2></div><img class="chart" src="../assets/charts/global-ja.svg?v=1d25732be37a" alt="外国の金利と予想為替レートを一定とすると、為替レートは国内金利とともに上昇する。" width="640" height="360"><div class="slide-caption"><p>国境を越える物価と金利を追いましょう。国際的なつながりが国内の選択をどう変えるかを探ります。</p><div class="chart-meta">モデル · カバーなし金利平価 · 1年の期間</div><a href="https://quarcs-lab.github.io/macro102-site/notebooks/ch20-exchange-rates-and-international-finance.html">第20章を探索する <span aria-hidden="true">↗</span></a></div></article></div><div class="carousel-controls"><div class="question-selectors" aria-label="テーマを選ぶ"><button class="question-selector" data-go="0" aria-label="問い1を表示：成長" aria-pressed="true">成長</button><button class="question-selector" data-go="1" aria-label="問い2を表示：不況" aria-pressed="false">不況</button><button class="question-selector" data-go="2" aria-label="問い3を表示：インフレ" aria-pressed="false">インフレ</button><button class="question-selector" data-go="3" aria-label="問い4を表示：雇用" aria-pressed="false">雇用</button><button class="question-selector" data-go="4" aria-label="問い5を表示：政策" aria-pressed="false">政策</button><button class="question-selector" data-go="5" aria-label="問い6を表示：世界" aria-pressed="false">世界</button></div><div class="transport"><button id="previous-slide" aria-label="前の問い">←</button><button id="pause-slides" aria-label="自動切り替えを一時停止" aria-pressed="false">Ⅱ 一時停止</button><button id="next-slide" aria-label="次の問い">→</button><span id="rotation-status">10秒ごとに切り替わります</span></div></div></div></div><div class="shell hero-bottom"><p><strong>21</strong>の章 <span>/</span> <strong>9</strong>の付録 <span>/</span> 手を動かして学ぶ</p><a href="#pathways">データから理解へ <span aria-hidden="true">↓</span></a></div></section><section class="section shell learning-path" id="pathways" aria-labelledby="pillars-title"><div class="section-heading"><p class="eyebrow">三つの柱、一つにつながったアプローチ</p><h2 id="pillars-title">証拠から<br>説明へ。</h2><p>パターンを見つけ、説明を組み立てる。<br>AIでさらに先へ進み、すべての段階を確かめましょう。</p></div><ol class="pillars"><li><span class="large-number">01 / データサイエンス</span><h3>データから事実へ</h3><p>実際の経済データをダウンロードし、グラフにし、探索しましょう。国や期間を比べて、どのパターンが成り立ち、次にどんな問いを立てるべきかを見つけます。</p><a href="../data-apps.html">データアプリを見る <span aria-hidden="true">↗</span></a></li><li><span class="large-number">02 / マクロ経済モデル</span><h3>事実からモデルへ</h3><p>事実を説明するモデルを動かしましょう。スライダーを動かし、パラメータを変えて、予測をデータと比べます。</p><a href="../figure-apps.html">図表アプリを見る <span aria-hidden="true">↗</span></a></li><li><span class="large-number">03 / AIを活用した学習</span><h3>AIを活用した学習</h3><p>ColabでAIアシスタントと一緒に作業し、マインドマップとスライドで全体像をつかみ、コードを変えながら学びましょう。AIを使っても、答えは必ず確かめましょう。</p><a href="https://quarcs-lab.github.io/macro102-site/notebooks/appA-google-colab-and-ai-powered-python.html">PythonとAIから始める <span aria-hidden="true">↗</span></a></li></ol></section><section class="home-curriculum" id="curriculum" aria-labelledby="curriculum-title"><div class="shell"><span id="chapters" class="anchor-alias"></span><div class="section-heading curriculum-heading"><div><p class="eyebrow">すべてのカリキュラム</p><h2 id="curriculum-title">経済を理解しよう。<br><span>一度に一つの問いから。</span></h2></div><p>章を順番に進めても、気になる問いから始めてもかまいません。読む、コードを書く、探索する、聴く。どの章にも入り口があります。</p></div><div class="filter-bar"><label>カリキュラムを検索<input type="search" id="resource-search" placeholder="例：成長、インフレ、第7章…"></label><label>テーマ<select id="topic-filter"><option value="">すべてのテーマ</option><option>基礎</option><option>長期の成長</option><option>労働とインフレ</option><option>景気循環と政策</option><option>意思決定と世界経済</option><option>付録</option></select></label><p id="result-count" role="status"></p></div><link rel="stylesheet" href="../audio-player/podcast-player.css"><script src="../audio-player/podcast-player.js" defer></script><section class="curriculum-group" aria-label="基礎"><h3 class="group-title">基礎</h3><div class="chapter-grid"><article id="chapter-1" class="chapter-card resource" data-topic="基礎" data-search="Chapter 01 第1章 マクロ経済学入門 経済全体を見ると、何が分かるのでしょうか？ 基礎 Introduction to Macroeconomics" aria-labelledby="title-ch01"><div class="chapter-top"><span class="chapter-number">01</span><span class="chapter-method">マクロ経済学入門</span><span class="chapter-tag">ここから始める</span></div><div class="chapter-story"><h3 id="title-ch01">経済全体を見ると、何が分かるのでしょうか？</h3><p>所得、仕事、物価から始めましょう。経済学者が事実からモデルへ進み、そのモデルを使って新しい問いを立てる方法を学びます。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch01-introduction-to-macroeconomics-v2.webp" data-map-title="第1章: マクロ経済学入門" aria-label="第1章のマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/ch01.jpg" alt="第1章「マクロ経済学入門」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/ch01-introduction-to-macroeconomics.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>章を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch01-introduction-to-macroeconomics.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/ch01/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch01-data-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>データアプリ</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch01-model-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>図表アプリ</a></div><div class="podcast-widget" id="podcast-ch01-introduction-to-macroeconomics">
+<div class="podcast-launch-row">
+  <button type="button" class="podcast-launch" data-podcast-toggle aria-expanded="false" aria-controls="podcast-ch01-introduction-to-macroeconomics-player">
+    <span class="podcast-launch-icon" aria-hidden="true"><svg width="49.6" height="32" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="white" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 11V9a6 6 0 0 1 12 0v2"/><rect x="9" y="10" width="3" height="6" rx="1.5"/><rect x="19" y="10" width="3" height="6" rx="1.5"/><path d="M14 9v4m3-5v6" stroke-opacity=".8"/></g></svg></span>
+    <span class="podcast-launch-label">ポッドキャストを聴く（英語）</span>
+  </button>
+</div>
+
+<section id="podcast-ch01-introduction-to-macroeconomics-player" class="podcast-player" data-podcast="../audio-player/transcripts/podcast-ch01-introduction-to-macroeconomics.json" aria-label="第1章・マクロ経済学入門のポッドキャスト・プレーヤー" hidden>
+  <a class="podcast-mindmap" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch01-introduction-to-macroeconomics-v2.webp" target="_blank" rel="noopener" aria-label="画像を開く：第1章のマインドマップ（新しいタブで開きます）"><img src="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch01-introduction-to-macroeconomics-v2.webp" alt="第1章のマインドマップ" loading="lazy"><span>⊕ マインドマップ</span></a>
+  <div class="podcast-heading">
+    <div>
+      <p class="podcast-eyebrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 15v-4a8 8 0 0 1 16 0v4"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/></svg> AIポッドキャスト（英語） · <span data-episode-minutes>22</span> 分</p>
+      <h5>第1章・マクロ経済学入門</h5>
+      <p class="podcast-now" aria-live="polite">再生中：Opening</p>
+    </div>
+    <button type="button" class="podcast-close" aria-label="プレーヤーを閉じる"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg></button>
+  </div>
+  <div class="podcast-playback">
+    <audio controls controlslist="nodownload" preload="none" aria-label="第1章・マクロ経済学入門のポッドキャスト">
+      <source src="https://quarcs-lab.github.io/macro102-site/podcasts/ch01-introduction-to-macroeconomics.mp3" type="audio/mpeg">
+      お使いのブラウザは音声の再生に対応していません。下のトランスクリプトを読むことができます。
+    </audio>
+    <div data-enhanced hidden>
+      <div class="podcast-timeline">
+        <div class="podcast-track" aria-hidden="true"><span data-buffer></span><span data-progress></span></div>
+        <div class="podcast-cuts" aria-hidden="true"></div>
+        <input data-seek type="range" min="0" max="1" value="0" step="0.1" aria-label="ポッドキャストの再生位置">
+      </div>
+      <div class="podcast-time"><span data-elapsed>00:00</span><span data-duration>22:01</span></div>
+      <div class="podcast-controls">
+        <div class="podcast-transport">
+          <button type="button" class="podcast-skip" data-skip="-15" aria-label="15秒戻る"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 7a11 11 0 1 1-4 10M10 3v7H3"/></svg><small>15</small></button>
+          <button type="button" class="podcast-play" aria-label="ポッドキャストを再生" aria-pressed="false">
+            <svg data-play-icon width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m8 4 12 8-12 8z"/></svg>
+            <svg data-pause-icon hidden width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+          </button>
+          <button type="button" class="podcast-skip" data-skip="30" aria-label="30秒進む"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 7a11 11 0 1 0 4 10M22 3v7h7"/></svg><small>30</small></button>
+        </div>
+        <button type="button" class="podcast-speed" data-speed aria-label="再生速度：1×。クリックで変更">1×</button>
+      </div>
+    </div>
+  </div>
+  <div class="podcast-chapters" data-enhanced hidden aria-label="エピソードのセクション"></div>
+  <div class="podcast-transcript-actions">
+    <button type="button" class="podcast-transcript-toggle" data-enhanced hidden aria-expanded="false" aria-controls="podcast-ch01-introduction-to-macroeconomics-transcript"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="15" rx="1"/><path d="M6 8h12M6 11h12M6 14h8"/></svg><span>文字を追う</span><svg class="podcast-transcript-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+    <a class="podcast-action-link" href="../audio-player/transcripts/podcast-ch01-introduction-to-macroeconomics.html" target="_blank" rel="noopener" aria-label="トランスクリプトを開く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14"/><path d="M10 3H3v18h18v-7"/></svg>トランスクリプトを開く</a>
+    <a class="podcast-action-link" href="https://open.spotify.com/episode/3mZFGwvB3a4UArov0IKkeV" target="_blank" rel="noopener" aria-label="Spotifyで聴く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M6 9c4-2 8-1 12 1M7 12c3-1 6-1 10 1M8 15c3-1 5 0 8 1"/></svg>Spotifyで聴く</a>
+  </div>
+  <div id="podcast-ch01-introduction-to-macroeconomics-transcript" class="podcast-transcript" hidden>
+    <div class="podcast-passages" role="region" aria-label="時間付きトランスクリプト。段落を選ぶとその位置へ移動します。" tabindex="0"></div>
+    <label class="podcast-follow"><input data-follow type="checkbox" checked> 音声に合わせて移動</label>
+  </div>
+    <p class="podcast-status" role="status"></p>
+</section>
+</div>
+
+</article><article id="chapter-2" class="chapter-card resource" data-topic="基礎" data-search="Chapter 02 第2章 マクロ経済の測定 経済全体はどのように測るのでしょうか？ 基礎 Measuring the Macroeconomy" aria-labelledby="title-ch02"><div class="chapter-top"><span class="chapter-number">02</span><span class="chapter-method">マクロ経済の測定</span></div><div class="chapter-story"><h3 id="title-ch02">経済全体はどのように測るのでしょうか？</h3><p>国民経済計算を通して、生産、支出、所得を追いましょう。GDPが何を測るのか、物価がどう変わるのか、主要な数字が何を見落としているのかを学びます。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch02-measuring-the-macroeconomy-v1.webp" data-map-title="第2章: マクロ経済の測定" aria-label="第2章のマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/ch02.jpg" alt="第2章「マクロ経済の測定」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/ch02-measuring-the-macroeconomy.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>章を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch02-measuring-the-macroeconomy.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/ch02/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch02-data-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>データアプリ</a></div><div class="podcast-widget" id="podcast-ch02-measuring-the-macroeconomy">
+<div class="podcast-launch-row">
+  <button type="button" class="podcast-launch" data-podcast-toggle aria-expanded="false" aria-controls="podcast-ch02-measuring-the-macroeconomy-player">
+    <span class="podcast-launch-icon" aria-hidden="true"><svg width="49.6" height="32" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="white" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 11V9a6 6 0 0 1 12 0v2"/><rect x="9" y="10" width="3" height="6" rx="1.5"/><rect x="19" y="10" width="3" height="6" rx="1.5"/><path d="M14 9v4m3-5v6" stroke-opacity=".8"/></g></svg></span>
+    <span class="podcast-launch-label">ポッドキャストを聴く（英語）</span>
+  </button>
+</div>
+
+<section id="podcast-ch02-measuring-the-macroeconomy-player" class="podcast-player" data-podcast="../audio-player/transcripts/podcast-ch02-measuring-the-macroeconomy.json" aria-label="第2章・マクロ経済の測定のポッドキャスト・プレーヤー" hidden>
+  <a class="podcast-mindmap" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch02-measuring-the-macroeconomy-v1.webp" target="_blank" rel="noopener" aria-label="画像を開く：第2章のマインドマップ（新しいタブで開きます）"><img src="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch02-measuring-the-macroeconomy-v1.webp" alt="第2章のマインドマップ" loading="lazy"><span>⊕ マインドマップ</span></a>
+  <div class="podcast-heading">
+    <div>
+      <p class="podcast-eyebrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 15v-4a8 8 0 0 1 16 0v4"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/></svg> AIポッドキャスト（英語） · <span data-episode-minutes>22</span> 分</p>
+      <h5>第2章・マクロ経済の測定</h5>
+      <p class="podcast-now" aria-live="polite">再生中：Opening</p>
+    </div>
+    <button type="button" class="podcast-close" aria-label="プレーヤーを閉じる"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg></button>
+  </div>
+  <div class="podcast-playback">
+    <audio controls controlslist="nodownload" preload="none" aria-label="第2章・マクロ経済の測定のポッドキャスト">
+      <source src="https://quarcs-lab.github.io/macro102-site/podcasts/ch02-measuring-the-macroeconomy.mp3" type="audio/mpeg">
+      お使いのブラウザは音声の再生に対応していません。下のトランスクリプトを読むことができます。
+    </audio>
+    <div data-enhanced hidden>
+      <div class="podcast-timeline">
+        <div class="podcast-track" aria-hidden="true"><span data-buffer></span><span data-progress></span></div>
+        <div class="podcast-cuts" aria-hidden="true"></div>
+        <input data-seek type="range" min="0" max="1" value="0" step="0.1" aria-label="ポッドキャストの再生位置">
+      </div>
+      <div class="podcast-time"><span data-elapsed>00:00</span><span data-duration>22:28</span></div>
+      <div class="podcast-controls">
+        <div class="podcast-transport">
+          <button type="button" class="podcast-skip" data-skip="-15" aria-label="15秒戻る"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 7a11 11 0 1 1-4 10M10 3v7H3"/></svg><small>15</small></button>
+          <button type="button" class="podcast-play" aria-label="ポッドキャストを再生" aria-pressed="false">
+            <svg data-play-icon width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m8 4 12 8-12 8z"/></svg>
+            <svg data-pause-icon hidden width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+          </button>
+          <button type="button" class="podcast-skip" data-skip="30" aria-label="30秒進む"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 7a11 11 0 1 0 4 10M22 3v7h7"/></svg><small>30</small></button>
+        </div>
+        <button type="button" class="podcast-speed" data-speed aria-label="再生速度：1×。クリックで変更">1×</button>
+      </div>
+    </div>
+  </div>
+  <div class="podcast-chapters" data-enhanced hidden aria-label="エピソードのセクション"></div>
+  <div class="podcast-transcript-actions">
+    <button type="button" class="podcast-transcript-toggle" data-enhanced hidden aria-expanded="false" aria-controls="podcast-ch02-measuring-the-macroeconomy-transcript"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="15" rx="1"/><path d="M6 8h12M6 11h12M6 14h8"/></svg><span>文字を追う</span><svg class="podcast-transcript-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+    <a class="podcast-action-link" href="../audio-player/transcripts/podcast-ch02-measuring-the-macroeconomy.html" target="_blank" rel="noopener" aria-label="トランスクリプトを開く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14"/><path d="M10 3H3v18h18v-7"/></svg>トランスクリプトを開く</a>
+    <a class="podcast-action-link" href="https://open.spotify.com/episode/0z5MV4pT4yLhsIUU5SBb4D" target="_blank" rel="noopener" aria-label="Spotifyで聴く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M6 9c4-2 8-1 12 1M7 12c3-1 6-1 10 1M8 15c3-1 5 0 8 1"/></svg>Spotifyで聴く</a>
+  </div>
+  <div id="podcast-ch02-measuring-the-macroeconomy-transcript" class="podcast-transcript" hidden>
+    <div class="podcast-passages" role="region" aria-label="時間付きトランスクリプト。段落を選ぶとその位置へ移動します。" tabindex="0"></div>
+    <label class="podcast-follow"><input data-follow type="checkbox" checked> 音声に合わせて移動</label>
+  </div>
+    <p class="podcast-status" role="status"></p>
+</section>
+</div>
+
+</article></div></section><section class="curriculum-group" aria-label="長期の成長"><h3 class="group-title">長期の成長</h3><div class="chapter-grid"><article id="chapter-3" class="chapter-card resource" data-topic="長期の成長" data-search="Chapter 03 第3章 長期の経済成長の概観 世界はどのようにして、これほど豊かになったのでしょうか？ 長期の成長 An Overview of Long-Run Economic Growth" aria-labelledby="title-ch03"><div class="chapter-top"><span class="chapter-number">03</span><span class="chapter-method">長期の経済成長の概観</span></div><div class="chapter-story"><h3 id="title-ch03">世界はどのようにして、これほど豊かになったのでしょうか？</h3><p>国々と何世紀にもわたる生活水準をたどりましょう。複利の力と、持続的な成長が始まった時期の大きな違いを探ります。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch03-an-overview-of-long-run-economic-growth-v1.webp" data-map-title="第3章: 長期の経済成長の概観" aria-label="第3章のマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/ch03.jpg" alt="第3章「長期の経済成長の概観」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/ch03-an-overview-of-long-run-economic-growth.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>章を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch03-an-overview-of-long-run-economic-growth.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/ch03/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch03-data-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>データアプリ</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch03-model-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>図表アプリ</a></div><div class="podcast-widget" id="podcast-ch03-an-overview-of-long-run-economic-growth">
+<div class="podcast-launch-row">
+  <button type="button" class="podcast-launch" data-podcast-toggle aria-expanded="false" aria-controls="podcast-ch03-an-overview-of-long-run-economic-growth-player">
+    <span class="podcast-launch-icon" aria-hidden="true"><svg width="49.6" height="32" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="white" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 11V9a6 6 0 0 1 12 0v2"/><rect x="9" y="10" width="3" height="6" rx="1.5"/><rect x="19" y="10" width="3" height="6" rx="1.5"/><path d="M14 9v4m3-5v6" stroke-opacity=".8"/></g></svg></span>
+    <span class="podcast-launch-label">ポッドキャストを聴く（英語）</span>
+  </button>
+</div>
+
+<section id="podcast-ch03-an-overview-of-long-run-economic-growth-player" class="podcast-player" data-podcast="../audio-player/transcripts/podcast-ch03-an-overview-of-long-run-economic-growth.json" aria-label="第3章・長期の経済成長の概観のポッドキャスト・プレーヤー" hidden>
+  <a class="podcast-mindmap" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch03-an-overview-of-long-run-economic-growth-v1.webp" target="_blank" rel="noopener" aria-label="画像を開く：第3章のマインドマップ（新しいタブで開きます）"><img src="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch03-an-overview-of-long-run-economic-growth-v1.webp" alt="第3章のマインドマップ" loading="lazy"><span>⊕ マインドマップ</span></a>
+  <div class="podcast-heading">
+    <div>
+      <p class="podcast-eyebrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 15v-4a8 8 0 0 1 16 0v4"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/></svg> AIポッドキャスト（英語） · <span data-episode-minutes>22</span> 分</p>
+      <h5>第3章・長期の経済成長の概観</h5>
+      <p class="podcast-now" aria-live="polite">再生中：Opening</p>
+    </div>
+    <button type="button" class="podcast-close" aria-label="プレーヤーを閉じる"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg></button>
+  </div>
+  <div class="podcast-playback">
+    <audio controls controlslist="nodownload" preload="none" aria-label="第3章・長期の経済成長の概観のポッドキャスト">
+      <source src="https://quarcs-lab.github.io/macro102-site/podcasts/ch03-an-overview-of-long-run-economic-growth.mp3" type="audio/mpeg">
+      お使いのブラウザは音声の再生に対応していません。下のトランスクリプトを読むことができます。
+    </audio>
+    <div data-enhanced hidden>
+      <div class="podcast-timeline">
+        <div class="podcast-track" aria-hidden="true"><span data-buffer></span><span data-progress></span></div>
+        <div class="podcast-cuts" aria-hidden="true"></div>
+        <input data-seek type="range" min="0" max="1" value="0" step="0.1" aria-label="ポッドキャストの再生位置">
+      </div>
+      <div class="podcast-time"><span data-elapsed>00:00</span><span data-duration>22:02</span></div>
+      <div class="podcast-controls">
+        <div class="podcast-transport">
+          <button type="button" class="podcast-skip" data-skip="-15" aria-label="15秒戻る"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 7a11 11 0 1 1-4 10M10 3v7H3"/></svg><small>15</small></button>
+          <button type="button" class="podcast-play" aria-label="ポッドキャストを再生" aria-pressed="false">
+            <svg data-play-icon width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m8 4 12 8-12 8z"/></svg>
+            <svg data-pause-icon hidden width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+          </button>
+          <button type="button" class="podcast-skip" data-skip="30" aria-label="30秒進む"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 7a11 11 0 1 0 4 10M22 3v7h7"/></svg><small>30</small></button>
+        </div>
+        <button type="button" class="podcast-speed" data-speed aria-label="再生速度：1×。クリックで変更">1×</button>
+      </div>
+    </div>
+  </div>
+  <div class="podcast-chapters" data-enhanced hidden aria-label="エピソードのセクション"></div>
+  <div class="podcast-transcript-actions">
+    <button type="button" class="podcast-transcript-toggle" data-enhanced hidden aria-expanded="false" aria-controls="podcast-ch03-an-overview-of-long-run-economic-growth-transcript"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="15" rx="1"/><path d="M6 8h12M6 11h12M6 14h8"/></svg><span>文字を追う</span><svg class="podcast-transcript-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+    <a class="podcast-action-link" href="../audio-player/transcripts/podcast-ch03-an-overview-of-long-run-economic-growth.html" target="_blank" rel="noopener" aria-label="トランスクリプトを開く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14"/><path d="M10 3H3v18h18v-7"/></svg>トランスクリプトを開く</a>
+    <a class="podcast-action-link" href="https://open.spotify.com/episode/7iNJdwFNx0dTFfQAfsbRB5" target="_blank" rel="noopener" aria-label="Spotifyで聴く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M6 9c4-2 8-1 12 1M7 12c3-1 6-1 10 1M8 15c3-1 5 0 8 1"/></svg>Spotifyで聴く</a>
+  </div>
+  <div id="podcast-ch03-an-overview-of-long-run-economic-growth-transcript" class="podcast-transcript" hidden>
+    <div class="podcast-passages" role="region" aria-label="時間付きトランスクリプト。段落を選ぶとその位置へ移動します。" tabindex="0"></div>
+    <label class="podcast-follow"><input data-follow type="checkbox" checked> 音声に合わせて移動</label>
+  </div>
+    <p class="podcast-status" role="status"></p>
+</section>
+</div>
+
+</article><article id="chapter-4" class="chapter-card resource" data-topic="長期の成長" data-search="Chapter 04 第4章 生産のモデル なぜ一部の経済は、はるかに多く生産できるのでしょうか？ 長期の成長 A Model of Production" aria-labelledby="title-ch04"><div class="chapter-top"><span class="chapter-number">04</span><span class="chapter-method">生産のモデル</span></div><div class="chapter-story"><h3 id="title-ch04">なぜ一部の経済は、はるかに多く生産できるのでしょうか？</h3><p>資本、労働、生産性から生産のモデルを組み立てましょう。その予測をデータと比べ、所得格差のどれだけを説明できるかを確かめます。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch04-a-model-of-production-v1.webp" data-map-title="第4章: 生産のモデル" aria-label="第4章のマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/ch04.jpg" alt="第4章「生産のモデル」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/ch04-a-model-of-production.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>章を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch04-a-model-of-production.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/ch04/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch04-data-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>データアプリ</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch04-model-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>図表アプリ</a></div><div class="podcast-widget" id="podcast-ch04-a-model-of-production">
+<div class="podcast-launch-row">
+  <button type="button" class="podcast-launch" data-podcast-toggle aria-expanded="false" aria-controls="podcast-ch04-a-model-of-production-player">
+    <span class="podcast-launch-icon" aria-hidden="true"><svg width="49.6" height="32" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="white" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 11V9a6 6 0 0 1 12 0v2"/><rect x="9" y="10" width="3" height="6" rx="1.5"/><rect x="19" y="10" width="3" height="6" rx="1.5"/><path d="M14 9v4m3-5v6" stroke-opacity=".8"/></g></svg></span>
+    <span class="podcast-launch-label">ポッドキャストを聴く（英語）</span>
+  </button>
+</div>
+
+<section id="podcast-ch04-a-model-of-production-player" class="podcast-player" data-podcast="../audio-player/transcripts/podcast-ch04-a-model-of-production.json" aria-label="第4章・生産のモデルのポッドキャスト・プレーヤー" hidden>
+  <a class="podcast-mindmap" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch04-a-model-of-production-v1.webp" target="_blank" rel="noopener" aria-label="画像を開く：第4章のマインドマップ（新しいタブで開きます）"><img src="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch04-a-model-of-production-v1.webp" alt="第4章のマインドマップ" loading="lazy"><span>⊕ マインドマップ</span></a>
+  <div class="podcast-heading">
+    <div>
+      <p class="podcast-eyebrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 15v-4a8 8 0 0 1 16 0v4"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/></svg> AIポッドキャスト（英語） · <span data-episode-minutes>23</span> 分</p>
+      <h5>第4章・生産のモデル</h5>
+      <p class="podcast-now" aria-live="polite">再生中：Opening</p>
+    </div>
+    <button type="button" class="podcast-close" aria-label="プレーヤーを閉じる"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg></button>
+  </div>
+  <div class="podcast-playback">
+    <audio controls controlslist="nodownload" preload="none" aria-label="第4章・生産のモデルのポッドキャスト">
+      <source src="https://quarcs-lab.github.io/macro102-site/podcasts/ch04-a-model-of-production.mp3" type="audio/mpeg">
+      お使いのブラウザは音声の再生に対応していません。下のトランスクリプトを読むことができます。
+    </audio>
+    <div data-enhanced hidden>
+      <div class="podcast-timeline">
+        <div class="podcast-track" aria-hidden="true"><span data-buffer></span><span data-progress></span></div>
+        <div class="podcast-cuts" aria-hidden="true"></div>
+        <input data-seek type="range" min="0" max="1" value="0" step="0.1" aria-label="ポッドキャストの再生位置">
+      </div>
+      <div class="podcast-time"><span data-elapsed>00:00</span><span data-duration>22:30</span></div>
+      <div class="podcast-controls">
+        <div class="podcast-transport">
+          <button type="button" class="podcast-skip" data-skip="-15" aria-label="15秒戻る"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 7a11 11 0 1 1-4 10M10 3v7H3"/></svg><small>15</small></button>
+          <button type="button" class="podcast-play" aria-label="ポッドキャストを再生" aria-pressed="false">
+            <svg data-play-icon width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m8 4 12 8-12 8z"/></svg>
+            <svg data-pause-icon hidden width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+          </button>
+          <button type="button" class="podcast-skip" data-skip="30" aria-label="30秒進む"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 7a11 11 0 1 0 4 10M22 3v7h7"/></svg><small>30</small></button>
+        </div>
+        <button type="button" class="podcast-speed" data-speed aria-label="再生速度：1×。クリックで変更">1×</button>
+      </div>
+    </div>
+  </div>
+  <div class="podcast-chapters" data-enhanced hidden aria-label="エピソードのセクション"></div>
+  <div class="podcast-transcript-actions">
+    <button type="button" class="podcast-transcript-toggle" data-enhanced hidden aria-expanded="false" aria-controls="podcast-ch04-a-model-of-production-transcript"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="15" rx="1"/><path d="M6 8h12M6 11h12M6 14h8"/></svg><span>文字を追う</span><svg class="podcast-transcript-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+    <a class="podcast-action-link" href="../audio-player/transcripts/podcast-ch04-a-model-of-production.html" target="_blank" rel="noopener" aria-label="トランスクリプトを開く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14"/><path d="M10 3H3v18h18v-7"/></svg>トランスクリプトを開く</a>
+    <a class="podcast-action-link" href="https://open.spotify.com/episode/4KmkTjKeBfPpnBR3h7wGpU" target="_blank" rel="noopener" aria-label="Spotifyで聴く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M6 9c4-2 8-1 12 1M7 12c3-1 6-1 10 1M8 15c3-1 5 0 8 1"/></svg>Spotifyで聴く</a>
+  </div>
+  <div id="podcast-ch04-a-model-of-production-transcript" class="podcast-transcript" hidden>
+    <div class="podcast-passages" role="region" aria-label="時間付きトランスクリプト。段落を選ぶとその位置へ移動します。" tabindex="0"></div>
+    <label class="podcast-follow"><input data-follow type="checkbox" checked> 音声に合わせて移動</label>
+  </div>
+    <p class="podcast-status" role="status"></p>
+</section>
+</div>
+
+</article><article id="chapter-5" class="chapter-card resource" data-topic="長期の成長" data-search="Chapter 05 第5章 ソロー成長モデル もっと貯蓄すれば、国は豊かになれるのでしょうか？ 長期の成長 The Solow Growth Model" aria-labelledby="title-ch05"><div class="chapter-top"><span class="chapter-number">05</span><span class="chapter-method">ソロー成長モデル</span></div><div class="chapter-story"><h3 id="title-ch05">もっと貯蓄すれば、国は豊かになれるのでしょうか？</h3><p>ソロー・モデルを動かし、資本が蓄積する様子を見ましょう。定常状態、移行過程、投資だけに頼る成長の限界を探ります。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch05-the-solow-growth-model-v2.webp" data-map-title="第5章: ソロー成長モデル" aria-label="第5章のマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/ch05.jpg" alt="第5章「ソロー成長モデル」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/ch05-the-solow-growth-model.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>章を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch05-the-solow-growth-model.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/ch05/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch05-data-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>データアプリ</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch05-model-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>図表アプリ</a></div><div class="podcast-widget" id="podcast-ch05-the-solow-growth-model">
+<div class="podcast-launch-row">
+  <button type="button" class="podcast-launch" data-podcast-toggle aria-expanded="false" aria-controls="podcast-ch05-the-solow-growth-model-player">
+    <span class="podcast-launch-icon" aria-hidden="true"><svg width="49.6" height="32" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="white" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 11V9a6 6 0 0 1 12 0v2"/><rect x="9" y="10" width="3" height="6" rx="1.5"/><rect x="19" y="10" width="3" height="6" rx="1.5"/><path d="M14 9v4m3-5v6" stroke-opacity=".8"/></g></svg></span>
+    <span class="podcast-launch-label">ポッドキャストを聴く（英語）</span>
+  </button>
+</div>
+
+<section id="podcast-ch05-the-solow-growth-model-player" class="podcast-player" data-podcast="../audio-player/transcripts/podcast-ch05-the-solow-growth-model.json" aria-label="第5章・ソロー成長モデルのポッドキャスト・プレーヤー" hidden>
+  <a class="podcast-mindmap" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch05-the-solow-growth-model-v2.webp" target="_blank" rel="noopener" aria-label="画像を開く：第5章のマインドマップ（新しいタブで開きます）"><img src="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch05-the-solow-growth-model-v2.webp" alt="第5章のマインドマップ" loading="lazy"><span>⊕ マインドマップ</span></a>
+  <div class="podcast-heading">
+    <div>
+      <p class="podcast-eyebrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 15v-4a8 8 0 0 1 16 0v4"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/></svg> AIポッドキャスト（英語） · <span data-episode-minutes>22</span> 分</p>
+      <h5>第5章・ソロー成長モデル</h5>
+      <p class="podcast-now" aria-live="polite">再生中：Opening</p>
+    </div>
+    <button type="button" class="podcast-close" aria-label="プレーヤーを閉じる"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg></button>
+  </div>
+  <div class="podcast-playback">
+    <audio controls controlslist="nodownload" preload="none" aria-label="第5章・ソロー成長モデルのポッドキャスト">
+      <source src="https://quarcs-lab.github.io/macro102-site/podcasts/ch05-the-solow-growth-model.mp3" type="audio/mpeg">
+      お使いのブラウザは音声の再生に対応していません。下のトランスクリプトを読むことができます。
+    </audio>
+    <div data-enhanced hidden>
+      <div class="podcast-timeline">
+        <div class="podcast-track" aria-hidden="true"><span data-buffer></span><span data-progress></span></div>
+        <div class="podcast-cuts" aria-hidden="true"></div>
+        <input data-seek type="range" min="0" max="1" value="0" step="0.1" aria-label="ポッドキャストの再生位置">
+      </div>
+      <div class="podcast-time"><span data-elapsed>00:00</span><span data-duration>22:09</span></div>
+      <div class="podcast-controls">
+        <div class="podcast-transport">
+          <button type="button" class="podcast-skip" data-skip="-15" aria-label="15秒戻る"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 7a11 11 0 1 1-4 10M10 3v7H3"/></svg><small>15</small></button>
+          <button type="button" class="podcast-play" aria-label="ポッドキャストを再生" aria-pressed="false">
+            <svg data-play-icon width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m8 4 12 8-12 8z"/></svg>
+            <svg data-pause-icon hidden width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+          </button>
+          <button type="button" class="podcast-skip" data-skip="30" aria-label="30秒進む"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 7a11 11 0 1 0 4 10M22 3v7h7"/></svg><small>30</small></button>
+        </div>
+        <button type="button" class="podcast-speed" data-speed aria-label="再生速度：1×。クリックで変更">1×</button>
+      </div>
+    </div>
+  </div>
+  <div class="podcast-chapters" data-enhanced hidden aria-label="エピソードのセクション"></div>
+  <div class="podcast-transcript-actions">
+    <button type="button" class="podcast-transcript-toggle" data-enhanced hidden aria-expanded="false" aria-controls="podcast-ch05-the-solow-growth-model-transcript"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="15" rx="1"/><path d="M6 8h12M6 11h12M6 14h8"/></svg><span>文字を追う</span><svg class="podcast-transcript-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+    <a class="podcast-action-link" href="../audio-player/transcripts/podcast-ch05-the-solow-growth-model.html" target="_blank" rel="noopener" aria-label="トランスクリプトを開く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14"/><path d="M10 3H3v18h18v-7"/></svg>トランスクリプトを開く</a>
+    <a class="podcast-action-link" href="https://open.spotify.com/episode/3ee0OK7sqWkZRyJdukltCa" target="_blank" rel="noopener" aria-label="Spotifyで聴く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M6 9c4-2 8-1 12 1M7 12c3-1 6-1 10 1M8 15c3-1 5 0 8 1"/></svg>Spotifyで聴く</a>
+  </div>
+  <div id="podcast-ch05-the-solow-growth-model-transcript" class="podcast-transcript" hidden>
+    <div class="podcast-passages" role="region" aria-label="時間付きトランスクリプト。段落を選ぶとその位置へ移動します。" tabindex="0"></div>
+    <label class="podcast-follow"><input data-follow type="checkbox" checked> 音声に合わせて移動</label>
+  </div>
+    <p class="podcast-status" role="status"></p>
+</section>
+</div>
+
+</article><article id="chapter-6" class="chapter-card resource" data-topic="長期の成長" data-search="Chapter 06 第6章 成長とアイデア 経済成長を続けさせるものは何でしょうか？ 長期の成長 Growth and Ideas" aria-labelledby="title-ch06"><div class="chapter-top"><span class="chapter-number">06</span><span class="chapter-method">成長とアイデア</span></div><div class="chapter-story"><h3 id="title-ch06">経済成長を続けさせるものは何でしょうか？</h3><p>アイデアは多くの人が同時に使えます。それが生産の経済学をどう変えるのか、そして研究がなぜ生活水準の上昇を支え続けられるのかを探ります。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch06-growth-and-ideas-v1.webp" data-map-title="第6章: 成長とアイデア" aria-label="第6章のマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/ch06.jpg" alt="第6章「成長とアイデア」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/ch06-growth-and-ideas.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>章を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch06-growth-and-ideas.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/ch06/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch06-data-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>データアプリ</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch06-model-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>図表アプリ</a></div><div class="podcast-widget" id="podcast-ch06-growth-and-ideas">
+<div class="podcast-launch-row">
+  <button type="button" class="podcast-launch" data-podcast-toggle aria-expanded="false" aria-controls="podcast-ch06-growth-and-ideas-player">
+    <span class="podcast-launch-icon" aria-hidden="true"><svg width="49.6" height="32" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="white" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 11V9a6 6 0 0 1 12 0v2"/><rect x="9" y="10" width="3" height="6" rx="1.5"/><rect x="19" y="10" width="3" height="6" rx="1.5"/><path d="M14 9v4m3-5v6" stroke-opacity=".8"/></g></svg></span>
+    <span class="podcast-launch-label">ポッドキャストを聴く（英語）</span>
+  </button>
+</div>
+
+<section id="podcast-ch06-growth-and-ideas-player" class="podcast-player" data-podcast="../audio-player/transcripts/podcast-ch06-growth-and-ideas.json" aria-label="第6章・成長とアイデアのポッドキャスト・プレーヤー" hidden>
+  <a class="podcast-mindmap" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch06-growth-and-ideas-v1.webp" target="_blank" rel="noopener" aria-label="画像を開く：第6章のマインドマップ（新しいタブで開きます）"><img src="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch06-growth-and-ideas-v1.webp" alt="第6章のマインドマップ" loading="lazy"><span>⊕ マインドマップ</span></a>
+  <div class="podcast-heading">
+    <div>
+      <p class="podcast-eyebrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 15v-4a8 8 0 0 1 16 0v4"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/></svg> AIポッドキャスト（英語） · <span data-episode-minutes>23</span> 分</p>
+      <h5>第6章・成長とアイデア</h5>
+      <p class="podcast-now" aria-live="polite">再生中：Opening</p>
+    </div>
+    <button type="button" class="podcast-close" aria-label="プレーヤーを閉じる"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg></button>
+  </div>
+  <div class="podcast-playback">
+    <audio controls controlslist="nodownload" preload="none" aria-label="第6章・成長とアイデアのポッドキャスト">
+      <source src="https://quarcs-lab.github.io/macro102-site/podcasts/ch06-growth-and-ideas.mp3" type="audio/mpeg">
+      お使いのブラウザは音声の再生に対応していません。下のトランスクリプトを読むことができます。
+    </audio>
+    <div data-enhanced hidden>
+      <div class="podcast-timeline">
+        <div class="podcast-track" aria-hidden="true"><span data-buffer></span><span data-progress></span></div>
+        <div class="podcast-cuts" aria-hidden="true"></div>
+        <input data-seek type="range" min="0" max="1" value="0" step="0.1" aria-label="ポッドキャストの再生位置">
+      </div>
+      <div class="podcast-time"><span data-elapsed>00:00</span><span data-duration>22:55</span></div>
+      <div class="podcast-controls">
+        <div class="podcast-transport">
+          <button type="button" class="podcast-skip" data-skip="-15" aria-label="15秒戻る"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 7a11 11 0 1 1-4 10M10 3v7H3"/></svg><small>15</small></button>
+          <button type="button" class="podcast-play" aria-label="ポッドキャストを再生" aria-pressed="false">
+            <svg data-play-icon width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m8 4 12 8-12 8z"/></svg>
+            <svg data-pause-icon hidden width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+          </button>
+          <button type="button" class="podcast-skip" data-skip="30" aria-label="30秒進む"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 7a11 11 0 1 0 4 10M22 3v7h7"/></svg><small>30</small></button>
+        </div>
+        <button type="button" class="podcast-speed" data-speed aria-label="再生速度：1×。クリックで変更">1×</button>
+      </div>
+    </div>
+  </div>
+  <div class="podcast-chapters" data-enhanced hidden aria-label="エピソードのセクション"></div>
+  <div class="podcast-transcript-actions">
+    <button type="button" class="podcast-transcript-toggle" data-enhanced hidden aria-expanded="false" aria-controls="podcast-ch06-growth-and-ideas-transcript"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="15" rx="1"/><path d="M6 8h12M6 11h12M6 14h8"/></svg><span>文字を追う</span><svg class="podcast-transcript-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+    <a class="podcast-action-link" href="../audio-player/transcripts/podcast-ch06-growth-and-ideas.html" target="_blank" rel="noopener" aria-label="トランスクリプトを開く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14"/><path d="M10 3H3v18h18v-7"/></svg>トランスクリプトを開く</a>
+    <a class="podcast-action-link" href="https://open.spotify.com/episode/3Dy0XaFu7Mh4P5GDTCma8a" target="_blank" rel="noopener" aria-label="Spotifyで聴く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M6 9c4-2 8-1 12 1M7 12c3-1 6-1 10 1M8 15c3-1 5 0 8 1"/></svg>Spotifyで聴く</a>
+  </div>
+  <div id="podcast-ch06-growth-and-ideas-transcript" class="podcast-transcript" hidden>
+    <div class="podcast-passages" role="region" aria-label="時間付きトランスクリプト。段落を選ぶとその位置へ移動します。" tabindex="0"></div>
+    <label class="podcast-follow"><input data-follow type="checkbox" checked> 音声に合わせて移動</label>
+  </div>
+    <p class="podcast-status" role="status"></p>
+</section>
+</div>
+
+</article></div></section><section class="curriculum-group" aria-label="労働とインフレ"><h3 class="group-title">労働とインフレ</h3><div class="chapter-grid"><article id="chapter-7" class="chapter-card resource" data-topic="労働とインフレ" data-search="Chapter 07 第7章 労働市場、賃金、失業 仕事があるのに、なぜ失業している人がいるのでしょうか？ 労働とインフレ The Labor Market, Wages, and Unemployment" aria-labelledby="title-ch07"><div class="chapter-top"><span class="chapter-number">07</span><span class="chapter-method">労働市場、賃金、失業</span></div><div class="chapter-story"><h3 id="title-ch07">仕事があるのに、なぜ失業している人がいるのでしょうか？</h3><p>賃金と雇用を労働の需要と供給に結びつけましょう。そのうえで、労働者が仕事に就き、離れる流れを追い、なくならない失業を理解します。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch07-the-labor-market-wages-and-unemployment-v1.webp" data-map-title="第7章: 労働市場、賃金、失業" aria-label="第7章のマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/ch07.jpg" alt="第7章「労働市場、賃金、失業」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/ch07-the-labor-market-wages-and-unemployment.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>章を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch07-the-labor-market-wages-and-unemployment.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/ch07/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch07-data-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>データアプリ</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch07-model-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>図表アプリ</a></div><div class="podcast-widget" id="podcast-ch07-the-labor-market-wages-and-unemployment">
+<div class="podcast-launch-row">
+  <button type="button" class="podcast-launch" data-podcast-toggle aria-expanded="false" aria-controls="podcast-ch07-the-labor-market-wages-and-unemployment-player">
+    <span class="podcast-launch-icon" aria-hidden="true"><svg width="49.6" height="32" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="white" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 11V9a6 6 0 0 1 12 0v2"/><rect x="9" y="10" width="3" height="6" rx="1.5"/><rect x="19" y="10" width="3" height="6" rx="1.5"/><path d="M14 9v4m3-5v6" stroke-opacity=".8"/></g></svg></span>
+    <span class="podcast-launch-label">ポッドキャストを聴く（英語）</span>
+  </button>
+</div>
+
+<section id="podcast-ch07-the-labor-market-wages-and-unemployment-player" class="podcast-player" data-podcast="../audio-player/transcripts/podcast-ch07-the-labor-market-wages-and-unemployment.json" aria-label="第7章・労働市場、賃金、失業のポッドキャスト・プレーヤー" hidden>
+  <a class="podcast-mindmap" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch07-the-labor-market-wages-and-unemployment-v1.webp" target="_blank" rel="noopener" aria-label="画像を開く：第7章のマインドマップ（新しいタブで開きます）"><img src="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch07-the-labor-market-wages-and-unemployment-v1.webp" alt="第7章のマインドマップ" loading="lazy"><span>⊕ マインドマップ</span></a>
+  <div class="podcast-heading">
+    <div>
+      <p class="podcast-eyebrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 15v-4a8 8 0 0 1 16 0v4"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/></svg> AIポッドキャスト（英語） · <span data-episode-minutes>22</span> 分</p>
+      <h5>第7章・労働市場、賃金、失業</h5>
+      <p class="podcast-now" aria-live="polite">再生中：Opening</p>
+    </div>
+    <button type="button" class="podcast-close" aria-label="プレーヤーを閉じる"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg></button>
+  </div>
+  <div class="podcast-playback">
+    <audio controls controlslist="nodownload" preload="none" aria-label="第7章・労働市場、賃金、失業のポッドキャスト">
+      <source src="https://quarcs-lab.github.io/macro102-site/podcasts/ch07-the-labor-market-wages-and-unemployment.mp3" type="audio/mpeg">
+      お使いのブラウザは音声の再生に対応していません。下のトランスクリプトを読むことができます。
+    </audio>
+    <div data-enhanced hidden>
+      <div class="podcast-timeline">
+        <div class="podcast-track" aria-hidden="true"><span data-buffer></span><span data-progress></span></div>
+        <div class="podcast-cuts" aria-hidden="true"></div>
+        <input data-seek type="range" min="0" max="1" value="0" step="0.1" aria-label="ポッドキャストの再生位置">
+      </div>
+      <div class="podcast-time"><span data-elapsed>00:00</span><span data-duration>22:07</span></div>
+      <div class="podcast-controls">
+        <div class="podcast-transport">
+          <button type="button" class="podcast-skip" data-skip="-15" aria-label="15秒戻る"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 7a11 11 0 1 1-4 10M10 3v7H3"/></svg><small>15</small></button>
+          <button type="button" class="podcast-play" aria-label="ポッドキャストを再生" aria-pressed="false">
+            <svg data-play-icon width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m8 4 12 8-12 8z"/></svg>
+            <svg data-pause-icon hidden width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+          </button>
+          <button type="button" class="podcast-skip" data-skip="30" aria-label="30秒進む"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 7a11 11 0 1 0 4 10M22 3v7h7"/></svg><small>30</small></button>
+        </div>
+        <button type="button" class="podcast-speed" data-speed aria-label="再生速度：1×。クリックで変更">1×</button>
+      </div>
+    </div>
+  </div>
+  <div class="podcast-chapters" data-enhanced hidden aria-label="エピソードのセクション"></div>
+  <div class="podcast-transcript-actions">
+    <button type="button" class="podcast-transcript-toggle" data-enhanced hidden aria-expanded="false" aria-controls="podcast-ch07-the-labor-market-wages-and-unemployment-transcript"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="15" rx="1"/><path d="M6 8h12M6 11h12M6 14h8"/></svg><span>文字を追う</span><svg class="podcast-transcript-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+    <a class="podcast-action-link" href="../audio-player/transcripts/podcast-ch07-the-labor-market-wages-and-unemployment.html" target="_blank" rel="noopener" aria-label="トランスクリプトを開く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14"/><path d="M10 3H3v18h18v-7"/></svg>トランスクリプトを開く</a>
+    <a class="podcast-action-link" href="https://open.spotify.com/episode/5KUkRfg8FF3gTy2lQufPE3" target="_blank" rel="noopener" aria-label="Spotifyで聴く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M6 9c4-2 8-1 12 1M7 12c3-1 6-1 10 1M8 15c3-1 5 0 8 1"/></svg>Spotifyで聴く</a>
+  </div>
+  <div id="podcast-ch07-the-labor-market-wages-and-unemployment-transcript" class="podcast-transcript" hidden>
+    <div class="podcast-passages" role="region" aria-label="時間付きトランスクリプト。段落を選ぶとその位置へ移動します。" tabindex="0"></div>
+    <label class="podcast-follow"><input data-follow type="checkbox" checked> 音声に合わせて移動</label>
+  </div>
+    <p class="podcast-status" role="status"></p>
+</section>
+</div>
+
+</article><article id="chapter-8" class="chapter-card resource" data-topic="労働とインフレ" data-search="Chapter 08 第8章 インフレ なぜお金は購買力を失うのでしょうか？ 労働とインフレ Inflation" aria-labelledby="title-ch08"><div class="chapter-top"><span class="chapter-number">08</span><span class="chapter-method">インフレ</span></div><div class="chapter-story"><h3 id="title-ch08">なぜお金は購買力を失うのでしょうか？</h3><p>データでインフレを測り、物価を貨幣と産出に結びつけましょう。貨幣数量説、実質金利、インフレのコストを探ります。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch08-inflation-v1.webp" data-map-title="第8章: インフレ" aria-label="第8章のマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/ch08.jpg" alt="第8章「インフレ」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/ch08-inflation.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>章を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch08-inflation.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/ch08/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch08-data-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>データアプリ</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch08-model-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>図表アプリ</a></div><div class="podcast-widget" id="podcast-ch08-inflation">
+<div class="podcast-launch-row">
+  <button type="button" class="podcast-launch" data-podcast-toggle aria-expanded="false" aria-controls="podcast-ch08-inflation-player">
+    <span class="podcast-launch-icon" aria-hidden="true"><svg width="49.6" height="32" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="white" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 11V9a6 6 0 0 1 12 0v2"/><rect x="9" y="10" width="3" height="6" rx="1.5"/><rect x="19" y="10" width="3" height="6" rx="1.5"/><path d="M14 9v4m3-5v6" stroke-opacity=".8"/></g></svg></span>
+    <span class="podcast-launch-label">ポッドキャストを聴く（英語）</span>
+  </button>
+</div>
+
+<section id="podcast-ch08-inflation-player" class="podcast-player" data-podcast="../audio-player/transcripts/podcast-ch08-inflation.json" aria-label="第8章・インフレのポッドキャスト・プレーヤー" hidden>
+  <a class="podcast-mindmap" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch08-inflation-v1.webp" target="_blank" rel="noopener" aria-label="画像を開く：第8章のマインドマップ（新しいタブで開きます）"><img src="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch08-inflation-v1.webp" alt="第8章のマインドマップ" loading="lazy"><span>⊕ マインドマップ</span></a>
+  <div class="podcast-heading">
+    <div>
+      <p class="podcast-eyebrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 15v-4a8 8 0 0 1 16 0v4"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/></svg> AIポッドキャスト（英語） · <span data-episode-minutes>23</span> 分</p>
+      <h5>第8章・インフレ</h5>
+      <p class="podcast-now" aria-live="polite">再生中：Opening</p>
+    </div>
+    <button type="button" class="podcast-close" aria-label="プレーヤーを閉じる"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg></button>
+  </div>
+  <div class="podcast-playback">
+    <audio controls controlslist="nodownload" preload="none" aria-label="第8章・インフレのポッドキャスト">
+      <source src="https://quarcs-lab.github.io/macro102-site/podcasts/ch08-inflation.mp3" type="audio/mpeg">
+      お使いのブラウザは音声の再生に対応していません。下のトランスクリプトを読むことができます。
+    </audio>
+    <div data-enhanced hidden>
+      <div class="podcast-timeline">
+        <div class="podcast-track" aria-hidden="true"><span data-buffer></span><span data-progress></span></div>
+        <div class="podcast-cuts" aria-hidden="true"></div>
+        <input data-seek type="range" min="0" max="1" value="0" step="0.1" aria-label="ポッドキャストの再生位置">
+      </div>
+      <div class="podcast-time"><span data-elapsed>00:00</span><span data-duration>22:45</span></div>
+      <div class="podcast-controls">
+        <div class="podcast-transport">
+          <button type="button" class="podcast-skip" data-skip="-15" aria-label="15秒戻る"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 7a11 11 0 1 1-4 10M10 3v7H3"/></svg><small>15</small></button>
+          <button type="button" class="podcast-play" aria-label="ポッドキャストを再生" aria-pressed="false">
+            <svg data-play-icon width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m8 4 12 8-12 8z"/></svg>
+            <svg data-pause-icon hidden width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+          </button>
+          <button type="button" class="podcast-skip" data-skip="30" aria-label="30秒進む"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 7a11 11 0 1 0 4 10M22 3v7h7"/></svg><small>30</small></button>
+        </div>
+        <button type="button" class="podcast-speed" data-speed aria-label="再生速度：1×。クリックで変更">1×</button>
+      </div>
+    </div>
+  </div>
+  <div class="podcast-chapters" data-enhanced hidden aria-label="エピソードのセクション"></div>
+  <div class="podcast-transcript-actions">
+    <button type="button" class="podcast-transcript-toggle" data-enhanced hidden aria-expanded="false" aria-controls="podcast-ch08-inflation-transcript"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="15" rx="1"/><path d="M6 8h12M6 11h12M6 14h8"/></svg><span>文字を追う</span><svg class="podcast-transcript-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+    <a class="podcast-action-link" href="../audio-player/transcripts/podcast-ch08-inflation.html" target="_blank" rel="noopener" aria-label="トランスクリプトを開く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14"/><path d="M10 3H3v18h18v-7"/></svg>トランスクリプトを開く</a>
+    <a class="podcast-action-link" href="https://open.spotify.com/episode/1qeIGwdqMw698TP5w7c0D1" target="_blank" rel="noopener" aria-label="Spotifyで聴く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M6 9c4-2 8-1 12 1M7 12c3-1 6-1 10 1M8 15c3-1 5 0 8 1"/></svg>Spotifyで聴く</a>
+  </div>
+  <div id="podcast-ch08-inflation-transcript" class="podcast-transcript" hidden>
+    <div class="podcast-passages" role="region" aria-label="時間付きトランスクリプト。段落を選ぶとその位置へ移動します。" tabindex="0"></div>
+    <label class="podcast-follow"><input data-follow type="checkbox" checked> 音声に合わせて移動</label>
+  </div>
+    <p class="podcast-status" role="status"></p>
+</section>
+</div>
+
+</article></div></section><section class="curriculum-group" aria-label="景気循環と政策"><h3 class="group-title">景気循環と政策</h3><div class="chapter-grid"><article id="chapter-9" class="chapter-card resource" data-topic="景気循環と政策" data-search="Chapter 09 第9章 短期入門 なぜ経済には浮き沈みがあるのでしょうか？ 景気循環と政策 An Introduction to the Short Run" aria-labelledby="title-ch09"><div class="chapter-top"><span class="chapter-number">09</span><span class="chapter-method">短期入門</span></div><div class="chapter-story"><h3 id="title-ch09">なぜ経済には浮き沈みがあるのでしょうか？</h3><p>産出の長期的な経路と短期的な変動を分けましょう。産出、雇用、インフレのデータを使って、不況のときに何が起こるかを説明します。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch09-an-introduction-to-the-short-run-v1.webp" data-map-title="第9章: 短期入門" aria-label="第9章のマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/ch09.jpg" alt="第9章「短期入門」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/ch09-an-introduction-to-the-short-run.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>章を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch09-an-introduction-to-the-short-run.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/ch09/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch09-data-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>データアプリ</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch09-model-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>図表アプリ</a></div><div class="podcast-widget" id="podcast-ch09-an-introduction-to-the-short-run">
+<div class="podcast-launch-row">
+  <button type="button" class="podcast-launch" data-podcast-toggle aria-expanded="false" aria-controls="podcast-ch09-an-introduction-to-the-short-run-player">
+    <span class="podcast-launch-icon" aria-hidden="true"><svg width="49.6" height="32" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="white" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 11V9a6 6 0 0 1 12 0v2"/><rect x="9" y="10" width="3" height="6" rx="1.5"/><rect x="19" y="10" width="3" height="6" rx="1.5"/><path d="M14 9v4m3-5v6" stroke-opacity=".8"/></g></svg></span>
+    <span class="podcast-launch-label">ポッドキャストを聴く（英語）</span>
+  </button>
+</div>
+
+<section id="podcast-ch09-an-introduction-to-the-short-run-player" class="podcast-player" data-podcast="../audio-player/transcripts/podcast-ch09-an-introduction-to-the-short-run.json" aria-label="第9章・短期入門のポッドキャスト・プレーヤー" hidden>
+  <a class="podcast-mindmap" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch09-an-introduction-to-the-short-run-v1.webp" target="_blank" rel="noopener" aria-label="画像を開く：第9章のマインドマップ（新しいタブで開きます）"><img src="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch09-an-introduction-to-the-short-run-v1.webp" alt="第9章のマインドマップ" loading="lazy"><span>⊕ マインドマップ</span></a>
+  <div class="podcast-heading">
+    <div>
+      <p class="podcast-eyebrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 15v-4a8 8 0 0 1 16 0v4"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/></svg> AIポッドキャスト（英語） · <span data-episode-minutes>23</span> 分</p>
+      <h5>第9章・短期入門</h5>
+      <p class="podcast-now" aria-live="polite">再生中：Opening</p>
+    </div>
+    <button type="button" class="podcast-close" aria-label="プレーヤーを閉じる"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg></button>
+  </div>
+  <div class="podcast-playback">
+    <audio controls controlslist="nodownload" preload="none" aria-label="第9章・短期入門のポッドキャスト">
+      <source src="https://quarcs-lab.github.io/macro102-site/podcasts/ch09-an-introduction-to-the-short-run.mp3" type="audio/mpeg">
+      お使いのブラウザは音声の再生に対応していません。下のトランスクリプトを読むことができます。
+    </audio>
+    <div data-enhanced hidden>
+      <div class="podcast-timeline">
+        <div class="podcast-track" aria-hidden="true"><span data-buffer></span><span data-progress></span></div>
+        <div class="podcast-cuts" aria-hidden="true"></div>
+        <input data-seek type="range" min="0" max="1" value="0" step="0.1" aria-label="ポッドキャストの再生位置">
+      </div>
+      <div class="podcast-time"><span data-elapsed>00:00</span><span data-duration>22:38</span></div>
+      <div class="podcast-controls">
+        <div class="podcast-transport">
+          <button type="button" class="podcast-skip" data-skip="-15" aria-label="15秒戻る"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 7a11 11 0 1 1-4 10M10 3v7H3"/></svg><small>15</small></button>
+          <button type="button" class="podcast-play" aria-label="ポッドキャストを再生" aria-pressed="false">
+            <svg data-play-icon width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m8 4 12 8-12 8z"/></svg>
+            <svg data-pause-icon hidden width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+          </button>
+          <button type="button" class="podcast-skip" data-skip="30" aria-label="30秒進む"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 7a11 11 0 1 0 4 10M22 3v7h7"/></svg><small>30</small></button>
+        </div>
+        <button type="button" class="podcast-speed" data-speed aria-label="再生速度：1×。クリックで変更">1×</button>
+      </div>
+    </div>
+  </div>
+  <div class="podcast-chapters" data-enhanced hidden aria-label="エピソードのセクション"></div>
+  <div class="podcast-transcript-actions">
+    <button type="button" class="podcast-transcript-toggle" data-enhanced hidden aria-expanded="false" aria-controls="podcast-ch09-an-introduction-to-the-short-run-transcript"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="15" rx="1"/><path d="M6 8h12M6 11h12M6 14h8"/></svg><span>文字を追う</span><svg class="podcast-transcript-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+    <a class="podcast-action-link" href="../audio-player/transcripts/podcast-ch09-an-introduction-to-the-short-run.html" target="_blank" rel="noopener" aria-label="トランスクリプトを開く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14"/><path d="M10 3H3v18h18v-7"/></svg>トランスクリプトを開く</a>
+    <a class="podcast-action-link" href="https://open.spotify.com/episode/3CH6V85YCseKELYz1PN47P" target="_blank" rel="noopener" aria-label="Spotifyで聴く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M6 9c4-2 8-1 12 1M7 12c3-1 6-1 10 1M8 15c3-1 5 0 8 1"/></svg>Spotifyで聴く</a>
+  </div>
+  <div id="podcast-ch09-an-introduction-to-the-short-run-transcript" class="podcast-transcript" hidden>
+    <div class="podcast-passages" role="region" aria-label="時間付きトランスクリプト。段落を選ぶとその位置へ移動します。" tabindex="0"></div>
+    <label class="podcast-follow"><input data-follow type="checkbox" checked> 音声に合わせて移動</label>
+  </div>
+    <p class="podcast-status" role="status"></p>
+</section>
+</div>
+
+</article><article id="chapter-10" class="chapter-card resource" data-topic="景気循環と政策" data-search="Chapter 10 第10章 大不況とコロナ禍：最初の考察 金融危機とコロナ禍は、なぜあれほど大きな混乱を招いたのでしょうか？ 景気循環と政策 The Great Recession and the Covid-19 Pandemic: A First Look" aria-labelledby="title-ch10"><div class="chapter-top"><span class="chapter-number">10</span><span class="chapter-method">大不況とコロナ禍：最初の考察</span></div><div class="chapter-story"><h3 id="title-ch10">金融危機とコロナ禍は、なぜあれほど大きな混乱を招いたのでしょうか？</h3><p>まったく異なる二つの景気後退を比べましょう。住宅、金融市場、産出、雇用をたどり、それぞれのショックが経済にどう広がったかを見ます。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look-v1.webp" data-map-title="第10章: 大不況とコロナ禍：最初の考察" aria-label="第10章のマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/ch10.jpg" alt="第10章「大不況とコロナ禍：最初の考察」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>章を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/ch10/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch10-data-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>データアプリ</a></div><div class="podcast-widget" id="podcast-ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look">
+<div class="podcast-launch-row">
+  <button type="button" class="podcast-launch" data-podcast-toggle aria-expanded="false" aria-controls="podcast-ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look-player">
+    <span class="podcast-launch-icon" aria-hidden="true"><svg width="49.6" height="32" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="white" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 11V9a6 6 0 0 1 12 0v2"/><rect x="9" y="10" width="3" height="6" rx="1.5"/><rect x="19" y="10" width="3" height="6" rx="1.5"/><path d="M14 9v4m3-5v6" stroke-opacity=".8"/></g></svg></span>
+    <span class="podcast-launch-label">ポッドキャストを聴く（英語）</span>
+  </button>
+</div>
+
+<section id="podcast-ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look-player" class="podcast-player" data-podcast="../audio-player/transcripts/podcast-ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look.json" aria-label="第10章・大不況とコロナ禍：最初の考察のポッドキャスト・プレーヤー" hidden>
+  <a class="podcast-mindmap" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look-v1.webp" target="_blank" rel="noopener" aria-label="画像を開く：第10章のマインドマップ（新しいタブで開きます）"><img src="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look-v1.webp" alt="第10章のマインドマップ" loading="lazy"><span>⊕ マインドマップ</span></a>
+  <div class="podcast-heading">
+    <div>
+      <p class="podcast-eyebrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 15v-4a8 8 0 0 1 16 0v4"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/></svg> AIポッドキャスト（英語） · <span data-episode-minutes>22</span> 分</p>
+      <h5>第10章・大不況とコロナ禍：最初の考察</h5>
+      <p class="podcast-now" aria-live="polite">再生中：Opening</p>
+    </div>
+    <button type="button" class="podcast-close" aria-label="プレーヤーを閉じる"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg></button>
+  </div>
+  <div class="podcast-playback">
+    <audio controls controlslist="nodownload" preload="none" aria-label="第10章・大不況とコロナ禍：最初の考察のポッドキャスト">
+      <source src="https://quarcs-lab.github.io/macro102-site/podcasts/ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look.mp3" type="audio/mpeg">
+      お使いのブラウザは音声の再生に対応していません。下のトランスクリプトを読むことができます。
+    </audio>
+    <div data-enhanced hidden>
+      <div class="podcast-timeline">
+        <div class="podcast-track" aria-hidden="true"><span data-buffer></span><span data-progress></span></div>
+        <div class="podcast-cuts" aria-hidden="true"></div>
+        <input data-seek type="range" min="0" max="1" value="0" step="0.1" aria-label="ポッドキャストの再生位置">
+      </div>
+      <div class="podcast-time"><span data-elapsed>00:00</span><span data-duration>21:37</span></div>
+      <div class="podcast-controls">
+        <div class="podcast-transport">
+          <button type="button" class="podcast-skip" data-skip="-15" aria-label="15秒戻る"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 7a11 11 0 1 1-4 10M10 3v7H3"/></svg><small>15</small></button>
+          <button type="button" class="podcast-play" aria-label="ポッドキャストを再生" aria-pressed="false">
+            <svg data-play-icon width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m8 4 12 8-12 8z"/></svg>
+            <svg data-pause-icon hidden width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+          </button>
+          <button type="button" class="podcast-skip" data-skip="30" aria-label="30秒進む"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 7a11 11 0 1 0 4 10M22 3v7h7"/></svg><small>30</small></button>
+        </div>
+        <button type="button" class="podcast-speed" data-speed aria-label="再生速度：1×。クリックで変更">1×</button>
+      </div>
+    </div>
+  </div>
+  <div class="podcast-chapters" data-enhanced hidden aria-label="エピソードのセクション"></div>
+  <div class="podcast-transcript-actions">
+    <button type="button" class="podcast-transcript-toggle" data-enhanced hidden aria-expanded="false" aria-controls="podcast-ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look-transcript"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="15" rx="1"/><path d="M6 8h12M6 11h12M6 14h8"/></svg><span>文字を追う</span><svg class="podcast-transcript-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+    <a class="podcast-action-link" href="../audio-player/transcripts/podcast-ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look.html" target="_blank" rel="noopener" aria-label="トランスクリプトを開く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14"/><path d="M10 3H3v18h18v-7"/></svg>トランスクリプトを開く</a>
+    <a class="podcast-action-link" href="https://open.spotify.com/episode/1F802NxQDGkRuFv1KwEex2" target="_blank" rel="noopener" aria-label="Spotifyで聴く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M6 9c4-2 8-1 12 1M7 12c3-1 6-1 10 1M8 15c3-1 5 0 8 1"/></svg>Spotifyで聴く</a>
+  </div>
+  <div id="podcast-ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look-transcript" class="podcast-transcript" hidden>
+    <div class="podcast-passages" role="region" aria-label="時間付きトランスクリプト。段落を選ぶとその位置へ移動します。" tabindex="0"></div>
+    <label class="podcast-follow"><input data-follow type="checkbox" checked> 音声に合わせて移動</label>
+  </div>
+    <p class="podcast-status" role="status"></p>
+</section>
+</div>
+
+</article><article id="chapter-11" class="chapter-card resource" data-topic="景気循環と政策" data-search="Chapter 11 第11章 IS曲線 金利は支出と産出をどう変えるのでしょうか？ 景気循環と政策 The IS Curve" aria-labelledby="title-ch11"><div class="chapter-top"><span class="chapter-number">11</span><span class="chapter-method">IS曲線</span></div><div class="chapter-story"><h3 id="title-ch11">金利は支出と産出をどう変えるのでしょうか？</h3><p>国民所得の恒等式からIS曲線を組み立てましょう。需要と借入コストを変えて、短期の産出がなぜ動くのかを確かめます。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch11-the-is-curve-v1.webp" data-map-title="第11章: IS曲線" aria-label="第11章のマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/ch11.jpg" alt="第11章「IS曲線」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/ch11-the-is-curve.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>章を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch11-the-is-curve.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/ch11/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch11-data-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>データアプリ</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch11-model-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>図表アプリ</a></div><div class="podcast-widget" id="podcast-ch11-the-is-curve">
+<div class="podcast-launch-row">
+  <button type="button" class="podcast-launch" data-podcast-toggle aria-expanded="false" aria-controls="podcast-ch11-the-is-curve-player">
+    <span class="podcast-launch-icon" aria-hidden="true"><svg width="49.6" height="32" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="white" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 11V9a6 6 0 0 1 12 0v2"/><rect x="9" y="10" width="3" height="6" rx="1.5"/><rect x="19" y="10" width="3" height="6" rx="1.5"/><path d="M14 9v4m3-5v6" stroke-opacity=".8"/></g></svg></span>
+    <span class="podcast-launch-label">ポッドキャストを聴く（英語）</span>
+  </button>
+</div>
+
+<section id="podcast-ch11-the-is-curve-player" class="podcast-player" data-podcast="../audio-player/transcripts/podcast-ch11-the-is-curve.json" aria-label="第11章・IS曲線のポッドキャスト・プレーヤー" hidden>
+  <a class="podcast-mindmap" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch11-the-is-curve-v1.webp" target="_blank" rel="noopener" aria-label="画像を開く：第11章のマインドマップ（新しいタブで開きます）"><img src="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch11-the-is-curve-v1.webp" alt="第11章のマインドマップ" loading="lazy"><span>⊕ マインドマップ</span></a>
+  <div class="podcast-heading">
+    <div>
+      <p class="podcast-eyebrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 15v-4a8 8 0 0 1 16 0v4"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/></svg> AIポッドキャスト（英語） · <span data-episode-minutes>22</span> 分</p>
+      <h5>第11章・IS曲線</h5>
+      <p class="podcast-now" aria-live="polite">再生中：Opening</p>
+    </div>
+    <button type="button" class="podcast-close" aria-label="プレーヤーを閉じる"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg></button>
+  </div>
+  <div class="podcast-playback">
+    <audio controls controlslist="nodownload" preload="none" aria-label="第11章・IS曲線のポッドキャスト">
+      <source src="https://quarcs-lab.github.io/macro102-site/podcasts/ch11-the-is-curve.mp3" type="audio/mpeg">
+      お使いのブラウザは音声の再生に対応していません。下のトランスクリプトを読むことができます。
+    </audio>
+    <div data-enhanced hidden>
+      <div class="podcast-timeline">
+        <div class="podcast-track" aria-hidden="true"><span data-buffer></span><span data-progress></span></div>
+        <div class="podcast-cuts" aria-hidden="true"></div>
+        <input data-seek type="range" min="0" max="1" value="0" step="0.1" aria-label="ポッドキャストの再生位置">
+      </div>
+      <div class="podcast-time"><span data-elapsed>00:00</span><span data-duration>21:57</span></div>
+      <div class="podcast-controls">
+        <div class="podcast-transport">
+          <button type="button" class="podcast-skip" data-skip="-15" aria-label="15秒戻る"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 7a11 11 0 1 1-4 10M10 3v7H3"/></svg><small>15</small></button>
+          <button type="button" class="podcast-play" aria-label="ポッドキャストを再生" aria-pressed="false">
+            <svg data-play-icon width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m8 4 12 8-12 8z"/></svg>
+            <svg data-pause-icon hidden width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+          </button>
+          <button type="button" class="podcast-skip" data-skip="30" aria-label="30秒進む"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 7a11 11 0 1 0 4 10M22 3v7h7"/></svg><small>30</small></button>
+        </div>
+        <button type="button" class="podcast-speed" data-speed aria-label="再生速度：1×。クリックで変更">1×</button>
+      </div>
+    </div>
+  </div>
+  <div class="podcast-chapters" data-enhanced hidden aria-label="エピソードのセクション"></div>
+  <div class="podcast-transcript-actions">
+    <button type="button" class="podcast-transcript-toggle" data-enhanced hidden aria-expanded="false" aria-controls="podcast-ch11-the-is-curve-transcript"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="15" rx="1"/><path d="M6 8h12M6 11h12M6 14h8"/></svg><span>文字を追う</span><svg class="podcast-transcript-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+    <a class="podcast-action-link" href="../audio-player/transcripts/podcast-ch11-the-is-curve.html" target="_blank" rel="noopener" aria-label="トランスクリプトを開く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14"/><path d="M10 3H3v18h18v-7"/></svg>トランスクリプトを開く</a>
+    <a class="podcast-action-link" href="https://open.spotify.com/episode/46lEpf302TUp2OjREkZ9Jj" target="_blank" rel="noopener" aria-label="Spotifyで聴く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M6 9c4-2 8-1 12 1M7 12c3-1 6-1 10 1M8 15c3-1 5 0 8 1"/></svg>Spotifyで聴く</a>
+  </div>
+  <div id="podcast-ch11-the-is-curve-transcript" class="podcast-transcript" hidden>
+    <div class="podcast-passages" role="region" aria-label="時間付きトランスクリプト。段落を選ぶとその位置へ移動します。" tabindex="0"></div>
+    <label class="podcast-follow"><input data-follow type="checkbox" checked> 音声に合わせて移動</label>
+  </div>
+    <p class="podcast-status" role="status"></p>
+</section>
+</div>
+
+</article><article id="chapter-12" class="chapter-card resource" data-topic="景気循環と政策" data-search="Chapter 12 第12章 金融政策とフィリップス曲線 中央銀行はどうすればインフレを下げられるのでしょうか？ 景気循環と政策 Monetary Policy and the Phillips Curve" aria-labelledby="title-ch12"><div class="chapter-top"><span class="chapter-number">12</span><span class="chapter-method">金融政策とフィリップス曲線</span></div><div class="chapter-story"><h3 id="title-ch12">中央銀行はどうすればインフレを下げられるのでしょうか？</h3><p>金融政策をIS曲線とフィリップス曲線に結びつけましょう。中央銀行が金利を変えたときの産出とインフレの経路を追います。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch12-monetary-policy-and-the-phillips-curve-v1.webp" data-map-title="第12章: 金融政策とフィリップス曲線" aria-label="第12章のマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/ch12.jpg" alt="第12章「金融政策とフィリップス曲線」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/ch12-monetary-policy-and-the-phillips-curve.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>章を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch12-monetary-policy-and-the-phillips-curve.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/ch12/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch12-data-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>データアプリ</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch12-model-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>図表アプリ</a></div><div class="podcast-widget" id="podcast-ch12-monetary-policy-and-the-phillips-curve">
+<div class="podcast-launch-row">
+  <button type="button" class="podcast-launch" data-podcast-toggle aria-expanded="false" aria-controls="podcast-ch12-monetary-policy-and-the-phillips-curve-player">
+    <span class="podcast-launch-icon" aria-hidden="true"><svg width="49.6" height="32" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="white" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 11V9a6 6 0 0 1 12 0v2"/><rect x="9" y="10" width="3" height="6" rx="1.5"/><rect x="19" y="10" width="3" height="6" rx="1.5"/><path d="M14 9v4m3-5v6" stroke-opacity=".8"/></g></svg></span>
+    <span class="podcast-launch-label">ポッドキャストを聴く（英語）</span>
+  </button>
+</div>
+
+<section id="podcast-ch12-monetary-policy-and-the-phillips-curve-player" class="podcast-player" data-podcast="../audio-player/transcripts/podcast-ch12-monetary-policy-and-the-phillips-curve.json" aria-label="第12章・金融政策とフィリップス曲線のポッドキャスト・プレーヤー" hidden>
+  <a class="podcast-mindmap" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch12-monetary-policy-and-the-phillips-curve-v1.webp" target="_blank" rel="noopener" aria-label="画像を開く：第12章のマインドマップ（新しいタブで開きます）"><img src="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch12-monetary-policy-and-the-phillips-curve-v1.webp" alt="第12章のマインドマップ" loading="lazy"><span>⊕ マインドマップ</span></a>
+  <div class="podcast-heading">
+    <div>
+      <p class="podcast-eyebrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 15v-4a8 8 0 0 1 16 0v4"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/></svg> AIポッドキャスト（英語） · <span data-episode-minutes>22</span> 分</p>
+      <h5>第12章・金融政策とフィリップス曲線</h5>
+      <p class="podcast-now" aria-live="polite">再生中：Opening</p>
+    </div>
+    <button type="button" class="podcast-close" aria-label="プレーヤーを閉じる"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg></button>
+  </div>
+  <div class="podcast-playback">
+    <audio controls controlslist="nodownload" preload="none" aria-label="第12章・金融政策とフィリップス曲線のポッドキャスト">
+      <source src="https://quarcs-lab.github.io/macro102-site/podcasts/ch12-monetary-policy-and-the-phillips-curve.mp3" type="audio/mpeg">
+      お使いのブラウザは音声の再生に対応していません。下のトランスクリプトを読むことができます。
+    </audio>
+    <div data-enhanced hidden>
+      <div class="podcast-timeline">
+        <div class="podcast-track" aria-hidden="true"><span data-buffer></span><span data-progress></span></div>
+        <div class="podcast-cuts" aria-hidden="true"></div>
+        <input data-seek type="range" min="0" max="1" value="0" step="0.1" aria-label="ポッドキャストの再生位置">
+      </div>
+      <div class="podcast-time"><span data-elapsed>00:00</span><span data-duration>21:49</span></div>
+      <div class="podcast-controls">
+        <div class="podcast-transport">
+          <button type="button" class="podcast-skip" data-skip="-15" aria-label="15秒戻る"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 7a11 11 0 1 1-4 10M10 3v7H3"/></svg><small>15</small></button>
+          <button type="button" class="podcast-play" aria-label="ポッドキャストを再生" aria-pressed="false">
+            <svg data-play-icon width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m8 4 12 8-12 8z"/></svg>
+            <svg data-pause-icon hidden width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+          </button>
+          <button type="button" class="podcast-skip" data-skip="30" aria-label="30秒進む"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 7a11 11 0 1 0 4 10M22 3v7h7"/></svg><small>30</small></button>
+        </div>
+        <button type="button" class="podcast-speed" data-speed aria-label="再生速度：1×。クリックで変更">1×</button>
+      </div>
+    </div>
+  </div>
+  <div class="podcast-chapters" data-enhanced hidden aria-label="エピソードのセクション"></div>
+  <div class="podcast-transcript-actions">
+    <button type="button" class="podcast-transcript-toggle" data-enhanced hidden aria-expanded="false" aria-controls="podcast-ch12-monetary-policy-and-the-phillips-curve-transcript"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="15" rx="1"/><path d="M6 8h12M6 11h12M6 14h8"/></svg><span>文字を追う</span><svg class="podcast-transcript-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+    <a class="podcast-action-link" href="../audio-player/transcripts/podcast-ch12-monetary-policy-and-the-phillips-curve.html" target="_blank" rel="noopener" aria-label="トランスクリプトを開く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14"/><path d="M10 3H3v18h18v-7"/></svg>トランスクリプトを開く</a>
+    <a class="podcast-action-link" href="https://open.spotify.com/episode/6zWAnewiQys7399VJn1Zf9" target="_blank" rel="noopener" aria-label="Spotifyで聴く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M6 9c4-2 8-1 12 1M7 12c3-1 6-1 10 1M8 15c3-1 5 0 8 1"/></svg>Spotifyで聴く</a>
+  </div>
+  <div id="podcast-ch12-monetary-policy-and-the-phillips-curve-transcript" class="podcast-transcript" hidden>
+    <div class="podcast-passages" role="region" aria-label="時間付きトランスクリプト。段落を選ぶとその位置へ移動します。" tabindex="0"></div>
+    <label class="podcast-follow"><input data-follow type="checkbox" checked> 音声に合わせて移動</label>
+  </div>
+    <p class="podcast-status" role="status"></p>
+</section>
+</div>
+
+</article><article id="chapter-13" class="chapter-card resource" data-topic="景気循環と政策" data-search="Chapter 13 第13章 安定化政策とAS/ADの枠組み 政策は経済ショックを和らげられるのでしょうか？ 景気循環と政策 Stabilization Policy and the AS/AD Framework" aria-labelledby="title-ch13"><div class="chapter-top"><span class="chapter-number">13</span><span class="chapter-method">安定化政策とAS/ADの枠組み</span></div><div class="chapter-story"><h3 id="title-ch13">政策は経済ショックを和らげられるのでしょうか？</h3><p>短期モデルをAS/ADの図にまとめましょう。政策ルール、期待、さまざまなショックが調整をどう形づくるかを探ります。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch13-stabilization-policy-and-the-as-ad-framework-v2.webp" data-map-title="第13章: 安定化政策とAS/ADの枠組み" aria-label="第13章のマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/ch13.jpg" alt="第13章「安定化政策とAS/ADの枠組み」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/ch13-stabilization-policy-and-the-as-ad-framework.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>章を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch13-stabilization-policy-and-the-as-ad-framework.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/ch13/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch13-data-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>データアプリ</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch13-model-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>図表アプリ</a></div><div class="podcast-widget" id="podcast-ch13-stabilization-policy-and-the-as-ad-framework">
+<div class="podcast-launch-row">
+  <button type="button" class="podcast-launch" data-podcast-toggle aria-expanded="false" aria-controls="podcast-ch13-stabilization-policy-and-the-as-ad-framework-player">
+    <span class="podcast-launch-icon" aria-hidden="true"><svg width="49.6" height="32" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="white" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 11V9a6 6 0 0 1 12 0v2"/><rect x="9" y="10" width="3" height="6" rx="1.5"/><rect x="19" y="10" width="3" height="6" rx="1.5"/><path d="M14 9v4m3-5v6" stroke-opacity=".8"/></g></svg></span>
+    <span class="podcast-launch-label">ポッドキャストを聴く（英語）</span>
+  </button>
+</div>
+
+<section id="podcast-ch13-stabilization-policy-and-the-as-ad-framework-player" class="podcast-player" data-podcast="../audio-player/transcripts/podcast-ch13-stabilization-policy-and-the-as-ad-framework.json" aria-label="第13章・安定化政策とAS/ADの枠組みのポッドキャスト・プレーヤー" hidden>
+  <a class="podcast-mindmap" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch13-stabilization-policy-and-the-as-ad-framework-v2.webp" target="_blank" rel="noopener" aria-label="画像を開く：第13章のマインドマップ（新しいタブで開きます）"><img src="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch13-stabilization-policy-and-the-as-ad-framework-v2.webp" alt="第13章のマインドマップ" loading="lazy"><span>⊕ マインドマップ</span></a>
+  <div class="podcast-heading">
+    <div>
+      <p class="podcast-eyebrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 15v-4a8 8 0 0 1 16 0v4"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/></svg> AIポッドキャスト（英語） · <span data-episode-minutes>22</span> 分</p>
+      <h5>第13章・安定化政策とAS/ADの枠組み</h5>
+      <p class="podcast-now" aria-live="polite">再生中：Opening</p>
+    </div>
+    <button type="button" class="podcast-close" aria-label="プレーヤーを閉じる"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg></button>
+  </div>
+  <div class="podcast-playback">
+    <audio controls controlslist="nodownload" preload="none" aria-label="第13章・安定化政策とAS/ADの枠組みのポッドキャスト">
+      <source src="https://quarcs-lab.github.io/macro102-site/podcasts/ch13-stabilization-policy-and-the-as-ad-framework.mp3" type="audio/mpeg">
+      お使いのブラウザは音声の再生に対応していません。下のトランスクリプトを読むことができます。
+    </audio>
+    <div data-enhanced hidden>
+      <div class="podcast-timeline">
+        <div class="podcast-track" aria-hidden="true"><span data-buffer></span><span data-progress></span></div>
+        <div class="podcast-cuts" aria-hidden="true"></div>
+        <input data-seek type="range" min="0" max="1" value="0" step="0.1" aria-label="ポッドキャストの再生位置">
+      </div>
+      <div class="podcast-time"><span data-elapsed>00:00</span><span data-duration>21:54</span></div>
+      <div class="podcast-controls">
+        <div class="podcast-transport">
+          <button type="button" class="podcast-skip" data-skip="-15" aria-label="15秒戻る"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 7a11 11 0 1 1-4 10M10 3v7H3"/></svg><small>15</small></button>
+          <button type="button" class="podcast-play" aria-label="ポッドキャストを再生" aria-pressed="false">
+            <svg data-play-icon width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m8 4 12 8-12 8z"/></svg>
+            <svg data-pause-icon hidden width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+          </button>
+          <button type="button" class="podcast-skip" data-skip="30" aria-label="30秒進む"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 7a11 11 0 1 0 4 10M22 3v7h7"/></svg><small>30</small></button>
+        </div>
+        <button type="button" class="podcast-speed" data-speed aria-label="再生速度：1×。クリックで変更">1×</button>
+      </div>
+    </div>
+  </div>
+  <div class="podcast-chapters" data-enhanced hidden aria-label="エピソードのセクション"></div>
+  <div class="podcast-transcript-actions">
+    <button type="button" class="podcast-transcript-toggle" data-enhanced hidden aria-expanded="false" aria-controls="podcast-ch13-stabilization-policy-and-the-as-ad-framework-transcript"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="15" rx="1"/><path d="M6 8h12M6 11h12M6 14h8"/></svg><span>文字を追う</span><svg class="podcast-transcript-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+    <a class="podcast-action-link" href="../audio-player/transcripts/podcast-ch13-stabilization-policy-and-the-as-ad-framework.html" target="_blank" rel="noopener" aria-label="トランスクリプトを開く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14"/><path d="M10 3H3v18h18v-7"/></svg>トランスクリプトを開く</a>
+    <a class="podcast-action-link" href="https://open.spotify.com/episode/4oFm8jLcarr3uBJrdMcYeE" target="_blank" rel="noopener" aria-label="Spotifyで聴く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M6 9c4-2 8-1 12 1M7 12c3-1 6-1 10 1M8 15c3-1 5 0 8 1"/></svg>Spotifyで聴く</a>
+  </div>
+  <div id="podcast-ch13-stabilization-policy-and-the-as-ad-framework-transcript" class="podcast-transcript" hidden>
+    <div class="podcast-passages" role="region" aria-label="時間付きトランスクリプト。段落を選ぶとその位置へ移動します。" tabindex="0"></div>
+    <label class="podcast-follow"><input data-follow type="checkbox" checked> 音声に合わせて移動</label>
+  </div>
+    <p class="podcast-status" role="status"></p>
+</section>
+</div>
+
+</article><article id="chapter-14" class="chapter-card resource" data-topic="景気循環と政策" data-search="Chapter 14 第14章 金融危機と短期モデル 金融システムが機能しなくなると、何が起こるのでしょうか？ 景気循環と政策 Financial Crises and the Short-Run Model" aria-labelledby="title-ch14"><div class="chapter-top"><span class="chapter-number">14</span><span class="chapter-method">金融危機と短期モデル</span></div><div class="chapter-story"><h3 id="title-ch14">金融システムが機能しなくなると、何が起こるのでしょうか？</h3><p>短期モデルにリスク・プレミアムと金融摩擦を加えましょう。信用危機、デフレ、政策の制約が不況をどう深刻にするかを調べます。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch14-financial-crises-and-the-short-run-model-v1.webp" data-map-title="第14章: 金融危機と短期モデル" aria-label="第14章のマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/ch14.jpg" alt="第14章「金融危機と短期モデル」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/ch14-financial-crises-and-the-short-run-model.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>章を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch14-financial-crises-and-the-short-run-model.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/ch14/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch14-data-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>データアプリ</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch14-model-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>図表アプリ</a></div><div class="podcast-widget" id="podcast-ch14-financial-crises-and-the-short-run-model">
+<div class="podcast-launch-row">
+  <button type="button" class="podcast-launch" data-podcast-toggle aria-expanded="false" aria-controls="podcast-ch14-financial-crises-and-the-short-run-model-player">
+    <span class="podcast-launch-icon" aria-hidden="true"><svg width="49.6" height="32" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="white" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 11V9a6 6 0 0 1 12 0v2"/><rect x="9" y="10" width="3" height="6" rx="1.5"/><rect x="19" y="10" width="3" height="6" rx="1.5"/><path d="M14 9v4m3-5v6" stroke-opacity=".8"/></g></svg></span>
+    <span class="podcast-launch-label">ポッドキャストを聴く（英語）</span>
+  </button>
+</div>
+
+<section id="podcast-ch14-financial-crises-and-the-short-run-model-player" class="podcast-player" data-podcast="../audio-player/transcripts/podcast-ch14-financial-crises-and-the-short-run-model.json" aria-label="第14章・金融危機と短期モデルのポッドキャスト・プレーヤー" hidden>
+  <a class="podcast-mindmap" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch14-financial-crises-and-the-short-run-model-v1.webp" target="_blank" rel="noopener" aria-label="画像を開く：第14章のマインドマップ（新しいタブで開きます）"><img src="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch14-financial-crises-and-the-short-run-model-v1.webp" alt="第14章のマインドマップ" loading="lazy"><span>⊕ マインドマップ</span></a>
+  <div class="podcast-heading">
+    <div>
+      <p class="podcast-eyebrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 15v-4a8 8 0 0 1 16 0v4"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/></svg> AIポッドキャスト（英語） · <span data-episode-minutes>22</span> 分</p>
+      <h5>第14章・金融危機と短期モデル</h5>
+      <p class="podcast-now" aria-live="polite">再生中：Opening</p>
+    </div>
+    <button type="button" class="podcast-close" aria-label="プレーヤーを閉じる"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg></button>
+  </div>
+  <div class="podcast-playback">
+    <audio controls controlslist="nodownload" preload="none" aria-label="第14章・金融危機と短期モデルのポッドキャスト">
+      <source src="https://quarcs-lab.github.io/macro102-site/podcasts/ch14-financial-crises-and-the-short-run-model.mp3" type="audio/mpeg">
+      お使いのブラウザは音声の再生に対応していません。下のトランスクリプトを読むことができます。
+    </audio>
+    <div data-enhanced hidden>
+      <div class="podcast-timeline">
+        <div class="podcast-track" aria-hidden="true"><span data-buffer></span><span data-progress></span></div>
+        <div class="podcast-cuts" aria-hidden="true"></div>
+        <input data-seek type="range" min="0" max="1" value="0" step="0.1" aria-label="ポッドキャストの再生位置">
+      </div>
+      <div class="podcast-time"><span data-elapsed>00:00</span><span data-duration>21:40</span></div>
+      <div class="podcast-controls">
+        <div class="podcast-transport">
+          <button type="button" class="podcast-skip" data-skip="-15" aria-label="15秒戻る"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 7a11 11 0 1 1-4 10M10 3v7H3"/></svg><small>15</small></button>
+          <button type="button" class="podcast-play" aria-label="ポッドキャストを再生" aria-pressed="false">
+            <svg data-play-icon width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m8 4 12 8-12 8z"/></svg>
+            <svg data-pause-icon hidden width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+          </button>
+          <button type="button" class="podcast-skip" data-skip="30" aria-label="30秒進む"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 7a11 11 0 1 0 4 10M22 3v7h7"/></svg><small>30</small></button>
+        </div>
+        <button type="button" class="podcast-speed" data-speed aria-label="再生速度：1×。クリックで変更">1×</button>
+      </div>
+    </div>
+  </div>
+  <div class="podcast-chapters" data-enhanced hidden aria-label="エピソードのセクション"></div>
+  <div class="podcast-transcript-actions">
+    <button type="button" class="podcast-transcript-toggle" data-enhanced hidden aria-expanded="false" aria-controls="podcast-ch14-financial-crises-and-the-short-run-model-transcript"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="15" rx="1"/><path d="M6 8h12M6 11h12M6 14h8"/></svg><span>文字を追う</span><svg class="podcast-transcript-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+    <a class="podcast-action-link" href="../audio-player/transcripts/podcast-ch14-financial-crises-and-the-short-run-model.html" target="_blank" rel="noopener" aria-label="トランスクリプトを開く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14"/><path d="M10 3H3v18h18v-7"/></svg>トランスクリプトを開く</a>
+    <a class="podcast-action-link" href="https://open.spotify.com/episode/5D7A8ekmTgCYf1Q6L4dy5F" target="_blank" rel="noopener" aria-label="Spotifyで聴く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M6 9c4-2 8-1 12 1M7 12c3-1 6-1 10 1M8 15c3-1 5 0 8 1"/></svg>Spotifyで聴く</a>
+  </div>
+  <div id="podcast-ch14-financial-crises-and-the-short-run-model-transcript" class="podcast-transcript" hidden>
+    <div class="podcast-passages" role="region" aria-label="時間付きトランスクリプト。段落を選ぶとその位置へ移動します。" tabindex="0"></div>
+    <label class="podcast-follow"><input data-follow type="checkbox" checked> 音声に合わせて移動</label>
+  </div>
+    <p class="podcast-status" role="status"></p>
+</section>
+</div>
+
+</article><article id="chapter-15" class="chapter-card resource" data-topic="景気循環と政策" data-search="Chapter 15 第15章 DSGEモデル：景気循環研究の最前線 現代のモデルは景気循環をどう説明するのでしょうか？ 景気循環と政策 DSGE Models: The Frontier of Business Cycle Research" aria-labelledby="title-ch15"><div class="chapter-top"><span class="chapter-number">15</span><span class="chapter-method">DSGEモデル：景気循環研究の最前線</span></div><div class="chapter-story"><h3 id="title-ch15">現代のモデルは景気循環をどう説明するのでしょうか？</h3><p>DSGEモデルの中にいる経済主体、ショック、摩擦を知りましょう。生産性、労働市場、価格の硬直性が経済の反応をどう形づくるかを探ります。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch15-dsge-models-the-frontier-of-business-cycle-research-v1.webp" data-map-title="第15章: DSGEモデル：景気循環研究の最前線" aria-label="第15章のマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/ch15.jpg" alt="第15章「DSGEモデル：景気循環研究の最前線」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/ch15-dsge-models-the-frontier-of-business-cycle-research.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>章を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch15-dsge-models-the-frontier-of-business-cycle-research.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/ch15/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch15-data-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>データアプリ</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch15-model-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>図表アプリ</a></div><div class="podcast-widget" id="podcast-ch15-dsge-models-the-frontier-of-business-cycle-research">
+<div class="podcast-launch-row">
+  <button type="button" class="podcast-launch" data-podcast-toggle aria-expanded="false" aria-controls="podcast-ch15-dsge-models-the-frontier-of-business-cycle-research-player">
+    <span class="podcast-launch-icon" aria-hidden="true"><svg width="49.6" height="32" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="white" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 11V9a6 6 0 0 1 12 0v2"/><rect x="9" y="10" width="3" height="6" rx="1.5"/><rect x="19" y="10" width="3" height="6" rx="1.5"/><path d="M14 9v4m3-5v6" stroke-opacity=".8"/></g></svg></span>
+    <span class="podcast-launch-label">ポッドキャストを聴く（英語）</span>
+  </button>
+</div>
+
+<section id="podcast-ch15-dsge-models-the-frontier-of-business-cycle-research-player" class="podcast-player" data-podcast="../audio-player/transcripts/podcast-ch15-dsge-models-the-frontier-of-business-cycle-research.json" aria-label="第15章・DSGEモデル：景気循環研究の最前線のポッドキャスト・プレーヤー" hidden>
+  <a class="podcast-mindmap" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch15-dsge-models-the-frontier-of-business-cycle-research-v1.webp" target="_blank" rel="noopener" aria-label="画像を開く：第15章のマインドマップ（新しいタブで開きます）"><img src="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch15-dsge-models-the-frontier-of-business-cycle-research-v1.webp" alt="第15章のマインドマップ" loading="lazy"><span>⊕ マインドマップ</span></a>
+  <div class="podcast-heading">
+    <div>
+      <p class="podcast-eyebrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 15v-4a8 8 0 0 1 16 0v4"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/></svg> AIポッドキャスト（英語） · <span data-episode-minutes>23</span> 分</p>
+      <h5>第15章・DSGEモデル：景気循環研究の最前線</h5>
+      <p class="podcast-now" aria-live="polite">再生中：Opening</p>
+    </div>
+    <button type="button" class="podcast-close" aria-label="プレーヤーを閉じる"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg></button>
+  </div>
+  <div class="podcast-playback">
+    <audio controls controlslist="nodownload" preload="none" aria-label="第15章・DSGEモデル：景気循環研究の最前線のポッドキャスト">
+      <source src="https://quarcs-lab.github.io/macro102-site/podcasts/ch15-dsge-models-the-frontier-of-business-cycle-research.mp3" type="audio/mpeg">
+      お使いのブラウザは音声の再生に対応していません。下のトランスクリプトを読むことができます。
+    </audio>
+    <div data-enhanced hidden>
+      <div class="podcast-timeline">
+        <div class="podcast-track" aria-hidden="true"><span data-buffer></span><span data-progress></span></div>
+        <div class="podcast-cuts" aria-hidden="true"></div>
+        <input data-seek type="range" min="0" max="1" value="0" step="0.1" aria-label="ポッドキャストの再生位置">
+      </div>
+      <div class="podcast-time"><span data-elapsed>00:00</span><span data-duration>22:56</span></div>
+      <div class="podcast-controls">
+        <div class="podcast-transport">
+          <button type="button" class="podcast-skip" data-skip="-15" aria-label="15秒戻る"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 7a11 11 0 1 1-4 10M10 3v7H3"/></svg><small>15</small></button>
+          <button type="button" class="podcast-play" aria-label="ポッドキャストを再生" aria-pressed="false">
+            <svg data-play-icon width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m8 4 12 8-12 8z"/></svg>
+            <svg data-pause-icon hidden width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+          </button>
+          <button type="button" class="podcast-skip" data-skip="30" aria-label="30秒進む"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 7a11 11 0 1 0 4 10M22 3v7h7"/></svg><small>30</small></button>
+        </div>
+        <button type="button" class="podcast-speed" data-speed aria-label="再生速度：1×。クリックで変更">1×</button>
+      </div>
+    </div>
+  </div>
+  <div class="podcast-chapters" data-enhanced hidden aria-label="エピソードのセクション"></div>
+  <div class="podcast-transcript-actions">
+    <button type="button" class="podcast-transcript-toggle" data-enhanced hidden aria-expanded="false" aria-controls="podcast-ch15-dsge-models-the-frontier-of-business-cycle-research-transcript"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="15" rx="1"/><path d="M6 8h12M6 11h12M6 14h8"/></svg><span>文字を追う</span><svg class="podcast-transcript-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+    <a class="podcast-action-link" href="../audio-player/transcripts/podcast-ch15-dsge-models-the-frontier-of-business-cycle-research.html" target="_blank" rel="noopener" aria-label="トランスクリプトを開く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14"/><path d="M10 3H3v18h18v-7"/></svg>トランスクリプトを開く</a>
+    <a class="podcast-action-link" href="https://open.spotify.com/episode/6dcH4qbzY44RzLyFafQB7a" target="_blank" rel="noopener" aria-label="Spotifyで聴く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M6 9c4-2 8-1 12 1M7 12c3-1 6-1 10 1M8 15c3-1 5 0 8 1"/></svg>Spotifyで聴く</a>
+  </div>
+  <div id="podcast-ch15-dsge-models-the-frontier-of-business-cycle-research-transcript" class="podcast-transcript" hidden>
+    <div class="podcast-passages" role="region" aria-label="時間付きトランスクリプト。段落を選ぶとその位置へ移動します。" tabindex="0"></div>
+    <label class="podcast-follow"><input data-follow type="checkbox" checked> 音声に合わせて移動</label>
+  </div>
+    <p class="podcast-status" role="status"></p>
+</section>
+</div>
+
+</article></div></section><section class="curriculum-group" aria-label="意思決定と世界経済"><h3 class="group-title">意思決定と世界経済</h3><div class="chapter-grid"><article id="chapter-16" class="chapter-card resource" data-topic="意思決定と世界経済" data-search="Chapter 16 第16章 消費 家計は今日いくら使うかを、どのように決めるのでしょうか？ 意思決定と世界経済 Consumption" aria-labelledby="title-ch16"><div class="chapter-top"><span class="chapter-number">16</span><span class="chapter-method">消費</span></div><div class="chapter-story"><h3 id="title-ch16">家計は今日いくら使うかを、どのように決めるのでしょうか？</h3><p>所得と富を一生にわたって配分しましょう。2期間モデルを使って、消費の平準化、忍耐強さ、金利の役割を探ります。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch16-consumption-v1.webp" data-map-title="第16章: 消費" aria-label="第16章のマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/ch16.jpg" alt="第16章「消費」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/ch16-consumption.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>章を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch16-consumption.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/ch16/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch16-data-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>データアプリ</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch16-model-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>図表アプリ</a></div><div class="podcast-widget" id="podcast-ch16-consumption">
+<div class="podcast-launch-row">
+  <button type="button" class="podcast-launch" data-podcast-toggle aria-expanded="false" aria-controls="podcast-ch16-consumption-player">
+    <span class="podcast-launch-icon" aria-hidden="true"><svg width="49.6" height="32" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="white" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 11V9a6 6 0 0 1 12 0v2"/><rect x="9" y="10" width="3" height="6" rx="1.5"/><rect x="19" y="10" width="3" height="6" rx="1.5"/><path d="M14 9v4m3-5v6" stroke-opacity=".8"/></g></svg></span>
+    <span class="podcast-launch-label">ポッドキャストを聴く（英語）</span>
+  </button>
+</div>
+
+<section id="podcast-ch16-consumption-player" class="podcast-player" data-podcast="../audio-player/transcripts/podcast-ch16-consumption.json" aria-label="第16章・消費のポッドキャスト・プレーヤー" hidden>
+  <a class="podcast-mindmap" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch16-consumption-v1.webp" target="_blank" rel="noopener" aria-label="画像を開く：第16章のマインドマップ（新しいタブで開きます）"><img src="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch16-consumption-v1.webp" alt="第16章のマインドマップ" loading="lazy"><span>⊕ マインドマップ</span></a>
+  <div class="podcast-heading">
+    <div>
+      <p class="podcast-eyebrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 15v-4a8 8 0 0 1 16 0v4"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/></svg> AIポッドキャスト（英語） · <span data-episode-minutes>22</span> 分</p>
+      <h5>第16章・消費</h5>
+      <p class="podcast-now" aria-live="polite">再生中：Opening</p>
+    </div>
+    <button type="button" class="podcast-close" aria-label="プレーヤーを閉じる"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg></button>
+  </div>
+  <div class="podcast-playback">
+    <audio controls controlslist="nodownload" preload="none" aria-label="第16章・消費のポッドキャスト">
+      <source src="https://quarcs-lab.github.io/macro102-site/podcasts/ch16-consumption.mp3" type="audio/mpeg">
+      お使いのブラウザは音声の再生に対応していません。下のトランスクリプトを読むことができます。
+    </audio>
+    <div data-enhanced hidden>
+      <div class="podcast-timeline">
+        <div class="podcast-track" aria-hidden="true"><span data-buffer></span><span data-progress></span></div>
+        <div class="podcast-cuts" aria-hidden="true"></div>
+        <input data-seek type="range" min="0" max="1" value="0" step="0.1" aria-label="ポッドキャストの再生位置">
+      </div>
+      <div class="podcast-time"><span data-elapsed>00:00</span><span data-duration>22:00</span></div>
+      <div class="podcast-controls">
+        <div class="podcast-transport">
+          <button type="button" class="podcast-skip" data-skip="-15" aria-label="15秒戻る"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 7a11 11 0 1 1-4 10M10 3v7H3"/></svg><small>15</small></button>
+          <button type="button" class="podcast-play" aria-label="ポッドキャストを再生" aria-pressed="false">
+            <svg data-play-icon width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m8 4 12 8-12 8z"/></svg>
+            <svg data-pause-icon hidden width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+          </button>
+          <button type="button" class="podcast-skip" data-skip="30" aria-label="30秒進む"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 7a11 11 0 1 0 4 10M22 3v7h7"/></svg><small>30</small></button>
+        </div>
+        <button type="button" class="podcast-speed" data-speed aria-label="再生速度：1×。クリックで変更">1×</button>
+      </div>
+    </div>
+  </div>
+  <div class="podcast-chapters" data-enhanced hidden aria-label="エピソードのセクション"></div>
+  <div class="podcast-transcript-actions">
+    <button type="button" class="podcast-transcript-toggle" data-enhanced hidden aria-expanded="false" aria-controls="podcast-ch16-consumption-transcript"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="15" rx="1"/><path d="M6 8h12M6 11h12M6 14h8"/></svg><span>文字を追う</span><svg class="podcast-transcript-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+    <a class="podcast-action-link" href="../audio-player/transcripts/podcast-ch16-consumption.html" target="_blank" rel="noopener" aria-label="トランスクリプトを開く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14"/><path d="M10 3H3v18h18v-7"/></svg>トランスクリプトを開く</a>
+    <a class="podcast-action-link" href="https://open.spotify.com/episode/53n2URSzjogJECN8kvcbT3" target="_blank" rel="noopener" aria-label="Spotifyで聴く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M6 9c4-2 8-1 12 1M7 12c3-1 6-1 10 1M8 15c3-1 5 0 8 1"/></svg>Spotifyで聴く</a>
+  </div>
+  <div id="podcast-ch16-consumption-transcript" class="podcast-transcript" hidden>
+    <div class="podcast-passages" role="region" aria-label="時間付きトランスクリプト。段落を選ぶとその位置へ移動します。" tabindex="0"></div>
+    <label class="podcast-follow"><input data-follow type="checkbox" checked> 音声に合わせて移動</label>
+  </div>
+    <p class="podcast-status" role="status"></p>
+</section>
+</div>
+
+</article><article id="chapter-17" class="chapter-card resource" data-topic="意思決定と世界経済" data-search="Chapter 17 第17章 投資 新しい投資は、何によって割に合うものになるのでしょうか？ 意思決定と世界経済 Investment" aria-labelledby="title-ch17"><div class="chapter-top"><span class="chapter-number">17</span><span class="chapter-method">投資</span></div><div class="chapter-story"><h3 id="title-ch17">新しい投資は、何によって割に合うものになるのでしょうか？</h3><p>資本の収益とそのコストを比べましょう。企業の投資の選択を、金利、税、株価、住宅に結びつけます。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch17-investment-v1.webp" data-map-title="第17章: 投資" aria-label="第17章のマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/ch17.jpg" alt="第17章「投資」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/ch17-investment.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>章を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch17-investment.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/ch17/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch17-data-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>データアプリ</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch17-model-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>図表アプリ</a></div><div class="podcast-widget" id="podcast-ch17-investment">
+<div class="podcast-launch-row">
+  <button type="button" class="podcast-launch" data-podcast-toggle aria-expanded="false" aria-controls="podcast-ch17-investment-player">
+    <span class="podcast-launch-icon" aria-hidden="true"><svg width="49.6" height="32" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="white" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 11V9a6 6 0 0 1 12 0v2"/><rect x="9" y="10" width="3" height="6" rx="1.5"/><rect x="19" y="10" width="3" height="6" rx="1.5"/><path d="M14 9v4m3-5v6" stroke-opacity=".8"/></g></svg></span>
+    <span class="podcast-launch-label">ポッドキャストを聴く（英語）</span>
+  </button>
+</div>
+
+<section id="podcast-ch17-investment-player" class="podcast-player" data-podcast="../audio-player/transcripts/podcast-ch17-investment.json" aria-label="第17章・投資のポッドキャスト・プレーヤー" hidden>
+  <a class="podcast-mindmap" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch17-investment-v1.webp" target="_blank" rel="noopener" aria-label="画像を開く：第17章のマインドマップ（新しいタブで開きます）"><img src="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch17-investment-v1.webp" alt="第17章のマインドマップ" loading="lazy"><span>⊕ マインドマップ</span></a>
+  <div class="podcast-heading">
+    <div>
+      <p class="podcast-eyebrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 15v-4a8 8 0 0 1 16 0v4"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/></svg> AIポッドキャスト（英語） · <span data-episode-minutes>22</span> 分</p>
+      <h5>第17章・投資</h5>
+      <p class="podcast-now" aria-live="polite">再生中：Opening</p>
+    </div>
+    <button type="button" class="podcast-close" aria-label="プレーヤーを閉じる"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg></button>
+  </div>
+  <div class="podcast-playback">
+    <audio controls controlslist="nodownload" preload="none" aria-label="第17章・投資のポッドキャスト">
+      <source src="https://quarcs-lab.github.io/macro102-site/podcasts/ch17-investment.mp3" type="audio/mpeg">
+      お使いのブラウザは音声の再生に対応していません。下のトランスクリプトを読むことができます。
+    </audio>
+    <div data-enhanced hidden>
+      <div class="podcast-timeline">
+        <div class="podcast-track" aria-hidden="true"><span data-buffer></span><span data-progress></span></div>
+        <div class="podcast-cuts" aria-hidden="true"></div>
+        <input data-seek type="range" min="0" max="1" value="0" step="0.1" aria-label="ポッドキャストの再生位置">
+      </div>
+      <div class="podcast-time"><span data-elapsed>00:00</span><span data-duration>21:31</span></div>
+      <div class="podcast-controls">
+        <div class="podcast-transport">
+          <button type="button" class="podcast-skip" data-skip="-15" aria-label="15秒戻る"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 7a11 11 0 1 1-4 10M10 3v7H3"/></svg><small>15</small></button>
+          <button type="button" class="podcast-play" aria-label="ポッドキャストを再生" aria-pressed="false">
+            <svg data-play-icon width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m8 4 12 8-12 8z"/></svg>
+            <svg data-pause-icon hidden width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+          </button>
+          <button type="button" class="podcast-skip" data-skip="30" aria-label="30秒進む"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 7a11 11 0 1 0 4 10M22 3v7h7"/></svg><small>30</small></button>
+        </div>
+        <button type="button" class="podcast-speed" data-speed aria-label="再生速度：1×。クリックで変更">1×</button>
+      </div>
+    </div>
+  </div>
+  <div class="podcast-chapters" data-enhanced hidden aria-label="エピソードのセクション"></div>
+  <div class="podcast-transcript-actions">
+    <button type="button" class="podcast-transcript-toggle" data-enhanced hidden aria-expanded="false" aria-controls="podcast-ch17-investment-transcript"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="15" rx="1"/><path d="M6 8h12M6 11h12M6 14h8"/></svg><span>文字を追う</span><svg class="podcast-transcript-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+    <a class="podcast-action-link" href="../audio-player/transcripts/podcast-ch17-investment.html" target="_blank" rel="noopener" aria-label="トランスクリプトを開く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14"/><path d="M10 3H3v18h18v-7"/></svg>トランスクリプトを開く</a>
+    <a class="podcast-action-link" href="https://open.spotify.com/episode/3x2IrynNjap9QnXzMZx14W" target="_blank" rel="noopener" aria-label="Spotifyで聴く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M6 9c4-2 8-1 12 1M7 12c3-1 6-1 10 1M8 15c3-1 5 0 8 1"/></svg>Spotifyで聴く</a>
+  </div>
+  <div id="podcast-ch17-investment-transcript" class="podcast-transcript" hidden>
+    <div class="podcast-passages" role="region" aria-label="時間付きトランスクリプト。段落を選ぶとその位置へ移動します。" tabindex="0"></div>
+    <label class="podcast-follow"><input data-follow type="checkbox" checked> 音声に合わせて移動</label>
+  </div>
+    <p class="podcast-status" role="status"></p>
+</section>
+</div>
+
+</article><article id="chapter-18" class="chapter-card resource" data-topic="意思決定と世界経済" data-search="Chapter 18 第18章 政府とマクロ経済 今日の財政赤字は、明日の選択をどう左右するのでしょうか？ 意思決定と世界経済 The Government and the Macroeconomy" aria-labelledby="title-ch18"><div class="chapter-top"><span class="chapter-number">18</span><span class="chapter-method">政府とマクロ経済</span></div><div class="chapter-story"><h3 id="title-ch18">今日の財政赤字は、明日の選択をどう左右するのでしょうか？</h3><p>予算制約を通して、政府支出、税、借入を追いましょう。債務の動学と、公共支出の財源をめぐる選択を探ります。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch18-the-government-and-the-macroeconomy-v1.webp" data-map-title="第18章: 政府とマクロ経済" aria-label="第18章のマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/ch18.jpg" alt="第18章「政府とマクロ経済」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/ch18-the-government-and-the-macroeconomy.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>章を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch18-the-government-and-the-macroeconomy.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/ch18/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch18-data-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>データアプリ</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch18-model-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>図表アプリ</a></div><div class="podcast-widget" id="podcast-ch18-the-government-and-the-macroeconomy">
+<div class="podcast-launch-row">
+  <button type="button" class="podcast-launch" data-podcast-toggle aria-expanded="false" aria-controls="podcast-ch18-the-government-and-the-macroeconomy-player">
+    <span class="podcast-launch-icon" aria-hidden="true"><svg width="49.6" height="32" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="white" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 11V9a6 6 0 0 1 12 0v2"/><rect x="9" y="10" width="3" height="6" rx="1.5"/><rect x="19" y="10" width="3" height="6" rx="1.5"/><path d="M14 9v4m3-5v6" stroke-opacity=".8"/></g></svg></span>
+    <span class="podcast-launch-label">ポッドキャストを聴く（英語）</span>
+  </button>
+</div>
+
+<section id="podcast-ch18-the-government-and-the-macroeconomy-player" class="podcast-player" data-podcast="../audio-player/transcripts/podcast-ch18-the-government-and-the-macroeconomy.json" aria-label="第18章・政府とマクロ経済のポッドキャスト・プレーヤー" hidden>
+  <a class="podcast-mindmap" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch18-the-government-and-the-macroeconomy-v1.webp" target="_blank" rel="noopener" aria-label="画像を開く：第18章のマインドマップ（新しいタブで開きます）"><img src="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch18-the-government-and-the-macroeconomy-v1.webp" alt="第18章のマインドマップ" loading="lazy"><span>⊕ マインドマップ</span></a>
+  <div class="podcast-heading">
+    <div>
+      <p class="podcast-eyebrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 15v-4a8 8 0 0 1 16 0v4"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/></svg> AIポッドキャスト（英語） · <span data-episode-minutes>22</span> 分</p>
+      <h5>第18章・政府とマクロ経済</h5>
+      <p class="podcast-now" aria-live="polite">再生中：Opening</p>
+    </div>
+    <button type="button" class="podcast-close" aria-label="プレーヤーを閉じる"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg></button>
+  </div>
+  <div class="podcast-playback">
+    <audio controls controlslist="nodownload" preload="none" aria-label="第18章・政府とマクロ経済のポッドキャスト">
+      <source src="https://quarcs-lab.github.io/macro102-site/podcasts/ch18-the-government-and-the-macroeconomy.mp3" type="audio/mpeg">
+      お使いのブラウザは音声の再生に対応していません。下のトランスクリプトを読むことができます。
+    </audio>
+    <div data-enhanced hidden>
+      <div class="podcast-timeline">
+        <div class="podcast-track" aria-hidden="true"><span data-buffer></span><span data-progress></span></div>
+        <div class="podcast-cuts" aria-hidden="true"></div>
+        <input data-seek type="range" min="0" max="1" value="0" step="0.1" aria-label="ポッドキャストの再生位置">
+      </div>
+      <div class="podcast-time"><span data-elapsed>00:00</span><span data-duration>22:14</span></div>
+      <div class="podcast-controls">
+        <div class="podcast-transport">
+          <button type="button" class="podcast-skip" data-skip="-15" aria-label="15秒戻る"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 7a11 11 0 1 1-4 10M10 3v7H3"/></svg><small>15</small></button>
+          <button type="button" class="podcast-play" aria-label="ポッドキャストを再生" aria-pressed="false">
+            <svg data-play-icon width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m8 4 12 8-12 8z"/></svg>
+            <svg data-pause-icon hidden width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+          </button>
+          <button type="button" class="podcast-skip" data-skip="30" aria-label="30秒進む"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 7a11 11 0 1 0 4 10M22 3v7h7"/></svg><small>30</small></button>
+        </div>
+        <button type="button" class="podcast-speed" data-speed aria-label="再生速度：1×。クリックで変更">1×</button>
+      </div>
+    </div>
+  </div>
+  <div class="podcast-chapters" data-enhanced hidden aria-label="エピソードのセクション"></div>
+  <div class="podcast-transcript-actions">
+    <button type="button" class="podcast-transcript-toggle" data-enhanced hidden aria-expanded="false" aria-controls="podcast-ch18-the-government-and-the-macroeconomy-transcript"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="15" rx="1"/><path d="M6 8h12M6 11h12M6 14h8"/></svg><span>文字を追う</span><svg class="podcast-transcript-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+    <a class="podcast-action-link" href="../audio-player/transcripts/podcast-ch18-the-government-and-the-macroeconomy.html" target="_blank" rel="noopener" aria-label="トランスクリプトを開く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14"/><path d="M10 3H3v18h18v-7"/></svg>トランスクリプトを開く</a>
+    <a class="podcast-action-link" href="https://open.spotify.com/episode/6dIV2e0BKZCMXyizLEK58B" target="_blank" rel="noopener" aria-label="Spotifyで聴く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M6 9c4-2 8-1 12 1M7 12c3-1 6-1 10 1M8 15c3-1 5 0 8 1"/></svg>Spotifyで聴く</a>
+  </div>
+  <div id="podcast-ch18-the-government-and-the-macroeconomy-transcript" class="podcast-transcript" hidden>
+    <div class="podcast-passages" role="region" aria-label="時間付きトランスクリプト。段落を選ぶとその位置へ移動します。" tabindex="0"></div>
+    <label class="podcast-follow"><input data-follow type="checkbox" checked> 音声に合わせて移動</label>
+  </div>
+    <p class="podcast-status" role="status"></p>
+</section>
+</div>
+
+</article><article id="chapter-19" class="chapter-card resource" data-topic="意思決定と世界経済" data-search="Chapter 19 第19章 国際貿易 なぜ国々は貿易をし、誰が得をするのでしょうか？ 意思決定と世界経済 International Trade" aria-labelledby="title-ch19"><div class="chapter-top"><span class="chapter-number">19</span><span class="chapter-method">国際貿易</span></div><div class="chapter-story"><h3 id="title-ch19">なぜ国々は貿易をし、誰が得をするのでしょうか？</h3><p>比較優位と交換の利益について考えましょう。貿易収支を、貯蓄、投資、海外からの借入に結びつけます。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch19-international-trade-v1.webp" data-map-title="第19章: 国際貿易" aria-label="第19章のマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/ch19.jpg" alt="第19章「国際貿易」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/ch19-international-trade.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>章を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch19-international-trade.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/ch19/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch19-data-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>データアプリ</a></div><div class="podcast-widget" id="podcast-ch19-international-trade">
+<div class="podcast-launch-row">
+  <button type="button" class="podcast-launch" data-podcast-toggle aria-expanded="false" aria-controls="podcast-ch19-international-trade-player">
+    <span class="podcast-launch-icon" aria-hidden="true"><svg width="49.6" height="32" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="white" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 11V9a6 6 0 0 1 12 0v2"/><rect x="9" y="10" width="3" height="6" rx="1.5"/><rect x="19" y="10" width="3" height="6" rx="1.5"/><path d="M14 9v4m3-5v6" stroke-opacity=".8"/></g></svg></span>
+    <span class="podcast-launch-label">ポッドキャストを聴く（英語）</span>
+  </button>
+</div>
+
+<section id="podcast-ch19-international-trade-player" class="podcast-player" data-podcast="../audio-player/transcripts/podcast-ch19-international-trade.json" aria-label="第19章・国際貿易のポッドキャスト・プレーヤー" hidden>
+  <a class="podcast-mindmap" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch19-international-trade-v1.webp" target="_blank" rel="noopener" aria-label="画像を開く：第19章のマインドマップ（新しいタブで開きます）"><img src="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch19-international-trade-v1.webp" alt="第19章のマインドマップ" loading="lazy"><span>⊕ マインドマップ</span></a>
+  <div class="podcast-heading">
+    <div>
+      <p class="podcast-eyebrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 15v-4a8 8 0 0 1 16 0v4"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/></svg> AIポッドキャスト（英語） · <span data-episode-minutes>22</span> 分</p>
+      <h5>第19章・国際貿易</h5>
+      <p class="podcast-now" aria-live="polite">再生中：Opening</p>
+    </div>
+    <button type="button" class="podcast-close" aria-label="プレーヤーを閉じる"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg></button>
+  </div>
+  <div class="podcast-playback">
+    <audio controls controlslist="nodownload" preload="none" aria-label="第19章・国際貿易のポッドキャスト">
+      <source src="https://quarcs-lab.github.io/macro102-site/podcasts/ch19-international-trade.mp3" type="audio/mpeg">
+      お使いのブラウザは音声の再生に対応していません。下のトランスクリプトを読むことができます。
+    </audio>
+    <div data-enhanced hidden>
+      <div class="podcast-timeline">
+        <div class="podcast-track" aria-hidden="true"><span data-buffer></span><span data-progress></span></div>
+        <div class="podcast-cuts" aria-hidden="true"></div>
+        <input data-seek type="range" min="0" max="1" value="0" step="0.1" aria-label="ポッドキャストの再生位置">
+      </div>
+      <div class="podcast-time"><span data-elapsed>00:00</span><span data-duration>22:23</span></div>
+      <div class="podcast-controls">
+        <div class="podcast-transport">
+          <button type="button" class="podcast-skip" data-skip="-15" aria-label="15秒戻る"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 7a11 11 0 1 1-4 10M10 3v7H3"/></svg><small>15</small></button>
+          <button type="button" class="podcast-play" aria-label="ポッドキャストを再生" aria-pressed="false">
+            <svg data-play-icon width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m8 4 12 8-12 8z"/></svg>
+            <svg data-pause-icon hidden width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+          </button>
+          <button type="button" class="podcast-skip" data-skip="30" aria-label="30秒進む"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 7a11 11 0 1 0 4 10M22 3v7h7"/></svg><small>30</small></button>
+        </div>
+        <button type="button" class="podcast-speed" data-speed aria-label="再生速度：1×。クリックで変更">1×</button>
+      </div>
+    </div>
+  </div>
+  <div class="podcast-chapters" data-enhanced hidden aria-label="エピソードのセクション"></div>
+  <div class="podcast-transcript-actions">
+    <button type="button" class="podcast-transcript-toggle" data-enhanced hidden aria-expanded="false" aria-controls="podcast-ch19-international-trade-transcript"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="15" rx="1"/><path d="M6 8h12M6 11h12M6 14h8"/></svg><span>文字を追う</span><svg class="podcast-transcript-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+    <a class="podcast-action-link" href="../audio-player/transcripts/podcast-ch19-international-trade.html" target="_blank" rel="noopener" aria-label="トランスクリプトを開く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14"/><path d="M10 3H3v18h18v-7"/></svg>トランスクリプトを開く</a>
+    <a class="podcast-action-link" href="https://open.spotify.com/episode/0kLOKNtaTL6IK2VKkTVUCg" target="_blank" rel="noopener" aria-label="Spotifyで聴く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M6 9c4-2 8-1 12 1M7 12c3-1 6-1 10 1M8 15c3-1 5 0 8 1"/></svg>Spotifyで聴く</a>
+  </div>
+  <div id="podcast-ch19-international-trade-transcript" class="podcast-transcript" hidden>
+    <div class="podcast-passages" role="region" aria-label="時間付きトランスクリプト。段落を選ぶとその位置へ移動します。" tabindex="0"></div>
+    <label class="podcast-follow"><input data-follow type="checkbox" checked> 音声に合わせて移動</label>
+  </div>
+    <p class="podcast-status" role="status"></p>
+</section>
+</div>
+
+</article><article id="chapter-20" class="chapter-card resource" data-topic="意思決定と世界経済" data-search="Chapter 20 第20章 為替レートと国際金融 通貨の価値を動かすものは何でしょうか？ 意思決定と世界経済 Exchange Rates and International Finance" aria-labelledby="title-ch20"><div class="chapter-top"><span class="chapter-number">20</span><span class="chapter-method">為替レートと国際金融</span></div><div class="chapter-story"><h3 id="title-ch20">通貨の価値を動かすものは何でしょうか？</h3><p>国々の購買力と、通貨ごとの収益を比べましょう。開放経済における為替レート、国際金融、政策を探ります。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch20-exchange-rates-and-international-finance-v1.webp" data-map-title="第20章: 為替レートと国際金融" aria-label="第20章のマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/ch20.jpg" alt="第20章「為替レートと国際金融」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/ch20-exchange-rates-and-international-finance.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>章を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch20-exchange-rates-and-international-finance.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/ch20/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch20-data-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>データアプリ</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch20-model-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>図表アプリ</a></div><div class="podcast-widget" id="podcast-ch20-exchange-rates-and-international-finance">
+<div class="podcast-launch-row">
+  <button type="button" class="podcast-launch" data-podcast-toggle aria-expanded="false" aria-controls="podcast-ch20-exchange-rates-and-international-finance-player">
+    <span class="podcast-launch-icon" aria-hidden="true"><svg width="49.6" height="32" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="white" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 11V9a6 6 0 0 1 12 0v2"/><rect x="9" y="10" width="3" height="6" rx="1.5"/><rect x="19" y="10" width="3" height="6" rx="1.5"/><path d="M14 9v4m3-5v6" stroke-opacity=".8"/></g></svg></span>
+    <span class="podcast-launch-label">ポッドキャストを聴く（英語）</span>
+  </button>
+</div>
+
+<section id="podcast-ch20-exchange-rates-and-international-finance-player" class="podcast-player" data-podcast="../audio-player/transcripts/podcast-ch20-exchange-rates-and-international-finance.json" aria-label="第20章・為替レートと国際金融のポッドキャスト・プレーヤー" hidden>
+  <a class="podcast-mindmap" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch20-exchange-rates-and-international-finance-v1.webp" target="_blank" rel="noopener" aria-label="画像を開く：第20章のマインドマップ（新しいタブで開きます）"><img src="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch20-exchange-rates-and-international-finance-v1.webp" alt="第20章のマインドマップ" loading="lazy"><span>⊕ マインドマップ</span></a>
+  <div class="podcast-heading">
+    <div>
+      <p class="podcast-eyebrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 15v-4a8 8 0 0 1 16 0v4"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/></svg> AIポッドキャスト（英語） · <span data-episode-minutes>23</span> 分</p>
+      <h5>第20章・為替レートと国際金融</h5>
+      <p class="podcast-now" aria-live="polite">再生中：Opening</p>
+    </div>
+    <button type="button" class="podcast-close" aria-label="プレーヤーを閉じる"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg></button>
+  </div>
+  <div class="podcast-playback">
+    <audio controls controlslist="nodownload" preload="none" aria-label="第20章・為替レートと国際金融のポッドキャスト">
+      <source src="https://quarcs-lab.github.io/macro102-site/podcasts/ch20-exchange-rates-and-international-finance.mp3" type="audio/mpeg">
+      お使いのブラウザは音声の再生に対応していません。下のトランスクリプトを読むことができます。
+    </audio>
+    <div data-enhanced hidden>
+      <div class="podcast-timeline">
+        <div class="podcast-track" aria-hidden="true"><span data-buffer></span><span data-progress></span></div>
+        <div class="podcast-cuts" aria-hidden="true"></div>
+        <input data-seek type="range" min="0" max="1" value="0" step="0.1" aria-label="ポッドキャストの再生位置">
+      </div>
+      <div class="podcast-time"><span data-elapsed>00:00</span><span data-duration>22:32</span></div>
+      <div class="podcast-controls">
+        <div class="podcast-transport">
+          <button type="button" class="podcast-skip" data-skip="-15" aria-label="15秒戻る"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 7a11 11 0 1 1-4 10M10 3v7H3"/></svg><small>15</small></button>
+          <button type="button" class="podcast-play" aria-label="ポッドキャストを再生" aria-pressed="false">
+            <svg data-play-icon width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m8 4 12 8-12 8z"/></svg>
+            <svg data-pause-icon hidden width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+          </button>
+          <button type="button" class="podcast-skip" data-skip="30" aria-label="30秒進む"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 7a11 11 0 1 0 4 10M22 3v7h7"/></svg><small>30</small></button>
+        </div>
+        <button type="button" class="podcast-speed" data-speed aria-label="再生速度：1×。クリックで変更">1×</button>
+      </div>
+    </div>
+  </div>
+  <div class="podcast-chapters" data-enhanced hidden aria-label="エピソードのセクション"></div>
+  <div class="podcast-transcript-actions">
+    <button type="button" class="podcast-transcript-toggle" data-enhanced hidden aria-expanded="false" aria-controls="podcast-ch20-exchange-rates-and-international-finance-transcript"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="15" rx="1"/><path d="M6 8h12M6 11h12M6 14h8"/></svg><span>文字を追う</span><svg class="podcast-transcript-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+    <a class="podcast-action-link" href="../audio-player/transcripts/podcast-ch20-exchange-rates-and-international-finance.html" target="_blank" rel="noopener" aria-label="トランスクリプトを開く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14"/><path d="M10 3H3v18h18v-7"/></svg>トランスクリプトを開く</a>
+    <a class="podcast-action-link" href="https://open.spotify.com/episode/2klpjOKO9PiHzN7g1ZZaAc" target="_blank" rel="noopener" aria-label="Spotifyで聴く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M6 9c4-2 8-1 12 1M7 12c3-1 6-1 10 1M8 15c3-1 5 0 8 1"/></svg>Spotifyで聴く</a>
+  </div>
+  <div id="podcast-ch20-exchange-rates-and-international-finance-transcript" class="podcast-transcript" hidden>
+    <div class="podcast-passages" role="region" aria-label="時間付きトランスクリプト。段落を選ぶとその位置へ移動します。" tabindex="0"></div>
+    <label class="podcast-follow"><input data-follow type="checkbox" checked> 音声に合わせて移動</label>
+  </div>
+    <p class="podcast-status" role="status"></p>
+</section>
+</div>
+
+</article><article id="chapter-21" class="chapter-card resource" data-topic="意思決定と世界経済" data-search="Chapter 21 第21章 おわりに 私たちは何を学び、何がまだ解かれていないのでしょうか？ 意思決定と世界経済 Parting Thoughts" aria-labelledby="title-ch21"><div class="chapter-top"><span class="chapter-number">21</span><span class="chapter-method">おわりに</span></div><div class="chapter-story"><h3 id="title-ch21">私たちは何を学び、何がまだ解かれていないのでしょうか？</h3><p>本書の主な教訓をまとめましょう。生活水準、成長、インフレ、安定化をもう一度振り返り、マクロ経済学がまだ答えるべき問いを考えます。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch21-parting-thoughts-v1.webp" data-map-title="第21章: おわりに" aria-label="第21章のマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/ch21.jpg" alt="第21章「おわりに」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/ch21-parting-thoughts.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>章を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/ch21-parting-thoughts.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/ch21/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/apps/ch21-data-apps.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>データアプリ</a></div><div class="podcast-widget" id="podcast-ch21-parting-thoughts">
+<div class="podcast-launch-row">
+  <button type="button" class="podcast-launch" data-podcast-toggle aria-expanded="false" aria-controls="podcast-ch21-parting-thoughts-player">
+    <span class="podcast-launch-icon" aria-hidden="true"><svg width="49.6" height="32" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="white" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 11V9a6 6 0 0 1 12 0v2"/><rect x="9" y="10" width="3" height="6" rx="1.5"/><rect x="19" y="10" width="3" height="6" rx="1.5"/><path d="M14 9v4m3-5v6" stroke-opacity=".8"/></g></svg></span>
+    <span class="podcast-launch-label">ポッドキャストを聴く（英語）</span>
+  </button>
+</div>
+
+<section id="podcast-ch21-parting-thoughts-player" class="podcast-player" data-podcast="../audio-player/transcripts/podcast-ch21-parting-thoughts.json" aria-label="第21章・おわりにのポッドキャスト・プレーヤー" hidden>
+  <a class="podcast-mindmap" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch21-parting-thoughts-v1.webp" target="_blank" rel="noopener" aria-label="画像を開く：第21章のマインドマップ（新しいタブで開きます）"><img src="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/ch21-parting-thoughts-v1.webp" alt="第21章のマインドマップ" loading="lazy"><span>⊕ マインドマップ</span></a>
+  <div class="podcast-heading">
+    <div>
+      <p class="podcast-eyebrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 15v-4a8 8 0 0 1 16 0v4"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/></svg> AIポッドキャスト（英語） · <span data-episode-minutes>22</span> 分</p>
+      <h5>第21章・おわりに</h5>
+      <p class="podcast-now" aria-live="polite">再生中：Opening</p>
+    </div>
+    <button type="button" class="podcast-close" aria-label="プレーヤーを閉じる"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg></button>
+  </div>
+  <div class="podcast-playback">
+    <audio controls controlslist="nodownload" preload="none" aria-label="第21章・おわりにのポッドキャスト">
+      <source src="https://quarcs-lab.github.io/macro102-site/podcasts/ch21-parting-thoughts.mp3" type="audio/mpeg">
+      お使いのブラウザは音声の再生に対応していません。下のトランスクリプトを読むことができます。
+    </audio>
+    <div data-enhanced hidden>
+      <div class="podcast-timeline">
+        <div class="podcast-track" aria-hidden="true"><span data-buffer></span><span data-progress></span></div>
+        <div class="podcast-cuts" aria-hidden="true"></div>
+        <input data-seek type="range" min="0" max="1" value="0" step="0.1" aria-label="ポッドキャストの再生位置">
+      </div>
+      <div class="podcast-time"><span data-elapsed>00:00</span><span data-duration>22:21</span></div>
+      <div class="podcast-controls">
+        <div class="podcast-transport">
+          <button type="button" class="podcast-skip" data-skip="-15" aria-label="15秒戻る"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 7a11 11 0 1 1-4 10M10 3v7H3"/></svg><small>15</small></button>
+          <button type="button" class="podcast-play" aria-label="ポッドキャストを再生" aria-pressed="false">
+            <svg data-play-icon width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m8 4 12 8-12 8z"/></svg>
+            <svg data-pause-icon hidden width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+          </button>
+          <button type="button" class="podcast-skip" data-skip="30" aria-label="30秒進む"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 7a11 11 0 1 0 4 10M22 3v7h7"/></svg><small>30</small></button>
+        </div>
+        <button type="button" class="podcast-speed" data-speed aria-label="再生速度：1×。クリックで変更">1×</button>
+      </div>
+    </div>
+  </div>
+  <div class="podcast-chapters" data-enhanced hidden aria-label="エピソードのセクション"></div>
+  <div class="podcast-transcript-actions">
+    <button type="button" class="podcast-transcript-toggle" data-enhanced hidden aria-expanded="false" aria-controls="podcast-ch21-parting-thoughts-transcript"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="15" rx="1"/><path d="M6 8h12M6 11h12M6 14h8"/></svg><span>文字を追う</span><svg class="podcast-transcript-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+    <a class="podcast-action-link" href="../audio-player/transcripts/podcast-ch21-parting-thoughts.html" target="_blank" rel="noopener" aria-label="トランスクリプトを開く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14"/><path d="M10 3H3v18h18v-7"/></svg>トランスクリプトを開く</a>
+    <a class="podcast-action-link" href="https://open.spotify.com/episode/0EFUcqcEWiHqrYhLKhovuX" target="_blank" rel="noopener" aria-label="Spotifyで聴く（新しいタブで開きます）"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M6 9c4-2 8-1 12 1M7 12c3-1 6-1 10 1M8 15c3-1 5 0 8 1"/></svg>Spotifyで聴く</a>
+  </div>
+  <div id="podcast-ch21-parting-thoughts-transcript" class="podcast-transcript" hidden>
+    <div class="podcast-passages" role="region" aria-label="時間付きトランスクリプト。段落を選ぶとその位置へ移動します。" tabindex="0"></div>
+    <label class="podcast-follow"><input data-follow type="checkbox" checked> 音声に合わせて移動</label>
+  </div>
+    <p class="podcast-status" role="status"></p>
+</section>
+</div>
+</article></div></section><details class="appendices" id="appendices"><summary><span><strong>九つの付録</strong><small>Python、データ、数学の道具、研究への発展</small></span><span class="overview-toggle" aria-hidden="true">+</span></summary><div class="chapter-grid"><article id="appendix-a" class="chapter-card resource" data-topic="付録" data-search="Appendix A 付録A Google ColabとAIを活用したPython PythonとAIで経済学をどう動かすのでしょうか？ 付録 Google Colab and AI-powered Python" aria-labelledby="title-appA"><div class="chapter-top"><span class="chapter-number">A</span><span class="chapter-method">Google ColabとAIを活用したPython</span></div><div class="chapter-story"><h3 id="title-appA">PythonとAIで経済学をどう動かすのでしょうか？</h3><p>Google Colabでノートブックを開き、コードを実行して、自分のものにしましょう。AIアシスタントに助けを求める方法と、その答えを確かめる方法を学びます。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/appA-google-colab-and-ai-powered-python-v1.webp" data-map-title="付録A: Google ColabとAIを活用したPython" aria-label="付録Aのマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/appA.jpg" alt="付録A「Google ColabとAIを活用したPython」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/appA-google-colab-and-ai-powered-python.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>付録を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appA-google-colab-and-ai-powered-python.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/appA/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a></div></article><article id="appendix-b" class="chapter-card resource" data-topic="付録" data-search="Appendix B 付録B Pythonによるマクロ経済データへのアクセス 問いの背後にあるデータは、どこで見つかるのでしょうか？ 付録 Accessing Macroeconomic Data with Python" aria-labelledby="title-appB"><div class="chapter-top"><span class="chapter-number">B</span><span class="chapter-method">Pythonによるマクロ経済データへのアクセス</span></div><div class="chapter-story"><h3 id="title-appB">問いの背後にあるデータは、どこで見つかるのでしょうか？</h3><p>Pythonでマクロ経済の時系列を直接ダウンロードしましょう。出典の選び方、定義の比べ方、分析のためのデータの準備のしかたを学びます。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/appB-accessing-macroeconomic-data-with-python-v1.webp" data-map-title="付録B: Pythonによるマクロ経済データへのアクセス" aria-label="付録Bのマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/appB.jpg" alt="付録B「Pythonによるマクロ経済データへのアクセス」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/appB-accessing-macroeconomic-data-with-python.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>付録を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appB-accessing-macroeconomic-data-with-python.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/appB/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a></div></article><article id="appendix-c" class="chapter-card resource" data-topic="付録" data-search="Appendix C 付録C マクロ経済学のための数学の復習 モデルを分かりやすくする数学の道具は何でしょうか？ 付録 Math Review for Macroeconomics" aria-labelledby="title-appC"><div class="chapter-top"><span class="chapter-number">C</span><span class="chapter-method">マクロ経済学のための数学の復習</span></div><div class="chapter-story"><h3 id="title-appC">モデルを分かりやすくする数学の道具は何でしょうか？</h3><p>百分率、対数、成長率、そして本書の背後にある代数を復習しましょう。それぞれの道具を、答えるのに役立つ経済の問いと結びつけます。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/appC-math-review-for-macroeconomics-v1.webp" data-map-title="付録C: マクロ経済学のための数学の復習" aria-label="付録Cのマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/appC.jpg" alt="付録C「マクロ経済学のための数学の復習」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/appC-math-review-for-macroeconomics.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>付録を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appC-math-review-for-macroeconomics.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/appC/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a></div></article><article id="appendix-d" class="chapter-card resource" data-topic="付録" data-search="Appendix D 付録D 成長会計と開発会計 成長のうち、投入によるものと生産性によるものはどれくらいでしょうか？ 付録 Growth and Development Accounting" aria-labelledby="title-appD"><div class="chapter-top"><span class="chapter-number">D</span><span class="chapter-method">成長会計と開発会計</span></div><div class="chapter-story"><h3 id="title-appD">成長のうち、投入によるものと生産性によるものはどれくらいでしょうか？</h3><p>成長会計と開発会計を使って、資本、労働、生産性を分けましょう。時間を通じた変化と、国々の生活水準の違いを比べます。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/appD-growth-and-development-accounting-v2.webp" data-map-title="付録D: 成長会計と開発会計" aria-label="付録Dのマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/appD.jpg" alt="付録D「成長会計と開発会計」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/appD-growth-and-development-accounting.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>付録を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appD-growth-and-development-accounting.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/appD/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a></div></article><article id="appendix-e" class="chapter-card resource" data-topic="付録" data-search="Appendix E 付録E 国々の成長と収束 貧しい国は豊かな国に追いついているのでしょうか？ 付録 Growth and Convergence Across Countries" aria-labelledby="title-appE"><div class="chapter-top"><span class="chapter-number">E</span><span class="chapter-method">国々の成長と収束</span></div><div class="chapter-story"><h3 id="title-appE">貧しい国は豊かな国に追いついているのでしょうか？</h3><p>ソロー・モデルから収束を導き、国々のデータで検証しましょう。成長回帰と所得のばらつきの変化を比べます。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/appE-growth-and-convergence-across-countries-v2.webp" data-map-title="付録E: 国々の成長と収束" aria-label="付録Eのマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/appE.jpg" alt="付録E「国々の成長と収束」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/appE-growth-and-convergence-across-countries.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>付録を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appE-growth-and-convergence-across-countries.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/appE/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a></div></article><article id="appendix-f" class="chapter-card resource" data-topic="付録" data-search="Appendix F 付録F 拡張ソロー成長モデル 人的資本は所得格差を説明するのでしょうか？ 付録 Augmented Solow Growth Model" aria-labelledby="title-appF"><div class="chapter-top"><span class="chapter-number">F</span><span class="chapter-method">拡張ソロー成長モデル</span></div><div class="chapter-story"><h3 id="title-appF">人的資本は所得格差を説明するのでしょうか？</h3><p>ソロー・モデルに教育を加えましょう。Mankiw–Romer–Weilの分析を再現し、その結果をより新しい国際データと比べます。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/appF-augmented-solow-growth-model-v2.webp" data-map-title="付録F: 拡張ソロー成長モデル" aria-label="付録Fのマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/appF.jpg" alt="付録F「拡張ソロー成長モデル」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/appF-augmented-solow-growth-model.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>付録を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appF-augmented-solow-growth-model.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/appF/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a></div></article><article id="appendix-g" class="chapter-card resource" data-topic="付録" data-search="Appendix G 付録G 成長と制度 よりよい制度は、より大きな繁栄をもたらすのでしょうか？ 付録 Growth and Institutions" aria-labelledby="title-appG"><div class="chapter-top"><span class="chapter-number">G</span><span class="chapter-method">成長と制度</span></div><div class="chapter-story"><h3 id="title-appG">よりよい制度は、より大きな繁栄をもたらすのでしょうか？</h3><p>Acemoglu–Johnson–Robinsonの研究を見直しましょう。なぜ相関だけでは不十分なのか、歴史的な操作変数を使って制度と所得をどう研究するのかを探ります。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/appG-growth-and-institutions-v2.webp" data-map-title="付録G: 成長と制度" aria-label="付録Gのマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/appG.jpg" alt="付録G「成長と制度」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/appG-growth-and-institutions.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>付録を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appG-growth-and-institutions.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/appG/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a></div></article><article id="appendix-h" class="chapter-card resource" data-topic="付録" data-search="Appendix H 付録H PythonによるDSGEモデル分析 DSGEモデルはどのように作り、推定するのでしょうか？ 付録 DSGE Modeling with Python" aria-labelledby="title-appH"><div class="chapter-top"><span class="chapter-number">H</span><span class="chapter-method">PythonによるDSGEモデル分析</span></div><div class="chapter-story"><h3 id="title-appH">DSGEモデルはどのように作り、推定するのでしょうか？</h3><p>PythonとSnowdropを使って、動学モデルを書き、解き、シミュレーションし、推定しましょう。データを使ってパラメータを決め、ショックへの反応を調べます。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/appH-dsge-modeling-with-python-v2.webp" data-map-title="付録H: PythonによるDSGEモデル分析" aria-label="付録Hのマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/appH.jpg" alt="付録H「PythonによるDSGEモデル分析」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/appH-dsge-modeling-with-python.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>付録を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appH-dsge-modeling-with-python.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/appH/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a></div></article><article id="appendix-i" class="chapter-card resource" data-topic="付録" data-search="Appendix I 付録I Smets–WoutersのDSGEモデル 推定された経済は、ショックにどう反応するのでしょうか？ 付録 The DSGE Model of Smets and Wouters" aria-labelledby="title-appI"><div class="chapter-top"><span class="chapter-number">I</span><span class="chapter-method">Smets–WoutersのDSGEモデル</span></div><div class="chapter-story"><h3 id="title-appI">推定された経済は、ショックにどう反応するのでしょうか？</h3><p>PythonでSmets–Woutersモデルを扱いましょう。インパルス応答を計算し直し、賃金の硬直性、価格の硬直性、金融政策の役割を探ります。</p></div><a class="chapter-thumb" href="https://raw.githubusercontent.com/quarcs-lab/macro102-site/main/images/mindmaps/appI-the-dsge-model-of-smets-and-wouters-v2.webp" data-map-title="付録I: Smets–WoutersのDSGEモデル" aria-label="付録Iのマインドマップを拡大" target="_blank" rel="noopener"><img src="../assets/previews/appI.jpg" alt="付録I「Smets–WoutersのDSGEモデル」のマインドマップ" loading="lazy" width="900" height="600"><span class="art-caption">章のマップを見る <span aria-hidden="true">↗</span></span></a><div class="chapter-actions"><a class="chapter-action chapter-action-primary" href="https://quarcs-lab.github.io/macro102-site/notebooks/appI-the-dsge-model-of-smets-and-wouters.html" target="_blank" rel="noopener"><span aria-hidden="true">↗</span>付録を読む</a><a class="chapter-action" href="https://colab.research.google.com/github/quarcs-lab/macro102-site/blob/main/notebooks/appI-the-dsge-model-of-smets-and-wouters.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&lt;/&gt;</span>AIノートブックを開く</a><a class="chapter-action" href="https://quarcs-lab.github.io/macro102-site/slides/appI/" target="_blank" rel="noopener"><span aria-hidden="true">▤</span>スライド</a></div></article></div></details><p class="empty" hidden>一致する章や付録はありません。別の検索語やテーマを試してください。</p><p class="curriculum-credit">すべての章と付録に、マインドマップと講義スライドがあります。全21章にAIで生成したポッドキャストがあります。日本語に翻訳されているのはこのページだけで、各章、アプリ、ポッドキャストは英語です。</p></div></section><dialog id="mindmap-viewer" aria-labelledby="mindmap-title"><div class="viewer-bar"><h2 id="mindmap-title">章のマインドマップ</h2><div><a id="mindmap-original" target="_blank" rel="noopener">元の画像を開く ↗</a><button type="button" id="close-mindmap" aria-label="マインドマップを閉じる">×</button></div></div><div class="viewer-image"><img id="mindmap-image" alt=""></div><p id="mindmap-status" role="status"></p></dialog></main><footer><div class="shell footer-inner"><div><a class="brand" href="index.html">データサイエンスとマクロ経済学</a><p>中級マクロ経済学のためのPythonコンパニオン。</p><p>著者： <a href="https://carlos-mendez.org/">Carlos Mendez</a> · <a href="https://quarcs-lab.github.io/macro102-site/ja/">本を読む ↗</a></p></div><div class="footer-meta"><a href="https://github.com/quarcs-lab/macro102-hub">GitHubのソース ↗</a><a href="https://github.com/quarcs-lab/macro102-hub/issues">問題を報告する ↗</a><p>© 2026 Carlos Mendez · <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.ja">CC BY-NC 4.0</a></p></div></div><div class="shell credit"><a href="https://web.stanford.edu/~chadj/" target="_blank" rel="noopener">Charles I. Jones</a>著 <a href="https://web.stanford.edu/~chadj/macrobook.html" target="_blank" rel="noopener"><em>Macroeconomics</em></a>（第6版、2024年）のコンパニオンです。独立した教育プロジェクトであり、著者や出版社とは関係ありません。サイトのオリジナルのイラストはAIで生成しています。</div></footer></body></html>
