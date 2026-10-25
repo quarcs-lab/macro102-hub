@@ -102,7 +102,7 @@ def build(source, chapter):
                 for window_path in sorted(work.glob(f"asr-{chunk_hash[:16]}-w*.json")):
                     window_text = window_path.stem.rsplit("-w", 1)[-1]
                     try:
-                        window_start = int(window_text) / 1000
+                        window_start = int(window_text)
                     except ValueError:
                         continue
                     window = json.loads(window_path.read_text())
