@@ -44,7 +44,20 @@ for f in sorted((book/'src').glob('*.qmd')):
   resources[-1]['podcast']={'id':eid,'duration':m['duration'],'spotify':m['spotify_url']}
 resources.sort(key=lambda r:(r['id'].startswith('app'),r['id']))
 (ROOT/'data/resources.json').write_text(json.dumps(resources,indent=2)+'\n')
-episodes.append({'id':'podcast-ja-ch01-macroeconomics','title':'第1章 · マクロ経済学入門','audio_sources':[{'src':BASE+'podcasts/ja/audio/chapter-01.mp3','type':'audio/mpeg'}],'transcript':'transcript-inputs-ja/podcast-ja-ch01-macroeconomics.json','spotify_url':'https://open.spotify.com/episode/7jPL9rYtTRAzfyjicmIP5m','transcript_page':'audio-player/transcripts/podcast-ja-ch01-macroeconomics.html','return_url':'podcasts-ja.html#chapter-1','image':{'src':BASE+'podcasts/ja/artwork/chapter-01.png','alt':'第1章のマインドマップ'},'note':'AI-generated Japanese narration. Transcript timing is approximate.'})
+japanese=json.loads((ROOT/'data/podcasts-ja.json').read_text())
+for item in sorted(japanese['episodes'],key=lambda item:item['chapter']):
+ if item.get('status')!='publicly_verified': continue
+ transcript=ROOT/item['transcript']
+ if not transcript.is_file(): raise SystemExit(f'Missing timed Japanese transcript: {transcript}')
+ episodes.append({'id':item['id'],'title':f'第{item["chapter"]}章 · {item["title"]}',
+  'audio_sources':[{'src':item['audio'],'type':'audio/mpeg'}],
+  'transcript':str(transcript.relative_to(ROOT)),
+  'spotify_url':item['spotify_url'],
+  'transcript_page':f'audio-player/transcripts/{item["id"]}.html',
+  'study_url':item['transcript_page'],
+  'return_url':f'podcasts-ja.html#chapter-{item["chapter"]}',
+  'image':{'src':item['artwork'],'alt':f'第{item["chapter"]}章のマインドマップ'},
+  'note':'AI-generated Japanese narration. Transcript timing is approximate.'})
 config={'site_title':'Data Science & Macroeconomics','integration_page':'podcasts.html','launch_label':'Listen AI Podcast','narration_label':'AI podcast','episodes':episodes}
 (ROOT/'player-config.json').write_text(json.dumps(config,indent=2)+'\n')
 subprocess.run([sys.executable,str(a.player_skill/'scripts/build_player.py'),'--config',str(ROOT/'player-config.json'),'--root',str(ROOT),'--check'],check=True)

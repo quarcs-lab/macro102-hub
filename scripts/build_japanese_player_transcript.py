@@ -1,4 +1,4 @@
-"""Build the Chapter 1 Japanese timed transcript for the shared podcast player.
+"""Build Japanese timed transcripts for the shared podcast player.
 
 The display text comes from the checked Japanese/English parallel script. Whisper cue
 times are aligned to that script by character sequence; cue text itself is never shown.
@@ -12,7 +12,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SOURCE = ROOT.parent / "macro102" / "publishing" / "spotify" / "japanese"
-EPISODE_ID = "podcast-ja-ch01-macroeconomics"
+EPISODE_ID = "podcast-ja-ch{chapter:02}-macroeconomics"
 
 
 def normalized(text):
@@ -20,10 +20,11 @@ def normalized(text):
     return "".join(c for c in text if not c.isspace() and unicodedata.category(c)[0] not in "PZ")
 
 
-def build(source):
-    chunks_path = source / "evidence/chapter-01-chunks.json"
-    cues_path = source / "transcripts/chapter-01.asr-draft.json"
-    parallel_path = source / "transcripts/chapter-01.parallel.json"
+def build(source, chapter):
+    prefix = f"chapter-{chapter:02}"
+    chunks_path = source / f"evidence/{prefix}-chunks.json"
+    cues_path = source / f"transcripts/{prefix}.asr-draft.json"
+    parallel_path = source / f"transcripts/{prefix}.parallel.json"
     chunks_doc = json.loads(chunks_path.read_text())
     cues_doc = json.loads(cues_path.read_text())
     parallel_doc = json.loads(parallel_path.read_text())
@@ -107,7 +108,11 @@ def build(source):
     if not segments or sections[0]["start"] != 0:
         raise ValueError("First timed passage must begin at zero")
     document = {
-        "title": "第1章 · マクロ経済学入門",
+        "title": f"第{chapter}章 · " + next(
+            item["title"].split("：", 1)[-1]
+            for item in json.loads((source / "series-metadata.ja.json").read_text())["chapters"]
+            if item["number"] == chapter
+        ),
         "duration": chunks_doc["duration_seconds"],
         "sections": sections,
         "segments": segments,
@@ -121,11 +126,13 @@ def build(source):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--source-dir", type=Path, default=DEFAULT_SOURCE)
-    parser.add_argument("--output", type=Path, default=ROOT / "transcript-inputs-ja/podcast-ja-ch01-macroeconomics.json")
+    parser.add_argument("--chapter", type=int, choices=range(1, 22), default=1)
+    parser.add_argument("--output", type=Path)
     args = parser.parse_args()
-    result = build(args.source_dir)
-    args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
+    result = build(args.source_dir, args.chapter)
+    output = args.output or ROOT / f"transcript-inputs-ja/podcast-ja-ch{args.chapter:02}-macroeconomics.json"
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
     print(f"Wrote {len(result['segments'])} aligned passages across {len(result['sections'])} sections.")
 
 

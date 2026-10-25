@@ -7,7 +7,7 @@ A public resource hub for Carlos Mendez’s *Data Science and Macroeconomic Mode
 
 Six static pages: Home, AI Podcasts, AI Tutors (forthcoming), Data Apps, Figure Apps, and a separate Japanese AI Podcasts page. The English podcast page links to the Japanese collection beside its episode directory button. The Japanese page lists published Japanese audio and marks chapters still in production. The Book navigation item opens the existing book. The homepage presents all 21 chapters as question-led cards with expandable mind maps, resource buttons, and inline podcast players; nine appendix cards sit in a disclosure below them. Its three pillars follow the preface: From data to facts, From facts to models, and AI-powered learning.
 
-The hub catalogs 21 chapter data-app collections, 17 model-app collections, 21 English podcasts, the published Japanese Chapter 1 podcast, and 30 chapters/appendices. Audio remains hosted by the book website; timed transcripts and reading pages are local. The Japanese episode uses the same generated player as the English collection, with Japanese timed read-along text and a link to the English-Japanese study transcript.
+The hub catalogs 21 chapter data-app collections, 17 model-app collections, 21 English podcasts, and each publicly verified Japanese podcast episode. Audio remains hosted by the book website; timed transcripts and reading pages are local. Japanese episodes use the same generated player as the English collection, with Japanese timed read-along text and an English Japanese study-transcript link.
 
 ## Preview and build
 
