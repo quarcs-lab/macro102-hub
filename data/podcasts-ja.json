@@ -99,6 +99,172 @@
       "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-05.html",
       "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch05-the-solow-growth-model.html",
       "status": "website_ready_spotify_pending"
+    },
+    {
+      "id": "podcast-ja-ch06-in-review",
+      "chapter": 6,
+      "title": "成長とアイデア",
+      "question": "アイデアは、なぜ機械とは違う形で経済成長を支えるのでしょうか。",
+      "description": "非競合的なアイデアが機械とどう違うのかを学びます。ローマーモデル、研究、インセンティブを取り上げ、所得水準の変化と持続的な成長を区別します。",
+      "topics": [
+        "非競合的なアイデア",
+        "ローマー・モデル",
+        "研究と成長のインセンティブ"
+      ],
+      "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch06-growth-and-ideas.html",
+      "status": "audio_review_in_progress"
+    },
+    {
+      "id": "podcast-ja-ch07-macroeconomics",
+      "chapter": 7,
+      "title": "労働市場、賃金、失業",
+      "question": "誰が働き、賃金はどう決まり、なぜ失業が生まれるのでしょうか。",
+      "description": "労働供給と労働需要を使って、賃金と雇用を考えます。就職や離職と失業のつながりを学び、技能と賃金格差を取り上げます。",
+      "topics": [
+        "労働需要と労働供給",
+        "失業率と自然失業率",
+        "技能と賃金格差"
+      ],
+      "duration": 1733.58,
+      "audio": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-07.mp3",
+      "artwork": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-07.png",
+      "transcript": "transcript-inputs-ja/podcast-ja-ch07-macroeconomics.json",
+      "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-07.html",
+      "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch07-the-labor-market-wages-and-unemployment.html",
+      "status": "website_ready_spotify_pending"
+    },
+    {
+      "id": "podcast-ja-ch08-macroeconomics",
+      "chapter": 8,
+      "title": "インフレ",
+      "question": "インフレは何を意味し、なぜ高い物価とは違うのでしょうか。",
+      "description": "インフレと、単に物価が高いことを区別します。貨幣の増加、実質産出量、長期のインフレの関係を学び、金利や、ハイパーインフレの財政的な原因を考えます。",
+      "topics": [
+        "インフレ率の測定",
+        "貨幣と長期インフレ",
+        "金利とハイパーインフレ"
+      ],
+      "duration": 1744.7799999999997,
+      "audio": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-08.mp3",
+      "artwork": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-08.png",
+      "transcript": "transcript-inputs-ja/podcast-ja-ch08-macroeconomics.json",
+      "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-08.html",
+      "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch08-inflation.html",
+      "status": "website_ready_spotify_pending"
+    },
+    {
+      "id": "podcast-ja-ch09-macroeconomics",
+      "chapter": 9,
+      "title": "短期入門",
+      "question": "景気の上下は、産出量・インフレ・失業にどう影響するのでしょうか。",
+      "description": "産出量ギャップを使って、好況と景気後退を測ります。フィリップス曲線とオークンの法則を、インフレ、失業、安定化政策の費用につなげて考えます。",
+      "topics": [
+        "産出量ギャップ",
+        "フィリップス曲線",
+        "オークンの法則と安定化政策"
+      ],
+      "duration": 1771.03,
+      "audio": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-09.mp3",
+      "artwork": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-09.png",
+      "transcript": "transcript-inputs-ja/podcast-ja-ch09-macroeconomics.json",
+      "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-09.html",
+      "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch09-an-introduction-to-the-short-run.html",
+      "status": "website_ready_spotify_pending"
+    },
+    {
+      "id": "podcast-ja-ch10-macroeconomics",
+      "chapter": 10,
+      "title": "大不況とコロナ禍：最初の考察",
+      "question": "金融危機では、銀行の損失がなぜ大きな景気後退につながるのでしょうか。",
+      "description": "大不況と、新型コロナによる景気後退を比較します。住宅の損失、銀行のレバレッジ、金融危機の波及をたどり、景気後退の深さと累積的な産出量の損失を区別します。",
+      "topics": [
+        "大不況とコロナ禍",
+        "銀行のレバレッジと投げ売り",
+        "景気後退の波及"
+      ],
+      "duration": 1671.62,
+      "audio": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-10.mp3",
+      "artwork": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-10.png",
+      "transcript": "transcript-inputs-ja/podcast-ja-ch10-macroeconomics.json",
+      "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-10.html",
+      "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look.html",
+      "status": "website_ready_spotify_pending"
+    },
+    {
+      "id": "podcast-ja-ch11-macroeconomics",
+      "chapter": 11,
+      "title": "IS曲線",
+      "question": "実質金利の変化は、支出と産出量をどう動かすのでしょうか。",
+      "description": "支出と実質金利からIS曲線を組み立てます。曲線に沿った動きと曲線のシフトを区別し、投資、消費の平準化、財政乗数を考えます。",
+      "topics": [
+        "消費と投資",
+        "IS曲線",
+        "財政乗数"
+      ],
+      "duration": 1673.1200000000001,
+      "audio": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-11.mp3",
+      "artwork": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-11.png",
+      "transcript": "transcript-inputs-ja/podcast-ja-ch11-macroeconomics.json",
+      "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-11.html",
+      "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch11-the-is-curve.html",
+      "status": "website_ready_spotify_pending"
+    },
+    {
+      "id": "podcast-ja-ch12-macroeconomics",
+      "chapter": 12,
+      "title": "金融政策とフィリップス曲線",
+      "question": "中央銀行の金利政策は、インフレと産出量にどう伝わるのでしょうか。",
+      "description": "翌日物金利から実質金利、産出量、インフレへと、金融政策の影響をたどります。IS曲線、MP曲線、フィリップス曲線を組み合わせ、インフレ率を下げる過程を学びます。",
+      "topics": [
+        "実質金利と金融政策",
+        "MP曲線とフィリップス曲線",
+        "ディスインフレ"
+      ],
+      "duration": 1730.5,
+      "audio": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-12.mp3",
+      "artwork": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-12.png",
+      "transcript": "transcript-inputs-ja/podcast-ja-ch12-macroeconomics.json",
+      "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-12.html",
+      "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch12-monetary-policy-and-the-phillips-curve.html",
+      "status": "website_ready_spotify_pending"
+    },
+    {
+      "id": "podcast-ja-ch13-macroeconomics",
+      "chapter": 13,
+      "title": "安定化政策とAS/ADの枠組み",
+      "question": "供給ショックや支出ショックに、金融政策はどう対応できるのでしょうか。",
+      "description": "金融政策ルールと総供給・総需要を組み合わせます。供給ショック、支出ショック、インフレ目標の引き下げを追い、政策の信頼性と実証的な証拠を考えます。",
+      "topics": [
+        "政策ルール",
+        "総供給・総需要",
+        "信頼性と実証的な証拠"
+      ],
+      "duration": 1722.35,
+      "audio": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-13.mp3",
+      "artwork": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-13.png",
+      "transcript": "transcript-inputs-ja/podcast-ja-ch13-macroeconomics.json",
+      "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-13.html",
+      "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch13-stabilization-policy-and-the-as-ad-framework.html",
+      "status": "website_ready_spotify_pending"
+    },
+    {
+      "id": "podcast-ja-ch14-macroeconomics",
+      "chapter": 14,
+      "title": "金融危機と短期モデル",
+      "question": "金融危機は、短期モデルの予測をどう変えるのでしょうか。",
+      "description": "金融摩擦を加えて短期モデルを広げます。リスクプレミアム、デフレ、ゼロ金利制約を学び、非伝統的な政策と景気回復を考えます。",
+      "topics": [
+        "リスクプレミアム",
+        "デフレとゼロ金利制約",
+        "非伝統的な金融政策"
+      ],
+      "duration": 1702.7499999999998,
+      "audio": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-14.mp3",
+      "artwork": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-14.png",
+      "transcript": "transcript-inputs-ja/podcast-ja-ch14-macroeconomics.json",
+      "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-14.html",
+      "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch14-financial-crises-and-the-short-run-model.html",
+      "status": "website_ready_spotify_pending"
     }
   ]
 }

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第7章 · 労働市場、賃金、失業 — Transcript | Data Science &amp; Macroeconomics</title>
+  <link rel="stylesheet" href="../transcript.css">
+  <script src="../transcript-theme.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#transcript">Skip to transcript</a>
+  <header class="page-header">
+    <a href="../../podcasts-ja.html#chapter-7">← Back to 第7章 · 労働市場、賃金、失業</a>
+    <button type="button" id="transcript-theme" hidden aria-pressed="false">Light theme</button>
+  </header>
+  <main id="transcript">
+    <p class="eyebrow">Data Science &amp; Macroeconomics · Podcast transcript</p>
+    <h1>第7章 · 労働市場、賃金、失業</h1>
+    <p class="note">AI-generated Japanese narration. Transcript timing is approximate.</p>
+    <nav aria-label="Transcript sections"><ul><li><a href="#section-0">はじめに</a></li><li><a href="#section-1">第1部　誰がどの賃金で働くのか</a></li><li><a href="#section-2">第2部　失業</a></li><li><a href="#section-3">第3部　賃金、技能、格差</a></li><li><a href="#section-4">まとめ</a></li></ul></nav>
+    <article aria-label="Full transcript"><h2 id="section-0">はじめに</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">00:00</span></p><p class="passage-text">今回もお聞きいただき、ありがとうございます。今日は労働市場、つまり、誰が仕事に就き、賃金はいくらで、誰が仕事を得られないのかを見ていきます。2020年2月、アメリカの失業率は3.5％でした。2か月後は何％だったと思いますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">00:21</span></p><p class="passage-text">2020年4月には14.8％でした。新型コロナウイルスのパンデミックが起こり、ロックダウンが始まっていました。働いている人、または仕事を探している人のおよそ7人に1人が、仕事に就けませんでした。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">00:39</span></p><p class="passage-text">7人に1人です。多くの人は、働いて得る収入で生活しています。では今日の問いです。誰が働くのでしょうか。なぜ全員が仕事を見つけられないのでしょうか。そして、なぜ人によって賃金が違うのでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">00:57</span></p><p class="passage-text">このエピソードを聞き終わるころには、三つのことができるようになります。第一に、需要と供給を使って、賃金への課税がなぜ雇用を減らすのか、そして下がらない賃金がなぜ需要の減少を失業に変えるのかを説明できます。第二に、二つの月次率、つまり労働者が仕事を失う割合と、失業者が仕事を見つける割合から、失業率の通常の水準である自然失業率を計算できます。第三に、大卒者が大幅に増えたにもかかわらず、大学卒の賃金プレミアムがなぜ上昇したのかを説明できます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">01:39</span></p><p class="passage-text">章のマインドマップを、項目ごとにたどっていくのですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">01:43</span></p><p class="passage-text">はい。第1部は、誰がどの賃金で働くのか。第2部は失業。第3部は賃金、技能、格差です。それぞれの部には4つか5つの枝葉があり、小さなテーマを順番に見ていきます。</p></div>
+<h2 id="section-1">第1部　誰がどの賃金で働くのか</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">02:03</span></p><p class="passage-text">マップの第1部は、誰がどの賃金で働くのかです。最初の項目は、女性の就業についてです。女性の就業率は1960年の35.5％から、2000年にはピークの58％まで上がる一方、男性の就業率は下がりました。何に対する割合ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">02:26</span></p><p class="passage-text">就業人口比率です。成人のうち、賃金を得る仕事に就いている人の割合を指します。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">02:33</span></p><p class="passage-text">つまり、女性が男性の失った仕事に就いたのでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">02:38</span></p><p class="passage-text">そう考える人は多いのですが、違います。仕事の数が一定なら、働く女性が増えるほど、ほかの人の仕事は減るはずです。実際には、仕事に就いている成人全体の割合は、1960年の約56％から、2000年には65％近くまで上がりました。新たに働く人も生産し、支出するので、企業はさらに人を雇います。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">03:07</span></p><p class="passage-text">次は、三つの統計を結びつける式です。三つとは何ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">03:12</span></p><p class="passage-text">まず、成人を三つのグループに分けます。仕事に就いている人、失業者、そしてそれ以外の人です。失業者とは、仕事がなく、過去4週間に仕事を探し、今すぐ働き始められる人です。最初の二つのグループ、つまり働いている人と仕事を探している人を合わせたものが労働力人口です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">03:38</span></p><p class="passage-text">そして、三つの統計は何ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">03:41</span></p><p class="passage-text">一つ目は失業率で、労働力人口のうち仕事がない人の割合です。二つ目は労働参加率で、成人のうち労働力人口に含まれる人の割合です。三つ目は就業人口比率です。100％から失業率を引くと、労働力人口のうち仕事に就いている人の割合になります。それに労働参加率を掛けると、就業人口比率が求められます。小さな架空の島国、アイランディアで計算してみましょう。成人は100人で、そのうち59人が仕事に就き、3人が仕事を探しています。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">04:24</span></p><p class="passage-text">すると、成人100人のうち62人が労働力人口です。労働参加率は62％ですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">04:32</span></p><p class="passage-text">そうです。その62人のうち3人に仕事がないので、失業率は約5％です。つまり、労働力人口の約95％が仕事に就いています。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">04:47</span></p><p class="passage-text">式は、95％掛ける62％ですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">04:50</span></p><p class="passage-text">59％になります。これが就業人口比率です。実際、成人100人のうち59人が働いています。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">05:00</span></p><p class="passage-text">ここで、失業していた3人のうち1人があきらめて、仕事を探すのをやめたとします。失業率は61人中2人、約3.3％に下がります。これはよい知らせですよね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">05:15</span></p><p class="passage-text">多くの学生はそう言うでしょう。しかし、誰も仕事を見つけたわけではありません。その人は労働力人口から抜けただけです。働いているアイランディアの人は59人のままなので、就業人口比率は変わっていません。だからこそ、失業率は、働いている成人の割合と合わせて見ます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">05:37</span></p><p class="passage-text">次は、25％の税と、雇用が45人から37.1人に減る例です。45人というのは、何の数ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">05:47</span></p><p class="passage-text">45人の労働者です。先ほど数えた成人100人とは別の、仮の数字を使った新しい例です。需要とは、各賃金で企業が何人の労働者を雇いたいかです。アイランディアでは、船を建造・修理するハーバー造船所が労働需要を生み出します。もう1人雇うことで、その労働者にかかる費用以上の生産が増える限り、企業は雇います。追加の労働者も同じ道具を使うため、1人増えるごとに生産への追加分は小さくなり、企業が提示する賃金も下がっていきます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">06:30</span></p><p class="passage-text">供給は、島の人たちから来るのですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">06:35</span></p><p class="passage-text">そうです。各賃金で、何人の島民が働きたいかです。浜辺で過ごす1時間の費用は、働いていれば得られた賃金です。だから賃金が高いほど、働きたい島民が増えます。この例では、企業は最初の労働者に100を支払い、その後は雇用するたびに提示額を1ずつ下げます。最初の島民は賃金10なら働く意思があり、それ以降の島民は1ずつ高い賃金を求めます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">07:10</span></p><p class="passage-text">では、需要と供給はどこで一致しますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">07:14</span></p><p class="passage-text">労働者45人のところです。その時点で、企業の提示額は55まで下がり、次の島民が求める賃金も55まで上がります。したがって賃金は55です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">07:29</span></p><p class="passage-text">ここで、政府の税務当局であるアイランディア財務省が、すべての賃金から25％を徴収します。費用はすべて労働者が負担すると思います。企業は55を払い続け、島民の手取りが減るのですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">07:45</span></p><p class="passage-text">いいえ。人々は反応するからです。賃金が55だと、島民の手取りは約41にしかなりません。その賃金で働きたい島民が減るので、企業は55では求人を埋められず、もっと高い額を提示しなければなりません。しかし、賃金が上がれば、企業が望む労働者の数は減ります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">08:10</span></p><p class="passage-text">それで、どこに落ち着くのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">08:13</span></p><p class="passage-text">雇用は45人から37.1人に減ります。企業が払う額は約63に上がり、島民の手取りは約47になります。つまり、税の負担は分け合われます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">08:30</span></p><p class="passage-text">この部の最後の項目は、需要が20減るという話です。なぜそうなるのでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">08:37</span></p><p class="passage-text">船の燃料が値上がりしたとしましょう。するとハーバー造船所は、どの労働者にも20低い額を提示します。以前の賃金55では、仕事をしたい島民に比べ、企業が雇いたい人数はずっと少なくなります。そこで賃金が下がります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">08:57</span></p><p class="passage-text">賃金が下がると、どうなりますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">09:00</span></p><p class="passage-text">企業は、賃金55の場合より多く雇い、島民の中には、低い賃金では働く価値がないと考える人も出ます。賃金45、雇用35人で需要と供給が一致します。どちらも10ずつ下がります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">09:20</span></p><p class="passage-text">待ってください。税の場合は、企業が払う賃金が上がり、雇用が減りました。ここでは、両方とも下がっています。なぜでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">09:32</span></p><p class="passage-text">変化が異なる側から起きたからです。税は供給を動かしました。どの賃金でも、働きたい島民が減りました。需要の減少は需要を動かしました。どの賃金でも、企業が望む労働者の数が減りました。データを読むときのルールはこうです。需要が変化すると、賃金と雇用は同じ方向に動きます。供給が変化すると、両者は反対方向に動きます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">10:03</span></p><p class="passage-text">第1部では、1960年に比べて働く女性が大幅に増えたこと、失業率は働く成人の割合と合わせて見る必要があることを学びました。そして、税や需要の弱まりは雇用を減らします。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">10:19</span></p><p class="passage-text">さらに、この単純なモデルでは、提示された賃金で働きたい人は全員、仕事を見つけます。次の枝では、これが変わります。テーマは失業です。</p></div>
+<h2 id="section-2">第2部　失業</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">10:33</span></p><p class="passage-text">マップの第2部は失業です。最初の項目によると、不況のたびに失業率が上がり、2020年4月には14.8％に達しました。そもそも不況とは何ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">10:48</span></p><p class="passage-text">経済全体が縮小する時期です。企業は生産を減らし、雇用を削減します。アメリカのデータでは、不況のたびに失業率が跳ね上がっています。金融危機の深刻な不況では、2009年10月に10％でピークに達しました。2020年4月には14.8％になりました。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">11:11</span></p><p class="passage-text">次は賃金の硬直性です。雇用は35人ではなく25人。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">11:18</span></p><p class="passage-text">硬直的とは、賃金が下がらないことです。第1部と同じ需要の減少を考えますが、今度は賃金が55のままです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">11:29</span></p><p class="passage-text">正直、労働者にはよさそうです。賃金が守られるのですから。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">11:34</span></p><p class="passage-text">そう聞こえますが、今度は需要の減少分がすべて雇用に響きます。企業は最初の労働者に、以前の100ではなく80しか払わなくなります。そのため、わずか25人を雇ったところで提示額が55まで下がります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">11:51</span></p><p class="passage-text">でも、賃金55で働きたい島民は45人います。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">11:56</span></p><p class="passage-text">そうです。つまり、20人がその賃金で働きたいのに、仕事を得られません。この人たちが失業者です。賃金が柔軟なら、同じ需要減少で失われる仕事は10人分です。賃金が硬直的だと20人分、つまり2倍になります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">12:17</span></p><p class="passage-text">賃金が下がらないのは、なぜでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">12:20</span></p><p class="passage-text">需要と供給が一致する賃金より最低賃金が高い場合があります。また、賃金を高めに設定する企業もあります。1914年、ヘンリー・フォードは自動車工場の労働者の大半の賃金を、1日5ドルに倍増させました。労働者はより長く勤め、熱心に働き、フォードはそれによって費用が下がったと述べました。そのような企業は、需要が落ちても賃金を下げません。労働者が辞めたり、働く量を減らしたりするかもしれないからです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">12:57</span></p><p class="passage-text">次の項目は浴槽です。なぜ浴槽なのでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">13:02</span></p><p class="passage-text">蛇口から水が流れ、排水口が開いている浴槽を想像してください。水は失業者の数です。蛇口から入る水は仕事を失う人、排水口から出る水は仕事を見つける失業者です。アイランディアの月次率はアメリカと同じです。毎月、仕事に就いている人の約1％が職を失います。これを離職率といいます。また、失業者の約20％、つまり5人に1人が仕事を見つけます。これを就職率といいます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">13:41</span></p><p class="passage-text">水位はどこで落ち着きますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">13:44</span></p><p class="passage-text">自然失業率です。不況でも好況でもない、通常の年の失業率です。好況とは、成長が速い時期です。労働力人口に対する割合として、アイランディアの自然失業率を順に計算しましょう。不景気によって失業率が10％まで上がり、90％が働いているとします。毎月、働いている人の1％が仕事を失います。これは労働力人口の0.9％が流入することです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">14:18</span></p><p class="passage-text">失業者10％のうち5分の1が仕事を見つけます。流出は2％なので、失業は減りますね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">14:28</span></p><p class="passage-text">そうです。水位が下がると、仕事を見つける失業者が減るため、流出量も小さくなります。また、働く人が増えるので、流入量は少し増えます。二つの流れが等しくなると、水位は止まります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">14:45</span></p><p class="passage-text">それは、いつですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">14:47</span></p><p class="passage-text">失業者の5分の1が、働いている人の1％と等しくなるときです。5分の1は1％の20倍ですから、失業者1人につき、働いている人が20人いるはずです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">15:02</span></p><p class="passage-text">つまり、労働力人口21人のうち、20人が働き、1人が失業しています。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">15:09</span></p><p class="passage-text">そのとおりです。21人に1人は約4.8％です。これがアイランディアの自然失業率です。労働力人口の規模は関係なく、二つの率だけが重要です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">15:25</span></p><p class="passage-text">失業を減らすには、政府は解雇を難しくすればよいのですね。仕事を失う人が減り、蛇口の流れが弱まります。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">15:33</span></p><p class="passage-text">それが第一の効果です。解雇費用によって離職率が月1％から0.8％に下がると、自然失業率は4.8％から約3.8％に下がります。しかし、簡単に解雇できない企業は、採用にも慎重になります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">15:55</span></p><p class="passage-text">採用が遅くなると、どうなるのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">15:59</span></p><p class="passage-text">就職率も月20％から15％に下がると、自然失業率は約5.1％まで上がり、最初より高くなります。雇用を守るルールは、蛇口だけでなく排水口の流れも弱めることがあります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">16:15</span></p><p class="passage-text">この部の最後はヨーロッパです。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">16:18</span></p><p class="passage-text">ここでいうヨーロッパは、ユーロを使う12か国のことです。1975年までは、失業率の平均は2.6％で、アメリカのおよそ半分でした。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">16:29</span></p><p class="passage-text">その後はどうなりましたか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">16:32</span></p><p class="passage-text">およそ10年間、急上昇しました。1985年以降の平均は約9％で、アメリカの6％未満と比べて高くなっています。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">16:44</span></p><p class="passage-text">ヨーロッパの手厚い失業給付が原因だと思います。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">16:48</span></p><p class="passage-text">一部はそうです。失業給付とは、仕事を失った人に政府が支払うお金です。ただし、失業率が低かった1950年代と1960年代にも、ヨーロッパにはすでに手厚い給付がありました。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">17:04</span></p><p class="passage-text">では、何が変わったのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">17:07</span></p><p class="passage-text">1970年代のショックです。石油価格が跳ね上がり、労働者1人あたりの生産量である労働生産性の伸びが鈍化しました。このショックはアメリカや日本にも及びましたが、両国では失業率が高止まりしませんでした。ヨーロッパでは、制度が高い失業率を維持させました。長期にわたる手厚い給付は新しい仕事を探す動きを遅らせ、厳格な解雇規則は採用を遅らせます。浴槽にたとえると、どちらも排水口を狭めます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">17:44</span></p><p class="passage-text">第2部では、失業がどこから生まれるのかを見ました。硬直的な賃金は、働きたいのに仕事を見つけられない人を生みます。仕事を失う人と見つける人の流れが自然失業率を決め、アイランディアでは約4.8％です。そして1970年代のショックの後、排水口を狭める制度がヨーロッパの失業率を高く保ちました。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">18:12</span></p><p class="passage-text">うまくまとめました。次の枝では、なぜ人によって賃金が違うのかを考えます。</p></div>
+<h2 id="section-3">第3部　賃金、技能、格差</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">18:21</span></p><p class="passage-text">マップの第3部は、賃金、技能、格差です。最初の項目には、働く人生の現在価値は253万ドルとあります。誰の働く人生ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">18:34</span></p><p class="passage-text">年収10万ドル、アメリカの平均賃金に近い若い労働者です。22歳から67歳までの45年間働きます。その賃金全体は、今日の価値でいくらでしょうか。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">18:49</span></p><p class="passage-text">簡単です。45年掛ける年10万ドルで、450万ドルです。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">18:55</span></p><p class="passage-text">利子を考えていないので、多すぎます。年利を3％としましょう。今日、銀行に97ドル預ければ、来年には約100ドルになります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">19:07</span></p><p class="passage-text">つまり、来年の100ドルは、今日の価値では97ドルにすぎないのですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">19:14</span></p><p class="passage-text">そうです。この計算を割引といいます。最初の給与は今日受け取るので、最後の給与は44年後です。今日の価値では、その額の約4分の1にすぎません。毎年の賃金を割り引いて合計しましょう。45年間、毎年1ドルを受け取ることは、今日では45ドルではなく、約25ドルの価値です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">19:39</span></p><p class="passage-text">年10万ドルなら、どうなりますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">19:42</span></p><p class="passage-text">25掛ける10万ドルを少し上回る、今日の価値で約253万ドルです。この合計を賃金の割引現在価値といいます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">19:54</span></p><p class="passage-text">若い労働者は、もう億万長者のようなものですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">19:58</span></p><p class="passage-text">ある意味ではそうです。技能と教育は人的資本であり、その現在価値は253万ドルです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">20:07</span></p><p class="passage-text">次は、大卒者の増加です。大学卒の仕事の割合は18.3％から40.9％へ上がり、賃金プレミアムも高まりました。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">20:18</span></p><p class="passage-text">これは、大学卒の労働者が占めるアメリカの雇用の割合で、1979年と2020年の値です。2倍を超えるまで増えました。大学卒の賃金プレミアムとは、似た条件の高校卒の人に比べて、大卒者が1時間あたりどれだけ多く稼ぐかです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">20:42</span></p><p class="passage-text">それなら、プレミアムは下がったはずです。供給が増えれば、価格は下がります。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">20:48</span></p><p class="passage-text">そう考える学生は多いのですが、プレミアムは上がりました。1980年代に急上昇し、2000年以降も高い水準を保っています。供給だけでは説明できません。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">21:02</span></p><p class="passage-text">次は、需要が供給を上回り、1970年代には供給が勝ったという話です。どういうことでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">21:13</span></p><p class="passage-text">需要と供給がそれぞれある二つの労働市場を、アイランディアに作って考えましょう。高校卒の市場は第1部で見たもので、賃金は55です。大学卒の市場では賃金が66から始まるので、大卒者は20％多く稼ぎます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">21:32</span></p><p class="passage-text">それから、大学に進学する島民が増えるのですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">21:37</span></p><p class="passage-text">そうです。大学卒の供給が増え、どの賃金でも、働きたい卒業者が増えます。この例では、同じ人数の仕事に対して、彼らが求める賃金が10下がります。それだけなら、大学卒の賃金は下がります。しかし企業も、大卒者をより多く求めます。需要が増え、卒業者1人あたりに提示する額が15上がります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">22:05</span></p><p class="passage-text">二つの変化は、賃金を反対方向に動かすのですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">22:09</span></p><p class="passage-text">はい。そして需要の力のほうが強いのです。以前の賃金66では、企業が求める大卒者の数が供給を上回り、賃金は71に上がります。プレミアムは20％から29％に拡大します。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">22:31</span></p><p class="passage-text">1970年代はどうだったのでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">22:35</span></p><p class="passage-text">供給が勝ちました。非常に人数の多い若者の集団であるベビーブーム世代が、大学進学年齢に達しました。モデルでは供給が25増え、需要は10しか増えないので、大学卒の賃金は66から62に下がります。経済学者の中には、これを教育と技術の競争と呼ぶ人もいます。教育は技能の供給を増やします。熟練労働者の生産性を高めるコンピューターのような技術は、需要を増やします。どちらの伸びが速いかで、プレミアムが決まります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">23:16</span></p><p class="passage-text">次は製造業で、2000年から2010年に仕事の34％が失われたという話です。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">23:23</span></p><p class="passage-text">2000年1月から2010年2月までに、アメリカの工場では約600万人分の仕事が失われました。全雇用のおよそ3分の1です。研究によると、その減少の約4分の1は、中国からの輸入増加で説明できます。モデルでは、工場の仕事が失われると、高校卒の労働市場で学位のない労働者への需要が下がります。そこで賃金と雇用がともに減り、大卒者との格差が広がります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">23:56</span></p><p class="passage-text">最後の項目は、1980年以降、最上位層の所得が最も速く伸びたというものです。何の最上位ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">24:06</span></p><p class="passage-text">所得階層の最上位で、所得は税金と政府給付を考慮した後の額です。1946年から1980年までは、アメリカ人の所得のうち、所得が低いほうの半分で最も速く伸びました。1980年から2014年までは、最も裕福な人たちの所得が最も速く伸びました。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">24:34</span></p><p class="passage-text">どれくらい伸びたのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">24:36</span></p><p class="passage-text">所得が真ん中の人では、年率約0.9％しか伸びませんでした。最も裕福な人たちでは、年率4％から6％伸びました。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">24:49</span></p><p class="passage-text">なぜ富裕層はそれほど大きく増やせたのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">24:53</span></p><p class="passage-text">大学卒のプレミアムは、大卒者とそれ以外の人の格差を広げましたが、最上位層までは説明できません。そこの所得増加の大半は、経営幹部の報酬のような給与や事業所得によるものです。その増加がよいことか悪いことかは、今も議論されています。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">25:14</span></p><p class="passage-text">第3部では、割引をしても働く人生には何百万ドルもの価値があることを見ました。大卒者の技能への需要が供給より速く伸びたので、追加の賃金が上がりました。そして1980年以降は、最も裕福な人たちの所得が最も大きく増えました。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">25:34</span></p><p class="passage-text">そのとおりです。まとめましょう。</p></div>
+<h2 id="section-4">まとめ</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">25:38</span></p><p class="passage-text">三つの目標に戻りましょう。第一に、賃金への課税はなぜ雇用を減らし、賃金の硬直性はなぜ失業を生むのでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">25:48</span></p><p class="passage-text">税によって島民の手取りが減るので、働きたい人が少なくなり、企業も雇用を減らします。賃金が硬直的だと、需要の減少を和らげるための賃金低下が起きません。そのため、需要の減少分がすべて雇用に響き、仕事は10人分ではなく20人分失われます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">26:11</span></p><p class="passage-text">第二に、自然失業率です。毎月、労働者の約1％が仕事を失い、失業者の5人に1人が仕事を見つけます。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">26:21</span></p><p class="passage-text">流れが等しいとき、失業者1人に対して働いている人が20人います。つまり21人に1人が失業しており、その割合は約4.8％です。自然失業率が動くのは、二つの率のどちらかが変わるときだけです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">26:41</span></p><p class="passage-text">そして第三に、大学卒の賃金プレミアムです。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">26:46</span></p><p class="passage-text">大卒者が占める雇用の割合は2倍を超えましたが、技能への需要はさらに速く伸びたので、追加の賃金も上がりました。ここで大切なメッセージです。需要と供給が賃金と雇用を決めます。仕事を失う人と見つける人の流れが自然失業率を決めます。そして技能への需要が供給より速く伸びたことで、大学卒のプレミアムが上がり、格差も拡大しました。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">27:18</span></p><p class="passage-text">考えてみてください。政府が大学を無償にし、学位を取る若者が大幅に増えたとします。二つの労働市場で、需要は変わりません。大学卒の賃金プレミアムはどうなりますか。なぜでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">27:34</span></p><p class="passage-text">いったんエピソードを止めて、少し考えてみてください。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">27:38</span></p><p class="passage-text">では、再開しましょう。答えは何ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">27:41</span></p><p class="passage-text">プレミアムは両側から縮小します。大学卒の市場では、需要が変わらず供給が増えるので、大学卒の賃金が下がります。第3部では高校卒の市場を動かさずに考えましたが、ここではそちらも動きます。高校卒の労働者が減るので供給が縮小し、高校卒の賃金は上がります。現実には技能への需要も伸び続けるので、結果は教育と技術の競争に左右されます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">28:16</span></p><p class="passage-text">学生は、どこでこれらを試せますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">28:19</span></p><p class="passage-text">この章のColabノートブックを開けば、モデルやグラフを自分で動かせます。Model Appsでは、コードを書かずにスライダーでモデルを操作できます。Data Appsでは、多くの国のデータを見られます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">28:35</span></p><p class="passage-text">次回は何を扱いますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">28:37</span></p><p class="passage-text">第8章ではインフレを取り上げます。物価上昇の原因は何か、なぜインフレが制御不能になる国があるのかを考えます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">28:47</span></p><p class="passage-text">今日はここまでです。お聞きいただき、ありがとうございました。それでは、また次回。</p></div></article>
+  </main>
+</body>
+</html>

@@ -477,6 +477,158 @@
         "alt": "第5章のマインドマップ"
       },
       "note": "AI-generated Japanese narration. Transcript timing is approximate."
+    },
+    {
+      "id": "podcast-ja-ch07-macroeconomics",
+      "title": "第7章 · 労働市場、賃金、失業",
+      "audio_sources": [
+        {
+          "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-07.mp3",
+          "type": "audio/mpeg"
+        }
+      ],
+      "transcript": "transcript-inputs-ja/podcast-ja-ch07-macroeconomics.json",
+      "transcript_page": "audio-player/transcripts/podcast-ja-ch07-macroeconomics.html",
+      "study_url": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-07.html",
+      "return_url": "podcasts-ja.html#chapter-7",
+      "image": {
+        "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-07.png",
+        "alt": "第7章のマインドマップ"
+      },
+      "note": "AI-generated Japanese narration. Transcript timing is approximate."
+    },
+    {
+      "id": "podcast-ja-ch08-macroeconomics",
+      "title": "第8章 · インフレ",
+      "audio_sources": [
+        {
+          "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-08.mp3",
+          "type": "audio/mpeg"
+        }
+      ],
+      "transcript": "transcript-inputs-ja/podcast-ja-ch08-macroeconomics.json",
+      "transcript_page": "audio-player/transcripts/podcast-ja-ch08-macroeconomics.html",
+      "study_url": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-08.html",
+      "return_url": "podcasts-ja.html#chapter-8",
+      "image": {
+        "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-08.png",
+        "alt": "第8章のマインドマップ"
+      },
+      "note": "AI-generated Japanese narration. Transcript timing is approximate."
+    },
+    {
+      "id": "podcast-ja-ch09-macroeconomics",
+      "title": "第9章 · 短期入門",
+      "audio_sources": [
+        {
+          "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-09.mp3",
+          "type": "audio/mpeg"
+        }
+      ],
+      "transcript": "transcript-inputs-ja/podcast-ja-ch09-macroeconomics.json",
+      "transcript_page": "audio-player/transcripts/podcast-ja-ch09-macroeconomics.html",
+      "study_url": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-09.html",
+      "return_url": "podcasts-ja.html#chapter-9",
+      "image": {
+        "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-09.png",
+        "alt": "第9章のマインドマップ"
+      },
+      "note": "AI-generated Japanese narration. Transcript timing is approximate."
+    },
+    {
+      "id": "podcast-ja-ch10-macroeconomics",
+      "title": "第10章 · 大不況とコロナ禍：最初の考察",
+      "audio_sources": [
+        {
+          "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-10.mp3",
+          "type": "audio/mpeg"
+        }
+      ],
+      "transcript": "transcript-inputs-ja/podcast-ja-ch10-macroeconomics.json",
+      "transcript_page": "audio-player/transcripts/podcast-ja-ch10-macroeconomics.html",
+      "study_url": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-10.html",
+      "return_url": "podcasts-ja.html#chapter-10",
+      "image": {
+        "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-10.png",
+        "alt": "第10章のマインドマップ"
+      },
+      "note": "AI-generated Japanese narration. Transcript timing is approximate."
+    },
+    {
+      "id": "podcast-ja-ch11-macroeconomics",
+      "title": "第11章 · IS曲線",
+      "audio_sources": [
+        {
+          "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-11.mp3",
+          "type": "audio/mpeg"
+        }
+      ],
+      "transcript": "transcript-inputs-ja/podcast-ja-ch11-macroeconomics.json",
+      "transcript_page": "audio-player/transcripts/podcast-ja-ch11-macroeconomics.html",
+      "study_url": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-11.html",
+      "return_url": "podcasts-ja.html#chapter-11",
+      "image": {
+        "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-11.png",
+        "alt": "第11章のマインドマップ"
+      },
+      "note": "AI-generated Japanese narration. Transcript timing is approximate."
+    },
+    {
+      "id": "podcast-ja-ch12-macroeconomics",
+      "title": "第12章 · 金融政策とフィリップス曲線",
+      "audio_sources": [
+        {
+          "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-12.mp3",
+          "type": "audio/mpeg"
+        }
+      ],
+      "transcript": "transcript-inputs-ja/podcast-ja-ch12-macroeconomics.json",
+      "transcript_page": "audio-player/transcripts/podcast-ja-ch12-macroeconomics.html",
+      "study_url": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-12.html",
+      "return_url": "podcasts-ja.html#chapter-12",
+      "image": {
+        "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-12.png",
+        "alt": "第12章のマインドマップ"
+      },
+      "note": "AI-generated Japanese narration. Transcript timing is approximate."
+    },
+    {
+      "id": "podcast-ja-ch13-macroeconomics",
+      "title": "第13章 · 安定化政策とAS/ADの枠組み",
+      "audio_sources": [
+        {
+          "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-13.mp3",
+          "type": "audio/mpeg"
+        }
+      ],
+      "transcript": "transcript-inputs-ja/podcast-ja-ch13-macroeconomics.json",
+      "transcript_page": "audio-player/transcripts/podcast-ja-ch13-macroeconomics.html",
+      "study_url": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-13.html",
+      "return_url": "podcasts-ja.html#chapter-13",
+      "image": {
+        "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-13.png",
+        "alt": "第13章のマインドマップ"
+      },
+      "note": "AI-generated Japanese narration. Transcript timing is approximate."
+    },
+    {
+      "id": "podcast-ja-ch14-macroeconomics",
+      "title": "第14章 · 金融危機と短期モデル",
+      "audio_sources": [
+        {
+          "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-14.mp3",
+          "type": "audio/mpeg"
+        }
+      ],
+      "transcript": "transcript-inputs-ja/podcast-ja-ch14-macroeconomics.json",
+      "transcript_page": "audio-player/transcripts/podcast-ja-ch14-macroeconomics.html",
+      "study_url": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-14.html",
+      "return_url": "podcasts-ja.html#chapter-14",
+      "image": {
+        "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-14.png",
+        "alt": "第14章のマインドマップ"
+      },
+      "note": "AI-generated Japanese narration. Transcript timing is approximate."
     }
   ]
 }
