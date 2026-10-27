@@ -35,13 +35,14 @@
         "実質GDPとインフレ",
         "購買力平価とGDPの限界"
       ],
-      "duration": 1935.64,
+      "duration": 1935.6399999999992,
       "audio": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-02.mp3",
       "artwork": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-02.png",
       "transcript": "transcript-inputs-ja/podcast-ja-ch02-macroeconomics.json",
       "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-02.html",
       "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch02-measuring-the-macroeconomy.html",
-      "status": "website_ready_spotify_pending"
+      "status": "publicly_verified",
+      "spotify_url": "https://open.spotify.com/episode/2vswVxDmruSdcbDlssWuZG"
     },
     {
       "id": "podcast-ja-ch03-macroeconomics",
@@ -60,7 +61,8 @@
       "transcript": "transcript-inputs-ja/podcast-ja-ch03-macroeconomics.json",
       "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-03.html",
       "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch03-an-overview-of-long-run-economic-growth.html",
-      "status": "website_ready_spotify_pending"
+      "status": "publicly_verified",
+      "spotify_url": "https://open.spotify.com/episode/48HWenyvNvJIn7lL5sE0tK"
     },
     {
       "id": "podcast-ja-ch04-macroeconomics",
@@ -79,7 +81,8 @@
       "transcript": "transcript-inputs-ja/podcast-ja-ch04-macroeconomics.json",
       "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-04.html",
       "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch04-a-model-of-production.html",
-      "status": "website_ready_spotify_pending"
+      "status": "publicly_verified",
+      "spotify_url": "https://open.spotify.com/episode/0sFqgt5ij5t9BFyQXhbaU3"
     },
     {
       "id": "podcast-ja-ch05-macroeconomics",
@@ -98,7 +101,8 @@
       "transcript": "transcript-inputs-ja/podcast-ja-ch05-macroeconomics.json",
       "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-05.html",
       "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch05-the-solow-growth-model.html",
-      "status": "website_ready_spotify_pending"
+      "status": "publicly_verified",
+      "spotify_url": "https://open.spotify.com/episode/3zAG4DToBHeyLzsMsIemLP"
     },
     {
       "id": "podcast-ja-ch06-in-review",
@@ -131,7 +135,8 @@
       "transcript": "transcript-inputs-ja/podcast-ja-ch07-macroeconomics.json",
       "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-07.html",
       "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch07-the-labor-market-wages-and-unemployment.html",
-      "status": "website_ready_spotify_pending"
+      "status": "publicly_verified",
+      "spotify_url": "https://open.spotify.com/episode/6JsxKszmfCvgBH9ZmNsiBm"
     },
     {
       "id": "podcast-ja-ch08-macroeconomics",
@@ -150,7 +155,8 @@
       "transcript": "transcript-inputs-ja/podcast-ja-ch08-macroeconomics.json",
       "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-08.html",
       "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch08-inflation.html",
-      "status": "website_ready_spotify_pending"
+      "status": "publicly_verified",
+      "spotify_url": "https://open.spotify.com/episode/0we025dui409wfnSuputs0"
     },
     {
       "id": "podcast-ja-ch09-macroeconomics",
@@ -169,7 +175,8 @@
       "transcript": "transcript-inputs-ja/podcast-ja-ch09-macroeconomics.json",
       "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-09.html",
       "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch09-an-introduction-to-the-short-run.html",
-      "status": "website_ready_spotify_pending"
+      "status": "publicly_verified",
+      "spotify_url": "https://open.spotify.com/episode/6wlMwBrqk08FuBQolIhCuI"
     },
     {
       "id": "podcast-ja-ch10-macroeconomics",
@@ -188,7 +195,8 @@
       "transcript": "transcript-inputs-ja/podcast-ja-ch10-macroeconomics.json",
       "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-10.html",
       "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look.html",
-      "status": "website_ready_spotify_pending"
+      "status": "publicly_verified",
+      "spotify_url": "https://open.spotify.com/episode/2ZdTmIZzH1QxHedH3SamW7"
     },
     {
       "id": "podcast-ja-ch11-macroeconomics",
@@ -207,7 +215,8 @@
       "transcript": "transcript-inputs-ja/podcast-ja-ch11-macroeconomics.json",
       "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-11.html",
       "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch11-the-is-curve.html",
-      "status": "website_ready_spotify_pending"
+      "status": "publicly_verified",
+      "spotify_url": "https://open.spotify.com/episode/59p2o5yuUZHSseS5VeB8uE"
     },
     {
       "id": "podcast-ja-ch12-macroeconomics",
@@ -226,7 +235,8 @@
       "transcript": "transcript-inputs-ja/podcast-ja-ch12-macroeconomics.json",
       "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-12.html",
       "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch12-monetary-policy-and-the-phillips-curve.html",
-      "status": "website_ready_spotify_pending"
+      "status": "publicly_verified",
+      "spotify_url": "https://open.spotify.com/episode/40FbJa6fvE91i2YLvOekne"
     },
     {
       "id": "podcast-ja-ch13-macroeconomics",
@@ -245,7 +255,8 @@
       "transcript": "transcript-inputs-ja/podcast-ja-ch13-macroeconomics.json",
       "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-13.html",
       "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch13-stabilization-policy-and-the-as-ad-framework.html",
-      "status": "website_ready_spotify_pending"
+      "status": "publicly_verified",
+      "spotify_url": "https://open.spotify.com/episode/3Xgr8zMjOuAXRFh8aBZFhG"
     },
     {
       "id": "podcast-ja-ch14-macroeconomics",
@@ -264,7 +275,8 @@
       "transcript": "transcript-inputs-ja/podcast-ja-ch14-macroeconomics.json",
       "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-14.html",
       "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch14-financial-crises-and-the-short-run-model.html",
-      "status": "website_ready_spotify_pending"
+      "status": "publicly_verified",
+      "spotify_url": "https://open.spotify.com/episode/7DdXQjsDTQn9iqecbBUONK"
     }
   ]
 }
