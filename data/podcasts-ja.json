@@ -277,6 +277,134 @@
       "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch14-financial-crises-and-the-short-run-model.html",
       "status": "publicly_verified",
       "spotify_url": "https://open.spotify.com/episode/7DdXQjsDTQn9iqecbBUONK"
+    },
+    {
+      "id": "podcast-ja-ch15-in-review",
+      "chapter": 15,
+      "title": "DSGEモデル——景気循環研究の最前線",
+      "question": "景気循環の原因を、DSGEモデルはどこまで説明できるのでしょうか。",
+      "description": "実物的景気循環とDSGEモデルを学びます。労働供給と労働需要のショックを区別し、生産性のデータを読み、賃金の硬直性と物価の硬直性を比べます。",
+      "topics": [
+        "実物的景気循環理論",
+        "労働と生産性のショック",
+        "賃金・物価の硬直性とモデルの限界"
+      ],
+      "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch15-dsge-models-the-frontier-of-business-cycle-research.html",
+      "status": "audio_review_in_progress"
+    },
+    {
+      "id": "podcast-ja-ch16-macroeconomics",
+      "chapter": 16,
+      "title": "消費",
+      "question": "家計は、今の消費と将来のための貯蓄をどう決めるのでしょうか。",
+      "description": "生涯の予算制約とオイラー方程式を使って、消費の平準化を学びます。借入、不確実性、臨時収入を取り上げ、家計の債務と貯蓄に関する証拠を考えます。",
+      "topics": [
+        "消費の平準化",
+        "オイラー方程式と不確実性",
+        "家計の債務・貯蓄・資産"
+      ],
+      "duration": 1637.99,
+      "audio": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-16.mp3",
+      "artwork": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-16.png",
+      "transcript": "transcript-inputs-ja/podcast-ja-ch16-macroeconomics.json",
+      "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-16.html",
+      "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch16-consumption.html",
+      "status": "publicly_verified",
+      "spotify_url": "https://open.spotify.com/episode/5TKnb1zlOTKcJ23yUJcPAU"
+    },
+    {
+      "id": "podcast-ja-ch17-in-review",
+      "chapter": 17,
+      "title": "投資",
+      "question": "投資は、なぜ消費より大きく変動するのでしょうか。",
+      "description": "投資が大きく変動する理由を考えます。資本のユーザーコスト、課税、株式と住宅の価値評価、将来の成長への期待の役割を学びます。",
+      "topics": [
+        "資本のユーザーコスト",
+        "税と投資インセンティブ",
+        "株式・住宅の価値と期待成長"
+      ],
+      "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch17-investment.html",
+      "status": "audio_review_in_progress"
+    },
+    {
+      "id": "podcast-ja-ch18-macroeconomics",
+      "chapter": 18,
+      "title": "政府とマクロ経済",
+      "question": "政府支出・税・債務は、将来の経済にどう影響するのでしょうか。",
+      "description": "政府の異時点間の予算制約を通じて、支出、税、財政赤字、債務の関係を学びます。債務の対GDP比の動きと、医療支出が財政に与える圧力を考えます。",
+      "topics": [
+        "政府の異時点間予算制約",
+        "財政赤字と債務の対GDP比",
+        "医療支出と将来の財政"
+      ],
+      "duration": 1667.1099999999997,
+      "audio": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-18.mp3",
+      "artwork": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-18.png",
+      "transcript": "transcript-inputs-ja/podcast-ja-ch18-macroeconomics.json",
+      "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-18.html",
+      "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch18-the-government-and-the-macroeconomy.html",
+      "status": "publicly_verified",
+      "spotify_url": "https://open.spotify.com/episode/5AbtVdUYrqxopOgor8Hw9Y"
+    },
+    {
+      "id": "podcast-ja-ch19-macroeconomics",
+      "chapter": 19,
+      "title": "国際貿易",
+      "question": "貿易で利益が生まれる一方、貿易赤字は何を意味するのでしょうか。",
+      "description": "比較優位を使って、貿易から利益が生まれる仕組みを学びます。貿易赤字と海外からの借入をつなげ、対外債務や財政政策に関する実証的な証拠を考えます。",
+      "topics": [
+        "比較優位と貿易利益",
+        "貿易収支と海外からの借入",
+        "対外債務と財政政策"
+      ],
+      "duration": 1667.91,
+      "audio": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-19.mp3",
+      "artwork": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-19.png",
+      "transcript": "transcript-inputs-ja/podcast-ja-ch19-macroeconomics.json",
+      "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-19.html",
+      "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch19-international-trade.html",
+      "status": "publicly_verified",
+      "spotify_url": "https://open.spotify.com/episode/3NZB0jW5dHsNfjGxvIEfSX"
+    },
+    {
+      "id": "podcast-ja-ch20-macroeconomics",
+      "chapter": 20,
+      "title": "為替レートと国際金融",
+      "question": "為替レートは、物価・金利・金融政策をどう結びつけるのでしょうか。",
+      "description": "長期の為替レートを相対価格とインフレに結び付けます。金利、金融政策、政策のトリレンマを学び、固定相場制の危機とユーロを取り上げます。",
+      "topics": [
+        "購買力平価と実質為替レート",
+        "金利と金融政策",
+        "政策のトリレンマと通貨危機"
+      ],
+      "duration": 1664.9400000000003,
+      "audio": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-20.mp3",
+      "artwork": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-20.png",
+      "transcript": "transcript-inputs-ja/podcast-ja-ch20-macroeconomics.json",
+      "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-20.html",
+      "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch20-exchange-rates-and-international-finance.html",
+      "status": "publicly_verified",
+      "spotify_url": "https://open.spotify.com/episode/0LC0PPUZoTs5K07ZWa3HCq"
+    },
+    {
+      "id": "podcast-ja-ch21-macroeconomics",
+      "chapter": 21,
+      "title": "おわりに",
+      "question": "マクロ経済モデルで分かること、まだ分からないことは何でしょうか。",
+      "description": "成長、生産性、景気循環、安定化政策を振り返ります。マクロ経済モデルで説明できることと、今後の研究につながる未解決の問いを整理します。",
+      "topics": [
+        "成長と生産性",
+        "景気循環と安定化政策",
+        "モデルの限界と次の問い"
+      ],
+      "duration": 1687.55,
+      "audio": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-21.mp3",
+      "artwork": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-21.png",
+      "transcript": "transcript-inputs-ja/podcast-ja-ch21-macroeconomics.json",
+      "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-21.html",
+      "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch21-parting-thoughts.html",
+      "status": "publicly_verified",
+      "spotify_url": "https://open.spotify.com/episode/1a2ux18XTQGNsY6XqJPd2z"
     }
   ]
 }

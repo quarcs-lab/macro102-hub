@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第16章 · 消費 — Transcript | Data Science &amp; Macroeconomics</title>
+  <link rel="stylesheet" href="../transcript.css">
+  <script src="../transcript-theme.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#transcript">Skip to transcript</a>
+  <header class="page-header">
+    <a href="../../podcasts-ja.html#chapter-16">← Back to 第16章 · 消費</a>
+    <button type="button" id="transcript-theme" hidden aria-pressed="false">Light theme</button>
+  </header>
+  <main id="transcript">
+    <p class="eyebrow">Data Science &amp; Macroeconomics · Podcast transcript</p>
+    <h1>第16章 · 消費</h1>
+    <p class="note">AI-generated Japanese narration. Transcript timing is approximate.</p>
+    <nav aria-label="Transcript sections"><ul><li><a href="#section-0">はじめに</a></li><li><a href="#section-1">第1部　生涯予算</a></li><li><a href="#section-2">第2部　オイラー方程式とその教訓</a></li><li><a href="#section-3">第3部　データで見る負債、貯蓄、資産</a></li><li><a href="#section-4">まとめ</a></li></ul></nav>
+    <article aria-label="Full transcript"><h2 id="section-0">はじめに</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">00:00</span></p><p class="passage-text">今回もお聞きいただき、ありがとうございます。今日は消費、つまり家計が支出するものを扱います。消費はGDP、すなわち国が1年間に生産するものの総価値の3分の2を超えます。また、ある謎もあります。2008年の金融危機前の数年間、アメリカの家計は所得からほとんど貯蓄せず、負債は増え続けていました。それなのに、所得に対する資産の比率も上がっていました。家計はお金の扱いが無計画だったのでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">00:35</span></p><p class="passage-text">それとも、一生を見通して計画していたのでしょうか。今日の問いです。家計は、今いくら使い、将来のためにいくら貯蓄するかを、どう決めるのでしょうか。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">00:47</span></p><p class="passage-text">最後まで聞くと、何ができるようになりますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">00:50</span></p><p class="passage-text">このエピソードを聞き終わるころには、三つのことができるようになります。第一に、家計がなぜ一生を通じて支出を平準化するのかを説明し、学生がいくら使い、借り入れるかを計算できます。第二に、オイラー方程式を使って、なぜ金利が成長に連動するのかを説明し、臨時収入や将来の不確実性によって現在の支出がどう変わるかを予測できます。第三に、1970年以降のデータが負債、貯蓄、資産について何を示すか、そしてそれが景気刺激給付や減税にとって何を意味するかを説明できます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">01:35</span></p><p class="passage-text">章のマインドマップを、項目ごとにたどるのですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">01:40</span></p><p class="passage-text">はい。三つの部に分けます。生涯予算、次にオイラー方程式とその教訓、最後にデータで見る負債、貯蓄、資産です。それぞれの部の小さなテーマを、順番に見ていきます。</p></div>
+<h2 id="section-1">第1部　生涯予算</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">01:59</span></p><p class="passage-text">マップの第1部は、生涯予算です。最初の項目は、金融資産と人的資産を合わせた総資産です。資産というと、裕福な人だけが持つもののように聞こえます。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">02:13</span></p><p class="passage-text">誰もが何らかの資産を持っています。金融資産は、銀行預金、株式、債券など、今日所有しているものです。人的資産は、これから得る賃金すべての現在価値です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">02:28</span></p><p class="passage-text">現在価値ですか。10年後に得る賃金も、やはり賃金ですよね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">02:34</span></p><p class="passage-text">しかし、後でもらう1ドルは、今の1ドルより価値が低いのです。今の1ドルなら利子を稼げるからです。インフレを除いた金利、つまり実質金利が5％だとします。今日の1ドルは、後で1.05ドルになります。ですから、今日の1ドルは、後の1.05ドルの現在価値、つまり後の金額が今日いくらの価値かを表します。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">03:07</span></p><p class="passage-text">具体例で考えてみましょう。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">03:09</span></p><p class="passage-text">この章の島民、アーヴィングを紹介します。アーヴィングは、架空の島国アイランディアに住む若い学生です。貯蓄はありません。今は1単位を稼ぎ、働き始めた後には5単位を稼ぐと予想しています。1単位を1万ドルと考えてください。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">03:31</span></p><p class="passage-text">すると彼の総資産は1足す5で、6ですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">03:36</span></p><p class="passage-text">利子を無視すればそうです。マップの例では簡単にするため、利子を無視しています。利子を考えると、後に得る5単位は今日の価値では少し小さくなります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">03:49</span></p><p class="passage-text">次の項目は、アーヴィングが1稼ぎ、3使い、2借りるという話です。所得の3倍を使うのは、賢明ではなさそうです。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">03:59</span></p><p class="passage-text">支出は今年の所得に合わせるべきで、今の所得が低ければ今の支出も低くなる、と考える人は多くいます。しかしこのモデルでは、支出は総資産に応じて決まります。アーヴィングは一生を見通して計画します。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">04:18</span></p><p class="passage-text">それで、どうやって3使えるのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">04:21</span></p><p class="passage-text">順を追って考えましょう。彼の人生には、今日と後の二つの期間があります。二つの期間を同じように大切にし、同じ額を使いたいと考えています。なぜ同じ額なのかは、次の二つの項目で扱います。総資産6を均等に分けると、各期間に3使えます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">04:46</span></p><p class="passage-text">でも今稼ぐのは1だけです。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">04:49</span></p><p class="passage-text">そこで差額の2単位を借ります。後には5稼ぎ、そのうち2を返済して、残り3を使います。今日と同じ額です。ただし、誰かが貸してくれる場合に限ります。第2部では、誰も貸してくれない場合を見ます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">05:07</span></p><p class="passage-text">次の項目は、効用は消費の対数に等しいという式です。効用とは何ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">05:15</span></p><p class="passage-text">効用とは、消費から得る満足です。対数は、logの略で、常に上昇しますが、その上昇がだんだん緩やかになる曲線を作ります。限界効用は、少し多く支出したときに増える満足です。限界効用逓減とは、支出が増えるにつれて、その増加分が小さくなることです。その日の最初の食事はとても大切ですが、5回目の食事が加えるものはごくわずかです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">05:46</span></p><p class="passage-text">式の後半は何ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">05:48</span></p><p class="passage-text">対数の場合、限界効用は、すでに消費している量で1を割ったものです。ですから、支出が5単位のときに1ドル増えても、1単位のときの5分の1の満足しか得られません。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">06:03</span></p><p class="passage-text">ではアーヴィングが所得をそのまま使うなら、今日の1ドルは後の1ドルの5倍の価値があるのですね。それなら、できる限り多くのドルを今日に回すべきです。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">06:14</span></p><p class="passage-text">そう考えたくなりますが、完全には正しくありません。1ドルを今日に移すたび、今日の支出が増え、後の支出が減ります。すると今日使う次の1ドルの価値は少し下がり、後で使う1ドルの価値は少し上がります。最後の1ドルの価値が二つの期間で等しくなるところで止めます。利子がなければ、3と3のときです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">06:43</span></p><p class="passage-text">次の項目は、平準化した場合は1.10、収入のまま使う場合は0.80という比較です。何を比べているのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">06:54</span></p><p class="passage-text">同じ費用がかかる二つの計画です。偏りのある計画では、アーヴィングは所得を得たときに使います。平準化した計画では、各期間に3使います。対数の式を使うと、平準化した計画では各期間の効用が約1.10です。偏りのある計画では、平均で0.80しかありません。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">07:20</span></p><p class="passage-text">同じお金なのに、満足が大きいのはなぜですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">07:24</span></p><p class="passage-text">曲線が湾曲しているからです。支出を3から1に減らすと、支出が少ないところでは曲線が急なので、満足が大きく損なわれます。3から5に増やしても、そちらでは曲線が平らなので、増える満足は小さくなります。ですから、今日失う2単位は、後で得る2単位の助けより大きな痛手になります。これが、人々が消費を平準化し、所得が上下しても支出を安定させる理由です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">08:00</span></p><p class="passage-text">第1部では、アーヴィングの予算は、まだ稼いでいない賃金も含めて一生を対象にすると学びました。そして追加の1ドルがもたらす満足は減っていくので、所得を得た時に使うより、各期に3ずつ使うほうがよいのですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">08:16</span></p><p class="passage-text">そのとおりです。次の枝では、この均等配分を生むルールと、そこから分かることを見ます。</p></div>
+<h2 id="section-2">第2部　オイラー方程式とその教訓</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">08:25</span></p><p class="passage-text">マップの第2部は、オイラー方程式とその教訓です。最初の項目はオイラー方程式そのものです。何を表しますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">08:35</span></p><p class="passage-text">小さな例で考えましょう。アーヴィングが今日使う1ドルを減らして貯蓄します。今日、その1ドルがもたらす満足を失います。後には利子を含めたお金が戻り、その時に満足をもたらします。ただし、忍耐の程度によっては、将来の満足を少し低く評価するかもしれません。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">08:57</span></p><p class="passage-text">忍耐ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">08:59</span></p><p class="passage-text">今日と比べて、将来の満足をどれだけ重視するかです。忍耐が1なら、両方を同じように評価します。忍耐が0.9なら、将来の満足を今日の90％だけ評価します。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">09:15</span></p><p class="passage-text">では、彼の計画が最善になるのはいつですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">09:19</span></p><p class="passage-text">貯蓄した1ドルが後にもたらす満足が、今日失う満足より大きければ、さらに貯蓄すべきです。小さければ、借りてもっと使うべきです。今日失う満足と、後に得る満足が等しいときに、計画が最善になります。これがオイラー方程式です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">09:41</span></p><p class="passage-text">次の項目は、今日の支出は総資産を1と忍耐の合計で割った額で、忍耐が1なら半分という話です。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">09:51</span></p><p class="passage-text">対数の式では、忍耐に1を足し、総資産をその数で割ります。それが今日の支出です。忍耐強いアーヴィングは将来をより重視するので、後のために多く残し、今日使う割合を減らします。忍耐が1なら2で割ります。6の半分は3で、第1部の計画と同じです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">10:16</span></p><p class="passage-text">次は、金利は成長に連動するという項目です。アーヴィングの支出は金利とどう関係するのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">10:25</span></p><p class="passage-text">一人の個人にとって、金利は固定されており、本人が変えることはできません。選ぶのは支出がどれだけ速く増えるかです。経済全体では逆です。第6章のモデルのような成長モデルが、支出の増加速度を決めます。するとオイラー方程式から、家計がその道筋に沿って支出するために受け入れる実質金利が分かります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">10:53</span></p><p class="passage-text">数字でその金利を計算できますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">10:56</span></p><p class="passage-text">順に計算しましょう。1人あたり支出が年2％成長し、忍耐が1だとします。すると翌年、アーヴィングの支出は2％増えます。限界効用は支出で1を割ったものなので、翌年に1ドル増えても、満足は約2％少なくなります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">11:18</span></p><p class="passage-text">では、なぜ彼は貯蓄するのでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">11:22</span></p><p class="passage-text">貯蓄した1ドルが約2％増えて、それを補う場合だけです。したがって金利は成長率と同じ2％でなければなりません。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">11:33</span></p><p class="passage-text">忍耐が0.99ならどうでしょう。少しせっかちですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">11:38</span></p><p class="passage-text">すると翌年の満足を今日の99％、つまり約1％低く評価します。貯蓄には、支出の増加分約2％と、せっかちさの分約1％の両方を補う必要があります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">11:56</span></p><p class="passage-text">つまり約3％ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">11:59</span></p><p class="passage-text">はい。正確には、成長率を足した1.02を忍耐0.99で割ります。約1.03になり、これは1に金利を足した値です。したがって金利は約3.0％です。忍耐が1に近ければ、せっかちさによる上乗せは小さくなります。だから実質金利と成長率は、年に数％という似た規模の値になります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">12:30</span></p><p class="passage-text">次の項目はMPCです。借り入れができるなら期間数分の1、できないなら1です。MPCとは何ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">12:40</span></p><p class="passage-text">限界消費性向です。追加の1ドルのうち、家計がすぐ使う割合です。アーヴィングが予想していなかった臨時収入として、今日100ドルを得たとします。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">12:53</span></p><p class="passage-text">簡単ですね。学生ですから、その大部分を使います。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">12:58</span></p><p class="passage-text">そう考えるのが自然ですが、借り入れができる場合、モデルでは50ドルしか使いません。臨時収入で総資産が100ドル増え、総資産の半分を今日使うからです。したがってMPCは2分の1です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">13:16</span></p><p class="passage-text">人生の期間がもっと長ければ、どうなりますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">13:20</span></p><p class="passage-text">その場合、使う割合は残りの期間数分の1です。残り50年なら、追加の100ドルによって毎年の支出は約2ドル増えるだけです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">13:32</span></p><p class="passage-text">借り入れができない場合はどうですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">13:35</span></p><p class="passage-text">それが項目の後半で、MPCは1です。アーヴィングは3単位使いたいのに、今の所得は1単位だけです。銀行が貸してくれなければ、稼いだ額を使うので、今日得る追加の1ドルはすぐにすべて使います。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">13:54</span></p><p class="passage-text">この部の最後は、予備的貯蓄です。3から2.44へ下がるのですね。備えとして貯蓄するということですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">14:04</span></p><p class="passage-text">そうです。苦しい時期に備えて貯蓄します。ここまでアーヴィングは将来の所得が確実に5単位だと知っていました。今度は、同じ確率で3または7になるとします。平均は依然として5です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">14:21</span></p><p class="passage-text">なら何も変わりません。平均が同じなので、今日も3使うはずです。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">14:27</span></p><p class="passage-text">そう考えたくなりますが、使うのは約2.44です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">14:31</span></p><p class="passage-text">なぜ少なくなるのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">14:35</span></p><p class="passage-text">悪い場合、所得が3だけになるケースを考えてください。今日3使うと、2の借金が残り、生活費は1だけです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">14:44</span></p><p class="passage-text">それは厳しいですね。よい場合はどうですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">14:48</span></p><p class="passage-text">5残ります。しかし、支出が少ない時ほど追加の1ドルが大切なので、同じ大きさなら悪い年の痛みは、よい年の助けより大きくなります。そこで借り入れを減らして備えます。その結果、支出は3から現在の所得に近づき、借り入れできない家計のようになります。今持っている現金に近い額を使うのです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">15:18</span></p><p class="passage-text">第2部では、今日使う1ドルと貯蓄する1ドルの比較から、すべての教訓が分かりました。借り入れができ、人生の残りが長ければ、臨時収入の大部分を貯蓄し、金利は成長に連動します。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">15:35</span></p><p class="passage-text">しかし借り入れができない家計は、得た追加の1ドルをすべて使います。現金が少なく、悪い年を心配している家計も、これに近い行動を取ります。次の枝では、実際の家計がどう行動したかを見ます。</p></div>
+<h2 id="section-3">第3部　データで見る負債、貯蓄、資産</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">15:53</span></p><p class="passage-text">マップの第3部は、データで見る負債、貯蓄、資産です。最初の項目は負債で、2008年第1四半期、つまり最初の3か月にはGDPの98％でした。誰の負債ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">16:10</span></p><p class="passage-text">アメリカの家計の負債で、その大半は住宅ローン、つまり家を買うための借入です。1970年代にはGDPの半分未満でした。1980年代半ばから増え、2000年代の住宅ブームで最も速く増えました。ピーク時には、国の年間産出量とほぼ同じ額でした。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">16:34</span></p><p class="passage-text">ピークの後はどうなりましたか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">16:37</span></p><p class="passage-text">危機の後、家計は返済したり、返済できなかったりして負債を減らしました。負債を減らすことをデレバレッジと呼びます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">16:46</span></p><p class="passage-text">次は貯蓄です。1970年代の12.2％から2.5％に下がりました。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">16:55</span></p><p class="passage-text">可処分所得、つまり税引き後の所得のうち、家計が貯蓄する割合である家計貯蓄率です。1970年代には、家計は1ドルにつき約12セントを貯蓄しました。2005年から2007年には、2.5セントでした。危機後は、仕事を失うことを心配する人が多かったため、備えとして貯蓄率が再び上がりました。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">17:21</span></p><p class="passage-text">次は資産です。予想できます。貯蓄が減り、負債が増えたなら、家計は貧しくなったはずです。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">17:30</span></p><p class="passage-text">そう考える学生は多いのですが、家計の資産は増えました。ここでいう資産は純資産です。住宅、株式、銀行預金など家計が所有するものすべてから、負債すべてを引いた額です。1970年には、家計の資産は可処分所得の約5年分でした。2026年第2四半期には8.3年分となり、過去最高でした。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">17:58</span></p><p class="passage-text">それほど貯蓄しなかったのに、なぜ資産が増えたのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">18:02</span></p><p class="passage-text">二つの方法があります。所得の一部を貯蓄する方法と、すでに持っているものの価格が上がる方法です。1990年代には株価が、2000年代には住宅価格が急速に上がりました。貯蓄は毎年取り分けるものです。資産はある時点で所有するものから負債を引いた額です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">18:28</span></p><p class="passage-text">それで冒頭の謎に答えられますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">18:31</span></p><p class="passage-text">一部は説明できます。有力な説明の一つは、株価や住宅価格の上昇で家計が豊かになったと感じ、所得から貯蓄する額が減ったというものです。データでは、資産が多い時に貯蓄率が低い傾向がありましたが、その関係だけでは原因を証明できません。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">18:53</span></p><p class="passage-text">次は、国ごとの貯蓄、中国と日本です。アーヴィングの考え方を使ってみます。中国は何十年も急成長しています。将来ずっと豊かになると考える家計は、アーヴィングのように今借りて将来の所得で返すはずです。だから中国の家計はほとんど貯蓄しないと予想します。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">19:15</span></p><p class="passage-text">単純なモデルはそう示しますが、データは反対です。2023年、中国の家計は可処分所得の34.9％、つまり3分の1を超える額を貯蓄しました。理由は経済学者の間で議論されています。一つの可能性は予備的貯蓄です。国の支援がほとんどなく、医療や教育を自分で負担しなければならない場合、備えとしてより多く貯蓄します。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">19:48</span></p><p class="passage-text">日本はどうですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">19:49</span></p><p class="passage-text">日本はライフサイクルの考え方によく合います。働いている間に貯蓄し、退職後にその貯蓄を使います。日本の高齢化が進むと退職者が増え、家計貯蓄率は下がり、2024年にはわずか0.7％でした。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">20:09</span></p><p class="passage-text">最後は政策です。景気刺激給付、減税の時期、退職後の貯蓄です。不況のとき、政府は支出を増やすため家計に小切手を送ることがあります。第2部によれば、借り入れできない家計が最も多く使うはずです。証拠はありますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">20:27</span></p><p class="passage-text">はい、2001年のアメリカの事例です。法律は6月に成立し、その数週間後、大半の納税者に税還付の小切手、つまり政府からのお金が返されました。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">20:42</span></p><p class="passage-text">どんな結果が出ましたか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">20:44</span></p><p class="passage-text">3か月以内に、家計は小切手の20％から40％を食料などの日用品に使いました。借り入れできる家計なら、モデルはずっと少ない支出を予測します。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">20:58</span></p><p class="passage-text">ずっと少ないのですか。アーヴィングは臨時収入の半分を使いました。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">21:03</span></p><p class="passage-text">彼の臨時収入は予想外で、人生には二つの期間しかありませんでした。これらの小切手は数週間前から知られていたので、モデルでは到着しても新しい情報ではなく、支出を変えないはずです。残りの人生が長い家計なら、100ドルのうち1年間に使うのは約2ドルだけです。現金の少ない家計は、借り入れできないかのように最も多く使いました。裕福な家計はモデルどおり支出を平準化し、使われる割合の平均については議論が続いています。しかし政策については、モデルと証拠は一致します。現金の少ない家計に小切手が届くと、支出が最も増えます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">21:56</span></p><p class="passage-text">次は減税の時期です。政府の資金を扱うアイランディア財務省が、今日減税し、その費用を借り入れでまかなったらどうなりますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">22:07</span></p><p class="passage-text">利子を含めて借入を返さなければならないので、後に税が上がります。金利5％で、減税が1,000ドルだとします。後に税が1,050ドル増えますが、これは今日の価値でちょうど1,000ドルです。したがって総資産は変わらず、借り入れできる島民は、後の税を払うため減税分すべてを貯蓄します。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">22:34</span></p><p class="passage-text">その島民にとって、税の時期は関係ないのですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">22:38</span></p><p class="passage-text">政府支出が変わらない限り、そうです。経済学者デイヴィッド・リカードにちなんで、これをリカードの等価定理と呼びます。ただし、銀行が貸してくれない時のアーヴィングのように、借り入れできない島民では成り立ちません。彼は減税分をすべて使います。また後の税を将来世代など別の人が負担する場合にも成り立ちません。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">23:06</span></p><p class="passage-text">退職後の貯蓄はどうでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">23:08</span></p><p class="passage-text">モデルでは、初期設定、つまり何もしなかった時に選ばれる選択肢は関係ありません。現実には、人は始めた場所にとどまる傾向があります。自動加入制度なら、新しい労働者が企業の退職年金制度から離れることはほとんどありません。労働者が自分で加入手続きをしなければならない場合、初年度に加入するのは半数未満です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">23:36</span></p><p class="passage-text">第3部では、日本の退職者や、資産が増えるにつれて貯蓄が下がったことなど、モデルに合う事実も見ました。しかし中国の貯蓄は予測よりずっと多く、多くの家計は小切手を受け取ると使います。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">23:51</span></p><p class="passage-text">うまくまとめました。まとめましょう。</p></div>
+<h2 id="section-4">まとめ</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">23:55</span></p><p class="passage-text">三つの目標に戻りましょう。第一に、なぜ家計は支出を平準化したいのでしょうか。学生はいくら使いますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">24:04</span></p><p class="passage-text">追加の1ドルがもたらす満足は減っていくため、支出が少ない時の1ドルほど価値があります。そこでアーヴィングは総資産6を均等に使い、今日3使い、2借ります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">24:18</span></p><p class="passage-text">第二に、金利、臨時収入、リスクです。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">24:22</span></p><p class="passage-text">支出の増加と少しのせっかちさを補う必要があるので、支出が2％成長する時の金利は約3％です。借り入れできる人は臨時収入の一部だけを使い、できない人はすべて使います。また将来が不確実だと、今日の支出を減らします。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">24:44</span></p><p class="passage-text">そして第三に、データです。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">24:46</span></p><p class="passage-text">貯蓄が減り、負債が増えた一方で、資産は増えました。現金の少ない家計が、給付の小切手を最も多く使いました。ここで大切なメッセージです。家計は今年の所得ではなく、一生を通じた資産から支出するので、消費を平準化します。モデルでは、残りの人生が長い家計は臨時収入の大部分を貯蓄し、金利は成長に連動します。しかし借入制約とリスクがあると、現金の少ない多くの家計は、追加の1ドルをほぼすべて使います。だから減税や、景気刺激給付のような政府の給付の時期が重要なのです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">25:33</span></p><p class="passage-text">考えてみてください。アイランディアが失業保険を導入し、仕事を失った島民に給付するとします。アーヴィングの将来所得は平均5のままですが、今後は平均より1単位上か下にしかならず、2単位の差はありません。今日の支出は、見つけた2.44より多くなりますか、少なくなりますか。なぜでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">25:59</span></p><p class="passage-text">いったんエピソードを止めて、少し考えてみてください。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">26:03</span></p><p class="passage-text">では、再開しましょう。答えは何ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">26:06</span></p><p class="passage-text">支出は増えて約2.84になりますが、3よりは少ないままです。悪い年の痛みが小さくなるので、備えはそれほど必要ありません。リスクは一部残るため、少し多めに貯蓄します。平均所得は変わりませんが、保険によって今日の支出は増えます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">26:28</span></p><p class="passage-text">学生はどこで、これらを自分で試せますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">26:32</span></p><p class="passage-text">この章のColabノートブックを開いて、アーヴィングの計画を自分で動かしてください。Model Appsでは、コードを書かずに効用と平準化のグラフのスライダーを動かせます。Data Appsでは、多数の国の負債、貯蓄、資産のデータを見られます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">26:53</span></p><p class="passage-text">次回は何を扱いますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">26:56</span></p><p class="passage-text">第17章では、もう一つの大きな民間支出の決定である投資を見ます。機械、株式、住宅はいつ買う価値があるのでしょうか。そしてなぜ投資は大きく変動するのでしょうか。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">27:12</span></p><p class="passage-text">今日はここまでです。お聞きいただき、ありがとうございました。それでは、また次回。</p></div></article>
+  </main>
+</body>
+</html>

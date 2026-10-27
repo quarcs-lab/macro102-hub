@@ -6,7 +6,7 @@
   "episodes": [
     {
       "id": "podcast-ch01-introduction-to-macroeconomics",
-      "title": "Chapter 1 · Introduction to Macroeconomics",
+      "title": "Chapter 1 \u00b7 Introduction to Macroeconomics",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ch01-introduction-to-macroeconomics.mp3",
@@ -24,7 +24,7 @@
     },
     {
       "id": "podcast-ch02-measuring-the-macroeconomy",
-      "title": "Chapter 2 · Measuring the Macroeconomy",
+      "title": "Chapter 2 \u00b7 Measuring the Macroeconomy",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ch02-measuring-the-macroeconomy.mp3",
@@ -42,7 +42,7 @@
     },
     {
       "id": "podcast-ch03-an-overview-of-long-run-economic-growth",
-      "title": "Chapter 3 · An Overview of Long-Run Economic Growth",
+      "title": "Chapter 3 \u00b7 An Overview of Long-Run Economic Growth",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ch03-an-overview-of-long-run-economic-growth.mp3",
@@ -60,7 +60,7 @@
     },
     {
       "id": "podcast-ch04-a-model-of-production",
-      "title": "Chapter 4 · A Model of Production",
+      "title": "Chapter 4 \u00b7 A Model of Production",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ch04-a-model-of-production.mp3",
@@ -78,7 +78,7 @@
     },
     {
       "id": "podcast-ch05-the-solow-growth-model",
-      "title": "Chapter 5 · The Solow Growth Model",
+      "title": "Chapter 5 \u00b7 The Solow Growth Model",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ch05-the-solow-growth-model.mp3",
@@ -96,7 +96,7 @@
     },
     {
       "id": "podcast-ch06-growth-and-ideas",
-      "title": "Chapter 6 · Growth and Ideas",
+      "title": "Chapter 6 \u00b7 Growth and Ideas",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ch06-growth-and-ideas.mp3",
@@ -114,7 +114,7 @@
     },
     {
       "id": "podcast-ch07-the-labor-market-wages-and-unemployment",
-      "title": "Chapter 7 · The Labor Market, Wages, and Unemployment",
+      "title": "Chapter 7 \u00b7 The Labor Market, Wages, and Unemployment",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ch07-the-labor-market-wages-and-unemployment.mp3",
@@ -132,7 +132,7 @@
     },
     {
       "id": "podcast-ch08-inflation",
-      "title": "Chapter 8 · Inflation",
+      "title": "Chapter 8 \u00b7 Inflation",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ch08-inflation.mp3",
@@ -150,7 +150,7 @@
     },
     {
       "id": "podcast-ch09-an-introduction-to-the-short-run",
-      "title": "Chapter 9 · An Introduction to the Short Run",
+      "title": "Chapter 9 \u00b7 An Introduction to the Short Run",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ch09-an-introduction-to-the-short-run.mp3",
@@ -168,7 +168,7 @@
     },
     {
       "id": "podcast-ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look",
-      "title": "Chapter 10 · The Great Recession and the Covid-19 Pandemic: A First Look",
+      "title": "Chapter 10 \u00b7 The Great Recession and the Covid-19 Pandemic: A First Look",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ch10-the-great-recession-and-the-covid-19-pandemic-a-first-look.mp3",
@@ -186,7 +186,7 @@
     },
     {
       "id": "podcast-ch11-the-is-curve",
-      "title": "Chapter 11 · The IS Curve",
+      "title": "Chapter 11 \u00b7 The IS Curve",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ch11-the-is-curve.mp3",
@@ -204,7 +204,7 @@
     },
     {
       "id": "podcast-ch12-monetary-policy-and-the-phillips-curve",
-      "title": "Chapter 12 · Monetary Policy and the Phillips Curve",
+      "title": "Chapter 12 \u00b7 Monetary Policy and the Phillips Curve",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ch12-monetary-policy-and-the-phillips-curve.mp3",
@@ -222,7 +222,7 @@
     },
     {
       "id": "podcast-ch13-stabilization-policy-and-the-as-ad-framework",
-      "title": "Chapter 13 · Stabilization Policy and the AS/AD Framework",
+      "title": "Chapter 13 \u00b7 Stabilization Policy and the AS/AD Framework",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ch13-stabilization-policy-and-the-as-ad-framework.mp3",
@@ -240,7 +240,7 @@
     },
     {
       "id": "podcast-ch14-financial-crises-and-the-short-run-model",
-      "title": "Chapter 14 · Financial Crises and the Short-Run Model",
+      "title": "Chapter 14 \u00b7 Financial Crises and the Short-Run Model",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ch14-financial-crises-and-the-short-run-model.mp3",
@@ -258,7 +258,7 @@
     },
     {
       "id": "podcast-ch15-dsge-models-the-frontier-of-business-cycle-research",
-      "title": "Chapter 15 · DSGE Models: The Frontier of Business Cycle Research",
+      "title": "Chapter 15 \u00b7 DSGE Models: The Frontier of Business Cycle Research",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ch15-dsge-models-the-frontier-of-business-cycle-research.mp3",
@@ -276,7 +276,7 @@
     },
     {
       "id": "podcast-ch16-consumption",
-      "title": "Chapter 16 · Consumption",
+      "title": "Chapter 16 \u00b7 Consumption",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ch16-consumption.mp3",
@@ -294,7 +294,7 @@
     },
     {
       "id": "podcast-ch17-investment",
-      "title": "Chapter 17 · Investment",
+      "title": "Chapter 17 \u00b7 Investment",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ch17-investment.mp3",
@@ -312,7 +312,7 @@
     },
     {
       "id": "podcast-ch18-the-government-and-the-macroeconomy",
-      "title": "Chapter 18 · The Government and the Macroeconomy",
+      "title": "Chapter 18 \u00b7 The Government and the Macroeconomy",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ch18-the-government-and-the-macroeconomy.mp3",
@@ -330,7 +330,7 @@
     },
     {
       "id": "podcast-ch19-international-trade",
-      "title": "Chapter 19 · International Trade",
+      "title": "Chapter 19 \u00b7 International Trade",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ch19-international-trade.mp3",
@@ -348,7 +348,7 @@
     },
     {
       "id": "podcast-ch20-exchange-rates-and-international-finance",
-      "title": "Chapter 20 · Exchange Rates and International Finance",
+      "title": "Chapter 20 \u00b7 Exchange Rates and International Finance",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ch20-exchange-rates-and-international-finance.mp3",
@@ -366,7 +366,7 @@
     },
     {
       "id": "podcast-ch21-parting-thoughts",
-      "title": "Chapter 21 · Parting Thoughts",
+      "title": "Chapter 21 \u00b7 Parting Thoughts",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ch21-parting-thoughts.mp3",
@@ -384,7 +384,7 @@
     },
     {
       "id": "podcast-ja-ch01-macroeconomics",
-      "title": "第1章 · マクロ経済学入門",
+      "title": "\u7b2c1\u7ae0 \u00b7 \u30de\u30af\u30ed\u7d4c\u6e08\u5b66\u5165\u9580",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-01.mp3",
@@ -398,13 +398,13 @@
       "return_url": "podcasts-ja.html#chapter-1",
       "image": {
         "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-01.png",
-        "alt": "第1章のマインドマップ"
+        "alt": "\u7b2c1\u7ae0\u306e\u30de\u30a4\u30f3\u30c9\u30de\u30c3\u30d7"
       },
       "note": "AI-generated Japanese narration. Transcript timing is approximate."
     },
     {
       "id": "podcast-ja-ch02-macroeconomics",
-      "title": "第2章 · マクロ経済の測定",
+      "title": "\u7b2c2\u7ae0 \u00b7 \u30de\u30af\u30ed\u7d4c\u6e08\u306e\u6e2c\u5b9a",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-02.mp3",
@@ -418,13 +418,13 @@
       "return_url": "podcasts-ja.html#chapter-2",
       "image": {
         "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-02.png",
-        "alt": "第2章のマインドマップ"
+        "alt": "\u7b2c2\u7ae0\u306e\u30de\u30a4\u30f3\u30c9\u30de\u30c3\u30d7"
       },
       "note": "AI-generated Japanese narration. Transcript timing is approximate."
     },
     {
       "id": "podcast-ja-ch03-macroeconomics",
-      "title": "第3章 · 長期の経済成長の概観",
+      "title": "\u7b2c3\u7ae0 \u00b7 \u9577\u671f\u306e\u7d4c\u6e08\u6210\u9577\u306e\u6982\u89b3",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-03.mp3",
@@ -438,13 +438,13 @@
       "return_url": "podcasts-ja.html#chapter-3",
       "image": {
         "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-03.png",
-        "alt": "第3章のマインドマップ"
+        "alt": "\u7b2c3\u7ae0\u306e\u30de\u30a4\u30f3\u30c9\u30de\u30c3\u30d7"
       },
       "note": "AI-generated Japanese narration. Transcript timing is approximate."
     },
     {
       "id": "podcast-ja-ch04-macroeconomics",
-      "title": "第4章 · 生産モデル",
+      "title": "\u7b2c4\u7ae0 \u00b7 \u751f\u7523\u306e\u30e2\u30c7\u30eb",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-04.mp3",
@@ -458,13 +458,13 @@
       "return_url": "podcasts-ja.html#chapter-4",
       "image": {
         "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-04.png",
-        "alt": "第4章のマインドマップ"
+        "alt": "\u7b2c4\u7ae0\u306e\u30de\u30a4\u30f3\u30c9\u30de\u30c3\u30d7"
       },
       "note": "AI-generated Japanese narration. Transcript timing is approximate."
     },
     {
       "id": "podcast-ja-ch05-macroeconomics",
-      "title": "第5章 · ソロー成長モデル",
+      "title": "\u7b2c5\u7ae0 \u00b7 \u30bd\u30ed\u30fc\u6210\u9577\u30e2\u30c7\u30eb",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-05.mp3",
@@ -478,13 +478,13 @@
       "return_url": "podcasts-ja.html#chapter-5",
       "image": {
         "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-05.png",
-        "alt": "第5章のマインドマップ"
+        "alt": "\u7b2c5\u7ae0\u306e\u30de\u30a4\u30f3\u30c9\u30de\u30c3\u30d7"
       },
       "note": "AI-generated Japanese narration. Transcript timing is approximate."
     },
     {
       "id": "podcast-ja-ch07-macroeconomics",
-      "title": "第7章 · 労働市場、賃金、失業",
+      "title": "\u7b2c7\u7ae0 \u00b7 \u52b4\u50cd\u5e02\u5834\u3001\u8cc3\u91d1\u3001\u5931\u696d",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-07.mp3",
@@ -498,13 +498,13 @@
       "return_url": "podcasts-ja.html#chapter-7",
       "image": {
         "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-07.png",
-        "alt": "第7章のマインドマップ"
+        "alt": "\u7b2c7\u7ae0\u306e\u30de\u30a4\u30f3\u30c9\u30de\u30c3\u30d7"
       },
       "note": "AI-generated Japanese narration. Transcript timing is approximate."
     },
     {
       "id": "podcast-ja-ch08-macroeconomics",
-      "title": "第8章 · インフレ",
+      "title": "\u7b2c8\u7ae0 \u00b7 \u30a4\u30f3\u30d5\u30ec",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-08.mp3",
@@ -518,13 +518,13 @@
       "return_url": "podcasts-ja.html#chapter-8",
       "image": {
         "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-08.png",
-        "alt": "第8章のマインドマップ"
+        "alt": "\u7b2c8\u7ae0\u306e\u30de\u30a4\u30f3\u30c9\u30de\u30c3\u30d7"
       },
       "note": "AI-generated Japanese narration. Transcript timing is approximate."
     },
     {
       "id": "podcast-ja-ch09-macroeconomics",
-      "title": "第9章 · 短期入門",
+      "title": "\u7b2c9\u7ae0 \u00b7 \u77ed\u671f\u5165\u9580",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-09.mp3",
@@ -538,13 +538,13 @@
       "return_url": "podcasts-ja.html#chapter-9",
       "image": {
         "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-09.png",
-        "alt": "第9章のマインドマップ"
+        "alt": "\u7b2c9\u7ae0\u306e\u30de\u30a4\u30f3\u30c9\u30de\u30c3\u30d7"
       },
       "note": "AI-generated Japanese narration. Transcript timing is approximate."
     },
     {
       "id": "podcast-ja-ch10-macroeconomics",
-      "title": "第10章 · 大不況とコロナ禍：最初の考察",
+      "title": "\u7b2c10\u7ae0 \u00b7 \u5927\u4e0d\u6cc1\u3068\u30b3\u30ed\u30ca\u798d\uff1a\u6700\u521d\u306e\u8003\u5bdf",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-10.mp3",
@@ -558,13 +558,13 @@
       "return_url": "podcasts-ja.html#chapter-10",
       "image": {
         "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-10.png",
-        "alt": "第10章のマインドマップ"
+        "alt": "\u7b2c10\u7ae0\u306e\u30de\u30a4\u30f3\u30c9\u30de\u30c3\u30d7"
       },
       "note": "AI-generated Japanese narration. Transcript timing is approximate."
     },
     {
       "id": "podcast-ja-ch11-macroeconomics",
-      "title": "第11章 · IS曲線",
+      "title": "\u7b2c11\u7ae0 \u00b7 IS\u66f2\u7dda",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-11.mp3",
@@ -578,13 +578,13 @@
       "return_url": "podcasts-ja.html#chapter-11",
       "image": {
         "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-11.png",
-        "alt": "第11章のマインドマップ"
+        "alt": "\u7b2c11\u7ae0\u306e\u30de\u30a4\u30f3\u30c9\u30de\u30c3\u30d7"
       },
       "note": "AI-generated Japanese narration. Transcript timing is approximate."
     },
     {
       "id": "podcast-ja-ch12-macroeconomics",
-      "title": "第12章 · 金融政策とフィリップス曲線",
+      "title": "\u7b2c12\u7ae0 \u00b7 \u91d1\u878d\u653f\u7b56\u3068\u30d5\u30a3\u30ea\u30c3\u30d7\u30b9\u66f2\u7dda",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-12.mp3",
@@ -598,13 +598,13 @@
       "return_url": "podcasts-ja.html#chapter-12",
       "image": {
         "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-12.png",
-        "alt": "第12章のマインドマップ"
+        "alt": "\u7b2c12\u7ae0\u306e\u30de\u30a4\u30f3\u30c9\u30de\u30c3\u30d7"
       },
       "note": "AI-generated Japanese narration. Transcript timing is approximate."
     },
     {
       "id": "podcast-ja-ch13-macroeconomics",
-      "title": "第13章 · 安定化政策とAS/ADの枠組み",
+      "title": "\u7b2c13\u7ae0 \u00b7 \u5b89\u5b9a\u5316\u653f\u7b56\u3068AS/AD\u306e\u67a0\u7d44\u307f",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-13.mp3",
@@ -618,13 +618,13 @@
       "return_url": "podcasts-ja.html#chapter-13",
       "image": {
         "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-13.png",
-        "alt": "第13章のマインドマップ"
+        "alt": "\u7b2c13\u7ae0\u306e\u30de\u30a4\u30f3\u30c9\u30de\u30c3\u30d7"
       },
       "note": "AI-generated Japanese narration. Transcript timing is approximate."
     },
     {
       "id": "podcast-ja-ch14-macroeconomics",
-      "title": "第14章 · 金融危機と短期モデル",
+      "title": "\u7b2c14\u7ae0 \u00b7 \u91d1\u878d\u5371\u6a5f\u3068\u77ed\u671f\u30e2\u30c7\u30eb",
       "audio_sources": [
         {
           "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-14.mp3",
@@ -638,7 +638,107 @@
       "return_url": "podcasts-ja.html#chapter-14",
       "image": {
         "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-14.png",
-        "alt": "第14章のマインドマップ"
+        "alt": "\u7b2c14\u7ae0\u306e\u30de\u30a4\u30f3\u30c9\u30de\u30c3\u30d7"
+      },
+      "note": "AI-generated Japanese narration. Transcript timing is approximate."
+    },
+    {
+      "id": "podcast-ja-ch16-macroeconomics",
+      "title": "\u7b2c16\u7ae0 \u00b7 \u6d88\u8cbb",
+      "audio_sources": [
+        {
+          "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-16.mp3",
+          "type": "audio/mpeg"
+        }
+      ],
+      "transcript": "transcript-inputs-ja/podcast-ja-ch16-macroeconomics.json",
+      "spotify_url": "https://open.spotify.com/episode/5TKnb1zlOTKcJ23yUJcPAU",
+      "transcript_page": "audio-player/transcripts/podcast-ja-ch16-macroeconomics.html",
+      "study_url": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-16.html",
+      "return_url": "podcasts-ja.html#chapter-16",
+      "image": {
+        "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-16.png",
+        "alt": "\u7b2c16\u7ae0\u306e\u30de\u30a4\u30f3\u30c9\u30de\u30c3\u30d7"
+      },
+      "note": "AI-generated Japanese narration. Transcript timing is approximate."
+    },
+    {
+      "id": "podcast-ja-ch18-macroeconomics",
+      "title": "\u7b2c18\u7ae0 \u00b7 \u653f\u5e9c\u3068\u30de\u30af\u30ed\u7d4c\u6e08",
+      "audio_sources": [
+        {
+          "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-18.mp3",
+          "type": "audio/mpeg"
+        }
+      ],
+      "transcript": "transcript-inputs-ja/podcast-ja-ch18-macroeconomics.json",
+      "spotify_url": "https://open.spotify.com/episode/5AbtVdUYrqxopOgor8Hw9Y",
+      "transcript_page": "audio-player/transcripts/podcast-ja-ch18-macroeconomics.html",
+      "study_url": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-18.html",
+      "return_url": "podcasts-ja.html#chapter-18",
+      "image": {
+        "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-18.png",
+        "alt": "\u7b2c18\u7ae0\u306e\u30de\u30a4\u30f3\u30c9\u30de\u30c3\u30d7"
+      },
+      "note": "AI-generated Japanese narration. Transcript timing is approximate."
+    },
+    {
+      "id": "podcast-ja-ch19-macroeconomics",
+      "title": "\u7b2c19\u7ae0 \u00b7 \u56fd\u969b\u8cbf\u6613",
+      "audio_sources": [
+        {
+          "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-19.mp3",
+          "type": "audio/mpeg"
+        }
+      ],
+      "transcript": "transcript-inputs-ja/podcast-ja-ch19-macroeconomics.json",
+      "spotify_url": "https://open.spotify.com/episode/3NZB0jW5dHsNfjGxvIEfSX",
+      "transcript_page": "audio-player/transcripts/podcast-ja-ch19-macroeconomics.html",
+      "study_url": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-19.html",
+      "return_url": "podcasts-ja.html#chapter-19",
+      "image": {
+        "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-19.png",
+        "alt": "\u7b2c19\u7ae0\u306e\u30de\u30a4\u30f3\u30c9\u30de\u30c3\u30d7"
+      },
+      "note": "AI-generated Japanese narration. Transcript timing is approximate."
+    },
+    {
+      "id": "podcast-ja-ch20-macroeconomics",
+      "title": "\u7b2c20\u7ae0 \u00b7 \u70ba\u66ff\u30ec\u30fc\u30c8\u3068\u56fd\u969b\u91d1\u878d",
+      "audio_sources": [
+        {
+          "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-20.mp3",
+          "type": "audio/mpeg"
+        }
+      ],
+      "transcript": "transcript-inputs-ja/podcast-ja-ch20-macroeconomics.json",
+      "spotify_url": "https://open.spotify.com/episode/0LC0PPUZoTs5K07ZWa3HCq",
+      "transcript_page": "audio-player/transcripts/podcast-ja-ch20-macroeconomics.html",
+      "study_url": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-20.html",
+      "return_url": "podcasts-ja.html#chapter-20",
+      "image": {
+        "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-20.png",
+        "alt": "\u7b2c20\u7ae0\u306e\u30de\u30a4\u30f3\u30c9\u30de\u30c3\u30d7"
+      },
+      "note": "AI-generated Japanese narration. Transcript timing is approximate."
+    },
+    {
+      "id": "podcast-ja-ch21-macroeconomics",
+      "title": "\u7b2c21\u7ae0 \u00b7 \u304a\u308f\u308a\u306b",
+      "audio_sources": [
+        {
+          "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-21.mp3",
+          "type": "audio/mpeg"
+        }
+      ],
+      "transcript": "transcript-inputs-ja/podcast-ja-ch21-macroeconomics.json",
+      "spotify_url": "https://open.spotify.com/episode/1a2ux18XTQGNsY6XqJPd2z",
+      "transcript_page": "audio-player/transcripts/podcast-ja-ch21-macroeconomics.html",
+      "study_url": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-21.html",
+      "return_url": "podcasts-ja.html#chapter-21",
+      "image": {
+        "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-21.png",
+        "alt": "\u7b2c21\u7ae0\u306e\u30de\u30a4\u30f3\u30c9\u30de\u30c3\u30d7"
       },
       "note": "AI-generated Japanese narration. Transcript timing is approximate."
     }

@@ -136,6 +136,11 @@ def build(source, chapter):
                 raise ValueError(f"Insufficient timing alignment for {turn['id']}")
             start = min(span[0] for span in matched)
             end = max(span[1] for span in matched)
+            # ASR can place the first cue a few tenths of a second after the
+            # audio begins. The player timeline must start at zero, so include
+            # that short leading interval with the first spoken passage.
+            if not segments and start <= 0.5:
+                start = 0.0
             start = max(start, previous_end)
             end = max(end, start + 0.05)
             if end > chunks_doc["duration_seconds"]:
