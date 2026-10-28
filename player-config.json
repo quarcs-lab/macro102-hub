@@ -483,6 +483,26 @@
       "note": "AI-generated Japanese narration. Transcript timing is approximate."
     },
     {
+      "id": "podcast-ja-ch06-macroeconomics",
+      "title": "\u7b2c6\u7ae0 \u00b7 \u6210\u9577\u3068\u30a2\u30a4\u30c7\u30a2",
+      "audio_sources": [
+        {
+          "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-06.mp3",
+          "type": "audio/mpeg"
+        }
+      ],
+      "transcript": "transcript-inputs-ja/podcast-ja-ch06-macroeconomics.json",
+      "spotify_url": "https://open.spotify.com/episode/3ZnJ1lT3q3Nzi9iu1Fr0HZ",
+      "transcript_page": "audio-player/transcripts/podcast-ja-ch06-macroeconomics.html",
+      "study_url": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-06.html",
+      "return_url": "podcasts-ja.html#chapter-6",
+      "image": {
+        "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-06.png",
+        "alt": "\u7b2c6\u7ae0\u306e\u30de\u30a4\u30f3\u30c9\u30de\u30c3\u30d7"
+      },
+      "note": "AI-generated Japanese narration. Transcript timing is approximate."
+    },
+    {
       "id": "podcast-ja-ch07-macroeconomics",
       "title": "\u7b2c7\u7ae0 \u00b7 \u52b4\u50cd\u5e02\u5834\u3001\u8cc3\u91d1\u3001\u5931\u696d",
       "audio_sources": [
@@ -643,6 +663,26 @@
       "note": "AI-generated Japanese narration. Transcript timing is approximate."
     },
     {
+      "id": "podcast-ja-ch15-macroeconomics",
+      "title": "\u7b2c15\u7ae0 \u00b7 DSGE\u30e2\u30c7\u30eb\u2014\u2014\u666f\u6c17\u5faa\u74b0\u7814\u7a76\u306e\u6700\u524d\u7dda",
+      "audio_sources": [
+        {
+          "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-15.mp3",
+          "type": "audio/mpeg"
+        }
+      ],
+      "transcript": "transcript-inputs-ja/podcast-ja-ch15-macroeconomics.json",
+      "spotify_url": "https://open.spotify.com/episode/1EQIBX5sfU1H7QOlLTKQpD",
+      "transcript_page": "audio-player/transcripts/podcast-ja-ch15-macroeconomics.html",
+      "study_url": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-15.html",
+      "return_url": "podcasts-ja.html#chapter-15",
+      "image": {
+        "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-15.png",
+        "alt": "\u7b2c15\u7ae0\u306e\u30de\u30a4\u30f3\u30c9\u30de\u30c3\u30d7"
+      },
+      "note": "AI-generated Japanese narration. Transcript timing is approximate."
+    },
+    {
       "id": "podcast-ja-ch16-macroeconomics",
       "title": "\u7b2c16\u7ae0 \u00b7 \u6d88\u8cbb",
       "audio_sources": [
@@ -659,6 +699,26 @@
       "image": {
         "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-16.png",
         "alt": "\u7b2c16\u7ae0\u306e\u30de\u30a4\u30f3\u30c9\u30de\u30c3\u30d7"
+      },
+      "note": "AI-generated Japanese narration. Transcript timing is approximate."
+    },
+    {
+      "id": "podcast-ja-ch17-macroeconomics",
+      "title": "\u7b2c17\u7ae0 \u00b7 \u6295\u8cc7",
+      "audio_sources": [
+        {
+          "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-17.mp3",
+          "type": "audio/mpeg"
+        }
+      ],
+      "transcript": "transcript-inputs-ja/podcast-ja-ch17-macroeconomics.json",
+      "spotify_url": "https://open.spotify.com/episode/3FUpZh2JrC99avQn6S7rYE",
+      "transcript_page": "audio-player/transcripts/podcast-ja-ch17-macroeconomics.html",
+      "study_url": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-17.html",
+      "return_url": "podcasts-ja.html#chapter-17",
+      "image": {
+        "src": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-17.png",
+        "alt": "\u7b2c17\u7ae0\u306e\u30de\u30a4\u30f3\u30c9\u30de\u30c3\u30d7"
       },
       "note": "AI-generated Japanese narration. Transcript timing is approximate."
     },

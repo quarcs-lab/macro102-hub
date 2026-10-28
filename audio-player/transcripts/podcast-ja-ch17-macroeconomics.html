@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第17章 · 投資 — Transcript | Data Science &amp; Macroeconomics</title>
+  <link rel="stylesheet" href="../transcript.css">
+  <script src="../transcript-theme.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#transcript">Skip to transcript</a>
+  <header class="page-header">
+    <a href="../../podcasts-ja.html#chapter-17">← Back to 第17章 · 投資</a>
+    <button type="button" id="transcript-theme" hidden aria-pressed="false">Light theme</button>
+  </header>
+  <main id="transcript">
+    <p class="eyebrow">Data Science &amp; Macroeconomics · Podcast transcript</p>
+    <h1>第17章 · 投資</h1>
+    <p class="note">AI-generated Japanese narration. Transcript timing is approximate.</p>
+    <nav aria-label="Transcript sections"><ul><li><a href="#section-0">はじめに</a></li><li><a href="#section-1">第1部　投資の変動</a></li><li><a href="#section-2">第2部　資本の使用者費用</a></li><li><a href="#section-3">第3部　株式、住宅、政策</a></li><li><a href="#section-4">まとめ</a></li></ul></nav>
+    <article aria-label="Full transcript"><h2 id="section-0">はじめに</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">00:00</span></p><p class="passage-text">今回もお聞きいただき、ありがとうございます。今日は投資、つまり機械、株式、住宅への投資を扱います。2026年10月、アメリカの株価は、企業の年間平均利益、つまり収益の約40倍でした。これはドットコムブームのピークだった1999年につけた記録に近い水準です。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">00:23</span></p><p class="passage-text">ドットコムブームとは、1990年代後半、インターネット企業の株式に資金が殺到し、その後暴落した出来事です。今回もまたバブルなのでしょうか。バブルとは、株式や住宅が将来生む支払いの現在価値を大きく上回る価格で取引されることです。それとも、買い手が高い価格を払うのは正しいのでしょうか。答えを考えるために、簡単な道具があります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">00:53</span></p><p class="passage-text">同じ道具で、造船業者がもう1台のこぎりを買うべきかどうかも分かるのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">00:59</span></p><p class="passage-text">はい。比べるのは、銀行にお金を置くか、買うものにお金を投じるかです。この比較によって、機械、株式、住宅の価格が決まります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">01:11</span></p><p class="passage-text">今日の問いです。機械、株式、住宅はいつ買う価値があるのでしょうか。そして、なぜ投資は大きく変動するのでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">01:22</span></p><p class="passage-text">このエピソードを聞き終わるころには、三つのことができるようになります。第一に、不況で投資がどう減るかを説明し、なぜ大きく変動するのかを説明できます。第二に、機械を使う年間費用を求め、利益への35％課税で企業が望む機械の数がほぼ半分になる理由を示せます。第三に、同じ考え方で株式や住宅の価格が決まる仕組みと、予想成長率の小さな変化がなぜ価格を大きく動かすかを説明できます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">01:59</span></p><p class="passage-text">章のマインドマップを、項目ごとにたどるのですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">02:03</span></p><p class="passage-text">はい。第1部ではデータで見る投資の変動を扱います。第2部では、機械を使う年間費用である資本の使用者費用を組み立てます。第3部では同じ考え方を株式、住宅、政策に当てはめます。それぞれの部には、マップの枝といくつかの葉があります。</p></div>
+<h2 id="section-1">第1部　投資の変動</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">02:29</span></p><p class="passage-text">マップの第1部は投資の変動です。まず、経済学でいう投資とは何ですか。私にとって投資は株式を買うことです。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">02:40</span></p><p class="passage-text">日常語ではそうですが、ここでは違います。株式を買うだけなら、所有権がある貯蓄者から別の貯蓄者に移るだけです。ここでいう投資は、新しい資本、つまり将来より多く生産するのに役立つものへの支出です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">02:58</span></p><p class="passage-text">最初の項目によると、投資には三つの部分があります。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">03:03</span></p><p class="passage-text">そうです。企業投資は、企業の設備、建物、ソフトウェア、研究です。住宅投資は、新しい住宅の建設です。在庫投資は、企業が保管する、生産済みでまだ販売していない財の量の変化です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">03:21</span></p><p class="passage-text">次は2006年と2009年の投資です。どれほど減ったのでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">03:27</span></p><p class="passage-text">投資は、ある国の年間総産出量であるGDPに占める割合で測ります。アメリカの民間投資は、2006年にGDPの19.6％でした。2009年には13.3％まで下がりました。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">03:44</span></p><p class="passage-text">GDP比で約6ポイント減ったのですね。どの部分が最も減ったか当ててみます。不況では企業が工場建設をやめるので、企業投資だと思います。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">03:57</span></p><p class="passage-text">そう考えるのは自然で、2000年から2002年のドットコム不況では正解でした。しかし今回は違います。ここでいうポイントはパーセントポイント、二つの割合の単純な差です。約6ポイントの低下のうち、住宅だけで約3.4ポイント、つまり半分以上を説明します。残りを在庫投資と企業投資が分け合います。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">04:24</span></p><p class="passage-text">すると、次の項目の住宅が大きな話題ですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">04:29</span></p><p class="passage-text">そのとおりです。住宅投資は2005年にGDPの6.6％でピークに達しました。2011年には2.4％まで下がり、半分未満になりました。大不況の最中にブームの後で急落した、住宅バブルの崩壊です。第3部では、予想される価格上昇が住宅価格にとってなぜ重要かを見ます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">04:58</span></p><p class="passage-text">次は在庫です。不況では店が商品を売れません。売れ残った商品が倉庫に積み上がり、在庫が増えるのですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">05:07</span></p><p class="passage-text">そう考える学生は多いのですが、データは逆を示します。1982年、2009年、2020年のような不況の年には、在庫投資がマイナスになりました。マイナスとは、企業が倉庫に入れる量より取り出す量のほうが多く、在庫が減ったということです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">05:31</span></p><p class="passage-text">なぜ企業はそうするのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">05:33</span></p><p class="passage-text">販売の減少以上に生産を減らすからです。在庫の多くは、生産ラインの途中にある部品や材料です。生産が減れば、ラインにある部品も減ります。したがって、在庫投資は好況で増え、不況で減ります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">05:51</span></p><p class="passage-text">この部の最後はアイルランドの住宅です。住宅ブームはアメリカだけの話でしたか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">05:57</span></p><p class="passage-text">いいえ。もっと大きなブームもありました。アイルランドの住宅投資は、2006年にGDPの13.5％に達し、アメリカのピークのおよそ2倍でした。2011年には2％まで下がりました。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">06:14</span></p><p class="passage-text">第1部では、投資は支出の中で最も大きく変動する部分だと分かりました。大不況では住宅と在庫が最も大きく減り、アイルランドの住宅はさらに大幅に減りました。では、なぜ投資はそれほど変動するのでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">06:32</span></p><p class="passage-text">すべての投資が将来への賭けだからです。次の枝では、企業が保有する資本の量をどう決めるかを見ます。</p></div>
+<h2 id="section-2">第2部　資本の使用者費用</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">06:43</span></p><p class="passage-text">マップの第2部は、資本の使用者費用です。どこから始めましょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">06:48</span></p><p class="passage-text">架空の島国アイランディアです。ハーバー造船所は作業場で島の漁船を造っています。手元に余剰資金があります。そのお金を町の銀行の預金口座に置いてもよいし、もう1台の電動のこぎりを買ってもよいのです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">07:08</span></p><p class="passage-text">最初の項目にある裁定の式は、その二つの選択肢を比べるのですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">07:13</span></p><p class="passage-text">そのとおりです。同じドルをそれぞれの選択肢に1年間投じます。銀行は利子を払います。のこぎりは追加の産出を生み、その後売る時には価格も変わります。経済学では、その追加の産出を資本の限界生産物と呼びます。企業が適切に選んでいるなら、二つの選択肢の収益は等しくなります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">07:40</span></p><p class="passage-text">なぜ同じ収益になるのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">07:43</span></p><p class="passage-text">のこぎりの収益が銀行より高いとします。企業はもう1台のこぎりを買います。しかし、のこぎりが増えるたびにこなせる作業は減るため、追加の産出は小さくなります。企業は最後の1台の収益が銀行の金利と同じになるまで買い続けます。よりよい選択肢にお金を移し、得られる利益がなくなるまで続けることを裁定と呼びます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">08:11</span></p><p class="passage-text">次は使用者費用です。のこぎりは企業にとって、年間で実際にいくらかかりますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">08:20</span></p><p class="passage-text">三つあります。第一に、お金を銀行に置かないことで失う利子です。第二に、摩耗です。これは1年間に使って減るのこぎりの価値です。第三に、のこぎりの価格上昇分を差し引きます。売る時にその分を取り戻せるからです。これらを合わせたものが、資本の使用者費用です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">08:45</span></p><p class="passage-text">アイランディアの数字を教えてください。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">08:48</span></p><p class="passage-text">銀行はインフレ調整後で年2％を支払います。毎年、のこぎりの8％が摩耗します。のこぎりの価格は変わりません。合計すると、使用者費用は年10％です。のこぎりに使う1ドルごとに、年間少なくとも10セントの産出を増やす必要があります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">09:13</span></p><p class="passage-text">次は課税の項目です。アイランディア財務省がハーバー造船所の利益に課税します。使用者費用はどう変わりますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">09:22</span></p><p class="passage-text">財務省は、のこぎりが生み出すものの一部を取ります。しかし、のこぎりの費用は負担しません。したがって、税引き後の収益を企業が同じにするには、のこぎりは税引き前により多く生産しなければなりません。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">09:39</span></p><p class="passage-text">どれだけ多くですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">09:41</span></p><p class="passage-text">順に計算しましょう。税率を35％とします。すると企業は、のこぎりが生産する1ドルのうち65セントしか受け取れません。税引き後も、のこぎりに使った1ドルあたり10セントは必要です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">09:58</span></p><p class="passage-text">つまり税引き前には、10セントを0.65で割った額を生産する必要があるのですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">10:05</span></p><p class="passage-text">はい、約15.4セントです。したがって使用者費用は10％から15.4％に上がります。セントで見ると、15.4は10より約54％大きい値です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">10:21</span></p><p class="passage-text">次は企業が望む資本、つまり企業が持ちたいのこぎりの数です。税率35％なら、のこぎりは35％減るのでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">10:33</span></p><p class="passage-text">そう考えたくなりますが、減少はもっと大きく、ほぼ半分です。企業がのこぎりを減らしたとき、追加の産出がどれほど速く増えるかを考えましょう。このモデルでは、増加はゆっくりです。ハーバー造船所がのこぎりを半分しか持たないとします。最後の1台が生み出す追加の産出は10セントから約16セントに上がるだけです。上昇は約59％で、2倍にはなりません。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">11:04</span></p><p class="passage-text">税によって必要になる上昇は約54％で、59％より少し小さい。すると、のこぎりを半分より少し少なく減らすのですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">11:15</span></p><p class="passage-text">そのとおりです。正確なルールはこうです。税は使用者費用を0.65、つまり企業が受け取る割合で割ります。企業が望むのこぎりの数は、0.65掛ける0.65の平方根を乗じた値になります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">11:36</span></p><p class="passage-text">0.65の平方根はいくつですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">11:40</span></p><p class="passage-text">約0.81です。それに0.65を掛けると約0.52です。つまり企業は、以前の台数の約0.52倍、ほぼ半分を望みます。減少幅は約48％です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">12:01</span></p><p class="passage-text">企業はのこぎりの半分を一度に売るのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">12:05</span></p><p class="passage-text">いいえ。企業が持っている資本を、望む量に変えていく流れが投資です。のこぎりが多すぎる場合は、買うのをやめるだけで、摩耗によって資本が減っていきます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">12:18</span></p><p class="passage-text">つまり投資の変動は、資本の変動より大きいことがあるのですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">12:24</span></p><p class="passage-text">はい。これが投資が不安定な理由です。望む台数をすでに持つ企業は、摩耗分を補うため、のこぎり1ドル分の資本につき毎年約8セントを新しいのこぎりに使います。ここで望む台数がわずか8％減るとします。すると1年間、購入を完全に止めることができます。企業が望む資本の小さな変化によって、今年の投資はゼロになります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">12:54</span></p><p class="passage-text">この部の最後は投資率です。各年に国が新しい資本に支出する産出量の割合ですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">13:03</span></p><p class="passage-text">はい。アイランディアの企業をすべて合わせて考えます。資本が年2％成長するとします。摩耗する8％も加えると、資本1ドルにつき、毎年10セント分の新しい資本が必要です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">13:21</span></p><p class="passage-text">それを産出量に占める割合に直すには、どうすればよいのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">13:26</span></p><p class="passage-text">第4章の生産モデルと同じように、資本所有者は産出量の3分の1を得ます。資本1ドルは使用者費用10セントを稼ぎます。したがって産出量はその3倍で、資本1ドルにつき30セントです。投資率は、新しい資本への10セントを産出量30セントで割った値です。3分の1、つまり33.3％になります。丸めた数字を使ったので、アメリカのデータより高い値です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">14:01</span></p><p class="passage-text">税率が35％の場合はどうなりますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">14:05</span></p><p class="passage-text">企業は資本1ドルにつき、やはり新しい資本を10セント必要とします。しかし今は資本1ドルが15.4セント稼ぐので、産出量は約46セントになります。10を46で割ると約21.7％で、33.3％から下がります。第5章のソロー・モデルでは、投資率を単に仮定していました。ここでは税と金利が投資率を説明します。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">14:37</span></p><p class="passage-text">第2部では、機械は銀行金利と摩耗分を稼ぎ、価格上昇分を差し引いた収益を上げなければならないと学びました。税で必要な収益が上がり、企業が望む機械の数は大きく減ります。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">14:53</span></p><p class="passage-text">企業が持つ資本に比べると、毎年の投資は小さなものです。ですから金利、税、予想価格の変化が企業の望む資本を少し変えるだけで、投資は大きく変わります。次の枝では株式と住宅を見ます。</p></div>
+<h2 id="section-3">第3部　株式、住宅、政策</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">15:14</span></p><p class="passage-text">マップの第3部は、株式、住宅、政策です。最初の項目は株価です。島民はハーバー造船所の株式を買えます。株式の価値はいくらでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">15:28</span></p><p class="passage-text">同じ比較をします。銀行預金か、株式を1年間持つかです。株式は配当を支払います。これは企業利益の一部を所有者に払うものです。その後、株式を新しい価格で売ります。リスクがないなら、二つの選択肢の収益は同じになります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">15:51</span></p><p class="passage-text">数字でお願いします。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">15:53</span></p><p class="passage-text">株式には新しい丸めた数字を使い、銀行金利は5％とします。株式が毎年3ドルを永続的に支払い、成長しないとしましょう。配当だけで銀行の5％に匹敵しなければなりません。したがって価格は、3ドルを5％で割った60ドルです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">16:16</span></p><p class="passage-text">配当が成長するならどうなりますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">16:19</span></p><p class="passage-text">年2％成長させましょう。すると価格も同じ速さで成長し、所有者に毎年の価格上昇をもたらします。そのため配当が生むべき収益は残り3％だけです。3ドルを3％で割ると100ドルです。一般に価格は、配当を金利と成長率の差で割った値です。その差は小さいため、わずかな変化が価格を大きく動かします。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">16:48</span></p><p class="passage-text">次は株価収益率です。株価を企業利益、つまり1株あたり利益で割った値ですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">16:58</span></p><p class="passage-text">そうです。経済学者ロバート・シラーは、株価を過去10年間の平均利益で割ります。アメリカの株式市場で、この比率は2026年10月に40.7でした。1881年以降の平均は17.8です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">17:17</span></p><p class="passage-text">モデルでは、この比率はいくつになるはずですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">17:21</span></p><p class="passage-text">株価を利益で割ると、簡単なルールが得られます。利益のうち配当に回す割合を、金利と成長率の差で割ります。企業が利益の半分を配当に回し、前と同じくその差が3％だとします。0.5を0.03で割ると約16.7で、長期平均に近い値です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">17:47</span></p><p class="passage-text">今日の40.7は平均の2倍以上です。価格が2倍高すぎる、つまりバブルだと思います。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">17:55</span></p><p class="passage-text">そうかもしれませんが、モデルによれば確かなことは言えません。式を逆向きに使いましょう。比率40なら、差は0.5を40で割った値、わずか1.25パーセントポイントです。銀行金利が5％なら、投資家は配当が永続的に年約3.75％成長すると予想している必要があります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">18:24</span></p><p class="passage-text">かなり楽観的に聞こえます。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">18:27</span></p><p class="passage-text">そうかもしれません。しかし成長率や金利についての期待が少し変わるだけで、価格の大きな変化を正当化できます。ですからバブルと本当の楽観を見分けるのは難しいのです。同じ議論は1999年にもあり、比率は記録の44.2に達しました。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">18:47</span></p><p class="passage-text">次はトービンのqです。qとは何ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">18:51</span></p><p class="passage-text">経済学者ジェームズ・トービンが考えたqは、企業の二つの価値を比べます。一つは、株式市場が企業全体につける価値です。もう一つは、企業の資本をすべて新品で買い直す費用です。トービンのqは、一つ目を二つ目で割った値です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">19:10</span></p><p class="passage-text">qが1より大きければ、企業は投資すべきですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">19:15</span></p><p class="passage-text">はい。その場合、ハーバー造船所は新株を発行し、その資金でのこぎりを買い、のこぎりの費用より高い企業価値を選べます。市場は機械が稼ぐ額をもとに企業を評価します。したがってqが1を超えるなら、のこぎりの収益は使用者費用より大きいのです。1未満なら、企業の価値は機械より低く、縮小すべきです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">19:43</span></p><p class="passage-text">次は住宅価格です。島民は住宅ローン、つまり住宅を買うための融資を使って海辺のコテージを購入し、賃貸に出します。同じ考え方ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">19:55</span></p><p class="passage-text">同じです。住宅の価値は家賃を使用者費用で割ったものです。買い手は価格の一部を頭金、つまり自分のお金で払い、残りを借ります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">20:08</span></p><p class="passage-text">住宅の使用者費用とは何でしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">20:12</span></p><p class="passage-text">第一にローンの金利です。アイランディアの税制では、所有者はその利子を課税所得から差し引けるので、費用は少し低くなります。第二に、自分のお金に対して失う利子です。そのお金は銀行に置いておくこともできます。第三に摩耗です。最後に予想される価格上昇を差し引きます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">20:35</span></p><p class="passage-text">コテージの数字はどうなりますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">20:38</span></p><p class="passage-text">ここでも新しい数字を使います。銀行金利とローン金利は4％、摩耗は2％で、買い手は価格が年2％上がると予想しています。予想される上昇は摩耗を相殺します。残るのは税制によって少し安くなる金利で、価格の約3％です。コテージは年間6,000ドルの家賃を生むので、価値は約19万7,000ドルです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">21:07</span></p><p class="passage-text">住宅価格をより大きく動かすのは、借りやすさと期待のどちらでしょうか。借りやすさだと思います。価格の20％ではなく10％だけ自分のお金があれば買えるなら、価格は跳ね上がるはずです。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">21:23</span></p><p class="passage-text">そう考えたくなりますが、信用条件の影響はずっと小さいです。自分のお金も借りたお金も、金利費用はほぼ同じです。税制によって借りる方が少し安くなるだけです。ですから価格の上昇は約4％です。今度は買い手が、価格は毎年1ポイント速く成長すると予想するとしましょう。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">21:48</span></p><p class="passage-text">するとどうなりますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">21:50</span></p><p class="passage-text">予想される上昇が摩耗を上回り、使用者費用は約3％から約2％に下がります。価格は家賃を使用者費用で割ったものです。3ではなく2で割ると、価格は約1.5倍になります。上昇率は約49％です。価格の上昇によって人々がさらなる値上がりを予想するなら、価格自体がさらに上昇を促します。こうして住宅バブルが膨らみます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">22:23</span></p><p class="passage-text">最後は政策です。マップには法人税、バブル、住宅とあります。バブルを見分けるのが難しい理由は分かりました。まず税から見ましょう。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">22:33</span></p><p class="passage-text">2017年、アメリカは連邦法人税率を35％から21％に引き下げました。このモデルでは、企業が望む資本が約3分の1増えます。ある研究によると、減税幅の大きかった企業ほど投資を増やしました。しかし減税は税収を大きく減らしたため、議論は続いています。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">22:57</span></p><p class="passage-text">住宅政策はどうですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">22:59</span></p><p class="passage-text">より大きな頭金を求めるルールは、モデルでは価格をほとんど動かしません。しかし買い手の借入額を制限します。借入が大きいと、第10章で見たように、住宅価格の下落が銀行危機に変わることがあります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">23:18</span></p><p class="passage-text">第3部では、株式や住宅は機械と同じように、支払う収益を使用者費用で割って価格が決まると分かりました。その費用が小さいため、期待が価格を大きく動かします。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">23:33</span></p><p class="passage-text">そのとおりです。まとめましょう。</p></div>
+<h2 id="section-4">まとめ</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">23:38</span></p><p class="passage-text">三つの目標に戻りましょう。第一に、投資はどう変動し、なぜでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">23:44</span></p><p class="passage-text">不況では大きく減り、特に住宅と在庫が大きく変動します。企業が持つ資本に比べると、毎年の投資は小さいからです。そして企業が望む資本の量は、金利、税、予想価格によって決まります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">24:03</span></p><p class="passage-text">第二に使用者費用です。金利と摩耗を足し、予想価格上昇分を差し引きます。35％の課税で使用者費用は10％から15.4％に上がり、企業が望むのこぎりは約半分になります。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">24:20</span></p><p class="passage-text">そうです。企業が持つのこぎりの数が減っても、追加産出はゆっくりしか増えないからです。第三に、株式と住宅の価値は、支払いを小さな差で割ったものです。ですから、予想成長率の小さな変化が価格を大きく動かします。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">24:41</span></p><p class="passage-text">大切なメッセージは何でしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">24:44</span></p><p class="passage-text">機械、株式、住宅へのどの投資も、銀行金利に見合う収益を稼がなければなりません。この比較一つで、資本の使用者費用、企業の投資額、株式や住宅の価値が決まります。将来への期待に基づくため、好況や不況で投資は大きく変動します。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">25:08</span></p><p class="passage-text">考えてみてください。アイランディアが関税、つまり輸入品への税を導入し、今後1年間に電動のこぎりの価格を3％上げ、その後は上昇が止まると発表しました。今年と来年のハーバー造船所の投資はどうなりますか。なぜでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">25:29</span></p><p class="passage-text">いったんエピソードを止めて、少し考えてみてください。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">25:33</span></p><p class="passage-text">では、再開しましょう。答えは何ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">25:37</span></p><p class="passage-text">今年は投資が急増します。今のうちに買ったのこぎりは、後で3％高く売れます。この価格上昇で使用者費用は10％から7％に下がるので、企業は約1.7倍の台数を望み、今のうちに購入します。来年は価格上昇分がなくなり、使用者費用が再び上がります。企業は望むより多くののこぎりを持つことになるので、購入をやめ、摩耗によって資本を減らします。関税は投資の時期を前倒しし、最初に急増させ、その後に急減させます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">26:16</span></p><p class="passage-text">学生はどこで、これらを自分で試せますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">26:20</span></p><p class="passage-text">この章のColabノートブックを開き、金利と税を自分で変えてください。Model Appsにも同じスライダーがあり、コードは不要です。Data Appsでは、投資と株式市場のデータを見られます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">26:35</span></p><p class="passage-text">次回は何を扱いますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">26:37</span></p><p class="passage-text">第18章では政府を取り上げます。政府はいくら借りられるのでしょうか。そして、なぜ返済より成長のほうが重要なのでしょうか。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">26:48</span></p><p class="passage-text">今日はここまでです。お聞きいただき、ありがとうございました。それでは、また次回。</p></div></article>
+  </main>
+</body>
+</html>

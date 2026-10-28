@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第6章 · 成長とアイデア — Transcript | Data Science &amp; Macroeconomics</title>
+  <link rel="stylesheet" href="../transcript.css">
+  <script src="../transcript-theme.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#transcript">Skip to transcript</a>
+  <header class="page-header">
+    <a href="../../podcasts-ja.html#chapter-6">← Back to 第6章 · 成長とアイデア</a>
+    <button type="button" id="transcript-theme" hidden aria-pressed="false">Light theme</button>
+  </header>
+  <main id="transcript">
+    <p class="eyebrow">Data Science &amp; Macroeconomics · Podcast transcript</p>
+    <h1>第6章 · 成長とアイデア</h1>
+    <p class="note">AI-generated Japanese narration. Transcript timing is approximate.</p>
+    <nav aria-label="Transcript sections"><ul><li><a href="#section-0">はじめに</a></li><li><a href="#section-1">第1部：アイデアはなぜ違うのか</a></li><li><a href="#section-2">第2部：ローマー・モデル</a></li><li><a href="#section-3">第3部：データに見るアイデア</a></li><li><a href="#section-4">まとめ</a></li></ul></nav>
+    <article aria-label="Full transcript"><h2 id="section-0">はじめに</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">00:00</span></p><p class="passage-text">今回もよろしくお願いします。今日は、成長とアイデアを取り上げます。前回のソロー・モデルでは、道具を増やしても、国がいつまでも豊かになり続けるわけではないことを見ました。道具を一つ増やすごとの効果は小さくなり、道具は使ううちに壊れるからです。今日は、ある謎から始めましょう。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">00:21</span></p><p class="passage-text">こちらです。英語には2万語以上あります。その中から100語を使って、何通りの段落を書けるでしょうか。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">00:32</span></p><p class="passage-text">何百万通りでしょうか。何十億通りでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">00:36</span></p><p class="passage-text">それどころではありません。1の後ろにゼロが430個続く数より多いのです。それぞれの段落を、レシピ、つまり手順書だと考えてください。そのほとんどは意味を成しません。しかし、意味を成すものがごくわずかだとしても、役に立つレシピの数は、既知の宇宙にある粒子の数をはるかに上回ります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">01:02</span></p><p class="passage-text">つまり、世界の原材料には限りがありますが、それらの組み合わせ方はほぼ無限にあるのですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">01:09</span></p><p class="passage-text">そのとおりです。道具には限界収穫逓減がありますが、新しいレシピにはありません。経済学者のポール・ローマーはこの考えをもとに成長理論を作り、2018年にノーベル経済学賞を共同受賞しました。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">01:26</span></p><p class="passage-text">では、今日の問いです。新しいアイデアによって、所得はいつまでも成長し続けるのでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">01:34</span></p><p class="passage-text">今回のエピソードを聞き終わるころには、三つのことを説明できるようになります。一つ目は、アイデアが機械とどう違うのか、そして新しい発明の価格が複製の費用を上回らなければならない理由です。二つ目は、研究者の数が増えることで所得が一定の成長率を保つ仕組みと、多くの政策が成長率ではなく所得水準を変える理由です。三つ目は、原材料が安くなったこと、そして最近の成長鈍化が機械の減少ではなく、生産性上昇率の低下によって起きたことを、データを使って示します。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">02:18</span></p><p class="passage-text">章のマインドマップに沿って、パートごとに進めていくのですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">02:22</span></p><p class="passage-text">はい。第1部では、アイデアがなぜ違うのかを考えます。第2部ではローマー・モデルを作ります。第3部ではデータからアイデアの働きを探します。各部には四つの項目、小さなトピックがあり、順番に取り上げていきます。</p></div>
+<h2 id="section-1">第1部：アイデアはなぜ違うのか</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">02:42</span></p><p class="passage-text">マップの第1部、「アイデアはなぜ違うのか」です。最初の項目では、アイデアは非競合的だとあります。どういう意味ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">02:52</span></p><p class="passage-text">ローマーは、すべての財を二種類に分けます。モノとは、土地、石油、機械のような物理的なものです。アイデアとは、薬の配合のように、モノをどう組み合わせるかを示す手順です。モノは競合的です。一人が使うと、ほかの人は同時に使えません。一隻の船で、二組の乗組員を同時に海へ連れ出すことはできません。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">03:20</span></p><p class="passage-text">アイデアは違うのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">03:22</span></p><p class="passage-text">はい。アイデアは非競合的です。多くの人が同時に使えますし、使ってもなくなりません。私たちの架空の小さな島国アイランディアで、島民の一人が船体、つまり船の胴体部分について、よりよい設計を考えたとします。ハーバー造船所は、その一つの設計を、すべての造船所で同時に使えます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">03:51</span></p><p class="passage-text">次の項目は収穫逓増です。アイランディアが道具も労働者も設計図のストックも2倍にすれば、生産量も2倍になると思います。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">04:00</span></p><p class="passage-text">自然な予想ですが、生産量は4倍になります。船を2倍作るには、ハーバー造船所が一つ目をまねた二つ目の造船所を開けばよいのです。新しい作業場、新しい道具、新しい労働者が必要です。しかし、船体の設計図は一つ目のものを両方で使えるので、二つ目は必要ありません。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">04:27</span></p><p class="passage-text">モノを複製するだけで生産量がすでに2倍になり、さらに設計図も2倍になるのですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">04:34</span></p><p class="passage-text">そのとおりです。最も単純な場合、道具と労働者の数が同じでも、設計図のストックが2倍になると生産量も2倍になります。2倍の2倍で、生産量は4倍です。すべての投入物を2倍にすると生産量が2倍を超えて増えることを、経済学者は収穫逓増と呼びます。これは、アイデアが非競合的であることから直接導かれます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">05:03</span></p><p class="passage-text">次の項目は研究の固定費です。どう関係するのでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">05:09</span></p><p class="passage-text">アイデアを発見するには大きな費用がかかりますが、複製にはほとんど費用がかかりません。たとえば、感染症を治療する薬である新しい抗生物質を考えてみましょう。その配合を見つけるには、研究費として25億ドルかかります。これは固定費です。薬を何回分作っても、一度だけ支払います。その後は、1回分を作るのに10ドルかかります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">05:38</span></p><p class="passage-text">費用がかかるのは研究の部分ですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">05:42</span></p><p class="passage-text">はい。では、支出総額が36億ドルから72億ドルへ2倍になったとします。企業は何倍の薬を作れるでしょうか。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">05:54</span></p><p class="passage-text">さっきの項目から考えると、2倍を超えると思います。でも、なぜかは分かりません。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">06:00</span></p><p class="passage-text">順番に計算しましょう。36億ドルのうち、最初の25億ドルは研究費に使われます。ですから、薬を作る費用として残るのは11億ドルです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">06:13</span></p><p class="passage-text">1回分に10ドルかかります。11億ドルを10で割ると、1億1,000万回分です。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">06:20</span></p><p class="passage-text">そのとおりです。では、支出を72億ドルに2倍にします。研究費の25億ドルは変わらないので、薬を作る費用として47億ドルが残ります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">06:35</span></p><p class="passage-text">1回分10ドルなら、4億7,000万回分です。4倍以上ですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">06:41</span></p><p class="passage-text">はい。4億7,000万を1億1,000万で割ると、約4.27です。つまり、支出が2倍になると、薬の量は約4.27倍になります。研究費がなければ、薬の量はちょうど2倍です。研究費があると、支出が増えるにつれて、1ドルあたりに作れる薬の量が増えます。研究費をより多くの薬に分散できるからです。固定費が収穫逓増を生みます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">07:15</span></p><p class="passage-text">次の項目は限界費用を上回る価格です。限界費用とは何ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">07:22</span></p><p class="passage-text">限界費用とは、もう一単位作るための費用です。ここでは薬1回分あたり10ドルです。配合が分かれば、アイデアは非競合的なので、ほかの企業も複製できます。複製する企業は研究費を払っていませんから、競争によって価格は10ドルまで下がります。そうなると、25億ドルの研究費は回収できず、どの企業も研究を始めなくなります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">07:51</span></p><p class="passage-text">ですから、価格は薬を一回分作る費用より高くなければならないのですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">07:57</span></p><p class="passage-text">はい。そうでなければ、誰も新しいアイデアに費用をかけません。ソフトウェアを見ると、さらに分かりやすいです。文章を書くためのプログラム、ワープロソフトの開発に1億ドルかかるとします。複製一つあたりの費用は1ドルで、販売価格は20ドルです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">08:17</span></p><p class="passage-text">1つ売るごとに、費用を上回る19ドルが入ります。企業は1億ドルを回収できるだけの数を売る必要がありますね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">08:27</span></p><p class="passage-text">そのとおりです。1億ドルを19ドルで割ると、約526万個です。これは損益分岐点で、企業に利益も損失も出ない販売数です。価格が低いほど、企業が必要とする市場は大きくなります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">08:42</span></p><p class="passage-text">社会は新しいアイデアの費用を、どのように負担すればよいのでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">08:48</span></p><p class="passage-text">方法はいくつかありますが、どれにも費用が伴います。特許があれば、発明者だけが20年間その発明を販売できます。高い価格によって研究費を回収します。しかし、薬を作る費用なら払える人の中にも、買えずに済ませる人が出ます。政府が税金で研究を支援する方法や、誰かが賞金を出す方法もあります。こうした方法なら高い価格を避けられますが、別の誰かが費用を払わなければなりません。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">09:24</span></p><p class="passage-text">第1部では、アイデアの仕組みがつながっていることを見ました。アイデアは使い切らずに共有できるので、すべてを2倍にすると生産量は2倍を超えて増えます。そして、アイデアを発見するには大きな費用がかかるので、その価格は複製の費用を上回らなければなりません。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">09:44</span></p><p class="passage-text">そのつながりです。次の部では、アイデアによって所得を毎年成長させ続ける仕組みを見ていきます。</p></div>
+<h2 id="section-2">第2部：ローマー・モデル</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">09:54</span></p><p class="passage-text">マップの第2部、「ローマー・モデル」です。最初の項目は長期成長です。モデルはどのように働くのでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">10:04</span></p><p class="passage-text">ローマーは、まず道具を考えから外します。アイランディアでは、島民の一部が研究者として働きます。研究者は、新しい船体のような設計図を、アイデアの図書館に加えます。残りの人々は財を作ります。アイデアは使っても壊れないので、図書館は大きくなる一方です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">10:28</span></p><p class="passage-text">島民の所得を決めるのは何ですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">10:31</span></p><p class="passage-text">一人あたりの設計図の数ではなく、図書館全体の大きさです。新しい船体の設計図一つで、島のすべての造船所が役立ちます。ソロー・モデルでは逆でした。船の恩恵を受けるのは、それを操縦する乗組員だけです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">10:49</span></p><p class="passage-text">図書館はどれくらいの速さで大きくなるのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">10:53</span></p><p class="passage-text">島民のうち一定の割合が研究をするので、研究者の数は人口と同じ速さで増えます。年5％だとしましょう。研究者一人が毎年加える設計図の数は一定です。ですから、新しい設計図の数も年5％で増え、長期的には図書館全体も年5％で増えます。もし図書館がそれより速く増えたら、新しい設計図が図書館に占める割合は小さくなり、成長率が下がっていきます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">11:24</span></p><p class="passage-text">では、1人あたり所得も年5％成長しますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">11:29</span></p><p class="passage-text">それより低くなります。財の生産にアイデアがどれほど重要かを示す数値があります。この例では0.6です。ですから、図書館が1％大きくなると、1人あたり所得は0.6％しか成長しません。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">11:47</span></p><p class="passage-text">0.6に5％を掛けると、年3％ですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">11:51</span></p><p class="passage-text">そのとおりです。この項目の式を言葉で表すと、長期成長率は、アイデアの重要度に人口成長率を掛けたものです。したがって、所得は毎年3％高くなる、安定した成長経路に沿って進みます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">12:10</span></p><p class="passage-text">ちょっと待ってください。前回は、人口成長が速いとアイランディアの1人あたり所得が下がると学びました。今度は、人が増えると全員が豊かになるのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">12:22</span></p><p class="passage-text">人が増えると一人ひとりの取り分が減る、と考える学生は多いです。モノならそのとおりです。新しく来た人には道具が必要だからです。しかし、アイデアは分けて減らすのではなく、共有できます。人が増えると研究者も増え、新しいアイデアは全員の役に立ちます。ですから、人口成長が速いほど、1人あたり所得の成長も速くなります。また、アイデアは国境を越えます。アイランディアは、海の向こうにある国メインランドで考案された設計図も使います。ですから、重要なのは世界全体の研究者数です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">13:04</span></p><p class="passage-text">次は研究の生産性です。人工知能によって研究者一人ひとりの生産性が8倍になったとします。アイランディアは、これからずっと、ずっと速く成長すると思います。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">13:17</span></p><p class="passage-text">意外かもしれませんが、そうはなりません。長期成長率は年3％のままです。研究者が毎年加える設計図の数は8倍になるので、最初は図書館がとても速く大きくなります。しかし、図書館が大きくなるにつれて、新しい設計図が占める割合は小さくなります。長期的には、図書館の大きさは従来の成長経路の8倍になり、成長率は以前と同じになります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">13:47</span></p><p class="passage-text">では、所得は最終的に8倍になりますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">13:51</span></p><p class="passage-text">それより小さくなります。この例では、所得の成長率は図書館の成長率より低いからです。モデルでは8の0.6乗を計算し、約3.48になります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">14:06</span></p><p class="passage-text">つまり、成長経路は最終的に約3.48倍高くなりますが、成長率は年3％のままなのですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">14:17</span></p><p class="passage-text">そのとおりです。経済学者はこれを水準効果と呼びます。成長効果なら、成長率そのものが変わります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">14:26</span></p><p class="passage-text">次の項目は研究者の割合を増やすことです。島民のうち研究をする人の割合が上がれば、所得はすぐ増えると思います。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">14:37</span></p><p class="passage-text">そう考えたくなりますが、最初に所得は下がります。研究者の割合が0.03から0.35、つまり島民の3％から35％へ上がるとします。図書館は最初の時点では変わりませんが、財を作る人が減ります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">14:56</span></p><p class="passage-text">どれくらい減るのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">14:59</span></p><p class="passage-text">以前は島民100人のうち97人が財を作っていました。今は65人だけです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">15:07</span></p><p class="passage-text">65を97で割ると、約3分の2ですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">15:12</span></p><p class="passage-text">財を作る労働者一人あたりの生産量は変わらないので、1人あたり産出量は約3分の1、つまり33％下がります。その後、研究者が増えたことで、図書館はより速く充実します。アイデアが増えると成長経路は上がり、財を作る労働者が減ると下がります。最終的にアイランディアの成長経路は、以前の2.93倍になります。長期成長率は、ここでも年3％です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">15:47</span></p><p class="passage-text">では、全員を研究者にすればよいのではありませんか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">15:50</span></p><p class="passage-text">アイデアを使う人も必要だからです。この例では、島民の37.5％が研究者のとき、成長経路が最も高くなります。それを超えて研究者を増やすと、成長経路は下がります。政府にとって、人々を研究に移すことは投資です。今日の産出量を減らし、将来の産出量を増やします。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">16:17</span></p><p class="passage-text">この部の最後の項目は、ソローとローマーの組み合わせです。道具をモデルに戻すのですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">16:23</span></p><p class="passage-text">はい。道具だけでは成長を生み続けられませんが、アイデアによる成長を大きくします。新しい設計によって産出量が増え、その増加分の一部が新しい道具になります。道具は財の生産の3分の1を担うので、その道具が産出量をさらに3分の1だけ押し上げます。1に3分の1、さらに9分の1を足していくと、合計は1.5になります。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">16:55</span></p><p class="passage-text">つまり、成長率はアイデアだけの場合の1.5倍になるのですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">17:01</span></p><p class="passage-text">そのとおりです。この項目では、別の数値を使います。アイデアの重要度は少し高く、3分の2です。また、人口は年3％増えます。ですから、アイデアだけなら成長率は3％の3分の2、つまり年2％です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">17:20</span></p><p class="passage-text">道具がそれを1.5倍にするので、1人あたり所得は年3％成長します。では、アイランディアが投資率、つまり産出量のうち道具に変える割合を、5％から60％へ上げるとしましょう。道具によって成長が大きくなるので、今度はずっと速く成長すると思います。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">17:42</span></p><p class="passage-text">多くの人がそう考えるでしょう。しかし、道具には限界収穫逓減があるので、長期成長率は年3％のままです。上がるのは成長経路です。ソロー・モデルと同じく、所得は投資率の平方根に従います。投資率は12倍になり、12の平方根は約3.46です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">18:08</span></p><p class="passage-text">では、成長経路は最終的に約3.46倍高くなりますね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">18:13</span></p><p class="passage-text">はい。ここでは貯蓄を増やすこと、つまり投資を増やすことによって成長経路が上がりますが、成長率を決めるのはアイデアです。また、経済が成長経路を下回る幅が大きいほど、成長は速くなります。これを移行動学と呼びます。成長経路を引き上げる改革を行うと、日本や韓国のように、何十年にもわたる速い追い上げ成長が起きます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">18:43</span></p><p class="passage-text">第2部では、研究者の数が増えることで、アイデアの図書館と所得が安定した成長率で増え続けることを見ました。研究の改善、ある程度までの研究者割合の上昇、貯蓄の増加は、成長経路を引き上げます。成長率を変えるのは、人口成長の加速か、アイデアの重要度の上昇だけです。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">19:09</span></p><p class="passage-text">そのとおりです。次の部では、データからアイデアの働きを確認できるかを見ていきます。</p></div>
+<h2 id="section-3">第3部：データに見るアイデア</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">19:18</span></p><p class="passage-text">マップの第3部、「データに見るアイデア」です。最初の項目は原材料の値下がりです。20世紀を通じて、産業はアルミニウム、銅、石炭、鉄鉱石をはるかに多く使いました。それぞれの供給量には限りがあります。ですから、価格は大きく上がったはずです。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">19:38</span></p><p class="passage-text">多くの学生がそう考えます。供給が一定で需要が増えれば、価格は上がるはずです。しかし、データが示すのは逆です。インフレを調整した実質価格を見ましょう。アルミニウムや銅のような六つの原材料の実質価格を追う指数があります。1900年の値を100とすると、1世紀後の2000年には約35まで下がっていました。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">20:06</span></p><p class="passage-text">価格は3分の1ほどになったのですね。どうしてでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">20:10</span></p><p class="passage-text">需要は大きく増えたので、供給はそれ以上に速く増えたはずです。それを可能にしたのが新しいアイデアです。人々は新しい鉱床、つまり金属が埋まっている場所を発見しました。さらに、掘り出す新しい方法や、同じ用途に使う材料を減らす方法を見つけました。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">20:34</span></p><p class="passage-text">これについて賭けをした人はいますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">20:37</span></p><p class="passage-text">はい。1980年、経済学者のジュリアン・サイモンは、生物学者のポール・エーリックと、5種類の金属の実質価格が10年間で下がるかどうかを賭けました。サイモンが勝ちました。ただし、ほかの多くの期間なら負けていたでしょう。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">20:56</span></p><p class="passage-text">次の項目はアメリカの成長鈍化です。何の成長が鈍化したのでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">21:03</span></p><p class="passage-text">1人あたりGDPの成長です。GDPは、その国が1年間に生産するすべてのものの価値です。1年ごとの成長率は大きく上下するので、それぞれの年について、直前10年間の成長率を平均します。1960年から2006年まで、この平均は年2.2％前後で推移しました。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">21:29</span></p><p class="passage-text">その後はどうなりましたか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">21:32</span></p><p class="passage-text">2007年に始まった深刻な景気後退、大不況が起こりました。2009年以降の平均は年約1.2％にすぎず、以前の平均を下回ったままです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">21:46</span></p><p class="passage-text">次の項目は成長会計です。何をするものですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">21:52</span></p><p class="passage-text">成長の源を分解する方法です。労働1時間あたりの産出量を考えてみましょう。成長する理由は三つあります。1時間あたりの道具が増えること、教育を受ける年数が増えるなど技能が高まること、そしてすべてをよりうまく使うことです。最後の部分をTFP、全要素生産性と呼びます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">22:19</span></p><p class="passage-text">どのように測るのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">22:21</span></p><p class="passage-text">直接は測れません。アイランディアの統計担当者を考えてください。労働時間、道具、教育は数えられますが、設計図は数えられません。そこで、ほかの要因で説明できない残りの成長をTFP成長とします。これは新しいアイデアを測る最良の方法ですが、測り損ねたほかのものも含みます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">22:47</span></p><p class="passage-text">では、成長会計からは、成長鈍化について何が分かりますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">22:52</span></p><p class="passage-text">固定された期間について、労働1時間あたり産出量を調べます。そこで二度の成長鈍化が見つかりました。一度目は1973年以降、二度目は2003年ごろに始まり、大不況の数年前から起きています。二度目の鈍化が、前の項目で見た成長の弱さの原因です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">23:17</span></p><p class="passage-text">二度の鈍化ですね。どちらの時期も、企業が機械への投資をやめたのだと思います。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">23:24</span></p><p class="passage-text">近いですが、データが示すのは別のことです。一度目を見ましょう。1948年から1973年まで、TFPは年2.1％成長しました。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">23:38</span></p><p class="passage-text">1973年以降、元に戻りましたか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">23:42</span></p><p class="passage-text">いいえ。1973年から1995年まで、成長率は年0.5％にすぎませんでした。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">23:53</span></p><p class="passage-text">TFP成長率は大きく下がったのですね。機械のほうはどうですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">23:58</span></p><p class="passage-text">機械の寄与はほとんど変わりませんでした。1973年以前は年約1パーセントポイント、以後は約0.8ポイントです。ですから、成長鈍化の主因はTFP成長率の低下でした。ローマー・モデルでは、TFP成長は新しいアイデアと結びついています。より最近の成長鈍化も、主にTFPの鈍化です。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">24:26</span></p><p class="passage-text">最後の項目は世界各地の状況です。成長鈍化はアメリカだけで起きたのでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">24:34</span></p><p class="passage-text">いいえ。アメリカ、日本、ドイツのような豊かな主要国7か国からなるG7のすべてで、2007年以降、成長が鈍化しました。イタリアでは、1人あたりGDPが縮小さえしました。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">24:51</span></p><p class="passage-text">世界全体で成長が鈍化したのですか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">24:53</span></p><p class="passage-text">そうとは限りません。2007年以降、中国とインドでは成長率が上がりました。豊かな国は技術の最前線に近く、すでに知られている最良のアイデアを使っています。そのため、世界全体のアイデアのストックとともに成長します。豊かな国が一斉に減速すると、新しいアイデアが生まれる速さも落ちている可能性があります。中国とインドはそれぞれの成長経路を大きく下回っているため、追い上げながら速く成長します。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">25:28</span></p><p class="passage-text">第3部では、原材料の値下がりとTFPの成長鈍化に、アイデアの働きが表れていました。豊かな国の成長は鈍化しましたが、追い上げている国では速くなりました。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">25:42</span></p><p class="passage-text">そのとおりです。まとめましょう。</p></div>
+<h2 id="section-4">まとめ</h2>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">25:47</span></p><p class="passage-text">最初に挙げた三つの目標に戻りましょう。一つ目、アイデアはなぜ違うのでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">25:54</span></p><p class="passage-text">アイデアは非競合的だからです。ですから、アイデアを含むすべての投入物を2倍にすると、産出量は2倍を超えて増えます。また、アイデアの発見には大きな費用がかかるので、価格を限界費用と同じにしても、研究費を回収できません。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">26:14</span></p><p class="passage-text">二つ目、アイデアはどのように所得を成長させ続けるのでしょうか。人が増えると研究者が増え、研究者が増えるとアイデアが増え、どのアイデアも全員の役に立つ、ということでしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">26:28</span></p><p class="passage-text">はい。研究の改善や貯蓄の増加は成長経路を引き上げますが、所得を安定した成長率で増やし続けるのは、研究者の数が増えることだけです。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">26:42</span></p><p class="passage-text">三つ目はデータですね。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">26:44</span></p><p class="passage-text">アイデアによって供給が需要より速く増えたため、原材料は安くなりました。アメリカの成長鈍化の主因はTFPの鈍化でした。ここで大切なメッセージです。持続的な成長を生み出すのは新しいアイデアです。アイデアは非競合的なので、研究者の数が増えると全員の所得が上がります。貯蓄や研究に関する政策が変えるのは成長経路の水準であり、長期成長率ではありません。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">27:18</span></p><p class="passage-text">考えてみてほしい問いがあります。アイランディア、メインランド、そして世界のどこでも人口が増えなくなったとします。研究者の数は一定になり、研究者は毎年、同じように新しい設計図を加え続けます。1人あたり所得は上がり続けますか。また、年3％で成長し続けますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">27:42</span></p><p class="passage-text">エピソードを一時停止して、少し考えてみてください。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">27:46</span></p><p class="passage-text">では、再開しましょう。答えは何でしょうか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">27:50</span></p><p class="passage-text">所得は上がり続けますが、成長率はゼロに近づいていきます。同じ研究者が毎年同じ数の新しい設計図を加えます。しかし、図書館は大きくなり続けるので、設計図が占める割合は次第に小さくなり、所得の成長も遅くなります。第2部の法則を思い出してください。長期成長率は、アイデアの重要度に人口成長率を掛けたものです。人口成長率がゼロなら、積もゼロです。だからこそ、教育、研究の拡大、そして貧しい国々の何十億人もの人々が技術の最前線に加わることが重要です。それによって研究者の数が増え続けます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">28:38</span></p><p class="passage-text">学生は、これらをどこで実際に試せますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">28:42</span></p><p class="passage-text">章のColabノートブックを開くと、ローマー・モデルを自分で動かせます。Model Appsでは、コードを書かずに、モデルのグラフのスライダーを動かせます。Data Appsでは、どの国についても原材料価格や成長を確認できます。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">29:00</span></p><p class="passage-text">次回は何を扱いますか。</p></div>
+<div class="passage"><p class="speaker">経済学者 <span class="timestamp">29:03</span></p><p class="passage-text">第7章では、長期成長から労働市場へ移ります。誰が働くのでしょうか。なぜ全員が仕事を見つけられないのでしょうか。なぜ賃金の高い人と低い人がいるのでしょうか。</p></div>
+<div class="passage"><p class="speaker">司会者 <span class="timestamp">29:18</span></p><p class="passage-text">今日はここまでです。お聞きいただき、ありがとうございました。それでは、また次回。</p></div></article>
+  </main>
+</body>
+</html>

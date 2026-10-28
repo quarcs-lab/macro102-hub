@@ -105,7 +105,7 @@
       "spotify_url": "https://open.spotify.com/episode/3zAG4DToBHeyLzsMsIemLP"
     },
     {
-      "id": "podcast-ja-ch06-in-review",
+      "id": "podcast-ja-ch06-macroeconomics",
       "chapter": 6,
       "title": "成長とアイデア",
       "question": "アイデアは、なぜ機械とは違う形で経済成長を支えるのでしょうか。",
@@ -115,8 +115,14 @@
         "ローマー・モデル",
         "研究と成長のインセンティブ"
       ],
+      "duration": 1763.81,
+      "audio": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-06.mp3",
+      "artwork": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-06.png",
+      "transcript": "transcript-inputs-ja/podcast-ja-ch06-macroeconomics.json",
+      "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-06.html",
       "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch06-growth-and-ideas.html",
-      "status": "audio_review_in_progress"
+      "status": "publicly_verified",
+      "spotify_url": "https://open.spotify.com/episode/3ZnJ1lT3q3Nzi9iu1Fr0HZ"
     },
     {
       "id": "podcast-ja-ch07-macroeconomics",
@@ -279,7 +285,7 @@
       "spotify_url": "https://open.spotify.com/episode/7DdXQjsDTQn9iqecbBUONK"
     },
     {
-      "id": "podcast-ja-ch15-in-review",
+      "id": "podcast-ja-ch15-macroeconomics",
       "chapter": 15,
       "title": "DSGEモデル——景気循環研究の最前線",
       "question": "景気循環の原因を、DSGEモデルはどこまで説明できるのでしょうか。",
@@ -289,8 +295,14 @@
         "労働と生産性のショック",
         "賃金・物価の硬直性とモデルの限界"
       ],
+      "duration": 1752.21,
+      "audio": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-15.mp3",
+      "artwork": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-15.png",
+      "transcript": "transcript-inputs-ja/podcast-ja-ch15-macroeconomics.json",
+      "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-15.html",
       "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch15-dsge-models-the-frontier-of-business-cycle-research.html",
-      "status": "audio_review_in_progress"
+      "status": "publicly_verified",
+      "spotify_url": "https://open.spotify.com/episode/1EQIBX5sfU1H7QOlLTKQpD"
     },
     {
       "id": "podcast-ja-ch16-macroeconomics",
@@ -313,7 +325,7 @@
       "spotify_url": "https://open.spotify.com/episode/5TKnb1zlOTKcJ23yUJcPAU"
     },
     {
-      "id": "podcast-ja-ch17-in-review",
+      "id": "podcast-ja-ch17-macroeconomics",
       "chapter": 17,
       "title": "投資",
       "question": "投資は、なぜ消費より大きく変動するのでしょうか。",
@@ -323,8 +335,14 @@
         "税と投資インセンティブ",
         "株式・住宅の価値と期待成長"
       ],
+      "duration": 1614.87,
+      "audio": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/audio/chapter-17.mp3",
+      "artwork": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/artwork/chapter-17.png",
+      "transcript": "transcript-inputs-ja/podcast-ja-ch17-macroeconomics.json",
+      "transcript_page": "https://quarcs-lab.github.io/macro102-site/podcasts/ja/study/chapter-17.html",
       "book_url": "https://quarcs-lab.github.io/macro102-site/notebooks/ch17-investment.html",
-      "status": "audio_review_in_progress"
+      "status": "publicly_verified",
+      "spotify_url": "https://open.spotify.com/episode/3FUpZh2JrC99avQn6S7rYE"
     },
     {
       "id": "podcast-ja-ch18-macroeconomics",
