@@ -81,7 +81,8 @@
    "Pódcasts de IA",
    "Tutores de IA",
    "Apps de datos",
-   "Apps de figuras"
+   "Apps de figuras",
+   "Fichas de países"
   ],
   "nav_aria": "Navegación principal",
   "brand_html": "Ciencia de Datos <span class=\"brand-second\">y Macroeconomía</span>",
@@ -339,5 +340,5 @@
    "of": "$1 de $2"
   }
  },
- "source_sha256": "bc3c90ab35e6bee0441c484effaea6fbde0e324e41d67b14a689568ca2755d4e"
+ "source_sha256": "d6bdaf12db1bb5cdceaa6519ac7c0c3c83b5dc6f95acd9e6c0f48d659603c591"
 }
