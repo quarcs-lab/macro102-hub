@@ -40,6 +40,9 @@ for f in sorted((book/'src').glob('*.qmd')):
  # the chapter quiz (/write-quiz of the macro102 repo), linked from the chapter's "Open Quiz" badge
  quiz=re.search(r'\]\((https://quarcs-lab.github.io/macro102-site/quizzes/ch\d\d\.html)\)',text)
  if quiz: resources[-1]['quiz']=quiz[1]
+ # the interactive AhaSlides deck (/write-ahaslides of the macro102 repo), linked from the "Open Interactive Slides" badge
+ aha=re.search(r'\[!\[Open Interactive Slides\]\([^)]*\)\]\((https://audience\.ahaslides\.com/[^)\s]+)\)',text)
+ if aha: resources[-1]['ahaslides']=aha[1]
  if slug in podcasts:
   m=podcasts[slug]; eid='podcast-'+slug
   src=book/f'podcasts/player/transcripts/{eid}.json'; dst=ROOT/f'transcript-inputs/{eid}.json';shutil.copy2(src,dst)

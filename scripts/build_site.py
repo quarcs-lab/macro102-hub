@@ -76,6 +76,7 @@ def home(lang):
   label=label_of(r); title=title_of(r)
   actions=[('↗',K['read_chapter'] if chapter else K['read_appendix'],r['book']),('</>',K['open_notebook'],r['colab'])]
   if r.get('slides'): actions.append(('▤',K['slides'],r['slides']))
+  if r.get('ahaslides'): actions.append(('◉',K['interactive_slides'],r['ahaslides']))   # the AhaSlides deck (/write-ahaslides)
   if r.get('quiz'): actions.append(('✓',K['quiz'],r['quiz']))   # the chapter quiz (/write-quiz), next to the slides
   for kind,key,icon in [('data','data_apps','↗'),('model','figure_apps','↗')]:
    if kind in r['apps']: actions.append((icon,K[key],r['apps'][kind]['url']))

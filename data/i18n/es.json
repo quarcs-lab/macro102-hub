@@ -110,6 +110,7 @@
   "open_notebook": "Abrir el cuaderno de IA",
   "slides": "Diapositivas",
   "quiz": "Cuestionario",
+  "interactive_slides": "Diapositivas interactivas",
   "data_apps": "Apps de datos",
   "figure_apps": "Apps de figuras",
   "start_here": "Empieza aquí",
@@ -342,5 +343,5 @@
    "of": "$1 de $2"
   }
  },
- "source_sha256": "b324280e9962e1added68d02e1a889fc78b0f8149e568314a2de7651005a9a2d"
+ "source_sha256": "f2aa2a1c507c5286bd50d08738dad9a44bf6f5f920dba8a50a9c5ade3fc3fe52"
 }

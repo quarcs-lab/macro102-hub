@@ -57,6 +57,7 @@ for resource in resources:
  assert resource.get('mindmap') and resource.get('slides') and resource.get('preview'),resource['id']
  assert resource['slides'] in home and resource['mindmap'] in home,resource['id']
  if resource.get('quiz'): assert resource['quiz'] in home,resource['id']+' quiz'
+ if resource.get('ahaslides'): assert resource['ahaslides'] in home,resource['id']+' interactive slides'
  assert editorial[resource['id']]['question'] and editorial[resource['id']]['introduction']
 
 for episode in config['episodes']:
