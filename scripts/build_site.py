@@ -76,6 +76,7 @@ def home(lang):
   actions=[('↗',K['read_chapter'] if chapter else K['read_appendix'],r['book']),('</>',K['open_notebook'],r['colab'])]
   if r.get('slides'): actions.append(('▤',K['slides'],r['slides']))
   for kind,key,icon in [('data','data_apps','↗'),('model','figure_apps','↗')]:
+  if r.get('quiz'): actions.append(('✓',K['quiz'],r['quiz']))   # the chapter quiz (/write-quiz), next to the slides
    if kind in r['apps']: actions.append((icon,K[key],r['apps'][kind]['url']))
   links=''.join(f'<a class="chapter-action{ " chapter-action-primary" if i==0 else ""}" href="{esc(url)}" target="_blank" rel="noopener"><span aria-hidden="true">{esc(icon)}</span>{text_}</a>' for i,(icon,text_,url) in enumerate(actions))
   player=players.get(r['id'],'').replace('Listen AI Podcast',S['listen'])

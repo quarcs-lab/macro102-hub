@@ -109,6 +109,7 @@
   "read_appendix": "Leer el apéndice",
   "open_notebook": "Abrir el cuaderno de IA",
   "slides": "Diapositivas",
+  "quiz": "Cuestionario",
   "data_apps": "Apps de datos",
   "figure_apps": "Apps de figuras",
   "start_here": "Empieza aquí",
@@ -341,5 +342,5 @@
    "of": "$1 de $2"
   }
  },
- "source_sha256": "4fdcb1f75a32cbd151e5cff71843c685e74828e58f50070361749e0ea0ec28b4"
+ "source_sha256": "b324280e9962e1added68d02e1a889fc78b0f8149e568314a2de7651005a9a2d"
 }
