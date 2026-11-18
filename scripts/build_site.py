@@ -6,6 +6,7 @@ BOOK='https://quarcs-lab.github.io/macro102-site/'
 TUTORS='https://notebook.google.com/notebook/837887f1-e221-4181-b42f-ef2ae52378fa?hl=en'   # the AI Tutors notebook (NotebookLM)
 PWT=BOOK+'apps/pwt-snapshots.html'   # the book's interactive PWT Snapshots page: the long run (English only)
 WEO=BOOK+'apps/weo-snapshots.html'   # its WEO Snapshots page: the short run and policy (English only)
+BOLIVIA=BOOK+'apps/bolivia-data.html'   # its guide to Bolivia in every data chart (English only)
 def versioned(path):
  return path+'?v='+hashlib.sha256((R/path).read_bytes()).hexdigest()[:12]
 byid={r['id']:r for r in resources}
@@ -75,8 +76,8 @@ def home(lang):
   label=label_of(r); title=title_of(r)
   actions=[('↗',K['read_chapter'] if chapter else K['read_appendix'],r['book']),('</>',K['open_notebook'],r['colab'])]
   if r.get('slides'): actions.append(('▤',K['slides'],r['slides']))
-  for kind,key,icon in [('data','data_apps','↗'),('model','figure_apps','↗')]:
   if r.get('quiz'): actions.append(('✓',K['quiz'],r['quiz']))   # the chapter quiz (/write-quiz), next to the slides
+  for kind,key,icon in [('data','data_apps','↗'),('model','figure_apps','↗')]:
    if kind in r['apps']: actions.append((icon,K[key],r['apps'][kind]['url']))
   links=''.join(f'<a class="chapter-action{ " chapter-action-primary" if i==0 else ""}" href="{esc(url)}" target="_blank" rel="noopener"><span aria-hidden="true">{esc(icon)}</span>{text_}</a>' for i,(icon,text_,url) in enumerate(actions))
   player=players.get(r['id'],'').replace('Listen AI Podcast',S['listen'])
@@ -102,7 +103,9 @@ for kind,name,label,hook,desc,featured_id in [
  noun='data' if kind=='data' else 'model'
  feature_caption='Trace living standards across countries and centuries.' if kind=='data' else 'Explore saving, capital accumulation, and the steady state.'
  # the Data Apps page also points to the book's WEO Snapshots page (every country's short run and policy)
- snapshot_links=f'<a class="text-link" href="{WEO}">Explore WEO Snapshots <span aria-hidden="true">↗</span></a>' if kind=='data' else ''
+ # and to its Bolivia data guide (user decision, 2026-11-18: for the author's students in Bolivia)
+ snapshot_links=(f'<a class="text-link" href="{WEO}">Explore WEO Snapshots <span aria-hidden="true">↗</span></a>'
+                 f'<a class="text-link" href="{BOLIVIA}">Bolivia data guide <span aria-hidden="true">↗</span></a>') if kind=='data' else ''
  body=f'''<div class="apps-page"><section class="apps-hero shell" aria-labelledby="page-title"><div class="apps-hero-copy"><p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>{len(available)} CHAPTER COLLECTIONS. LEARN BY DOING.</p><h1 id="page-title">{label.split()[0]} <span>Apps</span></h1><p class="apps-hook">{hook}</p><p class="apps-description">{desc}</p><div class="actions"><a class="button primary" href="#app-collections">Explore {label} <span aria-hidden="true">↓</span></a>{snapshot_links}</div><p class="apps-hero-note">Start with a question. Open a chapter. Explore the {noun}.</p><div class="apps-facts"><span><strong>{len(available)}</strong> chapter collections</span><span><strong>Interactive</strong> exploration</span><span>From the book · Organized by chapter</span></div></div><figure class="apps-feature"><div class="apps-feature-top"><p class="eyebrow">FEATURED CHAPTER</p><span>{esc(featured['label'])}</span></div><a class="apps-feature-map" href="{esc(featured['mindmap'])}" target="_blank" rel="noopener" aria-label="Enlarge {esc(featured['label'])} mind map"><img src="{featured['preview']}" alt="{esc(featured['title'])} mind map" width="900" height="600" fetchpriority="high"><span>Explore the mind map <span aria-hidden="true">↗</span></span></a><p class="apps-feature-title">{esc(featured['title'])}</p><h2>{esc(fe['question'])}</h2><p class="apps-feature-description">{feature_caption}</p><figcaption><a href="{esc(featured['apps'][kind]['url'])}"><span class="apps-launch-icon" aria-hidden="true">↗</span><span>Open {label}<small>{esc(featured['label'])} collection</small></span><span class="apps-launch-arrow" aria-hidden="true">→</span></a></figcaption></figure></section><section class="apps-collection" id="app-collections" aria-labelledby="collection-title"><div class="shell"><div class="apps-collection-heading"><div><p class="eyebrow">EXPLORE BY CHAPTER</p><h2 id="collection-title">One question.<br><span>A way to explore it.</span></h2></div><p>Choose a chapter below. Use its mind map to see the big picture, then open the apps to investigate the details.</p></div>'''+searchbox('chapter collections')+'<div class="apps-chapter-grid">'
  for r in available:
   e=editorial[r['id']]; app=r['apps'][kind]
